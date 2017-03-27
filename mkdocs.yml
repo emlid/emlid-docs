@@ -1,12 +1,12 @@
 site_name: Reach RS docs
 theme_dir: docstheme
-site_favicon: rv/favicon.ico
+site_favicon: reachview/favicon.ico
 repo_url: https://github.com/emlid/reachrs-docs
 extra:
   palette:
     primary: 'light blue'
     accent: 'light blue'
-  logo: 'rv/img/logo.png'
+  logo: 'rreachview/img/logo.png'
   social:
     - type: 'github'
       link: 'https://github.com/emlid'
@@ -43,22 +43,22 @@ pages:
 - Power supply: reachrs-power-supply.md
 - Antenna placement: reachrs-unit-placement.md
 - ReachView app:
-  - Introduction: rv/reachview.md
-  - Settings: rv/reachview-settings.md
-  - Status: rv/reachview-status.md
-  - 'RTK settings': 'rv/reachview-rtk-settings.md'
-  - 'Correction input': 'rv/reachview-correction-input.md'
-  - 'Position output': 'rv/reachview-position-output.md'
-  - 'Base mode': 'rv/reachview-base-mode.md'
-  - 'Logging': 'rv/reachview-logging.md'
-  - 'Camera control': 'rv/reachview-camera-control.md'
-  - 'Wi-fi/Bluetooth': 'rv/reachview-connectivity.md'
-  - 'Firmware reflashing': 'rv/reachview-firmware-reflashing.md'
-  - 'LED status': 'rv/reachview-led-status.md'
-  - 'Changelogs': 'rv/reachview-changelogs.md'
+  - Introduction: reachview/reachview.md
+  - Settings: reachview/reachview-settings.md
+  - Status: reachview/reachview-status.md
+  - 'RTK settings': 'reachview/reachview-rtk-settings.md'
+  - 'Correction input': 'reachview/reachview-correction-input.md'
+  - 'Position output': 'reachview/reachview-position-output.md'
+  - 'Base mode': 'reachview/reachview-base-mode.md'
+  - 'Logging': 'reachview/reachview-logging.md'
+  - 'Camera control': 'reachview/reachview-camera-control.md'
+  - 'Wi-fi/Bluetooth': 'reachview/reachview-connectivity.md'
+  - 'Firmware reflashing': 'reachview/reachview-firmware-reflashing.md'
+  - 'LED status': 'reachview/reachview-led-status.md'
+  - 'Changelogs': 'reachview/reachview-changelogs.md'
 - Specification: reachrs-specs.md
 - Tutorials:
-  - How RTK works: rv/rtk-introduction.md
+  - How RTK works: reachview/rtk-introduction.md
   - Quickstart: reachrs-quickstart.md
-  - GPS post-processing: rv/gps-post-processing.md
-  - 'Bluetooth output and Android mock location': 'rv/reachview-lefebure.md'
+  - GPS post-processing: reachview/gps-post-processing.md
+  - 'Bluetooth output and Android mock location': 'reachview/reachview-lefebure.md'
