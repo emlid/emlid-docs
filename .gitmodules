@@ -1,0 +1,9 @@
+[submodule "docstheme"]
+	path = docstheme
+	url = git@github.com:emlid/docstheme.git
+[submodule "docs/reachview"]
+	path = docs/reachview
+	url = git@github.com:emlid/reach-docs-common.git
+[submodule "docs/common"]
+	path = docs/common
+	url = git@github.com:emlid/reach-docs-common.git
