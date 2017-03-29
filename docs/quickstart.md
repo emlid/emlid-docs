@@ -3,7 +3,7 @@
 In this quick tutorial we will show you how to two set up two Reach RS devices as a base and a rover with correction link over Wi-Fi.
 
 !!! tip
-    If you encounter any issues performing these steps, we will be happy to help at our [**community forums**](http://community.emlid.com/).
+    If you encounter any issues performing these steps, we will be happy to help at our [**community forum**](http://community.emlid.com/).
 
 This tutorial only covers one use case. To get more information, follow these links:
 
