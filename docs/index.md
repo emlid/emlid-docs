@@ -1,5 +1,5 @@
 
-<div style="text-align: center;"><img src="../img/reachrs/reachrs.png" style="width: 600px;"></div><br>
+<div style="text-align: center;"><img src="img/reachrs/reachrs.png" style="width: 400px;"></div><br>
 
 
 ### Package contents

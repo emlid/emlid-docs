@@ -41,9 +41,9 @@ markdown_extensions:
 pages:
 - Introduction: index.md
 - Power supply: power-supply.md
-- Antenna placement: placement.md
+- Placement: placement.md
 - ReachView app:
-  - Introduction: common/index.md
+  - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
   - Status: common/reachview/status.md
   - 'RTK settings': 'common/reachview/rtk-settings.md'
