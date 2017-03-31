@@ -21,15 +21,6 @@ This tutorial only covers one use case. To get more information, follow these li
 
 More on power supply you can read [here](power-supply/).
 
-## Placing Reach module
- 
-* Place Reach RS on a tripod. Reach RS has a 1/4" mount hole. Each package comes with an adapter to 5/8 survey pole thread
-
-!!! important
-    There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
-    **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
-
-A guide how to properly place the antennas is available in [Reach RS placement](placement) section.
 
 ## Connecting to Reach RS
 
@@ -96,6 +87,17 @@ Read more on resolving IP addresses in the [ReachView section](common/reachview/
 * In about a minute refresh the page with ReachView app.
 
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
+
+## Placing Reach RS module
+
+ 
+* Reach RS may be placed on a tripod. Reach RS has a 1/4" mount hole. Each package comes with an adapter to 5/8 survey pole thread
+
+!!! important
+    There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
+    **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
+
+A guide how to properly place the antennas is available in [Reach RS placement](placement) section.
 
 
 ## Working with ReachView app
