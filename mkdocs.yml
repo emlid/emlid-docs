@@ -44,8 +44,8 @@ pages:
   - 'LED status': 'common/reachview/led-status.md'
   - 'Changelogs': 'common/reachview/changelogs.md'
 - Specification: specs.md
+- Quickstart: quickstart.md
 - Tutorials:
   - How RTK works: common/tutorials/rtk-introduction.md
-  - Quickstart: quickstart.md
   - GPS post-processing: common/tutorials/gps-post-processing.md
   - 'Bluetooth output and Android mock location': 'common/tutorials/mock-location.md'

@@ -50,8 +50,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_main.png" style="width: 350px;"></div><br>
 
 !!! note
-    If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](common/reachview/firmware-reflashing).  
-You only need to do this if your device was purchased before 1 March 2017.
+    If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](common/reachview/firmware-reflashing). You only need to do this if your device was purchased before 1 March 2017.
 
 * Press plus button and enter your Wi-Fi network name, security type and password. Press Save button
 
