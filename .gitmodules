@@ -1,6 +1,8 @@
 [submodule "docstheme"]
 	path = docstheme
 	url = https://github.com/emlid/docstheme
+	branch = master
 [submodule "docs/common"]
 	path = docs/common
 	url = https://github.com/emlid/reach-docs-common.git
+	branch = master
