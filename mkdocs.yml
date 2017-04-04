@@ -39,7 +39,7 @@ pages:
   - 'Base mode': 'common/reachview/base-mode.md'
   - 'Logging': 'common/reachview/logging.md'
   - 'Camera control': 'common/reachview/camera-control.md'
-  - 'Wi-fi/Bluetooth': 'common/reachview/connectivity.md'
+  - 'Wi-Fi/Bluetooth': 'common/reachview/connectivity.md'
   - 'Firmware reflashing': 'common/reachview/firmware-reflashing.md'
   - 'LED status': 'common/reachview/led-status.md'
   - 'Changelogs': 'common/reachview/changelogs.md'
