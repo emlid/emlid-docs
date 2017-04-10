@@ -4,19 +4,19 @@ site_favicon: favicon.ico
 repo_url: https://github.com/emlid/reachrs-docs
 extra:
   palette:
-    primary: 'light blue'
-    accent: 'light blue'
-  logo: 'img/logo.png'
+    primary: light blue
+    accent: light blue
+  logo: img/logo.png
   social:
-    - type: 'github'
-      link: 'https://github.com/emlid'
-    - type: 'twitter'
-      link: 'https://twitter.com/emlidtech'
-    - type: 'facebook'
-      link: 'https://facebook.com/emlidtech' 
+    - type: github
+      link: https://github.com/emlid
+    - type: twitter
+      link: https://twitter.com/emlidtech
+    - type: facebook
+      link: https://facebook.com/emlidtech
   google_analytics:
-    - 'UA-49508097-6'
-    - 'auto'
+    - UA-49508097-6
+    - auto
 markdown_extensions:
   - markdown.extensions.admonition
   - markdown.extensions.codehilite(guess_lang=false)
@@ -33,19 +33,19 @@ pages:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
   - Status: common/reachview/status.md
-  - 'RTK settings': 'common/reachview/rtk-settings.md'
-  - 'Correction input': 'common/reachview/correction-input.md'
-  - 'Position output': 'common/reachview/position-output.md'
-  - 'Base mode': 'common/reachview/base-mode.md'
-  - 'Logging': 'common/reachview/logging.md'
-  - 'Camera control': 'common/reachview/camera-control.md'
-  - 'Wi-Fi/Bluetooth': 'common/reachview/connectivity.md'
-  - 'Firmware reflashing': 'common/reachview/firmware-reflashing.md'
-  - 'LED status': 'common/reachview/led-status.md'
-  - 'Changelogs': 'common/reachview/changelogs.md'
+  - RTK settings: common/reachview/rtk-settings.md
+  - Correction input: common/reachview/correction-input.md
+  - Position output: common/reachview/position-output.md
+  - Base mode: common/reachview/base-mode.md
+  - Logging: common/reachview/logging.md
+  - Camera control: common/reachview/camera-control.md
+  - Wi-Fi/Bluetooth: common/reachview/connectivity.md
+  - Firmware reflashing: common/reachview/firmware-reflashing.md
+  - LED status: common/reachview/led-status.md
+  - Changelogs: common/reachview/changelogs.md
 - Specification: specs.md
 - Quickstart: quickstart.md
 - Tutorials:
   - How RTK works: common/tutorials/rtk-introduction.md
   - GPS post-processing: common/tutorials/gps-post-processing.md
-  - 'Bluetooth output and Android mock location': 'common/tutorials/mock-location.md'
+  - Bluetooth output and Android mock location: common/tutorials/mock-location.md
