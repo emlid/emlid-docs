@@ -41,8 +41,8 @@ pages:
   - Camera control: common/reachview/camera-control.md
   - Wi-Fi/Bluetooth: common/reachview/connectivity.md
   - Firmware reflashing: common/reachview/firmware-reflashing.md
-  - LED status: common/reachview/led-status.md
   - Changelogs: common/reachview/changelogs.md
+- LED status: led-status.md
 - Specification: specs.md
 - Quickstart: quickstart.md
 - Tutorials:
