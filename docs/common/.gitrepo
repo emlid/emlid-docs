@@ -7,5 +7,5 @@
 	remote = git@github.com:emlid/reach-docs-common.git
 	branch = master
 	commit = e09455378bb5ffe2038e431118a2e4eb0c5a906b
-	parent = d5f7923784c0e222a67435eaacd2a65cb6d8e3b6
+	parent = d4d8a37018b3789c520644c0b43e8c6513c4cd58
 	cmdver = 0.3.1
