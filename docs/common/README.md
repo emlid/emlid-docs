@@ -2,7 +2,7 @@
 
 Common documentation for Reach and Reach RS.
 
-This is a repository which is meant to be used as a submodule for other mkdocs-generated repositories.
+This is a repository which is meant to be used as a [subrepo](https://github.com/ingydotnet/git-subrepo) for other mkdocs-generated repositories.
 
 ## Contributing
 
