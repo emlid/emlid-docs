@@ -5,7 +5,7 @@ This section will be updated soon
 
 ## Electrical specs
 
-Reach RS extension connector pinout can be found [here](https://files.emlid.com/reachrs/RS232_port.pdf)
+Reach RS extension connector pinout can be found [here](files/RS232_port.pdf)
 
 This section will be updated soon
 
