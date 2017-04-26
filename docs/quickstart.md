@@ -1,6 +1,6 @@
 ### Intro
 
-In this quick tutorial we will show you how to two set up two Reach RS devices as a base and a rover with correction link over Wi-Fi.
+In this quick tutorial we will show you how to two set up two Reach RS devices as a base and a rover with correction link over Lo-Ra radio.
 
 !!! tip
     If you encounter any issues performing these steps, we will be happy to help at our [**community forum**](http://community.emlid.com/).
@@ -13,14 +13,10 @@ This tutorial only covers one use case. To get more information, follow these li
 
 ## Powering up
 
-* Reach RS has internal battery which is charged with micro-usb cable coming with the package.
-* Battery status may be checked in ReachView app.
+* To power on Reach RS hold Power button for 3 seconds. Power led is on to show Reach RS is turned on. Network state LED (blue) will start blinking slowly, that means Reach RS launched Wi-fi hotspot.
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/battery.png" style="width: 350px;"></div><br>
-
-
-More on power supply you can read [here](power-supply/).
-
+!!! note 
+    Reach RS has internal battery designed for 30-hours of autonomous work. Reach RS may be charged on the go with the micro-usb cable coming within the package. Battery status check is available through ReachView interface.
 
 ## Connecting to Reach RS
 
@@ -91,7 +87,7 @@ Read more on resolving IP addresses in the [ReachView section](common/reachview/
 ## Placing Reach RS module
 
  
-* Reach RS may be placed on a tripod. Reach RS has a 1/4" mount hole. Each package comes with an adapter to 5/8 survey pole thread
+* Reach RS may be placed on a tripod with a 1/4" mount thread. Each package comes with an adapter to 5/8" survey pole thread.
 
 !!! important
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
@@ -102,6 +98,11 @@ A guide how to properly place the antennas is available in [Reach RS placement](
 
 ## Working with ReachView app
 
+### Battery status check
+
+You may check Reach RS battery status by clicking on the sign in the upper right corner.
+
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/battery.png" style="width: 350px;"></div><br>
 
 ### Interface walkthrough
 
@@ -117,45 +118,54 @@ ReachView menu consists of 9 tabs, but we only need three of them to start work:
 
 ### Setting up base station
 
-* Connect to Reach you want to use as a base.
+* Connect to Reach RS you want to use as a base.
+
+* Go to settings and change the name to "reach-base". This will help to simplify the work in field when you need to switch between the devices.
 
 * Navigate to **Base mode** tab and turn on Correction output box toggle.
 
-* Wait until base averages it's position in Base coordinates box.
+* Select LoRa tab and set frequency between 862 MHz and 1020 Mhz and set output power. 
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_base_mode_menu.png" style="width: 1200px;"></div><br>
+!!! tip
+    Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output.
 
-By default, base output stream will be available on a **TCP port 9000**.
+
+!!! warning
+    Make sure to select appropriate output power and frequency according to your local regulations. 
+
+* Next set the parameter of air rate. 
+
+!!! tip
+    The lower the air rate, the longer the working distance will be. In order to unlock lower air rates disable correction messages or reduce rate. 
+
+* Apply settings and wait until base averages it's position in Base coordinates box.
+
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reachrs-lora-base.png" style="width: 1200px;"></div><br>
 
 
 ### Setting up rover
 
 * Connect to the second Reach. 
 
+* Go to settings and change the name to "reach-rover".
+
 * Navigate to **Correction input** tab. 
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_correction_input_tab.png" style="width: 800px;"></div><br>
+* Choose LoRa correction mode.
 
-* Choose TCP correction mode.
+* Frequency and air rate settings must match what was configured on the base. 
 
-* Choose **Client** in **Role** field.
+* Apply changes and you will see rover is connected to base.
 
-* Add base IP in **Address** field.
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reachrs-lora-rover.png" style="width: 1200px;"></div><br>
 
-* Add base correction port in **Port** field. Default one is **9000**.
-
-* Choose correction input **Format**. Default one is **RTCM3**. 
-
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_correction_input_tcp.png" style="width: 800px;"></div><br>
-
-* Save settings by pushing **Apply** button.
-
+* The base now is sending corrections on rover via LoRa radio in RTCM 3 format. 
 
 ### Viewing results
 
 * Go to **Status** tab of the app on the rover device.
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_status_menu_correction.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_status_menu_correction.png" style="width: 800px;"></div>
 
 You can see a bar chart with satellite levels, RTK parameters, positioning mode and solution status, current coordinates of rover and base in LLH format, velocity and map. In this quick tutorial, positioning mode is set to "Kinematic" which is the main RTK mode.
 
