@@ -1,5 +1,10 @@
 ## ReachView changelog
 
+### v2.5.0
+
+###### Features
+
+* New Correction input, output: bluetooth
 
 ### v2.4.0
 ([release](https://community.emlid.com/t/reachview-v2-4-0-galileo-support/5887/7))
