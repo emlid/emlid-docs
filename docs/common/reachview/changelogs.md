@@ -1,5 +1,27 @@
 ## ReachView changelog
 
+
+### v2.4.0
+([release](https://community.emlid.com/t/reachview-v2-4-0-galileo-support/5887/7))
+
+###### Features
+
+* Galileo support
+
+###### Bug fixes
+
+* Fixed a bug, which interfered with turning Glonass on or off
+* Changed a notification message for Reach RS on low sat levels
+
+
+### v2.3.1
+([release](https://community.emlid.com/t/reachview-v2-3-1-point-collection/5855/8))
+
+###### Bug fixes
+
+* Fixed an issue with cache, which prevented the new Survey tab from opening immediately after the update
+
+
 ### v2.3.0
 ([release](https://community.emlid.com/t/reachview-v2-3-0-point-collection/5855/16))
 
@@ -10,6 +32,7 @@
 * Collect the points either manually or with project-wide auto-save rules
 * Project view with a map and summary point list
 * Export your data to DXF, GeoJSON, Esri shapefiles
+
 
 ### v2.2.7
 ([release](https://community.emlid.com/t/reachview-v2-2-7/5523))
