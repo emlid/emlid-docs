@@ -2,18 +2,18 @@
 
 ### v2.5.0
 
-###### Features
+##### Features
 
-* New Correction input, output: bluetooth
+* Added bluetooth as an IO option to correction input and correction output
 
 ### v2.4.0
 ([release](https://community.emlid.com/t/reachview-v2-4-0-galileo-support/5887/7))
 
-###### Features
+##### Features
 
 * Galileo support
 
-###### Bug fixes
+##### Bug fixes
 
 * Fixed a bug, which interfered with turning Glonass on or off
 * Changed a notification message for Reach RS on low sat levels
@@ -22,7 +22,7 @@
 ### v2.3.1
 ([release](https://community.emlid.com/t/reachview-v2-3-1-point-collection/5855/8))
 
-###### Bug fixes
+##### Bug fixes
 
 * Fixed an issue with cache, which prevented the new Survey tab from opening immediately after the update
 
@@ -30,7 +30,7 @@
 ### v2.3.0
 ([release](https://community.emlid.com/t/reachview-v2-3-0-point-collection/5855/16))
 
-###### Features
+##### Features
 
 * Point collection support
 * Collection screen with a realtime progress indicator, RTK and averaging statuses
