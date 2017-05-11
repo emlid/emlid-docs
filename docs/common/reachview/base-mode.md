@@ -64,6 +64,7 @@ Make sure to select appropriate output power and frequency according to your loc
 |      | Optional messages for other GNSS systems |
 |------|------------------------------------------|
 | 1010 |         GLONASS L1 observation           |
+| 1097 |			  GALILEO MSM				  |
 | 1107 |              SBAS MSM                    |
 | 1117 |              QZSS MSM                    |
 | 1127 |              BeiDou MSM                  |
@@ -83,9 +84,19 @@ Here is an estimation of bps when messages are configured at 1 Hz:
 
 |   RTCM3 messages   | Data rate, bps |
 |--------------------|----------------|
-|      1002, 1006    |      1150      |
+| 1002 		         |      156       |
+| 1006	  			 |		21		  |
+| 1008				 |		68		  |
+| 1010				 |		126.125   |
+| 1019				 |		976		  |
+| 1020				 |		540		  |
+| 1097				 |		754		  |
+| 1107				 |		520		  |
+| 1117				 |		520		  |
+| 1127				 |		1573	  |
 
 
+Remember, that you can not use 1127 BeiDou and 1010 GLONASS messages.
 
 
 
