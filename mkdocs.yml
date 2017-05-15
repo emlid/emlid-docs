@@ -33,6 +33,7 @@ pages:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
   - Status: common/reachview/status.md
+  - Survey: common/reachview/survey.md
   - RTK settings: common/reachview/rtk-settings.md
   - Correction input: common/reachview/correction-input.md
   - Position output: common/reachview/position-output.md
