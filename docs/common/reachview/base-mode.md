@@ -51,70 +51,47 @@ Make sure to select appropriate output power and frequency according to your loc
 ## RTCM3 messages
 
 <p style="text-align:center"><img src="../img/reachview/base_mode/messages.png" style="width: 800px;"/></p>
+The minimal subset that is required for RTK to function is 1002 message for 1Hz with GPS observations and 1006 message for 0.1Hz with base station antenna position. Enabling more messages or higher rates requires higher connection bandwidth.
+
+In the Data rate row you can find an estimation of bps when messages are configured at 1 Hz.
+
+|RTCM3 messages|Message type|Data rate, bps (1Hz)|
+|:---:|:---:|:---:|
+||**Minimal required messages**||
+|1002|GPS L1 observations      |156|
+|1006|ARP station coordinate   | 21|
+||**Specific messages for not-typical applications** ||
+|1008 |Antenna type                  | 68|
+|1019 |GPS Ephemeris                     |976|
+|1020 |GLONASS Ephemeris                 |540|
+||**Optional messages for other GNSS **||
+|1010|GLONASS L1 observation|126.125|
+|1097|GALILEO MSM|754|
+|1107|SBAS MSM|520|
+|1117|QZSS MSM|520|
+|1127|BeiDou MSM|1573|
 
 
+Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#myfootnote1)</sup>:
 
-|  RTCM3 messages    |  Minimal required messages  |    @    |
-|------|-----------------------------|---------|
-| 1002 |    GPS L1 observations      |  1 Hz   |
-| 1006 |    ARP station coordinate   | 0.1 Hz  |
+- **Message Type 1002 and 1010** contain L1 RTK GPS and GLONASS raw satellite data respectively. GPS 1002 message is mandatory to use due to RTKLIB code. You could turn on GLONASS 1010 message if you want to use this GNSS.
 
-
-
-|   RTCM3 messages   | Optional messages for other GNSS systems |
-|------|------------------------------------------|
-| 1010 |         GLONASS L1 observation           |
-| 1097 |			  GALILEO MSM				  |
-| 1107 |              SBAS MSM                    |
-| 1117 |              QZSS MSM                    |
-| 1127 |              BeiDou MSM                  |
-
-
-
-|  RTCM3 messages    | Specific messages for not-typical applications |
-|------|------------------------------------------------|
-| 1008 |                  Antenna type                  |
-| 1019 |              GPS Ephemeris                     |
-| 1020 |              GLONASS Ephemeris                 |
-
-
-The minimal subset that is required for RTK to function is 1002 for GPS observation and 1006 for base station position. Enabling more messages or higher rates requires higher connection bandwidth.
-
-Here is an estimation of bps when messages are configured at 1 Hz:
-
-|   RTCM3 messages   | Data rate, bps |
-|--------------------|----------------|
-| 1002 		         |      156       |
-| 1006	  			 |		21		  |
-| 1008				 |		68		  |
-| 1010				 |		126.125   |
-| 1019				 |		976		  |
-| 1020				 |		540		  |
-| 1097				 |		754		  |
-| 1107				 |		520		  |
-| 1117				 |		520		  |
-| 1127				 |		1573	  |
-
-
-!!! tip
-	Remember, that you can not use 1127 BeiDou and 1010 GLONASS messages.
-
-Here is some information about each message from RTCM STANDARD 10403.3 (Radio Technical Commission for Maritime Services, 2016):
-
-- **Message Type 1002** supports single-frequency RTK operation and includes an indication of the GPS satellite carrier-to-noise ratio (CNR) as measured by the reference station.
 - **Message Type 1006** provides the earth-centered, earth-fixed (ECEF) coordinates of the antenna reference point (ARP)
-for a stationary reference station and the height of the ARP above a survey monument.
-- **Message Type 1008** provides an ASCII descriptor of the reference station antenna and the antenna serial number, which removes any ambiguity about the model number or production run.
-- **Message Type 1010** supports single-frequency RTK operation and includes an indication of the GLONASS satellite carrier-to-noise (CNR) as measured by the reference station.
-- **Message Type 1019** contains GPS satellite ephemeris information. This message could be broadcast in the event that the IODC (Issue of Data, Clock) does not match the IODE (Issue of Data, Ephemeris), which would require the differential reference station to base corrections on the previous good satellite ephemeris. This would allow the user equipment just entering the differential system to utilize the corrections being broadcast for that ephemeris, and would support the use of the satellite for differential navigation despite the fact that the satellite ephemeris was in error. It is anticipated that this message type would be broadcast every 2 minutes or so while this condition persisted.
-Another use of the message is to assist user receivers to quickly acquire satellites. For example, if the user receiver has access to a wireless service with this message, rather than waiting until one satellite has been acquired and its almanac data processed, it can utilize the ephemeris information immediately.
-- **Message Type 1020** contains GLONASS satellite ephemeris information and has same properties as 1019 message.
-- **Messages 1097 (GALILEO), 1107 (SBAS), 1117 (QZSS), 1127 (BeiDou)** are MSM7 (Multiple Signal Messages). MSM7 are high precision messages which means that they contains a complete set of RINEX observations with extended resolution: Full GNSS Pseudoranges, Phase Ranges, Phase Range Rate and CNR (high resolution). Key features of the messages are as follows: Effective identification of satellites and their signals by introducing satellite and signal masks, Effective bit consumption for ‘transition GNSS periods’ by introducing cell masks, Effective decomposition of observables by introducing the rough/fine range concept, Effective scalability of different observables by introducing observation blocks, Expressing complete set of RINEX observations for all bands and all signals in the same units (milliseconds). 
+for a stationary reference station and the height of the ARP above a survey monument. It is the second mandatory message to turn on after GPS 1002.
 
-	!!! note
-		One of the most important data fields (DF) in MSM messages is the signal mask. It is a bitset indicating which signals from a given GNSS are available from at least one of the multitude of tracked satellites. Each bit in the signal mask is representative of a specific GNSS signal. The definition of the signal mask bits is different for each GNSS, and is provided for each GNSS separately. 
+- **Message Type 1008** provides a descriptor of the reference station antenna and the antenna serial number. Turning it on could help to remove ambiguity about the model number or production run.
 
-> <cite> Radio Technical Commission for Maritime Services. 2016. RTCM STANDARD 10403.3 DIFFERENTIAL GNSS (GLOBAL NAVIGATION SATELLITE SYSTEMS) SERVICES – VERSION 3. Virginia: Radio Technical Commission for Maritime Services, pp. 108-262</cite>
+- **Messages 1019 and 1020** contain GPS and GLONASS satellite ephemerides respectively. That means broadcasting satellite position in geostationary orbit which helps Reach with getting it coordinates. Usually, the ephemeris is updated with 30 min. - 2 h. frequency and valid for 4 hours. Downloading and averaging takes around 1 min. So, you can turn on messages at the beginning of the work to get update and turn them off after, if you want.
+
+- **Messages 1097 (GALILEO), 1107 (SBAS), 1117 (QZSS), 1127 (BeiDou)** are MSM7 (Multiple Signal Messages). MSM7 are high precision messages which contains a complete set of RINEX observations with extended resolution. That means that you should turn on only one message of choosen system to get all data about it.
+
+	!!! tip
+		Remember, that you can not use GLONASS and BeiDou systems together.
+
+	!!! tip
+		* Use 1117 QZSS message if you are located in East-Southeast Asia and Australia.
+		* Use 1107 SBAS message if you are located in Noth America, Europe, North Africa, Near East, South Asia and East Asia, Russia
+		* Use 1127 BeiDou message if you are located in Asian region and Australia.
 
 
 ## Base position
@@ -140,5 +117,7 @@ After you have successfully obtained averaged position you might want to save it
 
 **Repeat averaging**  
 If you would like to restart base position averaging process you can click on “repeat averaging” icon.This is especially useful in a situation when you accidentally moved Reach during averaging.
+
+<p style="font-size:70%;"><a name="myfootnote1">1</a>: Radio Technical Commission for Maritime Services. 2016. RTCM STANDARD 10403.3 DIFFERENTIAL GNSS (GLOBAL NAVIGATION SATELLITE SYSTEMS) SERVICES – VERSION 3. Virginia: Radio Technical Commission for Maritime Services, pp. 108-262</p>
 
 
