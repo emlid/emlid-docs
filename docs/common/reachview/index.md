@@ -77,7 +77,7 @@ If Reach did not connect to Wi-Fi network it will automatically switch to hotspo
 
 ### Updating
 
-If connection to Wi-Fi was successful you can [now find Reach on your network](common/reachview/#resolving-ip) and open ReachView. During first setup you will see the ReachView Updater. It is a separate app that handles self-testing, time synchronization and updates of the main ReachView app.
+If connection to Wi-Fi was successful you can [now find Reach on your network](#resolving-ip) and open ReachView. During first setup you will see the ReachView Updater. It is a separate app that handles self-testing, time synchronization and updates of the main ReachView app.
 <p style="text-align:center"><img src="img/reachview/introduction/reach_view_updater_finish.png" style="width: 350px;"/></p>
 
 ReachView updater will check for software updates and will install them.

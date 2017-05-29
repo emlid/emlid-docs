@@ -5,7 +5,7 @@ Please note that you don't need to do this unless you want to bring Reach to its
 
 Most new features are released via ReachView app updates that can be updated simply by pressing an "Update" button in its interface.
 !!! note ""
-    More information on how to update ReachView app is available in [introduction section](/#updating).
+    More information on how to update ReachView app is available in [introduction section](/common/reachview/#updating).
 
 ### Emlid Reach RTK firmware download
 
@@ -50,6 +50,40 @@ You can get the tool [here](https://software.intel.com/en-us/iot/hardware/edison
 - Hit **Next** twice
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/choose_img.png" style="width: 800px;" /></p>
+
+- Proceed to "After flashing"
+
+#### Flashing Reach RS 
+
+- Plug powered off Reach RS into USB
+- Unzip the image 
+- Run Intel Edison Board Configuration Tool. Hit **Next**.
+
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/welcome.png" style="width: 800px;" /></p>
+
+- Read License Agreement, accept the terms of the License and hit **Next** twice
+
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/license.png" style="width: 800px;" /></p>
+
+
+- Install drivers (**Only for Windows**) 
+
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/setupopt.png" style="width: 800px;" /></p>
+
+
+- After installation hit **Flash Firmware**
+
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/setup_with_drivers.png" style="width: 800px;" /></p>
+
+- Choose second item: **Use existing image, located at:**  
+- Choose correct path to the unzipped image (You will need to point it to a **.json** file for Windows and **.hddimg** for Linux)  
+- Hit **Next** twice
+
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/choose_img.png" style="width: 800px;" /></p>
+
+-  Turn on Reach RS when you reach "Connect USB and power cables"
+
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/Intel-tool-reachrs.png" style="width: 800px;" /></p>
 
 - Proceed to "After flashing"
 

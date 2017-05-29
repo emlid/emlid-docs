@@ -19,4 +19,7 @@ During power up Reach will search for known Wi-Fi networks and if it does not se
 
 When Bluetooth is on it is constantly scanning for other devices. To pair your smartphone or PC with Reach make your device discoverable. Once your device appears in the "discoverable" section, click on it to send a pairing request. Accept the pairing request on your device. Your device will appear as paired.
 
+ReachView supports a secure pairing protocol, which extends the range of supported devices. Reach and Reach RS support integration with Windows CE-based collectors.
 
+<p style="text-align:center" ><img src="../img/reachview/connectivity/reachrs-topcon.jpg" style="width: 500px;" /></p>
+<p style="text-align:center" ><i>Topcon FC-500 is getting NMEA over BT (photo by Brent Wiebe)<i></p>

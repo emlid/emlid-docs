@@ -1,6 +1,6 @@
 ## Base correction
 
-Configuring correction is required if you want to go beyond standalone positioning. Reach supports following correction formats as input: RTCM2, RTCM3, OEM4, OEM3, UBX, SS2, HEMIS, SKYTRAQ, SP3. RTCM3 is the most popular format in the industry.  Data in any of these formats can be received via Serial, TCP, NTRIP or LoRa for Reach RS.
+Configuring correction is required if you want to go beyond standalone positioning. Reach supports following correction formats as input: RTCM2, RTCM3, OEM4, OEM3, UBX, SS2, HEMIS, SKYTRAQ, SP3. RTCM3 is the most popular format in the industry.  Data in any of these formats can be received via Serial, TCP, NTRIP, Bluetooth or LoRa for Reach RS.
 
 ### Serial
 
@@ -58,6 +58,12 @@ If ReachView does not allow to set a certain port number it means that it is res
 Reach RS has internal LoRa radio which is used for receiving or sending corrections. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base. 
 
 Frequency and air rate settings must match what was configured on the base.
+
+### Bluetooth
+
+<p style="text-align:center" ><img src="../img/reachview/correction_input/Bluetooth.png" style="width: 800px;" /></p>
+
+You can use Bluetooth for correction input. For example you can use your phone to pass NTRIP corrections via Bluetooth to Reach / Reach RS. Check out [Bluetooth section](connectivity/#bluetooth) to learn more about connecting your device via Bluetooth.
 
 ## Additional correction
 Will be used for precise ephemeris and clocks. Not implemented yet.
