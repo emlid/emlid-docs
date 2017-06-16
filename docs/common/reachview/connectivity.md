@@ -22,4 +22,4 @@ When Bluetooth is on it is constantly scanning for other devices. To pair your s
 ReachView supports a secure pairing protocol, which extends the range of supported devices. Reach and Reach RS support integration with Windows CE-based collectors.
 
 <p style="text-align:center" ><img src="../img/reachview/connectivity/reachrs-topcon.jpg" style="width: 500px;" /></p>
-<p style="text-align:center" ><i>Topcon FC-500 is getting NMEA over BT (photo by Brent Wiebe)<i></p>
+<p style="text-align:center" >Topcon FC-500 is getting NMEA over BT (photo by Brent Wiebe)</p>
