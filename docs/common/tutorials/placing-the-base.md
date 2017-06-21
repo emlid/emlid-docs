@@ -1,21 +1,21 @@
 ## Overview
 
-From the [RTK basics](/common/tutorials/rtk-introduction) follows that RTK technique requires 2 receivers: one acting as the base and one as the rover. Sometimes CORS and NTRIP networks take the place of traditional base stations. They provide accurate absolute position and send corrections over the Internet. Typically the distance between the reference station and local rover shouldn't exceed 10-15 km due to the ionospheric effect. So if the reference station is located too far or simply is absent in the area you will need a local base station. Another advantages of your own base are independence from the Internet connection and lack of NTRIP subscription fees.
+Real Time Kinematic technique requires 2 receivers. One of them is stationary and is called “base station”, the other one is “rover”. The base station measures errors, and knowing that it is stationary transmits corrections to the rover (refer to [How RTK works](/common/tutorials/rtk-introduction) for more information about RTK).  Sometimes CORS and NTRIP networks take the place of traditional base stations. They provide accurate absolute position and send corrections over the Internet. Typically the distance between the reference station and local rover shouldn't exceed 10-15 km due to the ionospheric effect. So if the reference station is located too far or simply is absent in the area you will need a local base station. Other advantages of your own base are independence from the Internet connection and lack of NTRIP subscription fees.
 
-If you are setting up your own base it is necessary to pay attention to this article. A good understanding of different ways to set up the base will help you to reach desired accuracy for your application.
+If you are setting up your own base it is important to pay attention to this article. A good understanding of different ways to set up the base will help you to reach desired accuracy for your application.
 
 
 ## Absolute and relative position
-ReachView has several way to determine or set the base station position providing different accuracy. Let's take a look at the illustration below (figure 1). RTK algorithm precisely calculates the distance between base and rover, this distance is called Baseline. The Rover position is  precisely determined relatively to the Base position. In the same time the rover coordinates offset from the real location depends on the position accuracy of the base. If the position that has been set in the base station is different from the actual True position  on earth the offset equal to this difference will be in the rover position as well.  
+ReachView has several way to determine or set the base station position providing various levels of accuracy. Let's take a look at the illustration below (figure 1). RTK algorithm precisely calculates the distance between base and rover. This distance is called Baseline. The Rover position is  precisely determined relative to the Base position. At the same time the rover coordinates offset from the real location depends on the position accuracy of the base. If the position that has been set in the base station is different from the actual True position  on earth the offset equal to this difference will be in the rover position as well.  
 
 <p style="text-align:center"><img src="../img/reach/placing-the-base/position.png" style="width: 800px;"/></p> 
 _Figure 1_  
 <br>
-It is often enough to know precise position of an object relatively to base station but for some applications like survey and mapping it is fundamental to get accurate absolute position. In this case the offset ΔX, ΔY, ΔZ between actual True position and the Base station position  should be avoided or reduced.
+It is often enough to know precise position of an object relatively to the base station but for some applications like survey and mapping it is critical to get accurate absolute position. In this case the offset ΔX, ΔY, ΔZ between actual True position and the Base station position  should be avoided or reduced.
 <br>
 
 !!! attention
-    Absolute position of rover is accurate only to the same accuracy as the position of the base station.
+    The absolute position of the rover is accurate only to the same accuracy as the position of the base station.
 
 Proper positioning of the base station is a key to successful data collection. The shift of base coordinates will keep the collected data precise but will make it inaccurate (which is absolutely fine for volumetric measurements but unacceptable if you have to tie collected data to the global coordinates). For example if you are processing the map using data collected by RTK-equipped drone using corrections from the shifted base your map will be later geo-referenced with the same offset (figure 2).
 
@@ -30,11 +30,11 @@ The same shift producing effect may be noticed if the base is placed inaccuratel
 
 ## Ways to set the base
 
-As already mentioned Reach and Reach RS used as a base may be positioned using different ways. You can manually enter the base coordinates, use averaging feature or use PPP and PPK techniques to determine the coordinates.
+As already mentioned Reach and Reach RS used as a base may be positioned using various ways. You can manually enter the base coordinates, use averaging feature or use PPP and PPK techniques to determine the coordinates.
 
 | Base setup method         | Accuracy        | Requirement                   | Observation time | Processing time                                                              | Cost                                |
 |---------------------------|-----------------|-------------------------------|------------------|------------------------------------------------------------------------------|-------------------------------------|
-| Manual, on a known point  | as of the point | Known point                   | 0 min            | Immediate, no processing required                                            | Free                                |
+| Manual, on a known point  | same as the point | Known point                   | 0 min            | Immediate, no processing required                                            | Free                                |
 | Average single position   | ~2.5 m           |                               | &lt;5 min            | Immediate, processing on Reach                                               | Free                                |
 | RTK FIX position          | 7mm+1mm/km      | NTRIP stream from base &lt;15km  | &lt;5 min            | Immediate, processing on Reach                                               | Free/$$ depending on local provider |
 | RTK Float position        | 1.0m            | NTRIP stream from base &lt;100km | &lt;15 min           | Immediate, processing on Reach                                               | Free/$$ depending on local provider |
@@ -48,7 +48,7 @@ _Numbers in the table are approximate and only for reference purposes. Your expe
 No matter which method you use relative position of the rover will always be cm-precise, the actual accuracy will be set by the accuracy of the base position.
 
 !!! tip
-    Refer to [Base mode tab of ReachView tutorial](/common/reachview/base-mode/#base-position) to learn how to configure different ways of setting up the base with ReachView.
+    Refer to [Base mode tab of ReachView tutorial](/common/reachview/base-mode/#base-position) to learn how to configure various ways of setting up the base with ReachView.
  
 #####Manual
 Manual input of the position is rather straightforward and is used when you have access to a known point. The most popular scenarios include finding a trig point or hiring a surveyor who will set the benchmark point. In this case absolute accuracy depends on how accurately the point's coordinates were determined.
@@ -64,23 +64,23 @@ Let’s take a closer look at setting up the base using the position averaging w
 ####Averaged single 
 This approach is used when you don't require absolute accuracy. The averaging happens in stand-alone GPS mode without using any corrections and this provides you with a several meters absolute accuracy.
  
-The left illustration below (see figure 3) shows rover passes the same path few times and receives the corrections from the base configured using averaged single solution. While the position for each individual pass lies within the receiver precision limits, the absolute position may differ by up to few meters. We can see this if we repeat averaging of static base station several times and build the same path after each reaveraging, take a look on the right of figure 3.  
+The left illustration below (see figure 3) shows the paths of rover which passes the marked rectangular contour several times.  This rover receives the corrections from the base configured using averaged single solution. While the position for each individual path lies within the receiver precision limits, the absolute position may differ by up to few meters. We can see this if we repeat averaging of static base station and build the path of rover immediately after each reaveraging. Take a look on the right of figure 3.  
 
 <p style="text-align:center"><img src="../img/reach/placing-the-base/averaged-single.png" style="width: 800px;"/></p> 
 _Figure 3_  
 <br>
 
 !!! success "Perfect for repeatable precise relative positioning (GPS tractor guidance, autonomous flights and landing)"
-    If you need accurate relative only positioning the easiest way is to average the position using single solution. Just physically mark point on the ground and save coordinates to manual in ReachView. Day-to-day result would have looked almost identical to those of the obtained using NTRIP corrections.
+    If you only need accurate relative positioning the easiest way is to average the position using single solution. Just physically mark the point on the ground and save coordinates to manual in ReachView. Day-to-day result would look almost identical to those obtained using NTRIP corrections.
  
 #### Averaged float and fix
 
-Averaging RTK fix solution is way more accurate than single averaging and becomes possible when the receiver used as the base is configured to obtain NTRIP corrections over the Internet. This might be useful if the reference station is located too far and reducing baseline by installing the local base improves positioning performance of rover.  
+Averaging RTK fix solution is much more accurate than single averaging and is made possible when the receiver used as the base is configured to obtain NTRIP corrections over the Internet. This might be useful if the reference station is located far away. Reducing baseline by installing the local base improves positioning performance of rover.  
 
 <p style="text-align:center"><img src="../img/reach/placing-the-base/averaged-float.gif" style="width: 600px;"/></p>
  
-On the left of the next illustration (see figure 4) the rover passes the same path and receives the corrections from the base configured using averaged fix position.  
-When the base is set up using averaged fix solution, the coordinates are determined with a centimeter accuracy (if obtaning survey-grade NTRIP corrections). In this case the deviations of the each path built immediately after reaveraging several times will be within few centimeters, take a look at figure 5. 
+On the left of the next illustration (see figure 4) the rover passes the marked rectangular contour several times. This rover receives the corrections from the base configured using averaged fix position.  
+When the base is set up using averaged fix solution, the coordinates are determined with centimeter accuracy (if obtaining survey-grade NTRIP corrections). In this case the deviations of the each path built immediately after reaveraging several times will be within few centimeters. Take a look at figure 5. 
 
 <p style="text-align:center"><img src="../img/reach/placing-the-base/averaged-fix.png" style="width: 800px;"/></p> 
 _Figure 4_  
@@ -93,7 +93,7 @@ If the baseline is too long to obtain fix, averaging float solution will still i
  
  
 #### Post-Processed Kinematics
-With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km. The process will take you about 15 minutes to calculate the position of your base station using PPK tutorial from the docs.
+With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. process will take you about 15 minutes to calculate the position of your base station using PPK tutorial from the docs.
 
 General steps: 
 
