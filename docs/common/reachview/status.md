@@ -13,7 +13,7 @@ RTK positioning requires excellent reception of signals from GNSS satellites. SN
 |   S    | SBAS satellite    |
 |   E    | Galileo satellite |
 |   J    | QZSS satellite    |
-|   B    | Beidou satellite  |
+|   C    | Beidou satellite  |
  
 
 When SNR of a satellite is over 45, it will be marked green. Grey bars indicate SNR of the base station. You should aim to achieve as many satellites signals in “green zone” as possible. That will make your measurements precise and ambiguity resolution (Fix) fast. On the top of the SNR chart you can see indicators of numbers of satellites visible to rover and base receivers.
