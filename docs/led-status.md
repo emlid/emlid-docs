@@ -2,7 +2,7 @@
 
 Reach RS has three LEDs, which are used as status indicators for three different parts of the system:
 
-* Power - <font color="red">red</font>
+* Power - <font color="orange">orange</font>
 * Network - <font color="blue">blue</font>
 * Stat - <font color="green">green</font>
 
