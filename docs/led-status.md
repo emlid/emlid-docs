@@ -6,32 +6,32 @@ Reach RS has three LEDs, which are used as status indicators for three different
 * Network - <font color="blue">blue</font>
 * Stat - <font color="green">green</font>
 
-### Reach RS boot LED sequence
+### Power LED and power button
 
-During boot Reach RS will go through 3 steps:
+* In normal mode, the LED will stay **solid**
+* During battery charge, it will add **rare blinks**
+* In case of low battery, the LED will **turn off and start rare blinking** to draw user's attention
 
-* Network scan
-* Time sync
-* ReachView launch
+Power LED will also confirm shutdown(after holding the power button for three seconds) and plugging in a charge cable with **three fast blinks**.
 
-### Power and power button
+### Network LED
 
-Power led is on to show Reach RS is turned on. If you hold down the power button to turn Reach RS off, the led will confirm system shutdown by three fast blinks.
+During boot, Reach RS enters a network scan state in which it will try to connect to any known Wi-Fi networks it can find. This might result in connecting to a previously added network or creating its own hotspot.
 
-### Network state
+* Scanning is shown by **fast blinks**
+* Client Wi-Fi mode is **slow blinks**
+* Hotspot is **solid** LED
 
-Reach RS will indicate a network scan with very fast <font color="blue">blue</font> blinks. If a known Wi-Fi network is detected, Reach RS will connect to it and set the Network LED to do short blinks. If the scan found no familiar networks, a hotspot is started and the LED will start breathing slowly.
+The Network LED behavior changes every time you change the Wi-Fi mode via ReachView. It will reflect turning hotspot on, scanning and connecting to existing wireless networks.
 
-### Time sync
+### Stat LED
 
-Time sync is indicated by fast <font color="green">green</font> blinks on the Stat LED.
+Stat LED is used to display ReachView status. 
 
-### ReachView launch
+* Before app start, Reach RS might need to perform system time sync, which is signified by **fast blinks**
+* **Solid light** represents normal operation
+* Point collection is indicated by **fast blinks**, which stop when the collections is complete
+* If the LED turns **off**, it means the app is having an internal issue
 
 !!! note
-    The app will not launch until the time sync is complete. Internet connection allows this to happen automatically, but in hotspot mode Reach RS requires some satellite visibility.
-
-After the time sync is done the Stat LED blinks stop and ReachView will be launched. Successful launch will be signified with a solid <font color="green">green</font> light on the Stat indicator, fail will make the Stat LED turn off.
-
-
-**More interactive and informative LED statuses will be introduced in one of the future updates.**
+    Reach RS requires time syncing only during first time setup. Internet connection, which is required for the first setup anyway, will allow time syncing process to happen automatically.
