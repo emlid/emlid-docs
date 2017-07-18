@@ -1,5 +1,37 @@
 ## ReachView changelog
 
+### v2.7.0
+([release](https://community.emlid.com/t/reachview-v2-7-0-extended-led-support/6743))
+
+##### Features
+
+* Extended LED support. Reach LED will reflect network connection status, point collection and app state. In addition, Reach RS's PWR LED will show battery and power status
+* Added a special button to blink the LEDs manually. Should help you locate which Reach you are currently working with, if you have many
+* Added "Night mode". Allows you to turn off the LEDs until the next reboot
+
+##### Bug fixes
+
+* Network scan might hang indefinitely on boot with fast blinking
+* Removed malfunctioning instantaneous option from GPS AR modes
+
+### v2.6.0
+([release](https://community.emlid.com/t/reachview-v2-6-0-rinex-logging/6487))
+
+##### Features
+
+* RINEX logs. Now you can skip the RTKCONV part in your post-processing routine. The RINEX converter has been updated and handles Galileo observations as well. Logging to RINEX is optional, you can choose raw data format just like you do with position log. After the log is finished, you get a nice compressed zip archive.
+* New NMEA messages - GST and VTG. They contain velocity and accuracy information and should improve experience using Reach with external point collection software.
+
+##### Bug fixes
+
+* Fixed the antenna height field, which forced iOS users to use a numeric keyboard with no float point
+* Some really big heights might not have been displayed correctly in the surveying screen
+* Added units in the battery view on Reach RS
+* Fixed SNR chart's weird "paint drip" animation glitch
+* Fixed SNR mask configuration sometimes inactive
+* Fixed camera trigger failing in the recent versions
+* Improved GNSS predictor's time step
+
 ### v2.5.0
 
 ##### Features
