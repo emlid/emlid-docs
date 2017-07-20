@@ -9,6 +9,16 @@ Reach RS extension connector pinout can be found [here](files/RS232_port.pdf)
 
 This section will be updated soon
 
+## Extension cables specs
+
+| Cable type | Spec sheet |
+|-----------|------|
+| Without second connector 2m |[Datasheet](files/without-connector.pdf) |
+| DB9F 2m |[Datasheet](files/DB9F.pdf) |
+| DB9 2m |[Datasheet](files/DB9.pdf) |
+
+
+
 ## Compliance
 
 CE Compliance documents can be found here:
