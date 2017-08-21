@@ -13,7 +13,7 @@ This tutorial only covers one use case. To get more information, follow these li
 
 ## Powering up
 
-* To power on Reach RS hold Power button for 3 seconds. Power led is on to show Reach RS is turned on. Network state LED (blue) will start blinking slowly, that means Reach RS launched Wi-fi hotspot.
+* To power on Reach RS hold Power button for 3 seconds. Power LED is on to show Reach RS is turned on. Solid network state LED (blue) indicates Reach RS has launched its own Wi-fi hotspot.
 
 !!! note 
     Reach RS has internal battery designed for 30-hours of autonomous work. Reach RS may be charged on the go with the micro-usb cable coming within the package. Battery status check is available through ReachView interface.

@@ -46,7 +46,7 @@ Stat LED is used to display ReachView status.
 |Point collection|<div style="text-align: center;"><img src="../img/reachrs/led-status/point-collection-led.gif" style="width: 30px;"></div>  |
 |Internal error|<div style="text-align: center;"><img src="../img/reachrs/led-status/grey.png" style="width: 30px;"></div>  |
 
-!!! note
+!!! attention
     Reach RS requires time syncing only during first time setup. Internet connection, which is required for the first setup anyway, will allow time syncing process to happen automatically.
 
 ### LED Behavior
@@ -58,7 +58,7 @@ The table below demonstrates possible flash patterns describing various states o
 |--------------|-------|
 |<br><br><br><br> <div style="text-align: center;">    OFF   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/off.png" style="height: 250px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">    Time sync   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/time-sync.gif" style="height: 250px;"></div> |
-|<br><br><br><br> <div style="text-align: center;">    Lack of power   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/lack-of-power.gif" style="height: 250px;"></div> |
+|<br><br><br><br> <div style="text-align: center;">    Low battery   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/lack-of-power.gif" style="height: 250px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">    Network scan   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/network-scan.gif" style="height: 250px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">     App running, client Wi-Fi mode   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/running-client.gif" style="height: 250px;"></div>
 |<br><br><br><br> <div style="text-align: center;">    App running, hotspot mode   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/running-hotspot.png" style="height: 250px;"></div> |
