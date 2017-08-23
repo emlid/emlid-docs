@@ -30,7 +30,7 @@ You can get the tool from the table below. It is available for Windows, Mac and 
 #### Flashing Reach and Reach RS
 
 
-- Disconnect Reach / Reach RS from your computer. Reach RS must be turned of
+- Disconnect Reach / Reach RS from your computer. Reach RS must be turned off
 - Run Intel Edison Board Configuration Tool. Hit **Next**
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/welcome.png" style="width: 800px;" /></p>
@@ -49,13 +49,13 @@ You can get the tool from the table below. It is available for Windows, Mac and 
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/setup_with_drivers.png" style="width: 800px;" /></p>
 
-- Choose second item: **Use existing image, located at:**  
+- Choose second item: "**Use existing image, located at:**"
 - Choose correct path to the image (You will need to point it to a **.json** file for Windows and **.hddimg** for Linux)  
 - Hit **Next** 
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/choose_img.png" style="width: 800px;" /></p>
 
-- Plug Reach / Reach RS to this computer when you reach "Connect USB and power cables" step. In case you are reflashing Reach RS hold the power button for 5 seconds
+- Plug Reach / Reach RS to this computer when you reach "Connect USB and power cables" step. In case you are reflashing Reach RS hold the power button for 5 seconds after plugging in the cable
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/Intel-tool-reachrs.png" style="width: 800px;" /></p> 
 
@@ -68,7 +68,7 @@ You can get the tool from the table below. It is available for Windows, Mac and 
 
 Before flashing:
 
-* Install [Configuration Tool](/#getting-intel-edison-board-configuration-tool)
+* Install [Configuration Tool](#getting-intel-edison-board-configuration-tool)
 * Unzip downloaded image
 * Unplug Reach if it's plugged in
 
