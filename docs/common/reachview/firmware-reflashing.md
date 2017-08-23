@@ -21,43 +21,17 @@ There are two ways to flash the image. Intel's Edison Board Configuration Tool a
 
 #### Getting Intel Edison Board Configuration Tool
 
-You can get the tool [here](https://software.intel.com/en-us/iot/hardware/edison/downloads). It is available for Windows, Mac and Linux.
+You can get the tool from the table below. It is available for Windows, Mac and Linux.
 
-#### Flashing Reach
+| Windows | Mac | Linux |
+|---------|-----|-------|
+| [Download](https://files.emlid.com/firmware-reflashing-tool/intel_edison_setup_win_v2016.2.007.zip) | [Download](https://files.emlid.com/firmware-reflashing-tool/intel_edison_setup_mac_v2016.2.013.tar.gz) | [Download](https://files.emlid.com/firmware-reflashing-tool/intel_edison_setup_lin_2016.2.002.tar.gz) |
 
-- Plug Reach to this computer 
-- Unzip the image 
-- Run Intel Edison Board Configuration Tool. Hit **Next**.
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/welcome.png" style="width: 800px;" /></p>
-
-- Read License Agreement, accept the terms of the License and hit **Next** twice
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/license.png" style="width: 800px;" /></p>
+#### Flashing Reach and Reach RS
 
 
-- Install drivers (**Only for Windows**) 
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/setupopt.png" style="width: 800px;" /></p>
-
-
-- After installation hit **Flash Firmware**
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/setup_with_drivers.png" style="width: 800px;" /></p>
-
-- Choose second item: **Use existing image, located at:**  
-- Choose correct path to the unzipped image (You will need to point it to a **.json** file for Windows and **.hddimg** for Linux)  
-- Hit **Next** twice
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/choose_img.png" style="width: 800px;" /></p>
-
-- Proceed to "After flashing"
-
-#### Flashing Reach RS 
-
-- Plug powered off Reach RS into USB
-- Unzip the image 
-- Run Intel Edison Board Configuration Tool. Hit **Next**.
+- Disconnect Reach / Reach RS from your computer. Reach RS must be turned of
+- Run Intel Edison Board Configuration Tool. Hit **Next**
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/welcome.png" style="width: 800px;" /></p>
 
@@ -76,16 +50,17 @@ You can get the tool [here](https://software.intel.com/en-us/iot/hardware/edison
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/setup_with_drivers.png" style="width: 800px;" /></p>
 
 - Choose second item: **Use existing image, located at:**  
-- Choose correct path to the unzipped image (You will need to point it to a **.json** file for Windows and **.hddimg** for Linux)  
-- Hit **Next** twice
+- Choose correct path to the image (You will need to point it to a **.json** file for Windows and **.hddimg** for Linux)  
+- Hit **Next** 
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/choose_img.png" style="width: 800px;" /></p>
 
--  Turn on Reach RS when you reach "Connect USB and power cables"
+- Plug Reach / Reach RS to this computer when you reach "Connect USB and power cables" step. In case you are reflashing Reach RS hold the power button for 5 seconds
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/Intel-tool-reachrs.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/Intel-tool-reachrs.png" style="width: 800px;" /></p> 
 
 - Proceed to "After flashing"
+
 
 ### Terminal guide
 
@@ -93,7 +68,7 @@ You can get the tool [here](https://software.intel.com/en-us/iot/hardware/edison
 
 Before flashing:
 
-* Install [Intel Edison drivers](http://downloadmirror.intel.com/24909/eng/IntelEdisonDriverSetup1.2.1.exe)
+* Install [Configuration Tool](/#getting-intel-edison-board-configuration-tool)
 * Unzip downloaded image
 * Unplug Reach if it's plugged in
 
@@ -141,9 +116,8 @@ To flash:
 
 After the initial process is done, Reach will reboot. **Do not unplug it until it reboots and goes through the initial setup process completely**.
 
-Since image version **1.2**, the LED signals on Reach during startup are as follows:
+Proceed to Quickstart section to set up your Reach / Reach RS:
 
-* <font color="magenta">Magenta</font> during device boot
-* Off, then White for a second to show script start
-* Blinking <font color="yellow" style="background-color: grey;">Yellow</font> while looking for known networks
-* <font color="green">Green</font> after creating a hotspot
+* [Quickstart for Reach](https://docs.emlid.com/reach/quickstart/)
+* [Quickstart for Reach RS](https://docs.emlid.com/reachrs/quickstart/)
+

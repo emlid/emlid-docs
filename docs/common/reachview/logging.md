@@ -4,7 +4,7 @@ ReachView supports four simultaneous logs streams. Full memory behaviour and log
 
 <p style="text-align:center" ><img src="../img/reachview/logging/raw.png" style="width: 800px;" /></p>
 
-Raw data is logged in UBX format, it could be converted to Rinex after download using RTKCONV utility. Event marks are stored in this file as well.
+Raw data is logged directly into RINEX and UBX format. UBX could be converted to Rinex after download using RTKCONV utility. Event marks are stored in this file as well.
 
 ### Position
 
