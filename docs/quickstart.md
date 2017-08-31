@@ -41,6 +41,9 @@ After connecting to the network hosted by reach, open a web browser on your smar
 
 * Press plus button and enter your Wi-Fi network name, security type and password. Press Save button
 
+!!! danger "Assure you are connecting to the existing network (such as home wi-fi, mobile phone hotspot, etc)"
+    Use your Wi-Fi network name and password. The name of the network on the screenshot below is an example. 
+
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_wifi.png" style="width: 350px;"></div><br>
 
 * Press on your added network and click Connect. 
