@@ -11,13 +11,16 @@ Most new features are released via ReachView app updates that can be updated sim
 
 You can get the latest version here:
 
-[**Reach Image v2.3**](https://files.emlid.com/images/ReachImage_v2.3.zip)
+[**Reach Image v2.3  ↓**](https://files.emlid.com/images/ReachImage_v2.3.zip)
 
 There are two ways to flash the image. Intel's Edison Board Configuration Tool and a CLI script.
 
 ## Flashing process
 
 ### GUI guide
+
+!!! danger "Temporary GUI workaround"
+    Currently Intel is having troubles​ with their download server and there may be issues installing the driver via Intel Edison Board Configuration Tool.<br> <br>**GUI Tool for Mac and Linux are currently unavailable, please use Terminal guide** <br><br>**For Windows: please [follow the simple workaround](http://files.emlid.com/firmware-reflashing-tool/IntelGUIWindowsWorkaround.pdf) to install the tool**
 
 #### Getting Intel Edison Board Configuration Tool
 
@@ -68,7 +71,7 @@ You can get the tool from the table below. It is available for Windows, Mac and 
 
 Before flashing:
 
-* Install [Configuration Tool](#getting-intel-edison-board-configuration-tool)
+* Install [Intel Edison driver](http://files.emlid.com/firmware-reflashing-tool/IntelEdisonDriverSetup1.2.1.exe)
 * Unzip downloaded image
 * Unplug Reach if it's plugged in
 
@@ -120,4 +123,5 @@ Proceed to Quickstart section to set up your Reach / Reach RS:
 
 * [Quickstart for Reach](https://docs.emlid.com/reach/quickstart/)
 * [Quickstart for Reach RS](https://docs.emlid.com/reachrs/quickstart/)
+
 
