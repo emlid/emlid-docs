@@ -14,9 +14,9 @@ extra:
       link: https://twitter.com/emlidtech
     - type: facebook
       link: https://facebook.com/emlidtech
-  google_analytics:
-    - UA-49508097-6
-    - auto
+google_analytics:
+  - UA-49508097-1
+  - auto
 markdown_extensions:
   - markdown.extensions.admonition
   - markdown.extensions.codehilite(guess_lang=false)
