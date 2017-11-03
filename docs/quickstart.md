@@ -59,7 +59,9 @@ After connecting to the network hosted by reach, open a web browser on your smar
 
 ## Accessing Reach RS device in a network
 
-After connecting Reach device to an existing Wi-Fi network, you will need to identify it's IP.
+After connecting Reach device to an existing Wi-Fi network, you will need to identify it's IP. You may either use network scanning tools or use ReachView app for Android/iOS. 
+
+### Network scanning tools
 
 For this you can use:
 
@@ -77,7 +79,22 @@ For this you can use:
 
 Read more on resolving IP addresses in the [ReachView section](common/reachview/).
 
-* After that you will see ReachView Updater again which will install latest updates.
+### App for iOS/Android
+
+Since ReachView v.2.8.0 you can connect to your Reach device with an app using your Android or iOS device.
+
+
+| Download links |  |
+|-------------|----------|
+|[Google Play](https://play.google.com/store/apps/details?id=com.reachview)|[App Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)|
+
+After launching the app you'll see the list of the available receivers in your network. 
+
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_ios_android.png" style="width: 400px;"></div><br>
+
+## Updating ReachView
+
+After connecting to Reach RS you will see ReachView Updater again which will install latest updates.
 
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_finish.png" style="width: 350px;"></div><br>
 
@@ -105,7 +122,7 @@ A guide how to properly place the antennas is available in [Reach RS placement](
 
 You may check Reach RS battery status by clicking on the sign in the upper right corner.
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/battery.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/battery.png" style="width: 450px;"></div><br>
 
 ### Interface walkthrough
 

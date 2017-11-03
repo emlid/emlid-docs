@@ -42,6 +42,7 @@ pages:
   - Camera control: common/reachview/camera-control.md
   - Wi-Fi/Bluetooth: common/reachview/connectivity.md
   - Firmware reflashing: common/reachview/firmware-reflashing.md
+  - Updater: common/reachview/updater.md
   - Changelogs: common/reachview/changelogs.md
 - LED status: led-status.md
 - Specification: specs.md
@@ -52,3 +53,6 @@ pages:
   - GPS post-processing: common/tutorials/gps-post-processing.md
   - Bluetooth output and Android mock location: common/tutorials/mock-location.md
   - Using QGIS as survey tool: qgis-survey.md
+  - Microsurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
+  - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
+  - Topcon MAGNET Field Layout setup guide: common/tutorials/magnetfield.md

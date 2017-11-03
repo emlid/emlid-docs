@@ -17,6 +17,9 @@ In the box:
 * 1 x USB cable
 
 
+### Quickstart
+
+[Getting started with Reach RS](quickstart.md)
 
 ### Collaboration
 
