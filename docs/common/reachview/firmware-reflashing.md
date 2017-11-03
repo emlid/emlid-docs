@@ -11,7 +11,7 @@ Most new features are released via ReachView app updates that can be updated sim
 
 You can get the latest version here:
 
-[**Reach Image v2.3  ↓**](https://files.emlid.com/images/ReachImage_v2.3.zip)
+[**Reach Image v2.9.0  ↓**](https://files.emlid.com/images/ReachImage_v2.9.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)
 
 There are two ways to flash the image. Intel's Edison Board Configuration Tool and a CLI script.
 

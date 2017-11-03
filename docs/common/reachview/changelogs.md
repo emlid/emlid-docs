@@ -1,5 +1,33 @@
 ## ReachView changelog
 
+### v2.9.0
+([release](https://community.emlid.com/t/reachview-v2-9-2-rtk-performance-boost/7443))
+
+##### Features
+
+* Phase-bias is reset on large residuals, making going back to fixed mode much easier, eliminating solution drifting off
+* We can now use observations from different epochs, increasing solution reliability in case of correction link data loss
+
+##### Bug fixes
+
+* Sometimes downloading logs failed until you perform a refresh
+* Point view inside survey projects would not show big heights
+* Reconnecting USB on Reach RS stops the data until new settings are applied
+
+
+### v2.8.0
+([release](https://community.emlid.com/t/reachview-v2-8-0-native-android-app-ios-coming-soon/7253))
+
+##### Features
+
+* Add a service to advertise the receivers, so that they are recognizable by the native app
+
+##### Bug fixes
+
+* Surveying projects data isn’t synced to disk, which sometimes results in data loss
+* Antenna height resolution in point collection is limited to two decimals instead of three
+
+
 ### v2.7.0
 ([release](https://community.emlid.com/t/reachview-v2-7-0-extended-led-support/6743))
 

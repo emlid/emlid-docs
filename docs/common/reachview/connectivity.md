@@ -17,9 +17,15 @@ During power up Reach will search for known Wi-Fi networks and if it does not se
 
 <p style="text-align:center" ><img src="../img/reachview/connectivity/bluetooth.png" style="width: 800px;" /></p>
 
-When Bluetooth is on it is constantly scanning for other devices. To pair your smartphone or PC with Reach make your device discoverable. Once your device appears in the "discoverable" section, click on it to send a pairing request. Accept the pairing request on your device. Your device will appear as paired.
+When Bluetooth is on it is constantly scanning for other devices. To pair your smartphone or PC with the receiver make Reach discoverable.
+
+<p style="text-align:center" ><img src="../img/reachview/connectivity/bt-on.png" style="width: 700px;" /></p>
+
+Once your Reach appears in the "discoverable" section on your device, click on it to send a pairing request to Reach. Reach will automatically accept the request.  Your device will appear as paired in ReachView.
+
+<p style="text-align:center" ><img src="../img/reachview/connectivity/reachview-paired.png" style="width: 700px;" /></p>
 
 ReachView supports a secure pairing protocol, which extends the range of supported devices. Reach and Reach RS support integration with Windows CE-based collectors.
 
-<p style="text-align:center" ><img src="../img/reachview/connectivity/reachrs-topcon.jpg" style="width: 500px;" /></p>
-<p style="text-align:center" >Topcon FC-500 is getting NMEA over BT (photo by Brent Wiebe)</p>
+<p style="text-align:center" ><img src="../img/reachview/connectivity/reachrs-topcon.jpg" style="width: 700px;" /></p>
+<p style="text-align:center" >Topcon FC-500 is getting NMEA over BT (photo courtesy of Brent Wiebe)</p>

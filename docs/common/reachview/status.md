@@ -23,7 +23,7 @@ When SNR of a satellite is over 45, it will be marked green. Grey bars indicate 
 <p style="text-align:center" ><img src="../img/reachview/status/rtk_parameters.png" style="width: 550px;" /></p>
 
 ### Age of differential
-In case of steady correction steam age of differential will indicate link latency. Calculated by subtracting time when the correction message has been generated from the current receiver time. It is an invaluable tool to debug connectivity issues.
+In the case of a steady correction stream, age of differential will indicate link latency. It is calculated by subtracting the time when the correction message has been generated from the current receiver time. It is an invaluable tool to debug connectivity issues.
 
 ### AR validation ratio  
 This is result of ratio test performed on the potential “Fix” solution, it shows how many times is the best solution better than the next one. If this number is more than 3 Reach will consider RTK solution Fixed. 

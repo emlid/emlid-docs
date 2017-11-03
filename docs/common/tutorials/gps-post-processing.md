@@ -10,7 +10,10 @@ This tutorial requires:
 Rover track is calculated relatively to the base station so in order to get rover track with correct absolute coordinates the exact position of the base station should be known. You either need to place base station on a point with known coordinate or determine it by post-processing base against a reference station in static mode. It is better if the station is within 100 km range, but longer range might work as well.
 
 
-## Converting raw logs to RINEX
+## Converting raw logs to RINEX (if needed)
+
+!!! note
+    If your raw logs from base and rover are saved in .ubx format you should convert them to RINEX. If you already have RINEX logs from the receivers you can skip this step.
 
 Start [RTKLIB RTKCONV](https://files.emlid.com/RTKLIB/rtkconv_emlid_b27.exe) after downloading raw files from Reach to your PC.
 
