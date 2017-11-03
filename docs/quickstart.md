@@ -34,7 +34,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 
 * Type either **http://reach.local** or **http://192.168.42.1** in the address bar and you will see ReachView Updater.
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_main.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_main.png" style="width: 700px;"></div><br>
 
 !!! note
     If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](common/reachview/firmware-reflashing). You only need to do this if your device was purchased before 1 March 2017.
@@ -44,7 +44,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 !!! danger "Assure you are connecting to the existing network (such as home wi-fi, mobile phone hotspot, etc)"
     Use your Wi-Fi network name and password. The name of the network on the screenshot below is an example. 
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_wifi.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_wifi.png" style="width: 700px;"></div><br>
 
 * Press on your added network and click Connect. 
 
@@ -96,7 +96,7 @@ After launching the app you'll see the list of the available receivers in your n
 
 After connecting to Reach RS you will see ReachView Updater again which will install latest updates.
 
-<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_finish.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_finish.png" style="width: 700px;"></div><br>
 
 * Press **Reboot and go to the app!** button. Wait while device reboots.
 
