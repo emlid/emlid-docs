@@ -1,6 +1,14 @@
 ### Intro
 
-In this quick tutorial we will show you how to two set up two Reach RS devices as a base and a rover with correction link over Lo-Ra radio.
+In this tutorial we will go through the next steps:
+
+* Connecting Reach RS to another Wi-Fi network
+* Updating ReachView for the first time
+* Setting up a rover and a base to work in RTK mode with correction link over Lo-Ra radio
+
+The video below covers the process of the first update: powering Reach RS on, connecting to a Wi-Fi and installing the latest version of ReachView app. After completing the video instructions continue the tutorial on [Placing Reach RS](#placing-reach-rs-module) step.
+
+<iframe title="Emlid manuals" width="680" height="380" src="https://www.youtube.com/embed/HCOqtSUumow" allowfullscreen></iframe>
 
 !!! tip
     If you encounter any issues performing these steps, we will be happy to help at our [**community forum**](http://community.emlid.com/).
