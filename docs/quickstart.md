@@ -100,6 +100,9 @@ After launching the app you'll see the list of the available receivers in your n
 
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_ios_android.png" style="width: 400px;"></div><br>
 
+!!! danger "Reach can't work on the 192.168.2.xx subnet "
+    As 192.168.2.x subnet is reserved inside Reach for Ethernet connections, you will need to perform initial setup in a different Wi-Fi or change router settings. Routers usually have a setting to change the subnet address, so you can set it to 192.168.1.xx.
+
 ## Updating ReachView
 
 After connecting to Reach RS you will see ReachView Updater again which will install latest updates.
