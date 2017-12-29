@@ -73,11 +73,13 @@ Before flashing:
 
 * Install [Intel Edison driver](http://files.emlid.com/firmware-reflashing-tool/IntelEdisonDriverSetup1.2.1.exe)
 * Unzip downloaded image
+* Download copy of [dfu-util.exe](https://files.emlid.com/images/dfu-util/dfu-util.exe) and [libusb-1.0.dll](https://files.emlid.com/images/dfu-util/libusb-1.0.dll)
+* Place these files in the same folder as the image files
 * Unplug Reach if it's plugged in
 
 To flash:
 
-1. `cd` into the image directory
+1. Navigate to the image directory
 2. Run `flashall.bat`
 3. Plug Reach in
 4. Monitor progress in the terminal window

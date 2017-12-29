@@ -1,5 +1,43 @@
 ## ReachView changelog
 
+### v2.10.2 dev update
+([release](https://community.emlid.com/t/reachview-v2-10-2-dev-update-csv-export/8374))
+
+##### Features
+
+* CSV export. All projects now have a new export option - CSV
+* The points now have collection time start and end stamps
+* Shutdown & Reboot buttons added
+
+##### Bug fixes
+
+* WLAN connection problem on startup
+* Blink the green LED until the app has started, then go solid
+* Fix Reach RS app header on devices with small screen
+* Some logs disappear from the system
+* NMEA format heavily improved
+
+
+### v2.10.0
+([release](https://community.emlid.com/t/reachview-v2-10-0-dev-updates/8322))
+
+##### Features
+
+* Ability to switch between stable and dev updates
+* “System reports” to facilitate describing issues
+* Peru users will now have their LoRa frequency bands automatically limited to a 915100 - 927900 kHz range
+
+##### Bug fixes
+
+* After losing network connection in client mode, Reach will no longer be “stuck” connected to nothing, but will be actively reconnecting to the missing network
+* Support for GLONASS MSM 1084, which does not contain the satellites’ frequencies
+* No longer write L2 flags to the Reach-generated RINEX file header
+* Changing device name does not produce a reaction in the app
+* Fix DNS not working with certain types of USB modems
+* Another fix for working with QZSS corrections
+* The “@” symbol breaks NTRIP configuration screen, if used in username or password. The “:” and “/” symbols are still forbidden!
+
+
 ### v2.9.0
 ([release](https://community.emlid.com/t/reachview-v2-9-2-rtk-performance-boost/7443))
 

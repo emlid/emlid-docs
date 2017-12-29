@@ -6,6 +6,14 @@ This tutorial requires:
 * Raw logs from the base
 * (Optional) For absolute positioning: RINEX observations log from a reference station in range of 100 km
 * (Optional) For processing improvement: precise ephemeris and clock files from the IGS
+* Emlid version of RTKLIB
+
+Download the latest version of Emlid RTKLIB for your system: 
+
+| Win 32-bit | Win 64-bit | Linux 64-bit |
+|------------|------------|--------------|
+| [Download](https://files.emlid.com/RTKLIB/RTKLIB-Win-x86.zip)   | [Download](https://files.emlid.com/RTKLIB/RTKLIB-Win-x64.zip)   | [Download](https://files.emlid.com/RTKLIB/RTKLIB-qt-Linux-x64.zip)     |
+| [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)   | [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)        | [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)          |
 
 Rover track is calculated relatively to the base station so in order to get rover track with correct absolute coordinates the exact position of the base station should be known. You either need to place base station on a point with known coordinate or determine it by post-processing base against a reference station in static mode. It is better if the station is within 100 km range, but longer range might work as well.
 
@@ -15,7 +23,7 @@ Rover track is calculated relatively to the base station so in order to get rove
 !!! note
     If your raw logs from base and rover are saved in .ubx format you should convert them to RINEX. If you already have RINEX logs from the receivers you can skip this step.
 
-Start [RTKLIB RTKCONV](https://files.emlid.com/RTKLIB/rtkconv_emlid_b27.exe) after downloading raw files from Reach to your PC.
+Start **RTKLIB RTKCONV** after downloading raw files from Reach to your PC.
 
 * Add your rover raw log in the first field and choose output directory.
 * Choose format of your log in pop-down menu. Set format to u-blox if logs downloaded from each device. Otherwise, choose RTCM3 if base and rover logs were received from rover.
@@ -37,7 +45,7 @@ After that you'll see something similar in your output folder.
 
 ### Calculating base position
 
-Start [RTKLIB RTKPOST](https://files.emlid.com/RTKLIB/rtkpost_emlid_b27.exe) software and enter the fields as shown here. If running for the first time you will need to set mode to Kinematic or Static in the options to unlock the fields for base station data. You can skip the start time, it is not compulsory.
+Start **RTKLIB RTKPOST** software and enter the fields as shown here. If running for the first time you will need to set mode to Kinematic or Static in the options to unlock the fields for base station data. You can skip the start time, it is not compulsory.
 
 * Choose rover .obs file for the Rover field (RINEX file from your rover).
 * Select base station .obs file for the Base Station field (RINEX file from your base).
@@ -95,7 +103,7 @@ After that you'll see something similar in your output folder. The .pos file wit
 
 ## Result visualization and analysis
 
-Open [RTKLIB RTKPLOT](https://github.com/tomojitakasu/RTKLIB_bin/raw/rtklib_2.4.3/bin/rtkplot.exe) and drag and drop your .pos file.
+Open **RTKLIB RTKPLOT** and drag and drop your .pos file.
 If you see green points that mean that they're fix (Q=1), orange mean float (Q=2), red - single (Q=5).
 
 <div style="text-align: center;"><img src="../img/reach/post-processing/rtkplot_pos.png" style="width: 600px;"></div>

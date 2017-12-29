@@ -10,7 +10,7 @@ RTK positioning requires excellent reception of signals from GNSS satellites. SN
 |--------|-------------------|
 |   R    | Glonass satellite |
 |   G    | GPS satellite     |
-|   S    | SBAS satellite    |
+|   #    | SBAS satellite    |
 |   E    | Galileo satellite |
 |   J    | QZSS satellite    |
 |   C    | Beidou satellite  |
