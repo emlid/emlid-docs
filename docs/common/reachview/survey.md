@@ -89,7 +89,7 @@ If you want to collect point manually just press "Accept" button during the coll
 ###Exporting Data
 
 Before export you can delete useless points from the list in the project interface. By clicking on each point you can see its description and coordinates.  
-When you’re done with point collection you may export points from the project to DXF, GeoJSON, ESRI shapefiles. Large projects might take some time to process.
+When you’re done with point collection you may export points from the project to CSV, DXF, GeoJSON, ESRI shapefiles. Large projects might take some time to process.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/export.gif" style="width: 800px;" /></p>
 
