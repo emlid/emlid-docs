@@ -38,4 +38,18 @@ Depending on your location it might be beneficial to choose certain set of GNSS 
 + GPS+Beidou+SBAS+QZSS at 5 Hz recommended for APAC, where QZSS and Beidou is visible.
 + GPS+SBAS+QZSS at 14 Hz for most dynamic platforms that require high update rate.
 
+### GNSS selection for time marks logging 
+We recommend using the following configurations for PPK flights: 
+
+| System                                | Frequency |
+|---------------------------------------|-----------|
+| GPS + GLONASS + GALILEO + SBAS + QZSS | 1 Hz      |
+| GPS + GLONASS + QZSS                  | 5 Hz      |
+| GPS +SBAS + QZSS                      | 10 Hz     |
+| GPS                                   | 14 Hz     |
+
+
+!!! danger "Attention"
+    Use one of the stable configurations above to avoid missing events in log files.
+
 
