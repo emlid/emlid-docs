@@ -8,3 +8,5 @@ Camera trigger is only available on Reach module and not available on Reach RS. 
 ### Camera events
 You see the time of the last event for real-time debugging. Only works with GNSS satellites in view for time synchronization. Event is triggered by driving time mark pin down, usually by a camera hot shoe. All event marks are stored in the raw data log. Time mark pin is designed to be directly connected to a hotshoe cable without any additional electronic parts such as resistors or capacitors. 
 
+Check the [RTK Settings](/common/reachview/rtk-settings/#gnss-selection-for-time-marks-logging) section of ReachView docs for the recommended GNSS selection when recording time marks with Reach.
+
