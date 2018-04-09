@@ -11,13 +11,13 @@ The video below covers the process of the first update: powering Reach RS on, co
 <details open>
 <summary>**My Reach RS has the ReachView app sticker on top.**</summary>
 <br>
-<div style="text-align: center;"><iframe title="Emlid manuals" width="350" height="195" src="https://www.youtube.com/embed/fIY__hNjcNI" allowfullscreen></iframe></div>
+<div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/fIY__hNjcNI" allowfullscreen></iframe></div>
 </details>
 
 <details>
 <summary>**My Reach RS has no sticker on top.**</summary>
 <br>
-<div style="text-align: center;"><iframe title="Emlid manuals" width="350" height="195" src="https://www.youtube.com/embed/HCOqtSUumow" allowfullscreen></iframe></div>
+<div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/HCOqtSUumow" allowfullscreen></iframe></div>
 </details>
 
 
