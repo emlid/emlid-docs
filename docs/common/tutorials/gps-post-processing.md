@@ -10,10 +10,10 @@ This tutorial requires:
 
 Download the latest version of Emlid RTKLIB for your system: 
 
-| Win 32-bit | Win 64-bit | Linux 64-bit |
-|------------|------------|--------------|
-| [Download](https://files.emlid.com/RTKLIB/RTKLIB-Win-x86.zip)   | [Download](https://files.emlid.com/RTKLIB/RTKLIB-Win-x64.zip)   | [Download](https://files.emlid.com/RTKLIB/RTKLIB-qt-Linux-x64.zip)     |
-| [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)   | [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)        | [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)          |
+| Win 64-bit | Linux 64-bit |
+|------------|--------------|
+| [Download](https://files.emlid.com/RTKLIB/RTKLIB-Win-x64.zip)   | [Download](https://files.emlid.com/RTKLIB/RTKLIB-qt-Linux-x64.zip)     |
+| [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)        | [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)          |
 
 Rover track is calculated relatively to the base station so in order to get rover track with correct absolute coordinates the exact position of the base station should be known. You either need to place base station on a point with known coordinate or determine it by post-processing base against a reference station in static mode. It is better if the station is within 100 km range, but longer range might work as well.
 
