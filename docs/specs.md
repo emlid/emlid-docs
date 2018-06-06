@@ -1,15 +1,19 @@
 ## Mechanical specs
 
-Reach RS general drawing can be found [here](files/reachrs-drawing.pdf)
+Reach RS/RS+ general drawing can be found [here](files/reachrs-drawing.pdf).
 
-This section will be updated soon
+Reach RS/RS+ 3D models can be found here:
+
+* [Step file](https://github.com/emlid/hardware/blob/master/Reach_RS_RSplus.step)
+
+* [Iges file](https://github.com/emlid/hardware/blob/master/Reach_RS_RSplus.iges)
+
+Pattern of mounting holes for Reach RS/RS+ damping platform can be found [here](files/reachrs-damping-platform.pdf).
 
 
 ## Electrical specs
 
-Reach RS extension connector pinout can be found [here](files/RS232_port.pdf)
-
-This section will be updated soon
+Reach RS extension connector pinout can be found [here](files/RS232_port.pdf).
 
 ## Extension cables specs
 
@@ -29,4 +33,3 @@ CE Compliance documents can be found here:
 
 * [Reach RS test report main page](https://files.emlid.com/compliance/RRS_CE_test_report.pdf)
 
-This section will be updated soon
