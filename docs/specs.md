@@ -1,5 +1,7 @@
 ## Mechanical specs
 
+Reach RS general drawing can be found [here](files/reachrs-drawing.pdf)
+
 This section will be updated soon
 
 

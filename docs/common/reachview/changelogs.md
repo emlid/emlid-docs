@@ -1,5 +1,25 @@
 ## ReachView changelog
 
+### v2.11.0
+([release](https://community.emlid.com/t/reachview-v2-11-0-our-second-stable-release/9473))
+
+##### Features
+
+* Additional correction and GNSS predictor are deprecated
+* Second position output is back
+* New project export formats: CSV and DroneDeploy CSV
+* Surveying: point collection start and end times are saved into the project
+* LED: blink green to indicate app loading during startup
+* Shutdown and reboot buttons are added in ReachView
+* New logos are added
+
+##### Bug fixes
+
+* Fix Wi-Fi not always connecting to known networks on startup
+* Corrected position RMS values
+* Twitchy on/off switch in base mode
+
+
 ### v2.10.2 dev update
 ([release](https://community.emlid.com/t/reachview-v2-10-2-dev-update-csv-export/8374))
 
