@@ -7,7 +7,10 @@ Most new features are released via ReachView app updates that can be updated sim
 !!! note ""
     More information on how to update ReachView app is available in [introduction section](/common/reachview/#updating).
 
-### Emlid Reach RTK firmware download
+<details close>
+<summary>**Guide for Reach and Reach RS**</summary>
+
+## Emlid Reach RTK firmware download
 
 You can get the latest version here:
 
@@ -117,6 +120,7 @@ To flash:
 4. Monitor progress in the terminal window
 5. Proceed to "After flashing"
 
+
 ## After flashing
 
 After the initial process is done, Reach will reboot. **Do not unplug it until it reboots and goes through the initial setup process completely**.
@@ -126,4 +130,55 @@ Proceed to Quickstart section to set up your Reach / Reach RS:
 * [Quickstart for Reach](https://docs.emlid.com/reach/quickstart/)
 * [Quickstart for Reach RS](https://docs.emlid.com/reachrs/quickstart/)
 
+</details>
 
+<details close>
+<summary>**Guide for Reach M+ and Reach RS+**</summary>
+
+## Emlid Reach M+ and Reach RS+ firmware download
+
+You can get the latest version here:
+
+[**Reach Image v1.10  ↓**](https://files.emlid.com/images/reach-plus-v1.10.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
+
+## Flashing process
+
+!!! note "" 
+	In the meantime, please use Windows operating system to reflash your Reach M+ or Reach RS+ device. Reflashing tools for Mac OS X and Linux are coming soon.
+
+Get GUI flashing tool for Windows: [RS-plus-flasher](https://files.emlid.com/rs-plus-flasher/rs-plus-flasher.zip).
+
+#### Flashing Reach M+ and Reach RS+
+
+Before the first launch of flasher you need to install USB driver using Zadig tool. You can find Zadig.exe file in GUI flashing tool zip-folder. Reach should be connected in Flashing mode.
+
+!!! attention ""
+	To enable Flashing mode press and hold the power button and then plug the USB into PC. All three LEDs should blink several times simultaneously, and then start blinking one after another. <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/flashing-mode.gif" style="width: 400px;" /></p>
+
+After connecting Reach in Flashing mode run Zadig.exe and wait for '1 device found' message in bottom left corner. Then press '**install driver**' button.
+
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/zadig-tool.PNG"/></p>
+
+!!! note ""
+	Tick the "Edit" checkbox on the right hand side and enter any USB device name you like. Later it will help to distinguish your device from other USB entries in the Device Manager.
+
+To flash:
+
+* Unzip downloaded image and reflashing tools
+* Run reachplus_flasher.exe as an administrator
+* Connect Reach in Flash mode to PC and wait until eMMC is initialized
+* In the "**Image File**" field select Reach image
+* Check disk letter in "**Device**" field to ensure you are flashing Reach, not another device
+
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachplus-flasher.PNG"/></p>
+
+* Hit **Start**. It will initiate reflashing process
+* Proceed to "After flashing"
+
+## After flashing
+
+If flashing has been completed successfully you will see 'Flashing complete' message. The device will reboot. You may disconnect your Reach M+ or RS+ at this point.
+
+The LEDs are off while device is rebooting. They will glow up approximately in 1 minute.
+
+</details>
