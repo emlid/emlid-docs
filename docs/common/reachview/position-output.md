@@ -29,7 +29,7 @@ Used for communication to Ardupilot, protocol description can be found [here](ht
 Serial port connection is available through several hardware connection options. All of them support the following baud rates: 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200, 128000, 153600, 230400, 256000, 460800.
 
 #### UART
-Corresponds to TTL UART on Reach module or to RS232 port on Reach RS extension connector. Common way to connect to autopilot or another consumer of position data.
+Corresponds to TTL UART on Reach module or to RS232 port on Reach RS/RS+ extension connector. Common way to connect to autopilot or another consumer of position data.
 
 #### USB-to-PC
 When connected over USB to a PC Reach will show up as several devices, one of them will be a serial port. You can use this serial port to send position data to the PC.

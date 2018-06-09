@@ -10,7 +10,7 @@ It is possible to replace internal GPS on your Android device with Reach, this w
 
 To use Reach with Android app you will need to do the following:
 
-* Pair your Android device with Reach / Reach RS
+* Pair your Android device with Reach / Reach RS/RS+
  
 !!! tip
     To do this, make your device discoverable. Then, go to the **Wifi/Bluetooth Tab** and find your device in bluetooth section. Once your device appears in the "discoverable" section, hit it to send a pairing request. Accept the pairing request on your device. Your device will appear in the "paired devices section".
@@ -54,5 +54,5 @@ To connect Reach, do the following:
 <p style="text-align:center"><img src="../img/reach/mock-location/lefebure-connected.jpg" style="width: 300px;"/></p>
 
 
-Now coordinates in your Android device are replaced with coordinates from Reach / Reach RS and you can use them in any app.
+Now coordinates in your Android device are replaced with coordinates from Reach / Reach RS/RS+ and you can use them in any app.
 

@@ -2,13 +2,13 @@
 
 <p style="text-align:center"><img src="../img/reachview/base_mode/output.png" style="width: 800px;"/></p>
 
-Reach outputs correction in industry standard RTCM3 format. Correction data can be sent via Serial, TCP, NTRIP or LoRa for Reach RS.
+Reach outputs correction in industry standard RTCM3 format. Correction data can be sent via Serial, TCP, NTRIP or LoRa for Reach RS/RS+.
 
 ### Serial
 Serial port connection is available through several hardware connection options. All of them support the following baud rates: 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200, 128000, 153600, 230400, 256000, 460800.
 
 #### UART
-Corresponds to TTL UART on Reach module or to RS232 port on Reach RS extension connector. Common way to connect to radio to send correction data.
+Corresponds to TTL UART on Reach module or to RS232 port on Reach RS/RS+ extension connector. Common way to connect to radio to send correction data.
 
 #### USB-to-PC
 When connected over USB to a PC Reach will show up as several devices, one of them will be a serial port. You can use this serial port to send correction data to the PC.
@@ -42,9 +42,9 @@ You need to specify IP address of the server and port number.
 If ReachView does not allow to set a certain port number it means that it is reserved for internal use.
 
 ### LoRa Radio (RS only)
-Reach RS has internal LoRa radio which is used for receiving or sending corrections. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base.
+Reach RS/RS+ has internal LoRa radio which is used for receiving or sending corrections. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base.
 
-The lower the air rate, the longer the working distance will be. Depending on your RTCM3 messages selection ReachView will automatically block insufficient air rates. Disable correction messages or reduce rate in order to unlock lower air rates. Air rate on transmitting Reach RS and on receiving must match.
+The lower the air rate, the longer the working distance will be. Depending on your RTCM3 messages selection ReachView will automatically block insufficient air rates. Disable correction messages or reduce rate in order to unlock lower air rates. Air rate on transmitting Reach RS/RS+ and on receiving must match.
 
 Make sure to select appropriate output power and frequency according to your local regulations.
 
