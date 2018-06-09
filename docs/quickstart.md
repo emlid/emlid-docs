@@ -2,14 +2,14 @@
 
 In this tutorial we will go through the next steps:
 
-* Connecting Reach RS to another Wi-Fi network
+* Connecting Reach RS/RS+ to another Wi-Fi network
 * Updating ReachView for the first time
 * Setting up a rover and a base to work in RTK mode with correction link over Lo-Ra radio
 
-The video below covers the process of the first update: powering Reach RS on, connecting to a Wi-Fi and installing the latest version of ReachView app. After completing the video instructions continue the tutorial on [Placing Reach RS](#placing-reach-rs-module) step.
+The video below covers the process of the first update: powering Reach RS/RS+ on, connecting to a Wi-Fi and installing the latest version of ReachView app. After completing the video instructions continue the tutorial on [Placing Reach RS/RS+](#placing-reach-rs-module) step.
 
 <details open>
-<summary>**My Reach RS has the ReachView app sticker on top.**</summary>
+<summary>**My Reach RS/RS+ has the ReachView app sticker on top.**</summary>
 <br>
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/fIY__hNjcNI" allowfullscreen></iframe></div>
 </details>
@@ -32,14 +32,14 @@ This tutorial only covers one use case. To get more information, follow these li
 
 ## Powering up
 
-* To power on Reach RS hold Power button for 3 seconds. Power LED is on to show Reach RS is turned on. Solid network state LED (blue) indicates Reach RS has launched its own Wi-fi hotspot.
+* To power on Reach RS/RS+ hold Power button for 3 seconds. Power LED is on to show Reach RS/RS+ is turned on. Solid network state LED (blue) indicates Reach RS/RS+ has launched its own Wi-fi hotspot.
 
 !!! note 
-    Reach RS has internal battery designed for 30-hours of autonomous work. Reach RS may be charged on the go with the micro-usb cable coming within the package. Battery status check is available through ReachView interface.
+    Reach RS/RS+ has internal battery designed for 30-hours of autonomous work. Reach RS/RS+ may be charged on the go with the micro-usb cable coming within the package. Battery status check is available through ReachView interface.
 
-## Connecting to Reach RS
+## Connecting to Reach RS/RS+
 
-When Reach RS is powered for the first time it will create a Wi-Fi hotspot.
+When Reach RS/RS+ is powered for the first time it will create a Wi-Fi hotspot.
 
 * Open a list of Wi-Fi networks on your smartphone, tablet or laptop.
 
@@ -76,7 +76,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
     You can find Reach on **http://reach.local** or **http://192.168.42.1**.
     Check your network name and password and try again.  
 
-## Accessing Reach RS device in a network
+## Accessing Reach RS/RS+ device in a network
 
 After connecting Reach device to an existing Wi-Fi network, you will need to identify it's IP. You may either use network scanning tools or use ReachView app for Android/iOS. 
 
@@ -116,7 +116,7 @@ After launching the app you'll see the list of the available receivers in your n
 
 ## Updating ReachView
 
-After connecting to Reach RS you will see ReachView Updater again which will install latest updates.
+After connecting to Reach RS/RS+ you will see ReachView Updater again which will install latest updates.
 
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_finish.png" style="width: 350px;"></div><br>
 
@@ -126,23 +126,23 @@ After connecting to Reach RS you will see ReachView Updater again which will ins
 
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
 
-## Placing Reach RS module
+## Placing Reach RS/RS+ module
 
  
-* Reach RS may be placed on a tripod with a 1/4" mount thread. Each package comes with an adapter to 5/8" survey pole thread.
+* Reach RS/RS+ may be placed on a tripod with a 1/4" mount thread. Each package comes with an adapter to 5/8" survey pole thread.
 
 !!! important
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
     **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
-A guide how to properly place the antennas is available in [Reach RS placement](placement) section.
+A guide how to properly place the antennas is available in [Reach RS/RS+ placement](placement) section.
 
 
 ## Working with ReachView app
 
 ### Battery status check
 
-You may check Reach RS battery status by clicking on the sign in the upper right corner.
+You may check Reach RS/RS+ battery status by clicking on the sign in the upper right corner.
 
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/battery.png" style="width: 450px;"></div><br>
 
@@ -160,7 +160,7 @@ ReachView menu consists of 9 tabs, but we only need three of them to start work:
 
 ### Setting up base station
 
-* Connect to Reach RS you want to use as a base.
+* Connect to Reach RS/RS+ you want to use as a base.
 
 * Go to settings and change the name to "reach-base". This will help to simplify the work in field when you need to switch between the devices.
 

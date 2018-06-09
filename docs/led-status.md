@@ -1,9 +1,9 @@
 !!! success " "
     LED functionality is available with ReachView version 2.7.0 and newer 
 
-## Reach RS LED indicators
+## Reach RS/RS+ LED indicators
 
-Reach RS has three LEDs, which are used as status indicators for three different parts of the system:
+Reach RS/RS+ has three LEDs, which are used as status indicators for three different parts of the system:
 
 | System part | Indicator |
 |-----------|------|
@@ -25,7 +25,7 @@ Power LED will also confirm shutdown(after holding the power button for three se
 
 ### Network LED
 
-During boot, Reach RS enters a network scan state in which it will try to connect to any known Wi-Fi networks it can find. This might result in connecting to a previously added network or creating its own hotspot.
+During boot, Reach RS/RS+ enters a network scan state in which it will try to connect to any known Wi-Fi networks it can find. This might result in connecting to a previously added network or creating its own hotspot.
 
 | LED state | Demo |
 |-----------|------|
@@ -47,7 +47,7 @@ Stat LED is used to display ReachView status.
 |Internal error|<div style="text-align: center;"><img src="../img/reachrs/led-status/grey.png" style="width: 30px;"></div>  |
 
 !!! attention
-    Reach RS requires time syncing only during first time setup. Internet connection, which is required for the first setup anyway, will allow time syncing process to happen automatically.
+    Reach RS/RS+ requires time syncing only during first time setup. Internet connection, which is required for the first setup anyway, will allow time syncing process to happen automatically.
 
 ### LED Behavior
 
