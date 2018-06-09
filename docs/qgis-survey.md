@@ -4,7 +4,7 @@ QGIS (previously known as Quantum GIS) is the cross-platform free and open-sourc
 
 <div style="text-align: center;"><img src="../img/reachrs/qgis-survey/reachrs-qgis.jpg" style="width: 350px;"></div><br>
 
-## Connecting QGIS to Reach RS
+## Connecting QGIS to Reach RS/RS+
 
 First of all, we need to connect survey equipment to QGIS. There are two simple ways. One, over local network, or second by USB. 
 
@@ -77,6 +77,6 @@ Also check out plugin CadTools.
 
 ## Credits
 
-We want to thank [Brent Wiebe](https://community.emlid.com/users/brent_w/activity) for sharing his experience of using QGIS as survey tool with Reach RS. 
+We want to thank [Brent Wiebe](https://community.emlid.com/users/brent_w/activity) for sharing his experience of using QGIS as survey tool with Reach RS/RS+. 
 
 

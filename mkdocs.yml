@@ -1,4 +1,4 @@
-site_name: Reach RS docs
+site_name: Reach RS/RS+ docs
 theme_dir: docstheme/material
 site_favicon: favicon.ico
 repo_url: https://github.com/emlid/reachrs-docs
@@ -11,7 +11,7 @@ extra:
     - type: github
       link: https://github.com/emlid
     - type: twitter
-      link: https://twitter.com/emlidtech
+      link: https://twitter.com/emlid
     - type: facebook
       link: https://facebook.com/emlidtech
 google_analytics:
@@ -40,7 +40,8 @@ pages:
   - Base mode: common/reachview/base-mode.md
   - Logging: common/reachview/logging.md
   - Camera control: common/reachview/camera-control.md
-  - Wi-Fi/Bluetooth: common/reachview/connectivity.md
+  - Wi-Fi: common/reachview/wifi.md
+  - Bluetooth: common/reachview/bluetooth.md
   - Firmware reflashing: common/reachview/firmware-reflashing.md
   - Updater: common/reachview/updater.md
   - Changelogs: common/reachview/changelogs.md

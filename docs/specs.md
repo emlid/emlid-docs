@@ -13,7 +13,7 @@ Pattern of mounting holes for Reach RS/RS+ damping platform can be found [here](
 
 ## Electrical specs
 
-Reach RS extension connector pinout can be found [here](files/RS232_port.pdf).
+Reach RS/RS+ extension connector pinout can be found [here](files/RS232_port.pdf).
 
 ## Extension cables specs
 
@@ -30,6 +30,7 @@ Reach RS extension connector pinout can be found [here](files/RS232_port.pdf).
 CE Compliance documents can be found here:
 
 * [Reach RS CE Declaration of conformity](https://files.emlid.com/compliance/RRS_CE_declaration.pdf)
+* [Reach RS+ CE Declaration of conformity](https://files.emlid.com/compliance/RRSP_CE_declaration.pdf)
 
 * [Reach RS test report main page](https://files.emlid.com/compliance/RRS_CE_test_report.pdf)
 

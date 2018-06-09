@@ -1,12 +1,14 @@
 
-<div style="text-align: center;"><img src="img/reachrs/reachrs.png" style="width: 400px;"></div><br>
+<div style="text-align: center;"><img src="img/reachrs/reachrsplus.png" style="width: 400px;"></div><br>
+
+Welcome to your Emlid Reach RS/Reach RS+!
 
 
 ### Package contents
 
 In the box:
 
-* 1 x Reach RS
+* 1 x Reach module
 
 * 1 x Carry case
 
@@ -19,7 +21,7 @@ In the box:
 
 ### Quickstart
 
-[Getting started with Reach RS](quickstart.md)
+[Getting started with Reach RS/RS+](quickstart.md)
 
 ### Collaboration
 
