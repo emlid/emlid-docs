@@ -1,11 +1,11 @@
-SurvCE starting from version 5.06 supports Emlid Reach RS. In this tutorial you'll find the information on how to setup data collector running SurvCE/SurvPC with Reach RS via Bluetooth.
+SurvCE starting from version 5.06 supports Emlid Reach RS/RS+. In this tutorial you'll find the information on how to setup data collector running SurvCE/SurvPC with Reach RS/RS+ via Bluetooth.
 
 ## Configuring Bluetooth connection
 
 !!! note
     In this tutorial the Bluetooth connection with Windows device is shown. Exact steps of pairing the devices may vary on different platforms.
 
-* In the ReachView app go to Wi-Fi/Bluetooth tab. Turn on Bluetooth and make Reach RS always discoverable.
+* In the ReachView app go to Wi-Fi/Bluetooth tab. Turn on Bluetooth and make Reach RS/RS+ always discoverable.
 <p style="text-align:center"><img src="../img/reach/survce/bt-on.png" style="width: 800px;"/></p> 
 <br>
 * On data collector go to Bluetooth settings and select "Add a Bluetooth Device". Select Reach from the list of discovered devices and confirm the connection.
@@ -32,7 +32,7 @@ After successful Bluetooth pairing you should configure BT position output and c
 
 ## Configuring SurvCE
 
-### Configuring the communication between SurvCE and Reach RS
+### Configuring the communication between SurvCE and Reach RS/RS+
 * After launching SurvCE and creating a new project go to the Equip tab and select GPS Rover.
 <p style="text-align:center"><img src="../img/reach/survce/GPS-rover.png" style="width: 600px;"/></p> 
 <br>
@@ -45,10 +45,10 @@ After successful Bluetooth pairing you should configure BT position output and c
 * In a dialog window click "Find Device".
 <p style="text-align:center"><img src="../img/reach/survce/find-the-device.png" style="width: 600px;"/></p> 
 <br>
-* Once Reach RS is detected select it.
+* Once Reach RS/RS+ is detected select it.
 <p style="text-align:center"><img src="../img/reach/survce/choose-reach.png" style="width: 600px;"/></p> 
 <br>
-* Connect Reach RS and SurvCE.
+* Connect Reach RS/RS+ and SurvCE.
 <p style="text-align:center"><img src="../img/reach/survce/connect-bt.png" style="width: 600px;"/></p> 
 <br>
 * You will see the confirmation of connection. 
@@ -65,4 +65,4 @@ After successful Bluetooth pairing you should configure BT position output and c
 * After this select the mountpoint and click on the green tick. 
 <p style="text-align:center"><img src="../img/reach/survce/mountpoints.png" style="width: 600px;"/></p> 
 <br>
-* The setup finished. You are ready to collect the data with Reach RS and SurvCE!
+* The setup finished. You are ready to collect the data with Reach RS/RS+ and SurvCE!

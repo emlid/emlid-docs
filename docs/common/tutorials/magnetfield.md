@@ -1,4 +1,4 @@
-In this tutorial you'll find the information on how to setup data collector running Topcon MAGNET Field Layout with Reach RS via Bluetooth. When working with MAGNET Field Layout it is possible to use Reach RS in conjunction with Topcon Total Stations like LN-100.
+In this tutorial you'll find the information on how to setup data collector running Topcon MAGNET Field Layout with Reach RS/RS+ via Bluetooth. When working with MAGNET Field Layout it is possible to use Reach RS in conjunction with Topcon Total Stations like LN-100.
 <p style="text-align:center"><img src="../img/reach/magnetfield/topcontotalstation-reachrs.jpg" style="width: 600px;"/></p> 
 <p style="text-align:center" >Topcon LN-100 and 2 Reach RS for site layout (photo courtesy of Brent Wiebe).</p>
 

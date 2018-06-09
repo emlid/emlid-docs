@@ -16,59 +16,8 @@ You can get the latest version here:
 
 [**Reach Image v2.9  ↓**](https://files.emlid.com/images/ReachImage_v2.9.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)
 
-There are two ways to flash the image. Intel's Edison Board Configuration Tool and a CLI script.
 
 ## Flashing process
-
-### GUI guide
-
-!!! danger "Temporary GUI workaround"
-    Currently Intel is having troubles​ with their download server and there may be issues installing the driver via Intel Edison Board Configuration Tool.<br> <br>**GUI Tool for Mac and Linux are currently unavailable, please use Terminal guide** <br><br>**For Windows: please [follow the simple workaround](http://files.emlid.com/firmware-reflashing-tool/IntelGUIWindowsWorkaround.pdf) to install the tool**
-
-#### Getting Intel Edison Board Configuration Tool
-
-You can get the tool from the table below. It is available for Windows, Mac and Linux.
-
-| Windows | Mac | Linux |
-|---------|-----|-------|
-| [Download](https://files.emlid.com/firmware-reflashing-tool/intel_edison_setup_win_v2016.2.007.zip) | [Download](https://files.emlid.com/firmware-reflashing-tool/intel_edison_setup_mac_v2016.2.013.tar.gz) | [Download](https://files.emlid.com/firmware-reflashing-tool/intel_edison_setup_lin_2016.2.002.tar.gz) |
-
-#### Flashing Reach and Reach RS
-
-
-- Disconnect Reach / Reach RS from your computer. Reach RS must be turned off
-- Run Intel Edison Board Configuration Tool. Hit **Next**
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/welcome.png" style="width: 800px;" /></p>
-
-- Read License Agreement, accept the terms of the License and hit **Next** twice
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/license.png" style="width: 800px;" /></p>
-
-
-- Install drivers (**Only for Windows**) 
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/setupopt.png" style="width: 800px;" /></p>
-
-
-- After installation hit **Flash Firmware**
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/setup_with_drivers.png" style="width: 800px;" /></p>
-
-- Choose second item: "**Use existing image, located at:**"
-- Choose correct path to the image (You will need to point it to a **.json** file for Windows and **.hddimg** for Linux)  
-- Hit **Next** 
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/choose_img.png" style="width: 800px;" /></p>
-
-- Plug Reach / Reach RS to this computer when you reach "Connect USB and power cables" step. In case you are reflashing Reach RS hold the power button for 5 seconds after plugging in the cable
-
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/Intel-tool-reachrs.png" style="width: 800px;" /></p> 
-
-- Proceed to "After flashing"
-
-
-### Terminal guide
 
 #### Windows
 
@@ -125,11 +74,6 @@ To flash:
 
 After the initial process is done, Reach will reboot. **Do not unplug it until it reboots and goes through the initial setup process completely**.
 
-Proceed to Quickstart section to set up your Reach / Reach RS:
-
-* [Quickstart for Reach](https://docs.emlid.com/reach/quickstart/)
-* [Quickstart for Reach RS](https://docs.emlid.com/reachrs/quickstart/)
-
 </details>
 
 <details close>
@@ -182,3 +126,8 @@ If flashing has been completed successfully you will see 'Flashing complete' mes
 The LEDs are off while device is rebooting. They will glow up approximately in 1 minute.
 
 </details>
+
+Proceed to Quickstart section to set up your Reach or Reach RS/RS+:
+
+* [Quickstart for Reach](https://docs.emlid.com/reach/quickstart/)
+* [Quickstart for Reach RS/RS+](https://docs.emlid.com/reachrs/quickstart/)

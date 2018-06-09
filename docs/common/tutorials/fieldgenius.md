@@ -1,5 +1,5 @@
 
-In this tutorial you'll find the information on how to setup data collector running FieldGenius with Reach RS via Bluetooth. Step-by-step guide can be also found on [MicroSurvey knowledgebase](http://helpdesk.microsurvey.com/index.php?/Knowledgebase/Article/View/1436).
+In this tutorial you'll find the information on how to setup data collector running FieldGenius with Reach RS/RS+ via Bluetooth. Step-by-step guide can be also found on [MicroSurvey knowledgebase](http://helpdesk.microsurvey.com/index.php?/Knowledgebase/Article/View/1436).
 
 
 ## Configuring Bluetooth connection

@@ -17,7 +17,7 @@ There are two main strategies for resolving ambiguities:
 In real-life conditions on moving platform Fix-and-hold provides better overall performance.
 
 ### Glonass AR mode 
-Contrary to GPS, all GLONASS satellites transmit on different frequencies, which results in Inter Channel Biases (ICB) that are unique for each receiver model. When using base station that is not Reach or Reach RS you should disable Glonass ambiguity resolution or calibrate it. The ICBs can be calibrated using GPS satellites if you set GLONASS AR to Fix-and-hold. In this mode initial ambiguity resolution will be performed using GPS and according to the result GLONASS ICBs will be calculated and used later in positioning.
+Contrary to GPS, all GLONASS satellites transmit on different frequencies, which results in Inter Channel Biases (ICB) that are unique for each receiver model. When using base station that is not Reach or Reach RS/RS+ you should disable Glonass ambiguity resolution or calibrate it. The ICBs can be calibrated using GPS satellites if you set GLONASS AR to Fix-and-hold. In this mode initial ambiguity resolution will be performed using GPS and according to the result GLONASS ICBs will be calculated and used later in positioning.
 
 ### Elevation mask angle
 - Satellites lower than set elevation will be excluded from computation. Default setting is 15 degrees. Usually satellites with lower elevation provide too noisy measurements.

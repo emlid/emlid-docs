@@ -1,6 +1,6 @@
 ## Base correction
 
-Configuring correction is required if you want to go beyond standalone positioning. Reach supports following correction formats as input: RTCM2, RTCM3, OEM4, OEM3, UBX, SS2, HEMIS, SKYTRAQ, SP3. RTCM3 is the most popular format in the industry.  Data in any of these formats can be received via Serial, TCP, NTRIP, Bluetooth or LoRa for Reach RS.
+Configuring correction is required if you want to go beyond standalone positioning. Reach supports following correction formats as input: RTCM2, RTCM3, OEM4, OEM3, UBX, SS2, HEMIS, SKYTRAQ, SP3. RTCM3 is the most popular format in the industry.  Data in any of these formats can be received via Serial, TCP, NTRIP, Bluetooth or LoRa for Reach RS/RS+.
 
 ### Serial
 
@@ -9,7 +9,7 @@ Configuring correction is required if you want to go beyond standalone positioni
 Serial port connection is available through several hardware connection options. All of them support following baud rates: 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200, 128000, 153600, 230400, 256000, 460800, 921600.
 
 #### UART
-Corresponds to TTL UART on Reach module or to RS232 port on Reach RS extension connector. Common way to connect radio or another device providing correction.
+Corresponds to TTL UART on Reach module or to RS232 port on Reach RS/RS+ extension connector. Common way to connect radio or another device providing correction.
 
 #### USB-to-PC
 When connected over USB to a PC Reach will show up as several devices, one of them will be a serial port. You can use this serial port to send corrections to the device.
@@ -55,7 +55,7 @@ If ReachView does not allow to set a certain port number it means that it is res
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/Lora.png" style="width: 800px;" /></p>
 
-Reach RS has internal LoRa radio which is used for receiving or sending corrections. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base. 
+Reach RS/RS+ has internal LoRa radio which is used for receiving or sending corrections. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base. 
 
 Frequency and air rate settings must match what was configured on the base.
 
@@ -63,7 +63,7 @@ Frequency and air rate settings must match what was configured on the base.
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/Bluetooth.png" style="width: 800px;" /></p>
 
-You can use Bluetooth for correction input. For example you can use your phone to pass NTRIP corrections via Bluetooth to Reach / Reach RS. Check out [Bluetooth section](connectivity/#bluetooth) to learn more about connecting your device via Bluetooth.
+You can use Bluetooth for correction input. For example you can use your phone to pass NTRIP corrections via Bluetooth to Reach / Reach RS/RS+. Check out [Bluetooth section](connectivity/#bluetooth) to learn more about connecting your device via Bluetooth.
 
 ## Additional correction
 Will be used for precise ephemeris and clocks. Not implemented yet.

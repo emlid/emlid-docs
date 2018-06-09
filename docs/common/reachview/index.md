@@ -2,11 +2,14 @@
 
 ## About 
 
-ReachView is a web-based app that allows you to take full control of Reach RTK module and Reach RS. It is the most user friendly app ever created for an RTK system and apart from numerous features has OTA updates that ensure that you constantly work with up-to-date version of the app. It works on any device with a browser and does not require internet connection. ReachView is hosted on the Reach itself and is accessed via Wi-Fi connection, which makes it compatible with Windows, OSX, Linux, Android and iOS.
+ReachView is a web-based app that allows you to take full control of Reach RTK module and Reach RS/RS+/RS+. It is the most user friendly app ever created for an RTK system and apart from numerous features has OTA updates that ensure that you constantly work with up-to-date version of the app. It works on any device with a browser and does not require internet connection. ReachView is hosted on the Reach itself and is accessed via Wi-Fi connection, which makes it compatible with Windows, OSX, Linux, Android and iOS.
 
 ## Resolving IP
 
-ReachView app is served via a browser. In order to access the app one needs to find the IP address of the Reach in the network. Depending on the operating system this might be done in different ways. Similar as it happens on the Web a local IP address can be associated with a name, unfortunately not every OS supports it.
+ReachView app is served via a browser or a native app for iOS/Android. In order to access Reach device one needs to find the IP address of the Reach in the network. Depending on the operating system and ReachView app version on board of Reach or Reach RS/RS+ this might be done in different ways.
+
+<details close>
+<summary>**ReachView version is older than v2.8.0**</summary>
 
 ### When Reach is connected to a Wi-Fi access point/router
 
@@ -44,7 +47,26 @@ By default Reach creates a Wi-Fi hotspot and you can connect to it as to any oth
 + If your smartphone is still on 3G/4G connection and there is “?” mark near the Wi-Fi icon you might want to temporary disable mobile data. That will force your smartphone to connect to the Wi-Fi network.
 
 **Access ReachView by typing “http://reach.local” or 192.168.42.1 in your browser on any OS.**
+</details close>
 
+<details close>
+<summary>**ReachView version is higher than v2.8.0**</summary>
+
+Since ReachView v.2.8.0 you can connect to your Reach device with an app using your Android or iOS device.
+
+
+| Download links |  |
+|-------------|----------|
+|[Google Play](https://play.google.com/store/apps/details?id=com.reachview)|[App Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)|
+
+After launching the app you'll see the list of the available receivers in your network. 
+
+<div style="text-align: center;"><img src="img/reachview/introduction/reach_view_ios_android.png" style="width: 400px;"></div><br>
+
+!!! danger "Reach can't work on the 192.168.2.xx subnet "
+    As 192.168.2.x subnet is reserved inside Reach for Ethernet connections, you will need to perform initial setup in a different Wi-Fi or change router settings. Routers usually have a setting to change the subnet address, so you can set it to 192.168.1.xx.
+
+</details close>
 
 ## First setup
 
