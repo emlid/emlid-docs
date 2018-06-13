@@ -15,6 +15,11 @@ SurvCE starting from version 5.06 supports Emlid Reach RS/RS+. In this tutorial 
 <p style="text-align:center"><img src="../img/reach/survce/reachview-paired.png" style="width: 800px;"/></p> 
 
 
+!!! attention "Windows OS workaround for SurvPC"
+    If you are using SurvPC on Windows system with built-in Bluetooth adapter, you also need to check the COM port assigned to the BT device: <br> 1. Go to Control Panel and choose Devices and Printers<p style="text-align:center"><img src="../img/reach/survce/control-panel.png" style="width: 600px;"/></p> <br> 2. Right click on Reach device and select Properties <p style="text-align:center"><img src="../img/reach/survce/properties.png" style="width: 600px;"/></p> <br> 3. Go to Hardware tab and check Standard Serial over Bluetooth Link. In this example it's COM8. <p style="text-align:center"><img src="../img/reach/survce/bt-com-port.png" style="width: 400px;"/></p>
+
+
+
 ## Configuring ReachView
 
 After successful Bluetooth pairing you should configure BT position output and correction input if needed.
@@ -40,8 +45,13 @@ After successful Bluetooth pairing you should configure BT position output and c
 <p style="text-align:center"><img src="../img/reach/survce/emlid-reachrs.png" style="width: 600px;"/></p> 
 <br>
 * Then go to Comms tab and pick Bluetooth settings.
+
 <p style="text-align:center"><img src="../img/reach/survce/bt-configure.png" style="width: 600px;"/></p> 
-<br>
+
+!!! Attention "Windows OS workaround for SurvPC"
+    If you are using SurvPC on Windows system with built-in Bluetooth adapter, you just need to choose Generic BT Type and select COM port assigned to the BT device: <p style="text-align:center"><img src="../img/reach/survce/surv-pc-com-port.png" style="width: 600px;"/></p> 
+
+
 * In a dialog window click "Find Device".
 <p style="text-align:center"><img src="../img/reach/survce/find-the-device.png" style="width: 600px;"/></p> 
 <br>
