@@ -94,7 +94,7 @@ Get the latest version:
 !!! note "" 
 	In the meantime, please use Windows operating system to flash your Reach M+ or Reach RS+ device. Flash tool for Mac OS X and Linux are coming soon.
 
-Get Firmware Flash tool for Windows: [RS-plus-firmware-flash-tool](https://files.emlid.com/rs-plus-flasher/rs-plus-flasher.zip).
+Get Firmware Flash tool for Windows: [RS-plus-firmware-flash-tool](https://files.emlid.com/rs-plus-flasher/Reach-Plus-Firmware-Flash-Tool.zip).
 
 #### Flashing Reach M+ and Reach RS+
 
