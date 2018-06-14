@@ -80,7 +80,7 @@ Averaging RTK fix solution is much more accurate than single averaging and is ma
 <p style="text-align:center"><img src="../img/reach/placing-the-base/averaged-float.gif" style="width: 600px;"/></p>
  
 On the left of the next illustration (see figure 4) the rover passes the marked rectangular contour several times. This rover receives the corrections from the base configured using averaged fix position.  
-When the base is set up using averaged fix solution, the coordinates are determined with centimeter accuracy (if obtaining survey-grade NTRIP corrections). In this case the deviations of the each path built immediately after reaveraging several times will be within few centimeters. Take a look at figure 5. 
+When the base is set up using averaged fix solution, the coordinates are determined with centimeter accuracy (if obtaining survey-grade NTRIP corrections). In this case the deviations of the each path built immediately after reaveraging several times will be within few centimeters. Take a look on the right of figure 4. 
 
 <p style="text-align:center"><img src="../img/reach/placing-the-base/averaged-fix.png" style="width: 800px;"/></p> 
 _Figure 4_  
@@ -93,7 +93,7 @@ If the baseline is too long to obtain fix, averaging float solution will still i
  
  
 #### Post-Processed Kinematics
-With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. process will take you about 15 minutes to calculate the position of your base station using PPK tutorial from the docs.
+With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. Process will take you about 15 minutes to calculate the position of your base station using PPK tutorial from the docs.
 
 General steps: 
 
@@ -120,7 +120,7 @@ General steps:
 !!! Danger "Pay Attention!"
     The mismeasured height of the antenna above the mark is probably the most pervasive and frequent blunder in GPS control surveying.
 
-#### Placing Reach RS/RS+ (Figure 4)
+#### Placing Reach RS/RS+ (Figure 5)
 
 * Make sure your Reach device is placed precisely above the marked point on the tripod and leveled
 * If you are setting up base coordinates manually measure the antenna height offset
@@ -128,22 +128,22 @@ General steps:
 !!! note " " 
     Antenna height is measured as the distance between the mark and the antenna reference point (ARP). 
 
- For Reach RS/RS+ consider the antenna height as the distance between mark and the bottom of Reach RS/RS+ (h on figure 4) plus 65 mm.
+ For Reach RS/RS+ consider the antenna height as the distance between mark and the bottom of Reach RS/RS+ (h on figure 5) plus 65 mm.
 
 <p style="text-align:center"><img src="../img/reach/placing-the-base/placing-reach-rs.png" style="width: 800px;"/></p>  
-_Figure 4_
+_Figure 5_
  <br>
 
 * When you securely placed Reach RS/RS+ over the mark, you are ready to set or determine its position.
 
-#### Placing Reach (Figure 5)
+#### Placing Reach (Figure 6)
 
 * Place Tallysman antenna on the ground plane as described in [Reach Antenna placement section](https://docs.emlid.com/reach/antenna-placement/#ground-plane).
 * Make sure Reach antenna is placed precisely above the marked point on the tripod and leveled
 * If you are setting up base coordinates manually measure the antenna height offset. For Tallysman antenna going with Reach, ARP is the bottom surface. 
 
 <p style="text-align:center"><img src="../img/reach/placing-the-base/placing-reach.png" style="width: 800px;"/></p>  
-_Figure 5_
+_Figure 6_
  <br>
 
 * When you securely placed Reach antenna over the mark, you are ready to set or determine its position.
