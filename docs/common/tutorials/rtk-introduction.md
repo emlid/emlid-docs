@@ -15,7 +15,7 @@ Given the L1 GPS carrier frequency is 1575MHz, each wave is around 19cm in lengt
 
 The satellites orbit at 20 200 km above Earth surface. Transmitted signals travel through ionosphere and atmosphere and are slowed down and perturbed on the way. For example, travel time on cloudy day and in clear sky conditions would be different! Many factors can increase position error, the great thing is that we can assume that these factors do not change much in one area.
 
-There are GPS augmentation systems (DGPS), like SBAS or WAAS that measure current signal perturbations on many ground control stations all over the world, build a error propagation model and broadcast corrections through satellites or radio. Many commercial receivers can use these signals for submeter positioning accuracy. But what to do if you want to get closer to centimeters?
+There are GPS augmentation systems (DGPS), like SBAS or WAAS that measure current signal perturbations on many ground control stations all over the world, build an error propagation model and broadcast corrections through satellites or radio. Many commercial receivers can use these signals for submeter positioning accuracy. But what to do if you want to get closer to centimeters?
 
 The technology that would let us do it is called RTK (real-time kinematics). Two receivers are used, one of them is stationary and is called “base station”, the other one is “rover”. The base station measures errors, and knowing that it is stationary transmits corrections to the rover. The idea is simple, but not the math. Commercial systems could be subcentimeter precise and would cost you a fortune($5k+).
 
