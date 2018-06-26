@@ -48,6 +48,9 @@ The lower the air rate, the longer the working distance will be. Depending on yo
 
 Make sure to select appropriate output power and frequency according to your local regulations.
 
+### Bluetooth
+You can use Bluetooth for correction output. Note that you can’t set both position output and base correction output to Bluetooth at the same time.
+
 ## RTCM3 messages
 
 <p style="text-align:center"><img src="../img/reachview/base_mode/messages.png" style="width: 800px;"/></p>

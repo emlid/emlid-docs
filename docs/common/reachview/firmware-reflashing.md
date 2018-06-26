@@ -47,7 +47,7 @@ Before flashing:
 To flash:
 
 1. `cd` into the image directory
-2. Run `sudo ./flashall.sh`
+2. Run `./flashall.sh`
 3. Plug Reach in
 4. Monitor progress in the terminal window
 5. Proceed to "After flashing"
