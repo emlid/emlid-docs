@@ -57,6 +57,7 @@ To flash:
 Before flashing:
 
 * Unzip downloaded image
+* Install dfu-util with `sudo apt-get install dfu-util`
 * Unplug Reach if it's plugged in
 
 To flash:
