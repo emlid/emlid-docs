@@ -6,7 +6,7 @@ In this tutorial we will go through the next steps:
 * Updating ReachView for the first time
 * Setting up a rover and a base to work in RTK mode with correction link over Lo-Ra radio
 
-The video below covers the process of the first update: powering Reach RS/RS+ on, connecting to a Wi-Fi and installing the latest version of ReachView app. After completing the video instructions continue the tutorial on [Placing Reach RS/RS+](#placing-reach-rs-module) step.
+The video below covers the process of the first update: powering Reach RS/RS+ on, connecting to a Wi-Fi and installing the latest version of ReachView app. After completing the video instructions continue the tutorial on [Placing Reach RS/RS+](#placing-reach-rs-module) step or follow through the video guide [Base and Rover setup](#base-and-rover-setup).
 
 <details open>
 <summary>**My Reach RS/RS+ has the ReachView app sticker on top.**</summary>
@@ -125,6 +125,12 @@ After connecting to Reach RS/RS+ you will see ReachView Updater again which will
 * In about a minute refresh the page with ReachView app.
 
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_loading.png" style="width: 800px;"></div><br>
+
+## Base and Rover setup
+
+This tutorial will guide you through the setup process of two Reach RS units as rover and base station and will help you to configure communication between them via LoRa radio in RTK mode.
+
+<div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/4GfUDoDwEAE" allowfullscreen></iframe></div>
 
 ## Placing Reach RS/RS+ module
 
