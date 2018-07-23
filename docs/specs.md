@@ -30,7 +30,8 @@ Reach RS/RS+ extension connector pinout can be found [here](files/RS232_port.pdf
 CE Compliance documents can be found here:
 
 * [Reach RS CE Declaration of conformity](https://files.emlid.com/compliance/RRS_CE_declaration.pdf)
-* [Reach RS+ CE Declaration of conformity](https://files.emlid.com/compliance/RRSP_CE_declaration.pdf)
-
 * [Reach RS test report main page](https://files.emlid.com/compliance/RRS_CE_test_report.pdf)
+
+* [Reach RS+ CE Declaration of conformity](https://files.emlid.com/compliance/RRSP_CE_declaration.pdf)
+* [Reach RS+ test report main page](https://files.emlid.com/compliance/RRSP_CE_test_report.pdf)
 
