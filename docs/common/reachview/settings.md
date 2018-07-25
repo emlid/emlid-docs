@@ -12,6 +12,9 @@ Night mode allows you to turn off the LEDs until the next reboot of the device.
 ### System report
 The tool is used to facilitate issues reports. There are two kinds: one in plain text, and one as a zip archive. The former is for the forum, and makes it easy to share settings, network state and app version. The latter is for harder cases and contains system logs and technical details of your device.
 
+!!! note "Getting system report"
+	<p style="text-align:center"><img src="../img/reachview/settings/system-report.gif" style="width: 800px;" /></p>
+
 ### Change Reach name  
 Reach name can be changed in order to distinguish between multiple devices. A very common pattern is to name devices according to their base or rover function. Device name is the base for hotspot name and local network name. The default name is “reach”, changing it will also affect local name `http://reach.local` and hotspot name `reach:xx:xx`.
 
