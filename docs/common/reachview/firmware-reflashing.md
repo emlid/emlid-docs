@@ -88,7 +88,7 @@ Proceed to Quickstart section to set up your Reach / Reach RS:
 
 Get the latest version:
 
-[**Reach Plus Image v1.10  ↓**](https://files.emlid.com/images/reach-plus-v1.10.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
+[**Reach Plus Image v2.11.3  ↓**](http://files.emlid.com/images/reach-plus-v2.11.3.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
 
 ## Flashing process
 
@@ -101,19 +101,28 @@ Get Firmware Flash tool for Windows: [Reach Firmware Flash Tool](https://files.e
 
 Before the first launch of Flash tool you need to install USB driver using Zadig tool. You can find Zadig.exe file in Firmware Flash tool zip-folder. Reach should be connected in Firmware Update mode.
 
-!!! attention ""
-	To enable Firmware Update mode press and hold the power button and then plug the USB into PC. All three LEDs should blink several times simultaneously, and then start blinking one after another. <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/flashing-mode.gif" style="width: 400px;" /></p>
+##### Entering Firmware Update Mode
 
-After connecting Reach in Firmware Update mode run Zadig.exe and wait for '1 device found' message in bottom left corner. Then press '**install driver**' button.
+To enable Firmware Update mode on **Reach RS+** press and hold the power button and then plug the USB into PC. All three LEDs should blink several times simultaneously, and then start blinking one after another. <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/flashing-mode.gif" style="width: 400px;" /></p>
+
+To enable Firmware Update mode on **Reach M+** use pin to press and hold button, located in deepening under power LED and then plug the USB into PC. No LEDs should blink. <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/flashing-mode-m.gif" style="width: 400px;" /></p>
+
+After connecting Reach in Firmware Update mode run Zadig.exe and wait for '1 device found' message in bottom left corner. 
+
+!!! tip ""
+	You have to install the driver with Zadig on your PC just once. During the next firmware update, you can skip this step.
+
+Then press '**install driver**' button.
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/zadig-tool.PNG"/></p>
 
 !!! note ""
 	Tick the "Edit" checkbox on the right hand side and enter any USB device name you like. Later it will help to distinguish your device from other USB entries in the Device Manager.
 
+
 To flash:
 
-* Unzip downloaded image and Firmware Flash tool
+* Unzip downloaded image and Firmware Flash tool to **C:\Emlid**
 * Run reachplus_flasher.exe as an administrator
 * Connect Reach in Firmware Update mode to PC and wait until eMMC is initialized
 * In the "**Image File**" field select Reach image
