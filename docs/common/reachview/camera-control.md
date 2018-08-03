@@ -14,7 +14,7 @@ To connect Reach to a camera with hot shoe adapter (HSA) use 5-pin JST-GH cable.
 
 <p style="text-align:center" ><img src="../img/reachview/camera_control/emlid-hotshoe.jpg" style="width: 500px;" /></p>
 
-Connect JST-GH connector to S1 port on Reach M+.
+Connect JST-GH connector to С1 port on Reach M+.
 
 <p style="text-align:center" ><img src="../img/reachview/camera_control/s1port-connection.jpg" style="width: 500px;" /></p>
 
