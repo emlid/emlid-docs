@@ -50,6 +50,7 @@ pages:
 - Quickstart: quickstart.md
 - Tutorials:
   - How RTK works: common/tutorials/rtk-introduction.md
+  - How PPK works: common/tutorials/ppk-introduction.md
   - Placing the base: common/tutorials/placing-the-base.md
   - GPS post-processing: common/tutorials/gps-post-processing.md
   - Bluetooth output and Android mock location: common/tutorials/mock-location.md
