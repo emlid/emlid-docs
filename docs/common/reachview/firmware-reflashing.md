@@ -123,7 +123,7 @@ Then press '**install driver**' button.
 To flash:
 
 * Unzip downloaded image and Firmware Flash tool to **C:\Emlid**
-* Run reachplus_flasher.exe as an administrator
+* Run **Reach Firmware Flash Tool.exe** as an administrator
 * Connect Reach in Firmware Update mode to PC and wait until eMMC is initialized
 * In the "**Image File**" field select Reach image
 * Check disk letter in "**Device**" field to ensure you are flashing Reach, not another device
@@ -135,7 +135,7 @@ To flash:
 
 ## After flashing
 
-If flashing has been completed successfully you will see 'Firmware Update complete' message. The device will reboot. You may disconnect your Reach M+ or RS+ at this point.
+If flashing has been completed successfully you will see 'Device is rebooting...' message. You may disconnect your Reach M+ or RS+ at this point.
 
 The LEDs are off while device is rebooting. They will glow up approximately in 1 minute.
 
