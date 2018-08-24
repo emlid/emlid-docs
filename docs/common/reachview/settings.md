@@ -25,7 +25,6 @@ Click “Reset setting to default” button to return all settings to factory co
 Default hotspot password is “emlidreach”, you can change it for security reasons. If you forget your new hotspot password you can still access Reach by bringing it to a known Wi-Fi network. If you lost access to Reach you can [reflash firmware image](firmware-reflashing) and set it up again.
 
 ### Logging settings
-Full memory behaviour
 Specify how ReachView will handle full memory behavior here, it can either stop logging or override old logs in favour of new ones. In most cases “rolling logs” is recommended.
 
 ### Log split period

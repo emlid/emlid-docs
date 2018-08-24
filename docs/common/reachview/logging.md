@@ -32,11 +32,3 @@ Used for communication to Ardupilot, protocol description can be found [here](ht
 <p style="text-align:center" ><img src="../img/reachview/logging/base_correction.png" style="width: 800px;" /></p>
 
 Logs incoming correction from the base. Format is defined by correction input.
- 
-### Additional correction
-
-<p style="text-align:center" ><img src="../img/reachview/logging/additional.png" style="width: 800px;" /></p>
-
-
-Logs incoming additional correction. Format is defined by correction input.
-
