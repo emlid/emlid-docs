@@ -36,7 +36,7 @@ After successful Bluetooth pairing you should configure BT position output and c
 
 ## Configuring MAGNET Field
 
-### Configuring the communication between SurvCE and Reach RS
+### Configuring the communication between MAGNET Field and Reach RS
 
 * Launch MAGNET Field and go to Configure menu.
 <p style="text-align:center"><img src="../img/reach/magnetfield/configure.png" style="width: 600px;"/></p> 
