@@ -1,34 +1,74 @@
-ReachView supports four simultaneous logs streams. Full memory behaviour and log split period could be specified in the [settings](settings/). Every log stream has enable/disable logic, once enabled logs will be written even if you restart the device. After restart new log file will be automatically created.
+#Record and download logs
 
-### Raw data
+This tutorial shows how to record logs for Data Analysis and Post-Processing Kinematic (PPK) and how to download them from Reach to your computer.
 
-<p style="text-align:center" ><img src="../img/reachview/logging/raw.png" style="width: 800px;" /></p>
+!!! tip ""
+	To learn more about PPK check [this article](/common/tutorials/ppk-introduction).
 
-Raw data is logged directly into RINEX and UBX format. UBX could be converted to Rinex after download using RTKCONV utility. Event marks are stored in this file as well.
+##Log split period
 
-### Position
+Before starting log recording, you can specify the log split period in ReachView [settings](settings/). For instance, if we set to save the log every 4 hours, the new log file will be created every 4 hours, while preserving the previous log as well. This setting allows you to control the size of the files that you work with.
 
-<p style="text-align:center" ><img src="../img/reachview/logging/position.png" style="width: 800px;" /></p>
+##Logging
 
-Position could be logged in different formats. 
+To enable logs recording, go to "Logging" tab in ReachView. Here you can see several logging options. Reach can record raw data, position log, and base corrections.
 
-**LLH**  
-Simple text protocol for Latitude Longitude and Height as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+<p style="text-align:center" ><img src="../img/reachview/logging/enable-logging.png" style="width: 800px;" /></p>
 
-**XYZ**  
-Simple text protocol for X, Y, Z ECEF coordinates as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+<p style="text-align:center" ><img src="../img/reachview/logging/enable-logging.gif" style="width: 800px;" /></p>
 
-**ENU**  
-Simple text protocol for East, North and UP components of the baseline as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+###Raw data
 
-**NMEA 0183**  
-The most popular standard in the industry. Supported messages: GPRMC, GPGGA, GPGSA, GLGSA, GAGSA,  GPGSV, GLGSV and GAGSV. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+A raw data log contains GNSS observations from the receiver without calculation of accurate coordinates. It can be recorded in UBX or directly into industry standard RINEX format. UBX can be converted to RINEX with RTKCONV utility after downloading to your PC. If you don’t know which one you need, we recommend using RINEX 3.03.
 
-**ERB**  
-Used for communication to Ardupilot, protocol description can be found [here](https://files.emlid.com/ERB.pdf).
+Time marks for UAV mapping are stored in this file as well.
 
-### Base correction
+###Position
 
-<p style="text-align:center" ><img src="../img/reachview/logging/base_correction.png" style="width: 800px;" /></p>
+Position can be logged in different formats. Open a dropdown list to choose the format for position coordinates.
 
-Logs incoming correction from the base. Format is defined by correction input.
+!!! note ""
+	Here's a short formats overview. More detailed descriptions of formats may be found in Position output section of the [docs](position-output/#formats).
+
+* **LLH**
+
+LLH is a simple text protocol for Latitude, Longitude, and Height in WGS84. It also contains information about RTK solution status.
+
+* **XYZ**
+
+XYZ is a simple text protocol for X, Y, Z ECEF coordinates as well as solution status. 
+
+* **ENU**
+
+ENU is also a simple text protocol for East, North and UP components of the baseline as well as solution status.
+
+* **NMEA**
+
+NMEA 0183 is the most popular standard in the industry. It is usually supported by most software and hardware. NMEA messages supported: GPRMC, GPGGA, GPGSA, GLGSA, GAGSA, GPGSV, GLGSV, GAGSV. 
+
+* **ERB**
+
+ERB format is used for communication with Ardupilot.
+
+###Base corrections
+
+The last logging option is base corrections. This log format is defined by corrections Reach accept from the base. If you use Reach base, this log will be recorded in RTCM3.
+
+##Downloading
+
+After completing the survey, you can save logs to your Mac, Windows, Linux or mobile device. You can do it in the same "Logging" tab in ReachView.
+
+Turn off toggles <img src="../img/reachview/logging/toggle.png" align="middle" /> to stop record the logs. Find your logs below in the "Logging" tab in ReachView.
+
+<p style="text-align:center" ><img src="../img/reachview/logging/download-logs.gif" style="width: 800px;" /></p>
+
+You can see the recording date and time. 
+
+There are two buttons on the right side of each log: <img src="../img/reachview/logging/blue-arrow.png" align="middle" alt="blue arrow" />  button allows to save it, and <img src="../img/reachview/logging/garbage-can.png" align="middle" alt="red garbage can" /> button deletes it.
+
+Now when the logs are downloaded, you can use [RTKLIB software](/common/tutorials/gps-post-processing) from Emlid docs to start working with your data.
+
+Check [PPK guide](/common/tutorials/gps-post-processing) in Emlid docs to learn more about PPK. 
+
+
+
