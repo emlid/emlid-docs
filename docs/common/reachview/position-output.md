@@ -43,7 +43,7 @@ Typical scenario for using TCP is sending position data to an application on the
 TCP supports two roles:
 
 #### Server
-You need to specify port and after that clients will be able to connect to this device on it’s IP address. Many clients can be connected to the same server.
+You need to specify port and after that clients will be able to connect to this device on its IP address. Many clients can be connected to the same server.
 
 #### Client
 You need to specify IP address of the server and port number.
@@ -52,4 +52,7 @@ If ReachView does not allow to set a certain port number it means that it is res
 
 ### Bluetooth
 Bluetooth output is used to stream position data to smartphones, tablets or data collectors. Please make sure to pair your device in Bluetooth settings.
+
+!!! note ""
+	iOS devices don't support getting a location over Bluetooth from third-party hardware.
 
