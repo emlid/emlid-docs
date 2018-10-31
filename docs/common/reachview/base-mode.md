@@ -99,12 +99,16 @@ for a stationary reference station and the height of the ARP above a survey monu
 
 ## Base position
 
-<p style="text-align:center"><img src="../img/reachview/base_mode/position.png" style="width: 800px;"/></p>
+<p style="text-align:center"><img src="../img/reachview/base_mode/position.jpg" style="width: 800px;"/></p>
 
 There are two main options how to specify base station position. Note that RTK positioning is relative to the base station, so any inaccuracy in it’s position will result in a constant shift of rover coordinates. For many applications it is not critical and averaged single coordinate of the base could be used. If your application requires absolute accuracy for rover position an accurate  base coordinate must be entered.
 
 ### Manual
 In this mode you supply an a priori known coordinate by locating the unit above surveyed point. Coordinate has to be supplied in ECEF XYZ or in WGS84 Latitude and Longitude and WGS84 ellipsoid height. Antenna height offset is entered at this stage as well, offset is limited to 6.5535 m by the RTCM message.
+
+You can change position format in the top right corner of Base coordinates frame.
+
+<p style="text-align:center"><img src="../img/reachview/base_mode/manual.jpg" style="width: 800px;"/></p>
 
 ### Average 
 By default Reach will average base position every time it starts. This feature significantly simplifies initial setup in a new location, however it will not provide an accurate absolute coordinate.
