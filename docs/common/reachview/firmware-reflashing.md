@@ -12,7 +12,7 @@ Most new features are released via ReachView app updates that can be updated sim
 
 Get the latest version:
 
-[**Reach Image v2.14  ↓**](https://files.emlid.com/images/ReachImage_v2.14.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)
+[**Reach Image v2.16  ↓**](https://files.emlid.com/images/ReachImage_v2.16.0.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)
 
 
 ## Flashing process
@@ -88,7 +88,7 @@ Proceed to Quickstart section to set up your Reach / Reach RS:
 
 Get the latest version:
 
-[**Reach Plus Image v2.14  ↓**](http://files.emlid.com/images/reach-plus-v2.14.0.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
+[**Reach Plus Image v2.16  ↓**](http://files.emlid.com/images/reach-plus-v2.16.0.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
 
 ## Flashing process
 

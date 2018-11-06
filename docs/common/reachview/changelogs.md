@@ -1,5 +1,45 @@
 ## ReachView changelog
 
+### v2.16.0
+([release](https://community.emlid.com/t/reachview-v2-16-0-point-stakeout/11894))
+
+##### Features
+
+* Point stakeout
+* Smart antenna/pole height - don't think about the actual antenna height anymore.
+* Geodata import in CSV, GeoJSON, DXF
+* LoRa support for Reach M+
+* Automatic boot using the bottom connector on Reach RS+
+
+##### Bug fixes
+
+* Bluetooth connection unstable for some Android and Windows devices
+* Onboard RINEX logs had some observations missing (compared to manually converted raw logs)
+* Default trail length reduced on the status tab to avoid performance issues
+* Prevent user from opening the projects twice
+
+
+### v2.14.0
+([release](https://community.emlid.com/t/reachview-v2-14/10729))
+
+##### Features
+
+* GLONASS inter frequency biases correction. The general recommendation - always have GLONASS AR set to on.
+* Improved Beidou processing significantly
+* New reworked survey project view
+* Fast and pretty Wi-Fi settings tab
+
+##### Bug fixes
+
+* Reach will now restart the processing if base position changes during processing
+* NMEA feedback to NTRIP casters will contain a real solution status, not just single
+* You are not required to punch in any info when creating a new project, you can just click next
+* Reworked disconnect dialog
+* Reach will now not reconnect to a different device and will ask you to refresh the page
+* ERB fixed to include DOPs and number of satellites while the solution is single
+* Fully charged battery state indicator bug
+
+
 ### v2.11.0
 ([release](https://community.emlid.com/t/reachview-v2-11-0-our-second-stable-release/9473))
 
