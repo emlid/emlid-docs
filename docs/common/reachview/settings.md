@@ -9,6 +9,9 @@ Every time you power up Reach in a Wi-Fi network it will check for new ReachView
 ### Night mode 
 Night mode allows you to turn off the LEDs until the next reboot of the device. 
 
+### Bottom connector settings
+Enables automatic boot using the bottom connector on Reach RS+. Perfect for integrating the receiver with cars or tractors.
+
 ### System report
 The tool is used to facilitate issues reports. There are two kinds: one in plain text, and one as a zip archive. The former is for the forum, and makes it easy to share settings, network state and app version. The latter is for harder cases and contains system logs and technical details of your device.
 
