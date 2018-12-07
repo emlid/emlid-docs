@@ -45,8 +45,8 @@ We recommend using the following configurations for PPK flights:
 |---------------------------------------|-----------|
 | GPS + GLONASS + GALILEO + SBAS + QZSS | 1 Hz      |
 | GPS + GLONASS + QZSS                  | 5 Hz      |
-| GPS +SBAS + QZSS                      | 10 Hz     |
-| GPS                                   | 14 Hz     |
+| GPS + GALILEO                         | 5 Hz      |
+| GPS                                   | 10 Hz     |
 
 
 !!! danger "Attention"
