@@ -127,7 +127,7 @@ Point stakeout is a feature that allows finding points with known coordinates.
 
 Open the Survey tab in ReachView.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/survey.PNG" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/survey/survey.png" style="width: 800px;" /></p>
 
 * If there is a ready project, click to the project name to open it
 
@@ -160,7 +160,7 @@ Hit the **Stake out** button to start.
 
 Let’s get in touch with the stake out interface before proceeding.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/stakeout-interface.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/survey/stakeout-interface.PNG" style="width: 800px;" /></p>
 
 * You can see [solution status](status/#solution-status), [AR ratio](status/#ar-validation-ratio), [age of differential](status/#age-of-differential), satellite number and [Reach name](settings/#change-reach-name) in the status bar placed in the top of the page. Make sure you have Fix
 * **The antenna height value** can be found under the status bar
