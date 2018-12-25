@@ -97,8 +97,8 @@ With post processed kinematics technique you may determine base coordinates with
 
 General steps: 
 
-* Enable [logging of raw data](/common/reachview/logging/) and record log for a about an hour
-* Exort log with the collected data from ReachView to your PC
+* Enable [logging of raw data](/common/reachview/logging/) and record log for about an hour
+* Export log with the collected data from ReachView to your PC
 * Refer to [PPK tutorial](/common/tutorials/gps-post-processing)
 * After you get the coordinates you may enter them manually in Base coordinates section. **Comparing PPK position to the averaged position and applying corrections to the collected data is the way to compensate the shift shown in the example on figure 2**.
 
