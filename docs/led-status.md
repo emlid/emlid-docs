@@ -57,9 +57,12 @@ The table below demonstrates possible flash patterns describing various states o
 | Reach State  |  Demo |
 |--------------|-------|
 |<br><br><br><br> <div style="text-align: center;">    OFF   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/off.png" style="height: 250px;"></div> |
-|<br><br><br><br> <div style="text-align: center;">    Reach RS+ charging   </div>   | <br> <div style="text-align: center;"><img src="../img/reachrs/led-status/charging.gif" style="height: 250px;"></div> |
+|<br><br><br><br> <div style="text-align: center;">    Reach RS+ charging   </div>   | <br> <div style="text-align: center;"><img src="../img/reachrs/led-status/RS-plus-charging.gif" style="height: 250px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">   Reach RS charging     </div>   | <br> <div style="text-align: center;"><img src="../img/reachrs/led-status/off.png" style="height: 265px;"></div>  |
+|<br><br><br><br> <div style="text-align: center;">    Reach RS+ charging after connecting the cable   </div>|<br> <div style="text-align: center;"><img src="../img/reachrs/led-status/RS-plus-charging-after-connecting-the-cable.gif" style="height: 250px;"></div>|
+|<br><br><br><br> <div style="text-align: center;">    Reach RS behavior after connecting the cable   </div>|<br> <div style="text-align: center;"><img src="../img/reachrs/led-status/RS-no-reaction.gif" style="height: 250px;"></div>|
 |<br><br><br><br> <div style="text-align: center;">    Loading   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/loading.gif" style="height: 265px;"></div> |
+|<br><br><br><br> <div style="text-align: center;">    Reach RS+ loading after connecting the cable   </div>|<br> <div style="text-align: center;"><img src="../img/reachrs/led-status/RS-plus-loading-after-connecting-the-cable.gif" style="height: 250px;"></div>|
 |<br><br><br><br> <div style="text-align: center;">    Time sync   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/time-sync.gif" style="height: 250px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">    Low battery   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/lack-of-power.gif" style="height: 250px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">    Network scan   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachrs/led-status/network-scan.gif" style="height: 250px;"></div> |
