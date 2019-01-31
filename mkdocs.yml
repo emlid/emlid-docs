@@ -53,6 +53,7 @@ pages:
   - How PPK works: common/tutorials/ppk-introduction.md
   - Placing the base: common/tutorials/placing-the-base.md
   - GPS post-processing: common/tutorials/gps-post-processing.md
+  - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
   - Bluetooth output and Android mock location: common/tutorials/mock-location.md
   - Using QGIS as survey tool: qgis-survey.md
   - Microsurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
