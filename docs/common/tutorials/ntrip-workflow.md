@@ -19,7 +19,7 @@ Reach requires the Internet connection to work with NTRIP. You don’t need any 
 
 Turn on mobile data on your smartphone and share it over Wi-Fi hotspot. Reach will connect to your network and get access to the Internet.
 
-[Check a tutorial for more information about how to connect Reach to other networks.](/common/tutorials/connecting-to-the-internet/)
+[Check the tutorial for more information about how to connect Reach to other networks.](/common/tutorials/connecting-to-the-internet/)
 
 ##Configure Reach for RTK mode with NTRIP
 
