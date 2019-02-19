@@ -1,14 +1,14 @@
 site_name: Reach RS/RS+ docs
 theme:
-        name: mkdocs
-        custom_dir: docstheme/material
-        favicon: favicon.ico
+        name: material
+        logo: 'img/logo.png'
+        favicon: 'favicon.ico'
+
 repo_url: https://github.com/emlid/reachrs-docs
 extra:
   palette:
     primary: light blue
     accent: light blue
-  logo: img/logo.png
   social:
     - type: github
       link: https://github.com/emlid
