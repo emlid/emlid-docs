@@ -10,7 +10,7 @@ theme:
             primary: 'light blue'
             accent: 'light blue'
 
-repo_url: https://github.com/emlid/reachm-plus-docs
+repo_url: https://github.com/emlid/reach-docs
 
 extra:
   social:
