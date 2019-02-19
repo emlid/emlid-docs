@@ -11,4 +11,4 @@ pygments = "*"
 mkdocs-material = "==4.0.1"
 
 [requires]
-python_version = "3.5"
+python_version = "3"
