@@ -1,6 +1,6 @@
 site_name: Reach M+ docs
 site_url: https://emlid.com/reach/
-docs_dir: docs/reach
+docs_dir: docs/reach/mplus
 
 theme:
         name: material
@@ -36,10 +36,10 @@ markdown_extensions:
         permalink: True
 
 nav:
-- Introduction: mplus/index.md
-- Power supply: mplus/power-supply.md
-- Antenna placement: mplus/antenna-placement.md
-- Hardware integration: mplus/hardware-integration.md
+- Introduction: index.md
+- Power supply: power-supply.md
+- Antenna placement: antenna-placement.md
+- Hardware integration: hardware-integration.md
 - ReachView:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
@@ -56,9 +56,9 @@ nav:
   - Firmware reflashing: common/reachview/firmware-reflashing.md
   - Updater: common/reachview/updater.md
   - Changelogs: common/reachview/changelogs.md
-- LED status: mplus/led-status.md
-- Specification: mplus/specs.md
-- Quickstart: mplus/quickstart.md
+- LED status: led-status.md
+- Specification: specs.md
+- Quickstart: quickstart.md
 - Tutorials:
   - How RTK works: common/tutorials/rtk-introduction.md
   - How PPK works: common/tutorials/ppk-introduction.md
@@ -67,7 +67,7 @@ nav:
   - Placing GCPs in RTK mode: common/tutorials/placing-gcps.md
   - How to download files from Reach: common/tutorials/downloading-files.md
   - Placing the base: common/tutorials/placing-the-base.md
-  - ArduPilot integration: mplus/ardupilot-integration.md
+  - ArduPilot integration: ardupilot-integration.md
   - GPS post-processing: common/tutorials/gps-post-processing.md
   - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
   - Bluetooth output and Android mock location: common/tutorials/mock-location.md

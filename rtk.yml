@@ -1,6 +1,6 @@
 site_name: Reach RTK docs
 site_url: https://emlid.com/reach/
-docs_dir: docs/reach
+docs_dir: docs/reach/rtk
 
 theme:
         name: material
@@ -35,11 +35,11 @@ markdown_extensions:
     - toc:
         permalink: True
 
-pages:
-- Introduction: rtk/index.md
-- Power supply: rtk/power-supply.md
-- Antenna placement: rtk/antenna-placement.md
-- Hardware integration: rtk/hardware-integration.md
+nav:
+- Introduction: index.md
+- Power supply: power-supply.md
+- Antenna placement: antenna-placement.md
+- Hardware integration: hardware-integration.md
 - ReachView:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
@@ -56,9 +56,9 @@ pages:
   - Firmware reflashing: common/reachview/firmware-reflashing.md
   - Updater: common/reachview/updater.md
   - Changelogs: common/reachview/changelogs.md
-- LED status: rtk/led-status.md
-- Specification: rtk/specs.md
-- Quickstart: rtk/quickstart.md
+- LED status: led-status.md
+- Specification: specs.md
+- Quickstart: quickstart.md
 - Tutorials:
   - How RTK works: common/tutorials/rtk-introduction.md
   - How PPK works: common/tutorials/ppk-introduction.md
@@ -67,7 +67,7 @@ pages:
   - Placing GCPs in RTK mode: common/tutorials/placing-gcps.md
   - How to download files from Reach: common/tutorials/downloading-files.md
   - Placing the base: common/tutorials/placing-the-base.md
-  - ArduPilot integration: rtk/ardupilot-integration.md
+  - ArduPilot integration: ardupilot-integration.md
   - GPS post-processing: common/tutorials/gps-post-processing.md
   - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
   - Bluetooth output and Android mock location: common/tutorials/mock-location.md
