@@ -1,6 +1,6 @@
 site_name: Reach RS/RS+ docs
 site_url: https://emlid.com/reachrs/
-docs_dir: docs/reach
+docs_dir: docs/reach/rs
 
 theme:
         name: material
@@ -36,9 +36,9 @@ markdown_extensions:
         permalink: True
 
 nav:
-- Introduction: rs/index.md
-- Power supply: rs/power-supply.md
-- Placement: rs/placement.md
+- Introduction: index.md
+- Power supply: power-supply.md
+- Placement: placement.md
 - ReachView app:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
@@ -55,9 +55,9 @@ nav:
   - Firmware reflashing: common/reachview/firmware-reflashing.md
   - Updater: common/reachview/updater.md
   - Changelogs: common/reachview/changelogs.md
-- LED status: rs/led-status.md
-- Specification: rs/specs.md
-- Quickstart: rs/quickstart.md
+- LED status: led-status.md
+- Specification: specs.md
+- Quickstart: quickstart.md
 - Tutorials:
   - How RTK works: common/tutorials/rtk-introduction.md
   - How PPK works: common/tutorials/ppk-introduction.md
@@ -69,7 +69,7 @@ nav:
   - GPS post-processing: common/tutorials/gps-post-processing.md
   - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
   - Bluetooth output and Android mock location: common/tutorials/mock-location.md
-  - Using QGIS as survey tool: rs/qgis-survey.md
+  - Using QGIS as survey tool: qgis-survey.md
   - Microsurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
   - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
   - Topcon MAGNET Field Layout setup guide: common/tutorials/magnetfield.md
