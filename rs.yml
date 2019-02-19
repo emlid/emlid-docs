@@ -20,9 +20,11 @@ extra:
       link: https://twitter.com/emlid
     - type: facebook
       link: https://facebook.com/emlidtech
+
 google_analytics:
   - UA-49508097-1
   - auto
+
 markdown_extensions:
     - admonition
     - codehilite:
@@ -32,7 +34,6 @@ markdown_extensions:
     - meta
     - toc:
         permalink: True
-
 
 nav:
 - Introduction: rs/index.md
