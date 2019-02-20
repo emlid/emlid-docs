@@ -1,33 +1,42 @@
 site_name: Edge docs
-theme_dir: docstheme/material
-site_favicon: favicon.ico
-repo_url: https://github.com/emlid/edge-docs
+site_url: https://emlid.com/edge/
+docs_dir: docs/autopilots/edge
+copyright: "Emlid.com"
+
+theme:
+        name: material
+        logo: 'common/img/logo.png'
+        favicon: 'common/img/favicon.ico'
+        palette:
+            primary: 'light blue'
+            accent: 'light blue'
+        custom_dir: 'theme'
+
+repo_url: https://github.com/emlid/navio2-docs
 
 extra:
-  palette:
-    primary: 'light blue'
-    accent: 'light blue'
-  logo: 'img/logo.png'
   social:
-    - type: 'github'
-      link: 'https://github.com/emlid'
-    - type: 'twitter'
-      link: 'https://twitter.com/emlidtech'
-    - type: 'facebook'
-      link: 'https://facebook.com/emlidtech'
+    - type: github
+      link: https://github.com/emlid
+    - type: twitter
+      link: https://twitter.com/emlid
+    - type: facebook
+      link: https://facebook.com/emlidtech
+
 google_analytics:
- - UA-49508097-1
- - auto
+  - UA-49508097-1
+  - auto
 
 markdown_extensions:
- - markdown.extensions.admonition
- - markdown.extensions.codehilite(guess_lang=false)
- - markdown.extensions.def_list
- - markdown.extensions.footnotes
- - markdown.extensions.meta
- - markdown.extensions.toc(permalink=true)
-
-pages:
+    - admonition
+    - codehilite:
+        guess_lang: False
+    - def_list
+    - footnotes
+    - meta
+    - toc:
+        permalink: True
+nav:
 - Introduction : 'index.md'
 - GCS installation: 'gcs-installation.md'
 - Firmware update: 'firmware-update.md'
