@@ -39,7 +39,7 @@ nav:
 - Introduction: index.md
 - Power supply: power-supply.md
 - Placement: placement.md
-- ReachView app:
+- ReachView:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
   - Status: common/reachview/status.md
