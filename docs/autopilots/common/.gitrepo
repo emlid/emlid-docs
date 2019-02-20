@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:emlid/navio-docs-common.git
+	branch = master
+	commit = be7baa11d791b8e236bcbe46e9fa43e96b27a09c
+	parent = fc9bb0d1f15184c9f5798590261dc691aa82c2d5
+	cmdver = 0.3.1
