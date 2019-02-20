@@ -1,0 +1,74 @@
+site_name: Edge docs
+theme_dir: docstheme/material
+site_favicon: favicon.ico
+repo_url: https://github.com/emlid/edge-docs
+
+extra:
+  palette:
+    primary: 'light blue'
+    accent: 'light blue'
+  logo: 'img/logo.png'
+  social:
+    - type: 'github'
+      link: 'https://github.com/emlid'
+    - type: 'twitter'
+      link: 'https://twitter.com/emlidtech'
+    - type: 'facebook'
+      link: 'https://facebook.com/emlidtech'
+google_analytics:
+ - UA-49508097-1
+ - auto
+
+markdown_extensions:
+ - markdown.extensions.admonition
+ - markdown.extensions.codehilite(guess_lang=false)
+ - markdown.extensions.def_list
+ - markdown.extensions.footnotes
+ - markdown.extensions.meta
+ - markdown.extensions.toc(permalink=true)
+
+pages:
+- Introduction : 'index.md'
+- GCS installation: 'gcs-installation.md'
+- Firmware update: 'firmware-update.md'
+- Quickstart: 'quickstart.md'
+- Hardware installation:
+  - 'Ports and pinouts': 'hardware/pinout.md'
+  - 'Edge GNSS': 'hardware/gnss.md'
+  - 'Camera': 'hardware/camera.md'
+  - 'Wi-Fi (Antenna placement)': 'hardware/wifi.md'
+  - '3D models': 'hardware/3dmodels.md'
+  - 'Power module': 'hardware/power-module.md'
+  - 'Mounting': 'hardware/mounting.md'
+  - 'Connection schemes': 'hardware/connection-schemes.md'
+- Optional Accessories:
+  - 'Vibration damping': 'accessories/vibro.md'
+- Flying with QGroundControl:
+  - 'Frame configuration': 'qgc/frame.md'
+  - 'Calibration': 'qgc/calibration.md'
+  - 'Connection': 'qgc/connection.md'
+  - 'Arming checks': 'qgc/arming-checks.md'
+  - 'Flight modes': 'qgc/flight-modes.md'
+  - 'Failsafe': 'qgc/failsafe.md'
+  - 'Logging': 'qgc/logging.md'
+  - 'RC Input and Output': 'qgc/rcinput-and-output.md'
+  - 'Video streaming': 'qgc/video.md'
+  - 'WiFi setup': 'qgc/wifi-setup.md'
+  - 'Additional parameters': 'qgc/parameters.md'
+  - 'Sensors temperature': 'qgc/sensor-temperature.md'
+  - 'Troubleshooting': 'qgc/troubleshooting.md'
+- LED status: 'led-status.md'
+- Edge for developers:
+  - 'ArduPilot': 'dev/ardupilot.md'
+  - 'QGC': 'dev/qgc.md'
+  - 'Firmware update': 'dev/firmware-update.md'
+  - 'emlidtool': 'dev/emlidtool.md'
+- Specifications:
+  - 'Mechanical': 'specs/mechanical.md'
+  - 'Electrical': 'specs/electrical.md'
+  - 'Features': 'specs/features.md'
+- Tutorials:
+  - 'Reach integration': 'tutorials/reach-integration.md'
+- Changelogs:
+  - 'QGC changelog': 'changelogs/qgc-changelog.md'
+  - 'Edge changelog': 'changelogs/edge-changelog.md'
