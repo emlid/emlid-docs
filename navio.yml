@@ -1,0 +1,65 @@
+site_name: Navio docs
+site_url: https://emlid.com/navio/
+docs_dir: docs/autopilots/navio
+copyright: "Emlid.com"
+
+theme:
+        name: material
+        logo: 'common/img/logo.png'
+        favicon: 'common/img/favicon.ico'
+        palette:
+            primary: 'light blue'
+            accent: 'light blue'
+        custom_dir: 'theme'
+
+repo_url: https://github.com/emlid/navio2-docs
+
+extra:
+  social:
+    - type: github
+      link: https://github.com/emlid
+    - type: twitter
+      link: https://twitter.com/emlid
+    - type: facebook
+      link: https://facebook.com/emlidtech
+
+google_analytics:
+  - UA-49508097-1
+  - auto
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: False
+    - def_list
+    - footnotes
+    - meta
+    - toc:
+        permalink: True
+nav:
+- Introduction : 'index.md'
+- Hardware setup: 'navio+/ardupilot/hardware-setup.md'
+- Raspberry Pi configuration: 'common/ardupilot/configuring-raspberry-pi.md'
+- ArduPilot:
+  - 'ArduPilot installation and running' : 'common/ardupilot/installation-and-running.md'
+  - 'Ardupilot upgrade' : 'common/ardupilot/upgrade.md'
+  - 'Building ArduPilot from sources': 'common/ardupilot/building-from-sources.md'
+- ROS: 'common/dev/ros.md'
+- Navio for developers:
+  - 'Video streaming': 'common/dev/video-streaming.md'
+  - 'Wi-Fi Broadcast' : 'common/dev/wbc.md'
+  - 'Examples setup': 'common/dev/navio-repository-cloning.md'
+  - 'Barometer' : 'common/dev/barometer.md'
+  - 'ADC' : 'navio+/dev/adc.md'
+  - 'PWM output' : 'navio+/dev/pwm-output.md'
+  - 'RC input' : 'navio+/dev/rc-input.md'
+  - '9DOF IMU' : 'common/dev/imu-mpu9250_lsm9ds1.md'
+  - 'AHRS' : 'common/dev/ahrs.md'
+  - 'GPS' : 'common/dev/gps-ublox.md'
+  - 'GPS via u-center' : 'common/dev/gps-ublox-ucenter.md'
+  - 'FRAM' : 'navio+/dev/fram.md'
+  - 'RGB LED' : 'common/dev/rgb-led.md'
+  - 'Datasheets' : 'navio+/dev/datasheets.md'
+- Changelogs: 'common/dev/changelogs.md'
+- Community projects:
+  - 'Windows IoT': 'common/community-projects/Windows-IoT.md'
