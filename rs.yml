@@ -10,6 +10,7 @@ theme:
         palette:
             primary: 'light blue'
             accent: 'light blue'
+        custom_dir: 'theme'
 
 repo_url: https://github.com/emlid/reachrs-docs
 
