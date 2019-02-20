@@ -4,8 +4,8 @@ docs_dir: docs/reach/rtk
 
 theme:
         name: material
-        logo: 'img/logo.png'
-        favicon: 'favicon.ico'
+        logo: 'common/img/logo.png'
+        favicon: 'common/img/favicon.ico'
         palette:
             primary: 'light blue'
             accent: 'light blue'
