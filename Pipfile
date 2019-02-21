@@ -9,6 +9,7 @@ verify_ssl = true
 mkdocs = "==1.0.4"
 pygments = "*"
 mkdocs-material = "==4.0.1"
+backports-abc = "*"
 
 [requires]
 python_version = "3"
