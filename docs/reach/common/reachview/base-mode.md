@@ -88,10 +88,10 @@ for a stationary reference station and the height of the ARP above a survey monu
 
 - **Messages 1097 (GALILEO), 1107 (SBAS), 1117 (QZSS), 1127 (BeiDou)** are MSM7 (Multiple Signal Messages). MSM7 are high precision messages which contains a complete set of RINEX observations with extended resolution. That means that you should turn on only one message of choosen system to get all data about it.
 
-	!!! tip
+	!!! tip ""
 		Remember, that you can not use GLONASS and BeiDou systems together.
 
-	!!! tip
+	!!! tip ""
 		* Use 1117 QZSS message if you are located in East-Southeast Asia and Australia.
 		* Use 1107 SBAS message if you are located in Noth America, Europe, North Africa, Near East, South Asia and East Asia, Russia
 		* Use 1127 BeiDou message if you are located in Asian region and Australia.

@@ -3,7 +3,7 @@
 ### Check app version  
 Every time you power up Reach in a Wi-Fi network it will check for new ReachView update and notify you accordingly.
 
-!!! note
+!!! note ""
     Update check is only done one time during boot process. If you want to force new version check please proceed to ReachView Updater. It is available on port 5000, for example `http://reach.local:5000`. It will automatically scan Emlid update servers when you open it. Learn more about ReachView updater [here](updater).
 
 ### Night mode 

@@ -60,7 +60,7 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 	</details>
 
 
-	!!! attention " Double check the password! "
+	!!! danger "Double check the password!"
 		You can unmask the password by clicking on an eye symbol at the end of a password field.
 
 <p style="text-align:center" ><img src="../img/reach/connecting-to-the-internet/new-connection.gif" style="width: 800px;" /></p>
@@ -101,7 +101,7 @@ If you connecting to mobile hotspot do the following steps:
 
 	<p style="text-align:center" ><img src="../img/reach/connecting-to-the-internet/running-hotspot.png" style="width: 400px;" /></p>
 
-	!!! tip " If the connection fails: "
+	!!! tip "If the connection fails:"
 		* Connect to Reach hotspot again
 		* Check entered password
 		* Check that your network is configured correctly

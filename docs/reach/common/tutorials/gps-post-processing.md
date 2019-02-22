@@ -20,7 +20,7 @@ Rover track is calculated relatively to the base station so in order to get rove
 
 ## Converting raw logs to RINEX (if needed)
 
-!!! note
+!!! note ""
     If your raw logs from base and rover are saved in .ubx format you should convert them to RINEX. If you already have RINEX logs from the receivers you can skip this step.
 
 Start **RTKLIB RTKCONV** after downloading raw files from Reach to your PC.

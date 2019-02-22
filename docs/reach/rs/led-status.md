@@ -1,4 +1,4 @@
-!!! success " "
+!!! note ""
     LED functionality is available with ReachView version 2.7.0 and newer 
 
 ## Reach RS/RS+ LED indicators
@@ -46,7 +46,7 @@ Stat LED is used to display ReachView status.
 |Point collection|<div style="text-align: center;"><img src="../img/reachrs/led-status/point-collection-led.gif" style="width: 30px;"></div>  |
 |Internal error|<div style="text-align: center;"><img src="../img/reachrs/led-status/grey.png" style="width: 30px;"></div>  |
 
-!!! attention
+!!! danger ""
     Reach RS/RS+ requires time syncing only during first time setup. Internet connection, which is required for the first setup anyway, will allow time syncing process to happen automatically.
 
 ### LED Behavior
