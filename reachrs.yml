@@ -2,6 +2,7 @@ site_name: Reach RS/RS+ docs
 site_url: https://emlid.com/reachrs/
 docs_dir: docs/reach/rs
 copyright: "Emlid.com"
+edit_uri: ""
 
 theme:
         name: material

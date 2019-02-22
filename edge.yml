@@ -2,6 +2,7 @@ site_name: Edge docs
 site_url: https://emlid.com/edge/
 docs_dir: docs/autopilots/edge
 copyright: "Emlid.com"
+edit_uri: ""
 
 theme:
         name: material

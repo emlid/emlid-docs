@@ -2,6 +2,7 @@ site_name: Navio docs
 site_url: https://emlid.com/navio/
 docs_dir: docs/autopilots/navio
 copyright: "Emlid.com"
+edit_uri: ""
 
 theme:
         name: material
