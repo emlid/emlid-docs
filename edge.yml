@@ -37,6 +37,8 @@ markdown_extensions:
     - meta
     - toc:
         permalink: True
+    - pymdownx.details
+
 nav:
 - Introduction : 'index.md'
 - GCS installation: 'gcs-installation.md'
