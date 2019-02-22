@@ -14,7 +14,7 @@ _Figure 1_
 It is often enough to know precise position of an object relatively to the base station but for some applications like survey and mapping it is critical to get accurate absolute position. In this case the offset ΔX, ΔY, ΔZ between actual True position and the Base station position  should be avoided or reduced.
 <br>
 
-!!! attention
+!!! danger ""
     The absolute position of the rover is accurate only to the same accuracy as the position of the base station.
 
 Proper positioning of the base station is a key to successful data collection. The shift of base coordinates will keep the collected data precise but will make it inaccurate (which is absolutely fine for volumetric measurements but unacceptable if you have to tie collected data to the global coordinates). For example if you are processing the map using data collected by RTK-equipped drone using corrections from the shifted base your map will be later geo-referenced with the same offset (figure 2).
@@ -24,7 +24,7 @@ _Figure 2_
 <br>
 The same shift producing effect may be noticed if the base is placed inaccurately over a known point or just moved from it's determined position without relevant amendments.
 
-!!! success "Useful note"
+!!! note "Useful note"
     If the accurate absolute position of the base has been determined only after the job has been done, the offset of the map can be determined and corrected. 
 
 
@@ -47,7 +47,7 @@ _Numbers in the table are approximate and only for reference purposes. Your expe
 
 No matter which method you use relative position of the rover will always be cm-precise, the actual accuracy will be set by the accuracy of the base position.
 
-!!! tip
+!!! tip ""
     Refer to [Base mode tab of ReachView tutorial](/common/reachview/base-mode/#base-position) to learn how to configure various ways of setting up the base with ReachView.
  
 #####Manual
@@ -70,7 +70,7 @@ The left illustration below (see figure 3) shows the paths of rover which passes
 _Figure 3_  
 <br>
 
-!!! success "Perfect for repeatable precise relative positioning (GPS tractor guidance, autonomous flights and landing)"
+!!! tip "Perfect for repeatable precise relative positioning (GPS tractor guidance, autonomous flights and landing)"
     If you only need accurate relative positioning the easiest way is to average the position using single solution. Just physically mark the point on the ground and save coordinates to manual in ReachView. Day-to-day result would look almost identical to those obtained using NTRIP corrections.
  
 #### Averaged float and fix
@@ -88,7 +88,7 @@ _Figure 4_
 
 If the baseline is too long to obtain fix, averaging float solution will still improve the position to ~1m level. 
 
-!!! success "Perfect for data collection and surveying, placing GCPs and drone mapping"
+!!! tip "Perfect for data collection and surveying, placing GCPs and drone mapping"
     The base position averaged using fix solution provides several centimeters accuracy and works great when you need accurate absolute position!
  
  
@@ -117,7 +117,7 @@ General steps:
  
 ### Placing the base station in the field 
 
-!!! Danger "Pay Attention!"
+!!! danger "Pay Attention!"
     The mismeasured height of the antenna above the mark is probably the most pervasive and frequent blunder in GPS control surveying.
 
 #### Placing Reach RS/RS+ (Figure 5)
@@ -125,7 +125,7 @@ General steps:
 * Make sure your Reach device is placed precisely above the marked point on the tripod and leveled
 * If you are setting up base coordinates manually measure the antenna height offset
 
-!!! note " " 
+!!! note "" 
     Antenna height is measured as the distance between the mark and the antenna reference point (ARP). 
 
  For Reach RS/RS+ consider the antenna height as the distance between mark and the bottom of Reach RS/RS+ (h on figure 5) plus 65 mm.

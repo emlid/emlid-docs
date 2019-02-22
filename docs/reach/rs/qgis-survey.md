@@ -71,7 +71,7 @@ Also check out plugin CadTools.
 
 <div style="text-align: center;"><img src="../img/reachrs/qgis-survey/qgis-cad-tools.png" style="width: 650px;"></div><br>
 
-!!! tip
+!!! tip ""
     [Check out](https://www.youtube.com/watch?v=QsjmLa16obs1) the tutorial for QGIS CAD tool by Klas Karlsson.
 
 

@@ -15,7 +15,7 @@ The video below covers the process of the first update: powering Reach RS/RS+ on
     <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/HCOqtSUumow" allowfullscreen></iframe></div>
 
 
-!!! tip
+!!! tip ""
     If you encounter any issues performing these steps, we will be happy to help at our [**community forum**](http://community.emlid.com/).
 
 This tutorial only covers one use case. To get more information, follow these links:
@@ -28,7 +28,7 @@ This tutorial only covers one use case. To get more information, follow these li
 
 * To power on Reach RS/RS+ hold Power button for 3 seconds. Power LED is on to show Reach RS/RS+ is turned on. Solid network state LED (blue) indicates Reach RS/RS+ has launched its own Wi-fi hotspot.
 
-!!! note 
+!!! note  ""
     Reach RS/RS+ has internal battery designed for 30-hours of autonomous work. Reach RS/RS+ may be charged on the go with the micro-usb cable coming within the package. Battery status check is available through ReachView interface.
 
 ## Connecting to Reach RS/RS+
@@ -49,7 +49,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_main.png" style="width: 350px;"></div><br>
 
-!!! note
+!!! note ""
     If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](common/reachview/firmware-reflashing). You only need to do this if your device was purchased before 1 March 2017.
 
 * Press plus button and enter your Wi-Fi network name, security type and password. Press Save button
@@ -65,7 +65,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 
 * After that Reach device will attempt to connect your Wi-Fi network.
 
-!!! tip 
+!!! tip ""
     If your device did not connect to Wi-Fi network it will switch to hotspot mode.
     You can find Reach on **http://reach.local** or **http://192.168.42.1**.
     Check your network name and password and try again.  
@@ -131,7 +131,7 @@ This tutorial will guide you through the setup process of two Reach RS units as 
  
 * Reach RS/RS+ may be placed on a tripod with a 1/4" mount thread. Each package comes with an adapter to 5/8" survey pole thread.
 
-!!! important
+!!! danger "Attention"
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
     **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
@@ -168,16 +168,16 @@ ReachView menu consists of 9 tabs, but we only need three of them to start work:
 
 * Select LoRa tab and set frequency between 862 MHz and 1020 Mhz and set output power. 
 
-!!! tip
+!!! tip ""
     Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output.
 
 
-!!! warning
+!!! danger ""
     Make sure to select appropriate output power and frequency according to your local regulations. 
 
 * Next set the parameter of air rate. 
 
-!!! tip
+!!! tip ""
     The lower the air rate, the longer the working distance will be. In order to unlock lower air rates disable correction messages or reduce rate. 
 
 * Apply settings and wait until base averages it's position in Base coordinates box.
@@ -213,7 +213,7 @@ You can see a bar chart with satellite levels, RTK parameters, positioning mode 
 
 * If everything has been set up correctly, **Solution status** will be **Float** and **you should see grey bars near satellite levels bars**. 
 
-!!! warning ""
+!!! note ""
     **Float** means that base corrections are now taken into consideration and positioning is relative to base coordinates, but the integer ambiguity is not resolved.  
 
     If you see **"-"** or **Single** in **Solution status** box on this step, that means that some settings are incorrect.  

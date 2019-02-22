@@ -12,7 +12,7 @@ To use Reach with Android app you will need to do the following:
 
 * Pair your Android device with Reach / Reach RS/RS+
  
-!!! tip
+!!! tip ""
     To do this, make your device discoverable. Then, go to the **Wifi/Bluetooth Tab** and find your device in bluetooth section. Once your device appears in the "discoverable" section, hit it to send a pairing request. Accept the pairing request on your device. Your device will appear in the "paired devices section".
 
 
@@ -21,7 +21,7 @@ To use Reach with Android app you will need to do the following:
 
 * In the "Position output Tab set position output to BT and format to **NMEA**
 
-!!! tip
+!!! tip ""
     Don't forget to Apply the new rover settings
 
 <p style="text-align:center"><img src="../img/reach/mock-location/solution.png" style="width: 800px;"/></p>

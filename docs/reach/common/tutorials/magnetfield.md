@@ -6,7 +6,7 @@ In this tutorial you'll find the information on how to setup data collector runn
 
 ## Configuring Bluetooth connection
 
-!!! note
+!!! note ""
     In this tutorial the Bluetooth connection with Windows device is shown. Exact steps of pairing the devices may vary on different platforms.
 
 * In the ReachView app go to Wi-Fi/Bluetooth tab. Turn on Bluetooth and make Reach RS always discoverable.

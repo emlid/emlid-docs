@@ -1,6 +1,6 @@
 You can collect points with the ReachView app using Point Collection tool. The feature allows to make project-based point collection with auto-save rules or manually and then export the data into different formats. 
 
-!!! success " "
+!!! tip ""
     The tool is perfect for surveying and ground control points collection. 
 
 ###Creating New Project
@@ -72,7 +72,7 @@ Survey tool interface shows the map with base and rover on it.
 	
 	You can set the point’s name or use the default value. If you leave the name field blank the default point name will be “Point 1”, “Point 2”, etc.
 
-	!!! note " "
+	!!! note ""
     	You can also set the new Pole height value if it changed.
 
 * Press **Collect** to start point collecting process
@@ -81,7 +81,7 @@ Survey tool interface shows the map with base and rover on it.
 
 If you set Auto-save rules, you’ll see the status bar indicating the time until the end of point collection. Otherwise, you need to stop collecting point by pressing the **Accept** button.
 
-!!! attention " "
+!!! danger ""
     If the **Collect** button is unavailable and you see the message “Waiting for solution status”, you won’t be able to start point collection. Check the solution status.
 
 You can stop the process by pressing the **Cancel** button. In that case, the point will not be saved.
@@ -112,7 +112,7 @@ When you finish collecting points, you can export your project in CSV, DXF, GeoJ
 
 To do it, press "•••", click **Export** and choose the right format. The downloading will start automatically. Large projects might take some time to process. After that, you can find your archive in the default Downloads folder.
 
-!!! note " "
+!!! note ""
 	If you use ReachView app on Android, exporting will be made in a Downloads folder. As for iOS, you’ll need to choose the way you want to save your project.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/export-button.gif" style="width: 800px;" /></p>
@@ -143,7 +143,7 @@ Hit "•••" button on the right side of the project name and choose **Import
 
 You can upload files in CSV, GeoJSON or DXF formats or just enter coordinates manually. 
 
-!!! note " "
+!!! note ""
 	Check the templates to find out what exactly your data should look like.
 
 After you finish adding coordinates, hit the **Import** button.

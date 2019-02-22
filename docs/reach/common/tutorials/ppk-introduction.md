@@ -12,7 +12,7 @@ While PPK is mainly used in UAV mapping, it can also be used as a back up for RT
 
 There are several advantages of using PPK for mapping with a drone. PPK doesn’t require placing Ground Control Points (GCPs), which allows to inspect much wider areas. It is especially useful when you need to map large territories or places with difficult terrain. 
 
-!!! note " "
+!!! note ""
 	For the PPK mapping, it is recommended to have few GCPs on site for data check (checkpoints).
 
 The most critical part of PPK for UAV Mapping is synchronisation of a camera and Reach M+, because:
