@@ -11,7 +11,7 @@ To determine exactly which check has failed:
 4. The first cause of the Pre-Arm Check failure will be displayed in red on the HUD window
 
 
-### This is a list of arming checks that may be enabled.
+**This is a list of arming checks that may be enabled:**
 
 
 ### All

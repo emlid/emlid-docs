@@ -10,14 +10,14 @@ The building process is not that hard and is basically the same as for other Ard
 
 You can find the sources in our [Emlid ArduPilot repository](https://github.com/emlid/ardupilot).
 
-!!!tip
+!!! tip ""
 	The support for Edge in [ArduPilot upstream repository](https://github.com/ardupilot/ardupilot) will be added soon.
 
 ### How to build
 
 Here we will describe the process of building ArduPilot using cross-compilation on a Linux-based host machine running Ubuntu.
 
-!!!tip
+!!! tip ""
 	The additional information about the building process (including how-to for Windows) can be found in [ArduPilot documentation](http://ardupilot.org/dev/docs/building-the-code.html).
 	
 First, install the required packages:
@@ -61,7 +61,7 @@ And, finally, build the whole thing:
 ```
 $ waf copter -j5
 ```
-!!!tip
+!!! tip ""
 	The additional information about ```waf``` can be found on [ArduPilot building instructions page on GitHub](https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md).
 	
 ### How to run
@@ -76,14 +76,14 @@ Perform an SSH connection to your edge with
 ```
 $ ssh pi@edge.local
 ```
-!!!tip
+!!! tip ""
 	The default ssh login is ```pi```, password is ```raspberry```.
 	
 And run the freshly-compiled ArduPilot with
 ```
 $ sudo ./arducopter -A udp:your_IP_address:14550
 ```
-!!!tip
+!!! tip ""
 	You can find your IP address with the ```ifconfig``` command.
 	
 Now you should be able to connect your Edge to your QGroundControl and check that everything is fine.

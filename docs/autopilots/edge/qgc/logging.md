@@ -33,7 +33,7 @@ disconnecting from the vehicle, or after quitting the application.
 
 <div style="text-align: center;"><img src="../../img/qgc/logging-when-disarmed.png"> </div>
 
-!!! tip
+!!! tip ""
     QGroundControl allows you to configure a directory to automatically save all telemetry logs.
 
 

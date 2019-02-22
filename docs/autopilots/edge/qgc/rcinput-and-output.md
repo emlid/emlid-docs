@@ -29,7 +29,7 @@ Edge has 12 available output channels.
 
 To change channel configuration you can use SERVOx_ parameters. The “x” in this case is the channel number.
 
-!!! danger " "
+!!! danger "Attention"
     We do ask to NOT SET AUXILIARY FUNCTION SWITCHES TO RC7,8 USING HEX FRAME!
 
 You can use `Motors Test` to check motor connection. In `Vehicle Setup` menu choose `Motors`.
@@ -43,7 +43,7 @@ You can use `Motors Test` to check motor connection. In `Vehicle Setup` menu cho
 
 A “Relay” is a digital output pin that can be either 0V or 3.3V. Similar to a servo it allows the flight controller to invoke some action from another device on the vehicle. You can use it to control things like camera shutter, bottle drop etc.
 
-!!! note
+!!! note ""
     This feature available only on ArduCopter.
 
 First you need to specify RELAY_PIN parameter in QGC `Parameters`:
@@ -51,7 +51,7 @@ First you need to specify RELAY_PIN parameter in QGC `Parameters`:
 <div style="text-align: center;"><img src="../../img/qgc/relay_pin.png"></div><br>
 
 !!! danger "Attention"
-    Don't set digital pin to PWM channel used for control servos!
+    Do not set digital pin to PWM channel used for control servos!
 
 Next, configure pilot control of the relay. Choose previously selected Relay for one of the free channels in `Flight Modes`:
 

@@ -2,7 +2,7 @@
 
 Calibrate your Radio Control Transmitter.
 
-!!! note
+!!! note ""
     Before calibration you need to bind your transmitter and receiver
 
 To start calibration select `Vehicle Setup` and then `Radio` tab. Turn on your RC transmitter.
@@ -36,7 +36,7 @@ During accelerometer calibration you will be asked to place and hold your vehicl
 
 ### Compass
 
-!!! note
+!!! danger "Attention"
     Accelerometer must be calibrated prior to Compass
 
 During compass calibration you will need to rotate the vehicle randomly around all axes until the progress bar fills all the way to the right and the calibration completes.
@@ -45,7 +45,7 @@ During compass calibration you will need to rotate the vehicle randomly around a
 
 ### Level Horizon
 
-!!! note
+!!! danger "Attention"
     Accelerometer must be calibrated prior to Level Horizon
 
 If the horizon (as shown in the HUD) is not leveled after completing Accelerometer calibration you can calibrate the level horizon for your vehicle.

@@ -32,7 +32,7 @@ Finally, there!
 
 Click `Flash`. 
 
-!!! tip
+!!! tip ""
     The process will take a few minutes. Please, be patient!
 
 

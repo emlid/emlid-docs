@@ -2,7 +2,7 @@
 
 ## Connect Edge to a computer
 
-!!! notice 
+!!! note ""
 	Power off Edge before connecting it to the computer
 	
 To connect Edge to your computer use a Micro-USB to USB-A cable from the kit.
@@ -16,7 +16,7 @@ To connect Edge to your computer use a Micro-USB to USB-A cable from the kit.
 
 ### QGroundControl (Windows/Linux/OSX)
 
-!!! tip
+!!! tip ""
 	Graphical user interface depends on your system. Main steps are equivalent for all supported operating systems.
 
 Open QGroundControl, choose `Setup` <img src="../img/firmware-update/qgc/qground_setup_ico.png" style="width:30px; vertical-align: middle"> menu and go to `Firmware` tab
@@ -29,7 +29,7 @@ Plug in your device (If you did not do it before) and wait until QGroundControl 
 
 Next, click on the `Connect` button to start initialization your device.
 
-!!! tip 
+!!! note ""
 	On Linux QGroundControl will ask you for administrative privileges.
 
 <div style="text-align: center;"><img src="../img/firmware-update/qgc/edge_connected.png" style="width: 800px;"></div><br>

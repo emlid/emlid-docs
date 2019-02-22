@@ -2,11 +2,16 @@
 
 ### Specifications
 
-| | |
-|:-|:-|
-|Working voltage|2-12S|
-|Maximum load| 60A (200A[*](power-module/#modifications-for-high-current-setups))|
-
+<table>
+	<tr>
+		<td>Working voltage</td>
+		<td>2-12S</td>
+	</tr>
+	<tr>
+		<td>Maximum load</td>
+		<td>60A (200A<a href="#modifications-for-high-current-setups">*</a>)</td>
+	</tr>
+</table>>
 
 ### Connection
 
@@ -21,5 +26,5 @@ Use a JST-GH-6P to JST-GH-6P cable to connect your Edge power module.
 
 By default the maximum current that can be drawn is 60A. But the module sensor itself allows to measure and draw current up to 200A.
 
-!!! tip " "
+!!! tip ""
     In order to achieve this, you need to replace the wires and the connectors that can endure continuous load of 200A

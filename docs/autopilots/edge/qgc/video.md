@@ -12,7 +12,7 @@ After pressing this button a menu will pop up
 
 Here you can set video resolution, bitrate and rotation
 
-!!! tip
+!!! tip ""
     By default QGC will set the IP of your PC and the default port from Video settings in the General menu
 
 After this step click `Start streaming` and you will get the video stream from your camera.
@@ -21,7 +21,7 @@ After this step click `Start streaming` and you will get the video stream from y
 
 After changing settings click again on `Start streaming` to restart stream with the new settings.
 
-!!! attention
+!!! danger "Attention"
     Please don’t unplug or turn off camera before clicking on “Stop streaming”
 
 You can choose another target for video stream. For this select `Send video to Manual` and enter the IP and port of destination

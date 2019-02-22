@@ -56,7 +56,7 @@ Connect base Reach to PC via USB-microUSB cable.
 
 ### Rover setup
 
-!!! note
+!!! note ""
     The serial connection is used to accept base corrections and send solution at the same time.
 
 
@@ -82,7 +82,7 @@ Now configure position output:
 
 <div style="text-align: center;"><img src="../../img/reach-integration/reach-position-out.png" style="width: 100%;"></div>
 
-!!! note
+!!! note ""
     **ERB** is a custom protocol, used to send location data to the autopilot.
 
 ### Configuring ArduPilot to accept Reach solution
@@ -93,7 +93,7 @@ ArduPilot configuration will require setting GPS parameters via QGroundControl:
 * Go to `Vehicle Setup` menu
 * Open `Parameters` list on the left.
 
-!!! tip
+!!! tip ""
     To find the desired parameter more quickly, use a search box on top of the list.
 
 * Set **GPS_TYPE2** parameter to "AUTO". This will enable the second GPS input.
