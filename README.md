@@ -19,4 +19,6 @@ pipenv install
 pipenv run mkdocs build -f <target>.yml -d <dir>
 ```
 
-This will build the <target> and save the generated docs to <dir>.
+This will build the \<target\> and save the generated docs to \<dir\>.
+
+You can also `pipenv run mkdocs serve -f <target>.yml` to take a look at the docs on your local machine.
