@@ -12,7 +12,7 @@ theme:
             accent: 'light blue'
         custom_dir: 'theme'
 
-repo_url: https://github.com/emlid/reachrs-docs
+repo_url: https://github.com/emlid/emlid-docs
 
 extra:
   social:
