@@ -33,7 +33,7 @@ To connect UART radio to Reach use lower JST-GH port (S1).
 
 <div style="text-align: center;"><img src="../img/reachm-plus/hardware-integration/rfd.png" style="width: 700px;"></div><br>
 
-!!! attention
+!!! danger ""
     Please mind that RFD can consume up to 800ma in peaks so make sure that your power source can provide enough power for both Reach and RFD900.
 
 <br>

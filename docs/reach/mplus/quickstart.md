@@ -2,7 +2,7 @@
 
 In this quick tutorial we will show you how to two set up two Reach devices as a base and a rover with correction link over Wi-Fi.
 
-!!! tip
+!!! tip ""
     If you encounter any issues performing these steps, we will be happy to help
     at our [**community forum**](http://community.emlid.com/).
 
@@ -20,7 +20,7 @@ This tutorial only covers one use case. To get more information, follow these li
 
 * Plug **Micro-USB end** of the cable into **Micro-USB port** on Reach and plug another end into 5V power source such as USB power bank, USB wall adapter or USB port of a computer.
 
-!!! danger
+!!! danger "Attention"
     Do not plug two power supplies at the same time as it may damage the device.
 
 More on power supply you can read [here](power-supply/).
@@ -31,7 +31,7 @@ More on power supply you can read [here](power-supply/).
 
 * Place antenna on a ground plane. It could be a cut piece of metal > 100mm in diameter, roof of a car or metal roof of a building. 
 
-!!! warning
+!!! danger ""
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
      **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
@@ -72,7 +72,7 @@ When Reach M+ is powered for the first time it will create a Wi-Fi hotspot.
 
 * After that Reach device will attempt to connect your Wi-Fi network.
 
-!!! tip 
+!!! tip ""
     If your device did not connect to Wi-Fi network it will switch to hotspot mode. Check your network name and password and try again.
 
 
