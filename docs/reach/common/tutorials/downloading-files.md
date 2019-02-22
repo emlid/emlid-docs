@@ -21,50 +21,46 @@ Press Reach power button and wait until it boots. When the red LED and green LED
 
 ### Reach is in hotspot mode
 
-<details close><summary>**Connecting via Reachview app (iOS/Android device)**</summary>
+??? note "Connecting via Reachview app (iOS/Android device)"
 
-1. Get the app from [Google Play](https://play.google.com/store/apps/details?id=com.reachview) or [Apple Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)
-2. Go to Wi-Fi settings on your device
-3. Connect to Reach hotspot. It appears as **reach:XX:XX**
-4. Enter password **emlidreach**
-5. Launch ReachView app
-6. Choose Reach from the list
+	1. Get the app from [Google Play](https://play.google.com/store/apps/details?id=com.reachview) or [Apple Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)
+	2. Go to Wi-Fi settings on your device
+	3. Connect to Reach hotspot. It appears as **reach:XX:XX**
+	4. Enter password **emlidreach**
+	5. Launch ReachView app
+	6. Choose Reach from the list
 
-</details>
 
-<details close><summary>**Connecting via a web browser (any device)**</summary>
+??? note "Connecting via a web browser (any device)"
 
-1. Go to Wi-Fi settings on your device
-2. Connect to Reach hotspot. It appears as **reach:XX:XX**
-3. Enter password **emlidreach**
+	1. Go to Wi-Fi settings on your device
+	2. Connect to Reach hotspot. It appears as **reach:XX:XX**
+	3. Enter password **emlidreach**
 
-	!!! note "Windows OS"
-		If Windows suggests you to enter the PIN from the router label to connect to the network, choose **Connect using a security key instead** option.
+		!!! note "Windows OS"
+			If Windows suggests you to enter the PIN from the router label to connect to the network, choose **Connect using a security key instead** option.
 
-4. Launch a web browser (we recommend using Chrome or Mozilla)
-5. Go to 192.168.42.1
+	4. Launch a web browser (we recommend using Chrome or Mozilla)
+	5. Go to 192.168.42.1
 
-</details>
 
 ### Reach is in client mode
 
-<details close><summary>**Connecting via Reachview app (iOS/Android device)**</summary>
+??? note "Connecting via Reachview app (iOS/Android device)"
 
-1. Connect your mobile device to the same Wi-Fi network as Reach
-2. Scan for available Reach devices
-3. Choose Reach from the list
-<div style="text-align: center;"><img src="../img/reach/downloading-files/Reach-list.PNG" style="width: 800px;"></div>
+	1. Connect your mobile device to the same Wi-Fi network as Reach
+	2. Scan for available Reach devices
+	3. Choose Reach from the list
+	<div style="text-align: center;"><img src="../img/reach/downloading-files/Reach-list.PNG" style="width: 800px;"></div>
 
-</details>
 
-<details close><summary>**Connecting via web-browser (any device)**</summary>
+??? note "Connecting via web-browser (any device)"
 
-1. Connect your device to the same Wi-Fi network as Reach
-2. Use one of the [Network Scan utility](https://docs.emlid.com/reachrs/quickstart/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address
-3. Launch a web browser (we recommend using Chrome or Mozilla)
-4. Go to determined Reach IP
+	1. Connect your device to the same Wi-Fi network as Reach
+	2. Use one of the [Network Scan utility](https://docs.emlid.com/reachrs/quickstart/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address
+	3. Launch a web browser (we recommend using Chrome or Mozilla)
+	4. Go to determined Reach IP
 
-</details>
 
 ## Downloading files
 

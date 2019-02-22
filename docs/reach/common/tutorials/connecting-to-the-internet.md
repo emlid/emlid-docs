@@ -5,29 +5,22 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 
 ## Connecting to ReachView
 
-<details close>
-<summary> **Connecting to Reach with iOS/Android device** </summary>
+??? note "Connecting to Reach with iOS/Android device"
 
-1. Get the app from [Google Play](https://play.google.com/store/apps/details?id=com.reachview) or [Apple Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)
-2. Go to Wi-Fi settings on your device
-3. Connect to Reach hotspot. It appears as **reach:XX:XX**
-4. Enter password **emlidreach**
-5. Launch ReachView app
-6. Choose Reach from the list
+	1. Get the app from [Google Play](https://play.google.com/store/apps/details?id=com.reachview) or [Apple Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)
+	2. Go to Wi-Fi settings on your device
+	3. Connect to Reach hotspot. It appears as **reach:XX:XX**
+	4. Enter password **emlidreach**
+	5. Launch ReachView app
+	6. Choose Reach from the list
 
-</details>
+??? note "Connecting via a web browser from any device"
 
-
-<details close>
-<summary> **Connecting via a web browser from any device** </summary>
-
-1. Go to Wi-Fi settings on your device
-2. Connect to Reach hotspot. It appears as **reach:XX:XX**
-3. Enter password **emlidreach**
-4. Launch a web browser (we recommend using Chrome or Mozilla)
-5. Go to 192.168.42.1
-
-</details>
+	1. Go to Wi-Fi settings on your device
+	2. Connect to Reach hotspot. It appears as **reach:XX:XX**
+	3. Enter password **emlidreach**
+	4. Launch a web browser (we recommend using Chrome or Mozilla)
+	5. Go to 192.168.42.1
 
 
 ## Connecting to Wi-Fi
@@ -72,25 +65,19 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 
 ## Connecting process
 
-<details close>
-<summary> **Steps for Wi-Fi network** </summary>
+??? note "Steps for Wi-Fi network"
 
-If you connecting to Wi-Fi wait until the blue LED starts blinking slowly.
-
-</details>
+	If you connecting to Wi-Fi wait until the blue LED starts blinking slowly.
 
 
-<details close>
-<summary> **Steps for mobile hotspot** </summary>
+??? note "Steps for mobile hotspot"
 
-If you connecting to mobile hotspot do the following steps:
+	If you connecting to mobile hotspot do the following steps:
 
-* Enable Wi-Fi hotspot on your mobile device
-* Check that it has the same name and password as you filled in the previous step
-* Now reboot the device with the **Power** button
-* Reach should connect to your hotspot during the next boot
-
-</details>
+	* Enable Wi-Fi hotspot on your mobile device
+	* Check that it has the same name and password as you filled in the previous step
+	* Now reboot the device with the **Power** button
+	* Reach should connect to your hotspot during the next boot
 
 
 * If the connection is successful, you will see blue LED is blinking slowly
@@ -110,24 +97,18 @@ If you connecting to mobile hotspot do the following steps:
 
 ## Go back to ReachView
 
-<details close>
-<summary> **Connecting to Reach with iOS/Android device** </summary>
+??? note "Connecting to Reach with iOS/Android device"
 	
-1. Connect your mobile device to the same Wi-Fi network as Reach
-2. Scan for available Reach devices
-3. Choose Reach from the list in the app
-
-</details>
+	1. Connect your mobile device to the same Wi-Fi network as Reach
+	2. Scan for available Reach devices
+	3. Choose Reach from the list in the app
 
 
-<details close>
-<summary> **Connecting via a web browser from any device** </summary>
+??? note "Connecting via a web browser from any device"
 
-1. Connect your device to the same Wi-Fi network as Reach
-2. Use [one of the Network Scan utility](https://docs.emlid.com/reachrs/quickstart/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address 
-3. Go to IP address in a web browser
-
-</details>
+	1. Connect your device to the same Wi-Fi network as Reach
+	2. Use [one of the Network Scan utility](https://docs.emlid.com/reachrs/quickstart/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address 
+	3. Go to IP address in a web browser
 
 
 Once Reach is connected to a Wi-Fi, you can:
