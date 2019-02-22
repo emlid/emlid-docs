@@ -37,7 +37,7 @@ Press Reach power button and wait until it boots. When the red LED and green LED
 	2. Connect to Reach hotspot. It appears as **reach:XX:XX**
 	3. Enter password **emlidreach**
 
-		!!! note "Windows OS"
+		!!! tip "Windows OS"
 			If Windows suggests you to enter the PIN from the router label to connect to the network, choose **Connect using a security key instead** option.
 
 	4. Launch a web browser (we recommend using Chrome or Mozilla)
@@ -51,6 +51,7 @@ Press Reach power button and wait until it boots. When the red LED and green LED
 	1. Connect your mobile device to the same Wi-Fi network as Reach
 	2. Scan for available Reach devices
 	3. Choose Reach from the list
+	
 	<div style="text-align: center;"><img src="../img/reach/downloading-files/Reach-list.PNG" style="width: 800px;"></div>
 
 
