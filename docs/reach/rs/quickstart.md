@@ -8,17 +8,11 @@ In this tutorial we will go through the next steps:
 
 The video below covers the process of the first update: powering Reach RS/RS+ on, connecting to a Wi-Fi and installing the latest version of ReachView app. After completing the video instructions continue the tutorial on [Placing Reach RS/RS+](#placing-reach-rs-module) step or follow through the video guide [Base and Rover setup](#base-and-rover-setup).
 
-<details open>
-<summary>**My Reach RS/RS+ has the ReachView app sticker on top.**</summary>
-<br>
-<div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/fIY__hNjcNI" allowfullscreen></iframe></div>
-</details>
+??? note "My Reach RS/RS+ has the ReachView app sticker on top"
+    <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/fIY__hNjcNI" allowfullscreen></iframe></div>
 
-<details>
-<summary>**My Reach RS has no sticker on top.**</summary>
-<br>
-<div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/HCOqtSUumow" allowfullscreen></iframe></div>
-</details>
+??? note "My Reach RS has no sticker on top"
+    <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/HCOqtSUumow" allowfullscreen></iframe></div>
 
 
 !!! tip

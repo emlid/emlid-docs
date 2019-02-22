@@ -8,65 +8,59 @@ ReachView is a web-based app that allows you to take full control of Reach RTK m
 
 ReachView app is served via a browser or a native app for iOS/Android. In order to access Reach device one needs to find the IP address of the Reach in the network. Depending on the operating system and ReachView app version on board of Reach or Reach RS/RS+ this might be done in different ways.
 
-<details close>
-<summary>**ReachView version is older than v2.8.0**</summary>
+??? note "ReachView version is older than v2.8.0"
 
-### When Reach is connected to a Wi-Fi access point/router
+    ### When Reach is connected to a Wi-Fi access point/router
 
-Your device must be connected to the same Wi-Fi network as Reach. Reach will show up as "Murata Manufacturing" device.
+    Your device must be connected to the same Wi-Fi network as Reach. Reach will show up as "Murata Manufacturing" device.
 
-<p style="text-align:center"><img src="img/reachview/introduction/fing.png" style="width: 500px;"/></p>
+    <p style="text-align:center"><img src="img/reachview/introduction/fing.png" style="width: 500px;"/></p>
 
-#### Windows
-Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”. If the name could not be resolved:
+    #### Windows
+    Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”. If the name could not be resolved:
 
-- Install Apple Bonjour (it is likely already installed on your system if you have iTunes or Skype).
-- Find the IP address using ["Zenmap"](https://nmap.org/zenmap/).
+    - Install Apple Bonjour (it is likely already installed on your system if you have iTunes or Skype).
+    - Find the IP address using ["Zenmap"](https://nmap.org/zenmap/).
 
-#### OSX/Linux
-Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”. If the name could not be resolved:
+    #### OSX/Linux
+    Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”. If the name could not be resolved:
 
-- Find the IP address using [“nmap”](https://nmap.org/).
+    - Find the IP address using [“nmap”](https://nmap.org/).
 
-#### iOS
-Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”.  If the name could not be resolved:
+    #### iOS
+    Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”.  If the name could not be resolved:
 
-- Find the IP address using “Fing” app.
+    - Find the IP address using “Fing” app.
 
-#### Android  
-Android does not support name resolution in local network. You will need to find the IP address:
+    #### Android
+    Android does not support name resolution in local network. You will need to find the IP address:
 
-- Find the IP address using “Fing” app.
-- Use “Network Tools” app, it is also able to find Reach IP address when it is connected to your smartphone hotspot.
+    - Find the IP address using “Fing” app.
+    - Use “Network Tools” app, it is also able to find Reach IP address when it is connected to your smartphone hotspot.
 
-### When your device is connected to Reach Hotspot
+    ### When your device is connected to Reach Hotspot
 
-By default Reach creates a Wi-Fi hotspot and you can connect to it as to any other Wi-Fi network. Beware that sometimes your mobile phone will attempt to automatically switch to 3G/4G connections as Wi-Fi hotspot created by Reach does not provide internet access.
+    By default Reach creates a Wi-Fi hotspot and you can connect to it as to any other Wi-Fi network. Beware that sometimes your mobile phone will attempt to automatically switch to 3G/4G connections as Wi-Fi hotspot created by Reach does not provide internet access.
 
-+ When prompted if you want to stay connected to the network without Internet connection answer “yes”.
-+ If your smartphone is still on 3G/4G connection and there is “?” mark near the Wi-Fi icon you might want to temporary disable mobile data. That will force your smartphone to connect to the Wi-Fi network.
+    + When prompted if you want to stay connected to the network without Internet connection answer “yes”.
+    + If your smartphone is still on 3G/4G connection and there is “?” mark near the Wi-Fi icon you might want to temporary disable mobile data. That will force your smartphone to connect to the Wi-Fi network.
 
-**Access ReachView by typing “http://reach.local” or 192.168.42.1 in your browser on any OS.**
-</details close>
+    **Access ReachView by typing “http://reach.local” or 192.168.42.1 in your browser on any OS.**
 
-<details close>
-<summary>**ReachView version is higher than v2.8.0**</summary>
+??? note "ReachView version is higher than v2.8.0"
 
-Since ReachView v.2.8.0 you can connect to your Reach device with an app using your Android or iOS device.
+    Since ReachView v.2.8.0 you can connect to your Reach device with an app using your Android or iOS device.
 
+    | Download links |  |
+    |-------------|----------|
+    |[Google Play](https://play.google.com/store/apps/details?id=com.reachview)|[App Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)|
 
-| Download links |  |
-|-------------|----------|
-|[Google Play](https://play.google.com/store/apps/details?id=com.reachview)|[App Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)|
+    After launching the app you'll see the list of the available receivers in your network. 
 
-After launching the app you'll see the list of the available receivers in your network. 
+    <div style="text-align: center;"><img src="img/reachview/introduction/reach_view_ios_android.png" style="width: 400px;"></div><br>
 
-<div style="text-align: center;"><img src="img/reachview/introduction/reach_view_ios_android.png" style="width: 400px;"></div><br>
-
-!!! danger "Reach can't work on the 192.168.2.xx subnet "
-    As 192.168.2.x subnet is reserved inside Reach for Ethernet connections, you will need to perform initial setup in a different Wi-Fi or change router settings. Routers usually have a setting to change the subnet address, so you can set it to 192.168.1.xx.
-
-</details close>
+    !!! danger "Reach can't work on the 192.168.2.xx subnet "
+        As 192.168.2.x subnet is reserved inside Reach for Ethernet connections, you will need to perform initial setup in a different Wi-Fi or change router settings. Routers usually have a setting to change the subnet address, so you can set it to 192.168.1.xx.
 
 ## First setup
 
