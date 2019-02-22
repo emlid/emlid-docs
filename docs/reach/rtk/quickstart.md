@@ -5,7 +5,7 @@
 
 In this quick tutorial we will show you how to two set up two Reach devices as a base and a rover with correction link over Wi-Fi.
 
-!!! tip
+!!! tip ""
     If you encounter any issues performing these steps, we will be happy to help
     at our [**community forum**](http://community.emlid.com/).
 
@@ -23,7 +23,7 @@ This tutorial only covers one use case. To get more information, follow these li
 
 * Plug **Micro-USB end** of the cable into **Micro-USB port** on Reach and plug another end into 5V power source such as USB power bank, USB wall adapter or USB port of a computer.
 
-!!! danger
+!!! danger "Attention"
     Do not plug two power supplies at the same time as it may damage the device.
 
 More on power supply you can read [here](power-supply/).
@@ -34,7 +34,7 @@ More on power supply you can read [here](power-supply/).
 
 * Place antenna on a ground plane. It could be a cut piece of metal > 100mm in diameter, roof of a car or metal roof of a building. 
 
-!!! warning
+!!! danger ""
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
      **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
@@ -58,7 +58,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 
 <div style="text-align: center;"><img src="../img/reach/quickstart/reach_view_updater_main.png" style="width: 700px;"></div><br>
 
-!!! note
+!!! note ""
     If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](common/reachview/firmware-reflashing). You only need to do this if your device was purchased before 1 March 2017.
 
 * Press plus button and enter your Wi-Fi network name, security type and password. Press Save button.
@@ -71,7 +71,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 
 * After that Reach device will attempt to connect your Wi-Fi network.
 
-!!! tip 
+!!! tip ""
     If your device did not connect to Wi-Fi network it will switch to hotspot mode.
     You can find Reach on **http://reach.local** or **http://192.168.42.1**.
     Check your network name and password and try again.  

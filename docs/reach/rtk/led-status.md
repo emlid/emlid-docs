@@ -2,7 +2,7 @@
 	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
 
 
-!!! success " "
+!!! note ""
     LED functionality is available with ReachView version 2.7.0 and newer 
 
 
@@ -33,7 +33,7 @@ During boot, Reach enters a network scan state in which it will try to connect t
 
 After network configuration is done, **<font color="magenta">magenta</font> blinks** will be added to the LED. They are shown during time sync.
 
-!!! attention
+!!! danger ""
     The app will not launch until the time sync is complete. Internet connection allows this to happen automatically, but in hotspot mode Reach requires a connected antenna with some satellite visibility.
 
 ### ReachView launch and operation
