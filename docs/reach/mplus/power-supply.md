@@ -2,7 +2,7 @@
 
 Emlid Reach M+ module can be powered using **Micro-USB** port or **JST-GH** ports. Power circuit is shared for all ports, so when you power the device over one port it will pass power to other ports.
 
-!!! attention
+!!! danger "Attention"
     Do not plug two power supplies at the same time as it may damage the device.
 
 <div style="text-align: center;"><img src="../img/reachm-plus/power-supply/wrong-power-supply.png" style="width: 550px;"></div><br>

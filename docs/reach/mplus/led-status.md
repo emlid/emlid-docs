@@ -1,4 +1,4 @@
-!!! success " "
+!!! note ""
     LED functionality is available with ReachView version 2.7.0 and newer 
 
 ## Reach M+ LED indicators
@@ -48,7 +48,7 @@ Stat LED is used to display ReachView status.
 ### Time sync
 After network configuration is done, green LED will start blinking. It is shown during time sync.
 
-!!! Attention
+!!! danger ""
     The app will not launch until the time sync is complete. Internet connection allows this to happen automatically, but in hotspot mode Reach requires a connected antenna with some satellite visibility.
 
 
