@@ -12,31 +12,31 @@ ReachView app is served via a browser or a native app for iOS/Android. In order 
 
     ### When Reach is connected to a Wi-Fi access point/router
 
-    Your device must be connected to the same Wi-Fi network as Reach. Reach will show up as "Murata Manufacturing" device.
+    Your device must be connected to the same Wi-Fi network as Reach. Reach will show up as **Murata Manufacturing** device.
 
     <p style="text-align:center"><img src="img/reachview/introduction/fing.png" style="width: 500px;"/></p>
 
     #### Windows
-    Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”. If the name could not be resolved:
+    Access ReachView by typing **http://reach.local** in your browser. If you have changed name of the device, please type **http://device_name.local**. If the name could not be resolved:
 
     - Install Apple Bonjour (it is likely already installed on your system if you have iTunes or Skype).
     - Find the IP address using ["Zenmap"](https://nmap.org/zenmap/).
 
     #### OSX/Linux
-    Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”. If the name could not be resolved:
+    Access ReachView by typing **http://reach.local** in your browser. If you have changed name of the device, please type **http://device_name.local**. If the name could not be resolved:
 
     - Find the IP address using [“nmap”](https://nmap.org/).
 
     #### iOS
-    Access ReachView by typing “http://reach.local” in your browser. If you have changed name of the device, please type “http://device_name.local”.  If the name could not be resolved:
+    Access ReachView by typing **http://reach.local** in your browser. If you have changed name of the device, please type **http://device_name.local**.  If the name could not be resolved:
 
-    - Find the IP address using “Fing” app.
+    - Find the IP address using **Fing** app.
 
     #### Android
     Android does not support name resolution in local network. You will need to find the IP address:
 
-    - Find the IP address using “Fing” app.
-    - Use “Network Tools” app, it is also able to find Reach IP address when it is connected to your smartphone hotspot.
+    - Find the IP address using **Fing** app.
+    - Use **Network Tools** app, it is also able to find Reach IP address when it is connected to your smartphone hotspot.
 
     ### When your device is connected to Reach Hotspot
 
@@ -51,9 +51,18 @@ ReachView app is served via a browser or a native app for iOS/Android. In order 
 
     Since ReachView v.2.8.0 you can connect to your Reach device with an app using your Android or iOS device.
 
-    | Download links |  |
-    |-------------|----------|
-    |[Google Play](https://play.google.com/store/apps/details?id=com.reachview)|[App Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)|
+    <center>
+        <table>
+            <tr>
+                <th>Download links</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><a href="https://play.google.com/store/apps/details?id=com.reachview">Google Play</a></td>
+                <td><a href="https://itunes.apple.com/us/app/reachview/id1295196887?mt=8">App Store</a></td>
+            </tr>
+        </table>
+    </center>
 
     After launching the app you'll see the list of the available receivers in your network. 
 
