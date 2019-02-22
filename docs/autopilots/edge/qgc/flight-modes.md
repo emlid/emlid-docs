@@ -13,7 +13,7 @@ This article provides an overview of the available flight modes.
 In this mode your inputs are directly passed to the motors with stabilization.
 You're controlling your vehicle manually except the self-leveling the roll and pitch axis.
 
-!!! tip
+!!! tip ""
     Try Alt Hold or Loiter mode instead of Stabilize and you'll be concentrated on less
     controls at once. This will be a good starting point if you're learning to fly.
 
@@ -43,8 +43,8 @@ In Auto mode the copter will accomplish a mission script which combines the "Nav
 commands and “Do” commands. "Navigation" commands affect vehicle's location and "Do"
 commands tackle auxiliary functions.
 
-<hr>
+<br>
 
-!!! tip
+!!! tip ""
     If you want to learn more about the available flight modes, please, refer to the ArduPilot docs available [here](http://ardupilot.org/copter/docs/flight-modes.html).
 

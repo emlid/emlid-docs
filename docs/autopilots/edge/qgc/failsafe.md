@@ -7,7 +7,7 @@ You can set it in `Safety` tab in `Vehicle Setup` menu:
 
 <div style="text-align: center;"><img src="../../img/qgc/wifi_rssi_failsafe.png"></div><br>
 
-!!! note
+!!! note ""
     Every Vehicle type has its own `Safety` tab
 
 By default this failsafe is disabled. You can choose `Low` or `Medium` value according to required signal level.

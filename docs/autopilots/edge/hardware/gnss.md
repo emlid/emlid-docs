@@ -10,7 +10,7 @@ Use a JST-GH-4P to JST-GH-4P cable to connect the Edge GNSS module. You can use 
 
 <div style="text-align: center;"><img src="../../img/hardware/edge_to_gnss.png" style="width: 500px;"></div><br>
 
-!!! attention
+!!! danger "Attention"
     Do not install the GNSS module near sources of electromagnetic radiation like power cables, electromotors, steel parts, etc.
     For the GNSS module to function properly install the Edge GNSS module above other drone parts. Do not place other devices on top of the Edge GNSS module
 
@@ -26,5 +26,5 @@ To install the Edge GNSS module on the drone you can use
 * double-sided duct tape
 * holes for self-tapping screws 
 
-!!! tip
+!!! danger ""
     Be careful! Depth of the holes is 4.5mm

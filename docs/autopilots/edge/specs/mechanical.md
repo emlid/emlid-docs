@@ -15,15 +15,15 @@
 
 <div style="text-align: center;"><img src="../../img/hardware/recommended_holes_for_mounting_edge.png" style="width: 500px;"></div><br>
 
-!!! tip
-    For screwing Edge please use thread M2 with the length not less than 6mm
+!!! tip ""
+    For screwing Edge please use thread M2 with the length not less than 6mm.
 
 ## GNSS module
 
 <div style="text-align: center;"><img src="../../img/hardware/edge-gnss-dimensions_of_holes.png" style="width: 500px;"></div><br>
 
 <div style="text-align: center;"><img src="../../img/hardware/dimensions_of_holes.png" style="width: 500px;"></div><br>
-!!! tip
+!!! tip ""
     The depth of the threads is 4.5mm.
 
 | | |

@@ -1,6 +1,6 @@
 ## QGroundControl for Edge
 
-!!! attention
+!!! danger "Attention"
     We need to install QGroundControl version specifically tailored for Edge, we call it "QGroundControl for Edge"
 
 Please use download links below to get required QGroundControl version for Windows, Linux and Mac OS.

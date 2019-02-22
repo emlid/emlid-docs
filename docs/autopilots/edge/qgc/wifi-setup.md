@@ -8,7 +8,7 @@ Open QGroundControl, go to ``Setup`` menu and select ``WiFi`` tab. You will see 
     * *Access point mode* (Default state) - Edge works as hotspot and share WiFi signal with other clients.
     * *Client mode* - Edge is connected to selected WiFi network.
 
-!!! Note
+!!! note ""
 	You also can check status of WiFi in a ``Summary`` tab.
 
 
@@ -32,11 +32,11 @@ Well, switch to ``Client`` mode by push on *switch* button in the ``Box 1``.
 You will see *Switching...* message and Edge will be disconnected. 
 
 <div style="text-align: center;"><img src="../../img/qgc/wifi/switching.png"></div><br>
-!!! Note
+!!! note ""
     If Edge WiFi LED has
     a green color - everything is well, otherwise this means that you made a mistake in SSID or password
     of WiFi network. (More about [WiFi LEDs](../led-status.md))
-!!! tip 
+!!! tip ""
     ``Switch`` button colors are the same as colors on Edge WiFi indicator.
 	Green for Client mode and Blue for Access Point.
 
@@ -45,7 +45,7 @@ Go to ``General Settings`` and choose ``Comm Links``. Disconnect from previously
 (see [Configuring QGroundControl for Edge](../quickstart.md#qgcconf)). Add new IP of Edge by type ``edge.local``.
 
 <div style="text-align: center;"><img src="../../img/qgc/wifi/comm-links-settings.png"></div><br>
-!!! attention
+!!! danger ""
     On Windows for getting IP address via ``edge.local`` you should download and install [Bonjour](https://support.apple.com/kb/dl999?locale=en_US).
 
 Save all and push on ``Connect``. Return back to ``Setup`` menu. If everything is done well, QGC will connect to an

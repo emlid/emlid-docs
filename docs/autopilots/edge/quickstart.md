@@ -6,10 +6,10 @@ After that you can proceed to the hardware installation guide and install your E
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/K50kYtBbD34" allowfullscreen></iframe></div>
 
-!!! note
+!!! note ""
     Please [update](firmware-update.md) Edge to the latest firmware before continuing.
 
-!!! tip
+!!! tip ""
     If you encounter any issues performing these steps, we are happy to help you out on our [**community forum**](http://community.emlid.com/).
 
 ## Connect Edge GNSS module
@@ -37,11 +37,11 @@ In that case you would need Micro-HDMI to Micro-HDMI cable to connect the camera
     Turn off the camera’s internal WiFi, otherwise it may interfere with RC equipment or Wi-Fi modules
 
 
-!!! warning
+!!! danger ""
     Turn the camera on after Edge is [booted](led-status.md)
 
 
-!!! tip
+!!! tip ""
     Resolution and frame per second value of the input stream may vary. Maximum supported video format is 1080p 30fps
 
 ## Connect Wi-Fi modules
@@ -98,7 +98,7 @@ Windows 10 | Windows 8 | Windows 7 | Windows Vista | Windows XP
 
 * Expand *Network adapters* category
 
-!!! note
+!!! note ""
     Wi-Fi module might appear in *Other devices* category
 
 * Right click on “Realtek 8812AU Wireless LAN 802.11ac USB NIC” and select *Update Driver Software*
@@ -114,7 +114,7 @@ Windows 10 | Windows 8 | Windows 7 | Windows Vista | Windows XP
 * Click *Next* to install the driver
 
 
-!!! warning
+!!! danger ""
     It is necessary to off location services on Windows in order to make the driver work smoother. This setting has a direct impact on the stability of the videostream.
 
 ##### Steps for disabling location services in Windows 10
@@ -200,15 +200,15 @@ And after that connect a battery to your PM.
 
 After powering up Edge needs some time to create an access point (AP). Connect to Edge’s AP (edge) with password: EmlidEdge (since 1.2 the password will be emlidedge).
 
-!!! warning "Note"
+!!! danger ""
     Most laptops have a built-in Wi-Fi module. You need to connect to Edge using specifically the external Wi-Fi module provided with Edge
 
 <div style="text-align: center;"><img src="../img/quickstart/laptop_two_wifi_adapters_linux.png" style="width: 250px;"></div><br>
 
-!!! tip
+!!! tip ""
     To avoid interference from the internal Wi-Fi we recommend disabling it
 
-!!! attention
+!!! danger "Attention"
     Be sure you connect to AP using the external Wi-Fi module, not the built-in Wi-Fi module of your laptop
 
 After the connection succeeded you can install and run the QGC.
@@ -219,7 +219,7 @@ Install [GCS](gcs-installation.md) specifically tailored for Edge. -->
 
 ## <a name="qgcconf"></a> Configuring QGroundControl for Edge
 
-!!! attention
+!!! danger ""
     Install [GCS](gcs-installation.md) specifically tailored for Edge.
 
 On the top window choose QGC settings <span style="text-align: center;"><img src="../img/quickstart/qgc_settings_button.png" style="width: 30px; vertical-align:middle"></span> from the main menu.
@@ -250,12 +250,12 @@ After these steps you’ll see the new link added with the name you specified
 
 <div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_connect_selected.png"></div><br>
 
-!!! warning
+!!! danger ""
     You will need to ensure there is no firewall on PC stopping the incoming stream to your GCS.
 
 * QGC will connect to Edge and will start receiving its parameters
 
-!!! note
+!!! note ""
     By default QGC will set Video Source to UDP. If you had had another setup (i.e. another QGroundControl version installed) you’ll need to change it in the General tab of QGC settings
 
 ## Launching a videostream
@@ -276,14 +276,14 @@ After pressing this button a menu will pop up
 
 Here you can set video resolution, bitrate and rotation
 
-!!! tip
+!!! note ""
     By default QGC will set the IP of your PC and the default port from Video settings in the General menu
 
 After this step click `Start streaming` and you will get the video stream from your camera.
 
 <div style="text-align: center;"><img src="../img/quickstart/qgc_video_stream_example.png"></div><br>
 
-!!! attention
+!!! danger "Attention"
     Please don’t unplug or turn off camera before clicking on “Stop streaming”
 
 ## Conclusion

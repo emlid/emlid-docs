@@ -10,7 +10,7 @@
 
 ## Pinout
 
-!!! warning
+!!! danger "Attention"
     Before connecting any third-party devices take Edge's pinout into account. Make sure power lines are connected correctly before turning on
 
 <a href="../../img/hardware/edge_ports_horizontal.png" target="_blank"> ![scheme](https://docs.emlid.com/edge/img/hardware/edge_ports_horizontal.png)</a>

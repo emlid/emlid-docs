@@ -30,8 +30,8 @@ packages from say, a Linux distribution, because QGroundControl needs access to 
   - If you install Qt to a non-default location you will need to modify qgroundcontrol-start.sh 
 in order to run downloaded builds.
 
-!!! danger "Attention"
-	Windows: Make sure to install VS 2015 32 bit package.
+!!! danger "Windows"
+	Make sure to install VS 2015 32 bit package.
 
 #### Additional packages
 - **Linux(Ubuntu)**: ```$ sudo apt-get install espeak libespeak-dev libudev-dev libsdl2-dev libblkid-dev```

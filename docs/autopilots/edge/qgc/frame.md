@@ -22,12 +22,12 @@ After choosing the required type of vehicle click on `Apply and Restart` button.
 After pressing `Apply` button Edge will restart with the selected ArduPilot binary. QGC will
 disconnect from the autopilot after some time.
 
-!!! note
+!!! note ""
     QGC should reconnect to Edge if you have enabled AutoConnect for UDP
 
 ### Airframe setup
 
-!!! note
+!!! note ""
     Airframe Setup is only available on ArduCopter vehicles
 
 Go to `Airframe` tab
