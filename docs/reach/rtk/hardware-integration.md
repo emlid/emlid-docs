@@ -44,7 +44,7 @@ Connection diagram for RFD900 radio:
 
 <div style="text-align: center;"><img src="../img/reach/hardware-integration/reach-rfd900-radio-connection-map.png" style="width: 550px;"></div><br>
 
-!!! attention
+!!! danger ""
     Please mind that RFD can consume up to 800ma in peaks so make sure that your power source can provide enough power for both Reach and RFD900.
 
 #### Connecting USB radio
