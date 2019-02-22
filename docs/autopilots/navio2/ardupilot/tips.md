@@ -2,14 +2,14 @@
 
 Auxiliary function switches on channels 5-8 are still not supported and could lead to erroneous PWM generation on motors' channels.
 
-!!! danger " "
+!!! danger ""
     We do ask to NOT SET AUXILIARY FUNCTION SWITCHES TO RC5..8!
 
 ### Relay Switch
 
 A “Relay” is an digital output pin that can be switched between 0 volts and 3.3V. Similar to a servo it allows the flight controller to invoke some action from another device on the vehicle.
 
-!!! note " "
+!!! note ""
     This feature available only on ArduCopter.
 
 [Relay Switch setup](http://ardupilot.org/copter/docs/common-relay.html)
@@ -38,7 +38,7 @@ You need to specify **RELAY_PIN** parameter in `Full Parameter List` in Mission 
 | LED GREEN | 17 |
 | LED BLUE | 18 |
 
-!!! danger " "
+!!! danger ""
     Don't set digital pin to PWM channel used for control servos!
 
 

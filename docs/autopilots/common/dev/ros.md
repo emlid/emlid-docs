@@ -216,5 +216,5 @@ After typing *rostopic echo /mavros/* you can press TAB to see the list of exist
 
 Continue <a href="https://asciinema.org/a/1i915k6h2b0i9sf02mwom7qu8?t=4:01" target="_blank">watching the tutorial</a> for this step.
 
-!!! tip
+!!! tip ""
     You always can look more thoroughly on [ROS wiki](http://wiki.ros.org/) to get a better understanding of its concepts.

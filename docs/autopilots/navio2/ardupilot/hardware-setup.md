@@ -5,7 +5,7 @@ ArduPilot on Navio2 is working on:
 * Raspberry Pi 3 Model B
 * Raspberry Pi 2 Model B
 
-!!! note
+!!! note ""
     Other models such as Raspberry Pi Model A+, Raspberry Pi Model B+, Raspberry Pi Zero are electrically compatible, but lack performance to run ArduPilot:Copter. It is completely safe to use Navio2 with all boards stated above.
 
 ## Attaching Navio2 to a Raspberry Pi
@@ -19,7 +19,7 @@ ArduPilot on Navio2 is working on:
 
 ## Powering Navio2
 
-!!! attention
+!!! danger "Attention"
     ALL POWER SOURCES SHOULD PROVIDE VOLTAGE IN 4.8-5.3V RANGE, OTHERWISE YOU CAN DAMAGE YOUR NAVIO2 AND RASPBERRY PI.**
 
 Navio2 has three power sources, all of them can be used simultaneously as they are protected by ideal diodes.
@@ -53,7 +53,7 @@ GNSS antenna is plugged into the MCX port on top of Navio2.
 
 Navio2 supports PPM and SBUS signals as an RC input. To connect receivers that do not support PPM output you can use PPM encoder. PPM receiver is powered by Navio2 and does not require power on the servo rail.
 
-!!! important
+!!! danger "Attention"
     Do not connect servos to the RC receiver! Servos can consume a lot of power which RC receiver port may not be able to provide and that may lead to Raspberry Pi and Navio shutting down and even getting damaged.
 
 Some of the receivers with PPM output:

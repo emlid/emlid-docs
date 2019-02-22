@@ -29,7 +29,7 @@ For further information see cource code. Note that ```set_period``` function set
 
 To set the pulse range appropriate for your servo you can change the SERVO_MIN and SERVO_MAX values.
 
-!!! note " "
+!!! note ""
 	Kernel driver for Navio2 that generates PWM needs to be fed with data at least every 100 ms. So it’s necessary to update the value in ```set_duty_cycle``` every 100 ms or less to make PWM output works.
 
 ## GPIO support
