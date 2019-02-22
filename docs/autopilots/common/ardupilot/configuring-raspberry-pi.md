@@ -39,7 +39,7 @@ Simply plug an SD card in your computer. After getting access to SD card content
 
 Connect HDMI monitor and USB keyboard to your Raspberry, power it up and you will get access to the console, where you can use text editor to modify wpa_supplicant.
 
-!!! note " "
+!!! note ""
 	Use the default username `pi` and the default password `raspberry` to get access to your RPi.
 
 After logging into the system, type:
@@ -90,7 +90,7 @@ If required you can now upgrade your system by running:
 
 By default when Emlid Raspbian for the Rapsberry Pi is installed the file system
 will only expand to occupy 3GB of storage. If you don’t have space left on yor device,
-you should expand your file system. To do so, just type: 
+you should expand your file system. To do so, just type
 
 ```sudo raspi-config --expand-rootfs```
 

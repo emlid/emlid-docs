@@ -2,7 +2,7 @@
 
 Emlid Raspbian images comes with pre-installed WBC.
 
-!!! danger
+!!! danger "Attention"
     It's an experimental feature. Please test it on ground before lifting off.
 
 ### What is Wi-Fi broadcast?
@@ -38,7 +38,7 @@ not fully supported by many wifi chipsets.
 
 #### 2.4GHz
 
-!!! warning
+!!! danger ""
     2.4Ghz is used by RC and hence should be used with caution. Please, verify that your RC transmitter doesn't interfere with Wi-Fi broadcast-enabled dongles. Consider using 5Ghz dongles to eliminate risks altogether.
 
 Recommended dongles:

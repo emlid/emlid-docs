@@ -70,7 +70,7 @@ sudo emlidtool ardupilot
 
 Before configuration emlidtool checks your [RCIO](https://docs.emlid.com/navio2/dev/rcio) firmware and will suggest to update it if you have the outdated one:
 
-!!! tip
+!!! note ""
     Only for Navio2
 
 ![emlidtool-ui](img/emlidtool-rcio-update-dialog.png)
@@ -123,7 +123,7 @@ For example, you'll need to modify TELEM1 to point to your IP like this:
 
 Where 192.168.1.2 is the IP address of the device with the Ground Control Station - your laptop, smartphone etc.
 
-!!! tip
+!!! tip ""
     You can add additional options to `ARDUPILOT_OPTS` that are then passed to ArduPilot by adding new `TELEM` environment variables like this: `TELEM3`="-E /dev/ttyUSB1" `ARDUPILOT_OPTS`="$TELEM1 $TELEM2 $TELEM3"
 
 Mapping between switches and serial ports (TCP or UDP can be used instead of serial ports):
