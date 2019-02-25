@@ -1,7 +1,23 @@
-
-<div style="text-align: center;"><img src="img/reachrs/reachrsplus.png" style="width: 400px;"></div><br>
-
 Welcome to your Emlid Reach RS / Reach RS+!
+
+<style type="text/css">
+	.my-table * {
+		border-color: transparent;
+	}
+</style>
+
+<table class="my-table">
+  <tr>
+    <td><div style="text-align: center;"><a href="../quickstart/"><img src="img/reachrs/quickstart.png" style="width: 200px;"></a></div></td>
+    <td><div style="text-align: center;"><a href="../common/tutorials/intro/"><img src="img/reachrs/tutorials.png" style="width: 200px;"></a></div></td>
+    <td><div style="text-align: center;"><a href="../common/reachview/"><img src="img/reachrs/reachview.png" style="width: 200px;"></a></div></td>
+  </tr>
+  <tr>
+    <td><div style="text-align: center;"><a href="../placement/"><img src="img/reachrs/placement.png" style="width: 200px;"></a></div></td>
+    <td><div style="text-align: center;"><a href="../power-supply/"><img src="img/reachrs/power-supply.png" style="width: 200px;"></a></div></td>
+    <td><div style="text-align: center;"><a href="../specs/"><img src="img/reachrs/specs.png" style="width: 200px;"></a></div></td>
+  </tr>
+</table>
 
 
 ### Package contents
@@ -17,11 +33,6 @@ In the box:
 * 1 x Adapter for survey pole ( 5/8'')
 
 * 1 x USB cable
-
-
-### Quickstart
-
-[Getting started with Reach RS/RS+](quickstart.md)
 
 ### Collaboration
 
