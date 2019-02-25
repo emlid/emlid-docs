@@ -93,7 +93,7 @@ If the baseline is too long to obtain fix, averaging float solution will still i
  
  
 #### Post-Processed Kinematics
-With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. Process will take you about 15 minutes to calculate the position of your base station using PPK tutorial from the docs.
+With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. Process will take you about 15 minutes to calculate the position of your base station using [PPK tutorial from the docs.](/common/tutorials/gps-post-processing)
 
 General steps: 
 
