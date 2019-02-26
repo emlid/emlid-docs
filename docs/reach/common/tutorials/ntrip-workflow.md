@@ -60,5 +60,5 @@ Check tutorials on how to create new projects, collect and stake out points, imp
 * [Survey tool overview](../../reachview/survey/#survey-tool-interface)
 * [Point collection](../../reachview/survey/#collecting-the-point)
 * [Stakeout](../../reachview/survey/#point-stakeout)
-* [Project import](../../reachview/survey/#points-import) and [export](/common/reachview/survey/#exporting-data)
+* [Project import](../../reachview/survey/#points-import) and [export](../../reachview/survey/#exporting-data)
 
