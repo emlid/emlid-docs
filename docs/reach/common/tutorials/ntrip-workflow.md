@@ -19,7 +19,7 @@ Reach requires the Internet connection to work with NTRIP. You don’t need any 
 
 Turn on mobile data on your smartphone and share it over Wi-Fi hotspot. Reach will connect to your network and get access to the Internet.
 
-[Check the tutorial for more information about how to connect Reach to other networks.](/common/tutorials/connecting-to-the-internet/)
+[Check the tutorial for more information about how to connect Reach to other networks.](../../tutorials/connecting-to-the-internet/)
 
 ##Configure Reach for RTK mode with NTRIP
 
@@ -56,9 +56,9 @@ Reach RS needs to have a clear view of the sky approximately 30 degrees above th
 
 Check tutorials on how to create new projects, collect and stake out points, import and export projects:
 
-* [New project](/common/reachview/survey/#creating-new-project)
-* [Survey tool overview](/common/reachview/survey/#survey-tool-interface)
-* [Point collection](/common/reachview/survey/#collecting-the-point)
-* [Stakeout](/common/reachview/survey/#point-stakeout)
-* [Project import](/common/reachview/survey/#points-import) and [export](/common/reachview/survey/#exporting-data)
+* [New project](../../reachview/survey/#creating-new-project)
+* [Survey tool overview](../../reachview/survey/#survey-tool-interface)
+* [Point collection](../../reachview/survey/#collecting-the-point)
+* [Stakeout](../../reachview/survey/#point-stakeout)
+* [Project import](../../reachview/survey/#points-import) and [export](/common/reachview/survey/#exporting-data)
 

@@ -4,7 +4,7 @@ This article outlines the basic principles of analyzing raw logs before and afte
 
 ##Data acquisition and export to PC
 
-Download your base and rover raw data from ReachView. [Record and download logs](/common/reachview/logging/) guide helps you with that. You'll need raw data log in UBX, RINEX or RTCM format for this tutorial.
+Download your base and rover raw data from ReachView. [Record and download logs](../../reachview/logging/) guide helps you with that. You'll need raw data log in UBX, RINEX or RTCM format for this tutorial.
 
 ##Introduction to RTKLib tools
 
@@ -35,7 +35,7 @@ RTKPLOT allows viewing and plotting the position solutions from RTKPOST as well 
 
 If you recorded raw data with Reach receivers in UBX format or got corrections from NTRIP service in RTCM3 format, you need to convert it to RINEX first. Use RTKCONV tool for it.
 
-To learn more about the process check the [Converting raw logs to RINEX part of our post-processing guide.](/common/tutorials/gps-post-processing/#converting-raw-logs-to-rinex-if-needed)
+To learn more about the process check the [Converting raw logs to RINEX part of our post-processing guide.](../../tutorials/gps-post-processing/#converting-raw-logs-to-rinex-if-needed)
 
 !!! note ""
 	Make sure you chose the correct start time for an RTCM3 file. [You can check rover log start time in RTKPLOT.](#signal-quality-overview)
@@ -88,7 +88,7 @@ Check if you have more than 4 satellites without cycle slips. This is the minimu
 
 ##Data Post-Processing
 
-After assessing the logs quality, post-process them and analyze the result. [Follow this guide to post-process Reach raw logs.](/common/tutorials/gps-post-processing/)
+After assessing the logs quality, post-process them and analyze the result. [Follow this guide to post-process Reach raw logs.](../../tutorials/gps-post-processing/)
 
 As the result of post-processing, you get POS file. This file contains the position solution.
 
@@ -160,7 +160,7 @@ Go through this simple checklist and make sure that the following requirements a
 
 <div style="text-align: center;"><img src="../img/reach/analyzing-logs/Reach-base-position-correct-wrong.png" style="width: 600px;"></div>
 
-* Refer to the [Placing the Base](/common/tutorials/placing-the-base/) article to verify that Reach Base setup is correct
+* Refer to the [Placing the Base](../../tutorials/placing-the-base/) article to verify that Reach Base setup is correct
 
 * **For Reach RS / RS+ rover only**: make sure the survey pole is higher than a height of a person holding it
 

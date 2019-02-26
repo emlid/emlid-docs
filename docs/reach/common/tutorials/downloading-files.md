@@ -77,19 +77,19 @@ System reports carry important for issue resolving information about Reach setti
 !!! attention ""
 	We do not recommend to post Full report publicly as it contains **sensitive information** such as Wi-Fi and NTRIP credentials and location.
 
-To download the system report you just need [to open ReachView Settings tab and follow the instructions from here.](/common/reachview/settings/#system-report)
+To download the system report you just need [to open ReachView Settings tab and follow the instructions from here.](../../reachview/settings/#system-report)
 
 ### Logs
 
 <div style="text-align: center;"><img src="../img/reach/downloading-files/logging.PNG" style="width: 800px;"></div>
 
-You can download logs as well as start or stop logs recording in ReachView “Logging” tab. [Check the Logging section in our docs to download it and learn more about log formats.](/common/reachview/logging/#downloading)
+You can download logs as well as start or stop logs recording in ReachView “Logging” tab. [Check the Logging section in our docs to download it and learn more about log formats.](../../reachview/logging/#downloading)
 
 ### Survey projects
 
 <div style="text-align: center;"><img src="../img/reach/downloading-files/survey.PNG" style="width: 800px;"></div>
 
-Survey projects contain points you saved during RTK survey. You can find them in ReachView Survey tab. [Proceed to the corresponding article to figure out how you can export them and which formats are available.](/common/reachview/survey/#exporting-data) 
+Survey projects contain points you saved during RTK survey. You can find them in ReachView Survey tab. [Proceed to the corresponding article to figure out how you can export them and which formats are available.](../../reachview/survey/#exporting-data) 
 
 ##Where to find downloaded data
 

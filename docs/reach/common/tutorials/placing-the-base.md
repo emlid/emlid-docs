@@ -1,6 +1,6 @@
 ## Overview
 
-Real Time Kinematic technique requires 2 receivers. One of them is stationary and is called “base station”, the other one is “rover”. The base station measures errors, and knowing that it is stationary transmits corrections to the rover (refer to [How RTK works](/common/tutorials/rtk-introduction) for more information about RTK).  Sometimes CORS and NTRIP networks take the place of traditional base stations. They provide accurate absolute position and send corrections over the Internet. Typically the distance between the reference station and local rover shouldn't exceed 10-15 km due to the ionospheric effect. So if the reference station is located too far or simply is absent in the area you will need a local base station. Other advantages of your own base are independence from the Internet connection and lack of NTRIP subscription fees.
+Real Time Kinematic technique requires 2 receivers. One of them is stationary and is called “base station”, the other one is “rover”. The base station measures errors, and knowing that it is stationary transmits corrections to the rover (refer to [How RTK works](../../tutorials/rtk-introduction) for more information about RTK).  Sometimes CORS and NTRIP networks take the place of traditional base stations. They provide accurate absolute position and send corrections over the Internet. Typically the distance between the reference station and local rover shouldn't exceed 10-15 km due to the ionospheric effect. So if the reference station is located too far or simply is absent in the area you will need a local base station. Other advantages of your own base are independence from the Internet connection and lack of NTRIP subscription fees.
 
 If you are setting up your own base it is important to pay attention to this article. A good understanding of different ways to set up the base will help you to reach desired accuracy for your application.
 
@@ -48,7 +48,7 @@ _Numbers in the table are approximate and only for reference purposes. Your expe
 No matter which method you use relative position of the rover will always be cm-precise, the actual accuracy will be set by the accuracy of the base position.
 
 !!! tip ""
-    Refer to [Base mode tab of ReachView tutorial](/common/reachview/base-mode/#base-position) to learn how to configure various ways of setting up the base with ReachView.
+    Refer to [Base mode tab of ReachView tutorial](../../reachview/base-mode/#base-position) to learn how to configure various ways of setting up the base with ReachView.
  
 #####Manual
 Manual input of the position is rather straightforward and is used when you have access to a known point. The most popular scenarios include finding a trig point or hiring a surveyor who will set the benchmark point. In this case absolute accuracy depends on how accurately the point's coordinates were determined.
@@ -93,13 +93,13 @@ If the baseline is too long to obtain fix, averaging float solution will still i
  
  
 #### Post-Processed Kinematics
-With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. Process will take you about 15 minutes to calculate the position of your base station using [PPK tutorial from the docs.](/common/tutorials/gps-post-processing)
+With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. Process will take you about 15 minutes to calculate the position of your base station using [PPK tutorial from the docs.](../../tutorials/gps-post-processing)
 
 General steps: 
 
-* Enable [logging of raw data](/common/reachview/logging/) and record log for about an hour
+* Enable [logging of raw data](../../reachview/logging/) and record log for about an hour
 * Export log with the collected data from ReachView to your PC
-* Refer to [PPK tutorial](/common/tutorials/gps-post-processing)
+* Refer to [PPK tutorial](../../tutorials/gps-post-processing)
 * After you get the coordinates you may enter them manually in Base coordinates section. **Comparing PPK position to the averaged position and applying corrections to the collected data is the way to compensate the shift shown in the example on figure 2**.
 
 
@@ -109,7 +109,7 @@ With precise point positioning technique you may accurately determine base coord
 
 General steps:
 
-* Enable [logging of raw data](/common/reachview/logging/) and record log for a few hours 
+* Enable [logging of raw data](../../reachview/logging/) and record log for a few hours 
 * Export log with the collected data from ReachView to your mobile device or PC
 * Upload the collected file to PPP service (for example [NRCAN](https://webapp.geod.nrcan.gc.ca/geod/tools-outils/ppp.php))
 * After you get the coordinates you may enter them manually in Base coordinates section.
