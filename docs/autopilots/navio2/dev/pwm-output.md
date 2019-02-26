@@ -4,7 +4,7 @@ PWM 0-13 channels are available on 2.54mm header pins numbered 1-14 accordingly.
 
 To try to control servo connect the servo to the Navio’s output channel number 1 and run the provided example. Do not forget to supply power to the servo rail.
 
-If you haven't already done that, download Navio2 drivers and examples code [here](../common/dev/navio-repository-cloning/).
+If you haven't already done that, download Navio2 drivers and examples code [here](../../common/dev/navio-repository-cloning/).
 
 ### C++
 

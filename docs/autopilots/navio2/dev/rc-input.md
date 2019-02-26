@@ -5,7 +5,7 @@ To be used in autopilot applications Navio needs to decode RC input. Navio2 supp
 RCInput example shows value of chosen PWM channel. You can specify the channel in source code.  
 Connect PPM or S.Bus output from your RC receiver to the PPM/SB Input pin on Navio2. Note that your Navio should be powered off before connecting the receiver. 
 
-If you haven't already done that, download Navio2 drivers and examples code [here](../common/dev/navio-repository-cloning/).
+If you haven't already done that, download Navio2 drivers and examples code [here](../../common/dev/navio-repository-cloning/).
 
 ### C++
 

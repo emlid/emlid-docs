@@ -2,7 +2,7 @@
 
 In this example ADC continuously measures voltage on all six channels available on Navio2. The first two channels are responsible for board voltage and servo rail voltage. Channels 2 and 3 show voltage and current levels in the “Power” connector respectively. The last two channels are present in "ADC" connector.
 
-Download Navio2 drivers and examples code [here](../common/dev/navio-repository-cloning/).
+Download Navio2 drivers and examples code [here](../../common/dev/navio-repository-cloning/).
 
 ### C++
 
