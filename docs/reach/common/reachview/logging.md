@@ -3,7 +3,7 @@
 This tutorial shows how to record logs for Data Analysis and Post-Processing Kinematic (PPK) and how to download them from Reach to your computer.
 
 !!! tip ""
-	To learn more about PPK check [this article](/common/tutorials/ppk-introduction).
+	To learn more about PPK check [this article](../../tutorials/ppk-introduction).
 
 ##Log split period
 
@@ -66,9 +66,9 @@ You can see the recording date and time.
 
 There are two buttons on the right side of each log: <img src="../img/reachview/logging/blue-arrow.png" align="middle" alt="blue arrow" />  button allows to save it, and <img src="../img/reachview/logging/garbage-can.png" align="middle" alt="red garbage can" /> button deletes it.
 
-Now when the logs are downloaded, you can use [RTKLIB software](/common/tutorials/gps-post-processing) from Emlid docs to start working with your data.
+Now when the logs are downloaded, you can use [RTKLIB software](../../tutorials/gps-post-processing) from Emlid docs to start working with your data.
 
-Check [PPK guide](/common/tutorials/gps-post-processing) in Emlid docs to learn more about PPK. 
+Check [PPK guide](../../tutorials/gps-post-processing) in Emlid docs to learn more about PPK. 
 
 
 

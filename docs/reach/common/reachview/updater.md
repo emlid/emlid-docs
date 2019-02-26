@@ -1,4 +1,4 @@
-ReachView app constantly improves ([changelogs](/common/reachview/changelogs)) that's why it is recommended to always keep ReachView up to date.  
+ReachView app constantly improves ([changelogs](../../reachview/changelogs)) that's why it is recommended to always keep ReachView up to date.  
 
 ## Updating ReachView
 

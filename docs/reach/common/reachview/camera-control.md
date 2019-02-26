@@ -19,5 +19,5 @@ Connect JST-GH connector to С1 port on Reach M+.
 <p style="text-align:center" ><img src="../img/reachview/camera_control/s1port-connection.jpg" style="width: 500px;" /></p>
 
 !!! danger "Attention"
-    Check the [RTK Settings](/common/reachview/rtk-settings/#gnss-selection-for-time-marks-logging) section of ReachView docs for the recommended GNSS selection when recording time marks with Reach.
+    Check the [RTK Settings](../../reachview/rtk-settings/#gnss-selection-for-time-marks-logging) section of ReachView docs for the recommended GNSS selection when recording time marks with Reach.
 
