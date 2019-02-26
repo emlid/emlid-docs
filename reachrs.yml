@@ -38,6 +38,7 @@ markdown_extensions:
     - toc:
         permalink: True
     - pymdownx.details
+    - attr_list
 
 nav:
 - Introduction: index.md

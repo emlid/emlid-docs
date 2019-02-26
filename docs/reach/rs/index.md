@@ -1,24 +1,12 @@
 Welcome to your Emlid Reach RS / Reach RS+!
 
-<style type="text/css">
-	.my-table * {
-		border-color: transparent;
-	}
-</style>
+  [![](img/reachrs/Quickstart.png){: style="width: 200px;"} ](quickstart.md)
+  [![](img/reachrs/Tutorials.png){: style="width: 200px;"}](../common/tutorials/intro)
+  [![](img/reachrs/ReachView.png){: style="width: 200px;"}](../common/reachview)
 
-<table class="my-table">
-  <tr>
-    <td><div style="text-align: center;"><a href="../quickstart/"><img src="img/reachrs/quickstart.png" style="width: 200px;"></a></div></td>
-    <td><div style="text-align: center;"><a href="../common/tutorials/intro/"><img src="img/reachrs/tutorials.png" style="width: 200px;"></a></div></td>
-    <td><div style="text-align: center;"><a href="../common/reachview/"><img src="img/reachrs/reachview.png" style="width: 200px;"></a></div></td>
-  </tr>
-  <tr>
-    <td><div style="text-align: center;"><a href="../placement/"><img src="img/reachrs/placement.png" style="width: 200px;"></a></div></td>
-    <td><div style="text-align: center;"><a href="../power-supply/"><img src="img/reachrs/power-supply.png" style="width: 200px;"></a></div></td>
-    <td><div style="text-align: center;"><a href="../specs/"><img src="img/reachrs/specs.png" style="width: 200px;"></a></div></td>
-  </tr>
-</table>
-
+  [![](img/reachrs/Placement.png){: style="width: 200px;"} ](placement.md)
+  [![](img/reachrs/Power-supply.png){: style="width: 200px;"}](power-supply.md)
+  [![](img/reachrs/Specs.png){: style="width: 200px;"}](specs.md)
 
 ### Package contents
 
