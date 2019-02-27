@@ -63,7 +63,7 @@ Frequency and air rate settings must match what was configured on the base.
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/Bluetooth.png" style="width: 800px;" /></p>
 
-You can use Bluetooth for correction input. For example you can use your phone to pass NTRIP corrections via Bluetooth to Reach / Reach RS/RS+. Check out [Bluetooth section](connectivity/#bluetooth) to learn more about connecting your device via Bluetooth.
+You can use Bluetooth for correction input. For example you can use your phone to pass NTRIP corrections via Bluetooth to Reach / Reach RS/RS+. Check out [Bluetooth section](bluetooth.md) to learn more about connecting your device via Bluetooth.
 
 ## Additional correction
 Will be used for precise ephemeris and clocks. Not implemented yet.
