@@ -7,7 +7,7 @@ This tutorial shows how to record logs for Data Analysis and Post-Processing Kin
 
 ##Log split period
 
-Before starting log recording, you can specify the log split period in ReachView [settings](settings/). For instance, if we set to save the log every 4 hours, the new log file will be created every 4 hours, while preserving the previous log as well. This setting allows you to control the size of the files that you work with.
+Before starting log recording, you can specify the log split period in ReachView [settings](settings.md). For instance, if we set to save the log every 4 hours, the new log file will be created every 4 hours, while preserving the previous log as well. This setting allows you to control the size of the files that you work with.
 
 ##Logging
 
@@ -28,7 +28,7 @@ Time marks for UAV mapping are stored in this file as well.
 Position can be logged in different formats. Open a dropdown list to choose the format for position coordinates.
 
 !!! note ""
-	Here's a short formats overview. More detailed descriptions of formats may be found in Position output section of the [docs](position-output/#formats).
+	Here's a short formats overview. More detailed descriptions of formats may be found in Position output section of the [docs](../../reachview/position-output/#formats).
 
 * **LLH**
 

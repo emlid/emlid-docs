@@ -11,7 +11,7 @@ This guide explains how to configure Reach to get correction messages from NTRIP
 
 If you just received your Reach, you need to update it to make sure you have all the latest features. The instruction is in a carry case Reach comes with. 
 
-You can also find the tutorial in [documentation](/quickstart/) and on [Emlid YouTube channel](https://www.youtube.com/watch?v=fIY__hNjcNI).
+You can also find the tutorial in [documentation](../../../quickstart/) and on [Emlid YouTube channel](https://www.youtube.com/watch?v=fIY__hNjcNI).
 
 ##Connect Reach to the Internet
 

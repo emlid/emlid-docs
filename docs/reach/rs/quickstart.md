@@ -6,7 +6,7 @@ In this tutorial we will go through the next steps:
 * Updating ReachView for the first time
 * Setting up a rover and a base to work in RTK mode with correction link over Lo-Ra radio
 
-The video below covers the process of the first update: powering Reach RS/RS+ on, connecting to a Wi-Fi and installing the latest version of ReachView app. After completing the video instructions continue the tutorial on [Placing Reach RS/RS+](#placing-reach-rs-module) step or follow through the video guide [Base and Rover setup](#base-and-rover-setup).
+The video below covers the process of the first update: powering Reach RS/RS+ on, connecting to a Wi-Fi and installing the latest version of ReachView app. After completing the video instructions continue the tutorial on [Placing Reach RS/RS+](#placing-reach-rsrs-module) step or follow through the video guide [Base and Rover setup](#base-and-rover-setup).
 
 ???+ note "My Reach RS/RS+ has the ReachView app sticker on top"
     <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/fIY__hNjcNI" allowfullscreen></iframe></div>
@@ -20,9 +20,9 @@ The video below covers the process of the first update: powering Reach RS/RS+ on
 
 This tutorial only covers one use case. To get more information, follow these links:
 
-* [Mechanical specs](specs.md)
-* [Electrical specs](specs.md)
-* [ReachView app](common/reachview)
+* [Mechanical specs](../specs/#mechanical-specs)
+* [Electrical specs](../specs/#electrical-specs)
+* [ReachView app](../../common/reachview)
 
 ## Powering up
 
@@ -50,7 +50,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_main.png" style="width: 350px;"></div><br>
 
 !!! note ""
-    If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](common/reachview/firmware-reflashing). You only need to do this if your device was purchased before 1 March 2017.
+    If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](../../common/reachview/firmware-reflashing). You only need to do this if your device was purchased before 1 March 2017.
 
 * Press plus button and enter your Wi-Fi network name, security type and password. Press Save button
 
@@ -90,7 +90,7 @@ For this you can use:
 
 * Put Reach IP in address bar and go.
 
-Read more on resolving IP addresses in the [ReachView section](common/reachview/).
+Read more on resolving IP addresses in the [ReachView section](../../common/reachview/#resolving-ip).
 
 ### App for iOS/Android
 
@@ -135,7 +135,7 @@ This tutorial will guide you through the setup process of two Reach RS units as 
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
     **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
-A guide how to properly place the antennas is available in [Reach RS/RS+ placement](placement) section.
+A guide how to properly place the antennas is available in [Reach RS/RS+ placement](placement.md) section.
 
 
 ## Working with ReachView app
@@ -232,5 +232,5 @@ You can see a bar chart with satellite levels, RTK parameters, positioning mode 
 
 ## More reading
 
-Congratulations on finishing the quickstart tutorial! Continue to learn about setting up different correction links in the [ReachView section](common/reachview).
+Congratulations on finishing the quickstart tutorial! Continue to learn about setting up different correction links in the [ReachView section](../../common/reachview).
 

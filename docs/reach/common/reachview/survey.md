@@ -162,7 +162,7 @@ Let’s get in touch with the stake out interface before proceeding.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/stakeout-interface.PNG" style="width: 800px;" /></p>
 
-* You can see [solution status](status/#solution-status), [AR ratio](status/#ar-validation-ratio), [age of differential](status/#age-of-differential), satellite number and [Reach name](settings/#change-reach-name) in the status bar placed in the top of the page. Make sure you have Fix
+* You can see [solution status](../../reachview/status/#solution-status), [AR ratio](../../reachview/status/#ar-validation-ratio), [age of differential](../../reachview/status/#age-of-differential), satellite number and [Reach name](../../reachview/settings/#change-reach-name) in the status bar placed in the top of the page. Make sure you have Fix
 * **The antenna height value** can be found under the status bar
 * In this mode, the map is always **North-oriented**
 * There’s a dark-gray field at the bottom of the window. The left value is the **horizontal distance** to the point, the right value is **vertical**
