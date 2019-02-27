@@ -1,5 +1,18 @@
 ## Navio Raspbian changelog
 
+*2019-02-27*
+
+- ArduPilot updated:
+    - ArduRover: 3.4.2
+    - ArduCopter: 3.6.5
+    - ArduPlane: 3.9.5
+    - ArduSub: 3.5.3
+
+- kernel updated to v4.14.95
+- Raspberry PI 3 Model A+ support
+- emlidtool: 1.0.8
+- added pigpio
+
 *2018-05-25:*
 
 - ArduPilot updated:
