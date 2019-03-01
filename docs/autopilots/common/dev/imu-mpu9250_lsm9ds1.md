@@ -4,7 +4,7 @@ Navio2 contains two 9DOF (degree of freedom) IMU - MPU9250 and LSM9DS1. Each of 
 
 ## IMU example
 
-If you haven't already done that, download Navio2 drivers and examples code [here](navio-repository-cloning/).
+If you haven't already done that, download Navio2 drivers and examples code [here](navio-repository-cloning.md).
 
 IMU example for Navio2 runs with one of the on-board sensors at a time. During start-up program you have to specify with which sensor to work.
 

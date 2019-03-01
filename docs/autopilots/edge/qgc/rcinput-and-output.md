@@ -4,7 +4,7 @@ RC Input is a key part of any autopilot that gives the pilot control of the airf
 
 Edge supports both S.Bus and PPM input, which combines information about all PWM channels from the receiver in one sequence, which could be transferred over single wire. Channel values sent by remote controller will be decoded and then used for servo control.
 
-You need to calibrate [radio](../qgc/calibration/#radio-calibration) before using it.
+You need to calibrate [radio](calibration.md#radio-calibration) before using it.
 
 By default the RC input channels are:
 

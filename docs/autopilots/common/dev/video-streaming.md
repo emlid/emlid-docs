@@ -31,7 +31,7 @@ user@ubuntu: ~ $ sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-go
 
 * Find IP address of your device in preferences. You'll need it in order to connect to the phone from your RPi.
 
-* Use [our tutorial](http://docs.emlid.com/Navio-APM/installation-and-running/) to run ArduPilot using the IP you just found out.
+* Use [our tutorial](../../ardupilot/installation-and-running/) to run ArduPilot using the IP you just found out.
 
 * Run QGroundControl and it will automatically detect your vehicle.
 

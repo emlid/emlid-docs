@@ -6,7 +6,7 @@ Use HDMI cable with Micro-HDMI connector to connect camera to the HDMI-IN port o
 
 
 !!! danger ""
-    Camera should only be turned on after Edge is [booted](/led-status/)
+    Camera should only be turned on after Edge is [booted](../../led-status/)
 
 In case you want to record video to an SD card while streaming, then start recording on the camera first and only after that start streaming using QGroundControl.
 
