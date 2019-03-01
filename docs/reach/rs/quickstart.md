@@ -22,7 +22,7 @@ This tutorial only covers one use case. To get more information, follow these li
 
 * [Mechanical specs](../specs/#mechanical-specs)
 * [Electrical specs](../specs/#electrical-specs)
-* [ReachView app](../../common/reachview)
+* [ReachView app](common/reachview/index.md)
 
 ## Powering up
 
@@ -50,7 +50,7 @@ After connecting to the network hosted by reach, open a web browser on your smar
 <div style="text-align: center;"><img src="../img/reachrs/quickstart/reach_view_updater_main.png" style="width: 350px;"></div><br>
 
 !!! note ""
-    If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](../../common/reachview/firmware-reflashing). You only need to do this if your device was purchased before 1 March 2017.
+    If your interface looks different, you need to reflash Reach device with v2.3 image by following [this guide](common/reachview/firmware-reflashing.md). You only need to do this if your device was purchased before 1 March 2017.
 
 * Press plus button and enter your Wi-Fi network name, security type and password. Press Save button
 
@@ -90,7 +90,7 @@ For this you can use:
 
 * Put Reach IP in address bar and go.
 
-Read more on resolving IP addresses in the [ReachView section](../../common/reachview/#resolving-ip).
+Read more on resolving IP addresses in the [ReachView section](common/reachview/index.md#resolving-ip).
 
 ### App for iOS/Android
 
@@ -232,5 +232,5 @@ You can see a bar chart with satellite levels, RTK parameters, positioning mode 
 
 ## More reading
 
-Congratulations on finishing the quickstart tutorial! Continue to learn about setting up different correction links in the [ReachView section](../../common/reachview).
+Congratulations on finishing the quickstart tutorial! Continue to learn about setting up different correction links in the [ReachView section](common/reachview/index.md).
 
