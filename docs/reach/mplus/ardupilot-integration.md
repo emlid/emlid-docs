@@ -63,7 +63,7 @@ Connect Reach's JST-GH port with Edge's SER1-I2C port. Edge and Reach M+ integra
 
 ### Rover setup
 
-!!! note
+!!! note ""
     The serial connection is used to accept base corrections and send solution at the same time.
 
 Start with configuration base correction input:
@@ -88,7 +88,7 @@ Now configure position output:
 
 <div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/reach-position-output.png" style="width: 100%;"></div>
 
-!!! note
+!!! note ""
 	**ERB** is a custom protocol, used to send location data to the autopilot.
 
 
@@ -102,7 +102,7 @@ To solve this, you can use the telemetry radio as a carrier for RTK corrections.
 
 With default settings radio telemetry is not optimised for sending RTK corrections. This may cause correction data delivery delays and even loss. These slips will deteriorate RTK solution quality, so we need to minimize them.
 
-!!! note
+!!! note ""
     Radio configuration is done with telemetry disconnected.
 
 To change radio settings, make sure **Mavlink connection is disabled**. Then, go to **Initial setup** menu, and select **Sik Radio** in the side menu. Click **Load settings** and wait for the parameters of both radios to load.
@@ -116,7 +116,7 @@ After this, click **Save settings**. If your radio's firmware is outdated, updat
 
 ### Configuring ArduPilot to accept Reach solution
 
-!!! attention
+!!! danger "Attention"
     It is recommended to use Reach as a second GPS unit only.
 
 For launch ArduPilot on Navio add to your starting command one of the following arguments:
@@ -151,6 +151,9 @@ Set **GPS_AUTO_SWITCH** to **"1"** - Enabled. Autopilot will automatically switc
 Finally, set **GPS_INJECT_TO** parameter to **"1"**. **"1"** here stands for the second GPS input. If you configured Reach as the first input, set this parameter to **"0"**.
 
 <div style="text-align: center;"><img src="../img/reachm-plus/ardupilot-integration/mp-gps-inject-to-parameter.png" style="width: 800px;"></div>
+
+!!! danger "Bad GPS Signal Health"
+	If the GCS reports **Bad GPS Signal Health** error, make sure [GNSS update rate on Reach M+](common/reachview/rtk-settings.md#gnss-selection) is 5Hz or higher.
 
 ### Configuring Mission planner to inject RTK corrections into telemetry
 
