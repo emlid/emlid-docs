@@ -35,7 +35,7 @@ Extract the archive, enter the directory with 3DIMU utility, open .py file with 
 
 ### On Raspberry Pi
 
-Clone Navio repository using the following [instructions](navio-repository-cloning/).
+Clone Navio repository using the following [instructions](navio-repository-cloning.md).
 Navigate to the folder with AHRS example, compile and run it:
 
 ```bash

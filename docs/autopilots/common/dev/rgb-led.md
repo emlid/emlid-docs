@@ -1,6 +1,6 @@
 ## RGB LED
 
-If you haven't already done that, download drivers and examples code [here](navio-repository-cloning/).
+If you haven't already done that, download drivers and examples code [here](navio-repository-cloning.md).
 
 ### C++
 

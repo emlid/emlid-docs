@@ -3,7 +3,7 @@
 ### What is Emlidtool?
 
 Emlidtool is pre-installed utility that makes your experience with autopilot easier.
-![emlidtool](/img/emlidtool/emlidtool.png)
+![emlidtool](../../img/emlidtool/emlidtool.png)
 
 ### Overview
 

@@ -16,4 +16,4 @@ pi@navio:~ $ cat /sys/kernel/rcio/status/alive
 RCIO is powered on and detected by Raspberry Pi if the result of above operation is `1`. 
 
 `0` shows that RCIO is not connected. First of all check the hardware connection between Navio2 and Raspberry Pi. 
-Navio2 should be fixed using screws as stated in our [hardware setup docs](https://docs.emlid.com/navio2/Navio-APM/hardware-setup/#attaching-navio2-to-a-raspberry-pi). 
+Navio2 should be fixed using screws as stated in our [hardware setup docs](../../ardupilot/hardware-setup/#attaching-navio2-to-a-raspberry-pi). 

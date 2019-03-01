@@ -5,7 +5,7 @@ Navio features NEO-M8N in Navio+ and Navio2. Full tech specs are available at th
 
 This example is designed to show an easy way to capture and decode UBX protocol messages. For simplicity, it only parses UBX protocol NAV-STATUS and NAV-POSLLH messages. NAV-POSLLH details, as well as full UBX protocol description can be seen [here](http://www.u-blox.com/images/downloads/Product_Docs/u-blox6_ReceiverDescriptionProtocolSpec_%28GPS.G6-SW-10018%29.pdf). The output of the example data is: current GPS status, current longitude and latitude, current height above Ellipsoid, current height above mean sea level, vertical and horizontal accuracy estimate and the iTOW parameter. iTOW is the current millisecond time of week.
 
-If you haven't already done that, download drivers and examples code [here](navio-repository-cloning/).
+If you haven't already done that, download drivers and examples code [here](navio-repository-cloning.md).
 
 ### C++
 Move to the folder C++/Examples/GPS, compile and run the example.
@@ -29,7 +29,7 @@ For further information see source code. SPI communication is defined in the SPI
 If you want to decode a different type of message, you can add it to the function **decodeMessage()** of class UBXParser.
 
 Note, that to enable a certain type of message in the receiver, you need to send a configuration message first. For advanced configuration, you can use
-[U-center](gps-ublox-ucenter/) software.
+[U-center](gps-ublox-ucenter.md) software.
 
 More information about the GPS receiver is available in [U-blox NEO-M8 datasheet](https://www.u-blox.com/sites/default/files/NEO-M8_DataSheet_%28UBX-13003366%29.pdf).
 
