@@ -9,10 +9,10 @@ In this quick tutorial we will show you how to two set up two Reach devices as a
 
 This tutorial only covers one use case. To get more information, follow these links:
 
-* [Mechanical specs](specs/#mechanical-specs)
-* [Electrical specs](specs/#electrical-specs)
-* [Hardware integration](hardware-integration)
-* [ReachView app](common/reachview/)
+* [Mechanical specs](../specs/#mechanical-specs)
+* [Electrical specs](../specs/#electrical-specs)
+* [Hardware integration](hardware-integration.md)
+* [ReachView app](common/reachview/index.md)
 
 ## Powering up
 
@@ -23,7 +23,7 @@ This tutorial only covers one use case. To get more information, follow these li
 !!! danger "Attention"
     Do not plug two power supplies at the same time as it may damage the device.
 
-More on power supply you can read [here](power-supply/).
+More on power supply you can read [here](power-supply.md).
 
 ## Connecting and placing GPS antenna
 
@@ -35,7 +35,7 @@ More on power supply you can read [here](power-supply/).
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
      **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
-A guide how to properly place the antennas is available in [Antenna Placement](antenna-placement) section.
+A guide how to properly place the antennas is available in [Antenna Placement](antenna-placement.md) section.
 
 ## Connecting to Reach
 
@@ -81,7 +81,7 @@ When Reach M+ is powered for the first time it will create a Wi-Fi hotspot.
 <div style="text-align: center;"><img src="../img/reachm-plus/quickstart/reach_view_ios_android.png" style="width: 400px;"></div><br>
 
 
-Read more on resolving IP addresses in the [ReachView section](common/reachview/).
+Read more on resolving IP addresses in the [ReachView section](common/reachview/index.md#resolving-ip).
 
 !!! danger "Reach can't work on the 192.168.2.xx subnet "
     As 192.168.2.x subnet is reserved inside Reach for Ethernet connections, you will need to perform initial setup in a different Wi-Fi or change router settings. Routers usually have a setting to change the subnet address, so you can set it to 192.168.1.xx.
@@ -179,4 +179,4 @@ You can see a bar chart with satellite levels, RTK parameters, positioning mode 
 
 ## More reading
 
-Congratulations on finishing the quickstart tutorial! Continue to learn about setting up different correction links in the [ReachView section](common/reachview).
+Congratulations on finishing the quickstart tutorial! Continue to learn about setting up different correction links in the [ReachView section](common/reachview/index.md).
