@@ -68,7 +68,6 @@ nav:
   - 'WiFi setup': 'qgc/wifi-setup.md'
   - 'Additional parameters': 'qgc/parameters.md'
   - 'Sensors temperature': 'qgc/sensor-temperature.md'
-  - 'Troubleshooting': 'qgc/troubleshooting.md'
 - LED status: 'led-status.md'
 - Edge for developers:
   - 'ArduPilot': 'dev/ardupilot.md'

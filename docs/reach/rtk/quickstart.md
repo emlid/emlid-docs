@@ -96,7 +96,7 @@ For this you can use:
 
 * Put Reach IP in address bar and go.
 
-Read more on resolving IP addresses in the [ReachView section](common/reachview/index.md).
+Read more on resolving IP addresses in the [ReachView section](common/reachview/index.md#resolving-ip).
 
 ### App for iOS/Android
 
