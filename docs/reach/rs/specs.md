@@ -1,3 +1,7 @@
+## Performance specs
+
+[Datasheet for Reach RS+](http://files.emlid.com/reachrs/Reach-RS-Plus-Datasheet.pdf)
+
 ## Mechanical specs
 
 Reach RS/RS+ general drawing can be found [here](files/reachrs-drawing.pdf).
@@ -34,4 +38,3 @@ CE Compliance documents can be found here:
 
 * [Reach RS+ CE Declaration of conformity](https://files.emlid.com/compliance/RRSP_CE_declaration.pdf)
 * [Reach RS+ test report main page](https://files.emlid.com/compliance/RRSP_CE_test_report.pdf)
-
