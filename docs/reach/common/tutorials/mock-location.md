@@ -1,13 +1,10 @@
 #Getting Reach coordinates on Android via BT
 
-!!! danger ""
-	iOS devices don't support getting a location over Bluetooth from third-party hardware.
-
 ##Overview
 
 This guide demonstrates how to get precise coordinates from Reach on an Android device over Bluetooth.
 
-!!! tip "Commonly used GIS apps for Android used with Reach:"
+!!! tip "Some of the GIS apps for Android used with Reach:"
 	* Mobile Topographer Pro
 	* ESRI ArcGIS Collector
 	* Mapit GIS
@@ -28,10 +25,10 @@ Make sure your Android device provides Bluetooth connectivity.
 !!! tip ""
 	To output a centimeter accurate position, Reach should be in RTK mode. Refer to the article [How RTK works](rtk-introduction.md) to learn more.
 
-Configure Reach RS+ unit to act as a rover in RTK:
+Configure Reach RS+ unit to act as a rover in RTK.
 
 ??? note "Getting corrections from Reach RS+ base"
-	Set up RTK communication between 2 Reach RS+ units over LoRa radio [following this video guide](https://youtu.be/4GfUDoDwEAE) 
+	Set up RTK communication between 2 Reach RS+ units over LoRa radio [following this video guide](https://youtu.be/4GfUDoDwEAE). 
 
 ??? note "Getting corrections from NTRIP/CORS"
 	Configure [NTRIP/CORS network as a source of positioning corrections](ntrip-workflow.md) for Reach rover.
@@ -57,12 +54,12 @@ Configure Reach RS+ unit to act as a rover in RTK:
 	4. Launch a web browser (we recommend using Chrome or Mozilla)
 	5. Go to 192.168.42.1
 
-* Open **Bluetooth** configuration screen, enable Bluetooth connection and set on the **Always discoverable** option
+* Open **Bluetooth** configuration screen, enable Bluetooth connection and set on the **Always discoverable**
 
 <p style="text-align:center"><img src="../img/reach/mock-location/enable-bt.png" style="width: 800px;"/></p>
 
 !!! note ""
-	Reach RS+ name being displayed just above its MAC. In this guide, we used the unit named as **Reach**
+	Reach RS+ name is displayed just above its MAC. In this guide, we used the unit named as **Reach**.
 
 **Access an Android device**
 
@@ -71,7 +68,7 @@ Configure Reach RS+ unit to act as a rover in RTK:
 * Wait for Reach RS+ to be listed as an available device
 
 !!! tip ""
-	Keep Reach RS+ within a few meters from your Android device
+	Keep Reach RS+ within a few meters from your Android device.
 
 <p style="text-align:center"><img src="../img/reach/mock-location/bt-scanning.jpg" style="width: 800px;"/></p>
 
@@ -99,23 +96,23 @@ Reach RS+ and Android device are now paired:
 
 ## Position output from Reach to Android
 
-* Using the ReachView app, navigate to the **Position output** screen
+* In ReachView app, navigate to the **Position output** screen
 
-* Activate **Output 1**, set it to **BT** and select **NMEA** as the format. After that, click the **Apply** button
+* Activate **Output 1**, set it to **BT** and select solution output format to **NMEA**. After that, click the **Apply** button
 
 <p style="text-align:center"><img src="../img/reach/mock-location/position-output.png" style="width: 800px;"/></p>
 
 !!! note ""
-	The error message **Send error (111)** will be displayed. This is normal as there is no client connected to the NMEA stream yet.
+	You might see an error message **Send error (111)**  in some cases. This is fine as long as there is no client connected to the NMEA stream yet.
 
 ## Android mock location
 
 We provide a guide on how to use Reach with [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient).
 
-Besides being an NTRIP Client, this app also allows NMEA data input via Bluetooth and supports Android feature called **mock location**. This feature allows substituting your device's built-in GPS receiver with an external location provider, Reach in our case.
+Besides being an NTRIP Client, this app also allows NMEA data input via Bluetooth and supports Android feature called **mock location**. This feature allows substituting your device's built-in GPS receiver with an external location provider.
 
 !!! note ""
-	Lefebure NTRIP Client allows GIS apps in the Android device to  use accurate coordinates from Reach
+	Lefebure NTRIP Client allows GIS apps in the Android device to  use accurate coordinates from Reach.
 
 * Install the app [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient) in your Android device
 
@@ -144,11 +141,11 @@ Besides being an NTRIP Client, this app also allows NMEA data input via Bluetoot
 * Go back to the main screen and hit **Connect** button
 
 !!! tip ""
-	Check the log messages to confirm the Bluetooth connection got established and the information about satellites is updated every second
+	Check the log messages to confirm the Bluetooth connection got established and the information about satellites is updated.
 
 <p style="text-align:center"><img src="../img/reach/mock-location/lefebure-connected.jpg" style="width: 800px;"/></p>
 
 From this moment on, all apps in the Android device that use location services will automatically have access to the positional data streamed from Reach. You can just open a GIS app you want to use and start surveying.
 
 !!! note ""
-	Tapping the **Disconnect** button in the Lefebure NTRIP Client will revert back to the Android built-in GNSS	
+	Tapping the **Disconnect** button in the Lefebure NTRIP Client will revert back to the Android built-in GNSS.	
