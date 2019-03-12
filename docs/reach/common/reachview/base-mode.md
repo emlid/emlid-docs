@@ -56,35 +56,26 @@ You can use Bluetooth for correction output. Note that you can’t set both posi
 <p style="text-align:center"><img src="../img/reachview/base_mode/messages.png" style="width: 800px;"/></p>
 The minimal subset that is required for RTK to function is 1002 message for 1Hz with GPS observations and 1006 message for 0.1Hz with base station antenna position. Enabling more messages or higher rates requires higher connection bandwidth.
 
-In the Data rate row you can find an estimation of bps when messages are configured at 1 Hz.
+In the Data rate row you can find an estimation of bytes/sec for 1 satellite when messages are configured at 1 Hz.
 
-|RTCM3 messages|Message type|Data rate, bps (1Hz)|
+|RTCM3 messages|Message type|Data rate, bytes/sec (1 satellite, 1Hz)|
 |:---:|:---:|:---:|
 ||**Minimal required messages**||
-|1002|GPS L1 observations      |156|
-|1006|ARP station coordinate   | 21|
-||**Specific messages for not-typical applications** ||
-|1008 |Antenna type                  | 68|
-|1019 |GPS Ephemeris                     |976|
-|1020 |GLONASS Ephemeris                 |540|
+|1002|GPS L1 observations      |10.39|
+|1006|ARP station coordinate   | 27|
 ||**Optional messages for other GNSS **||
-|1010|GLONASS L1 observation|126.125|
-|1097|GALILEO MSM|754|
-|1107|SBAS MSM|520|
-|1117|QZSS MSM|520|
-|1127|BeiDou MSM|1573|
+|1010|GLONASS L1 observation|11.3|
+|1097|GALILEO MSM|21.5|
+|1107|SBAS MSM|37.5|
+|1117|QZSS MSM|42|
+|1127|BeiDou MSM|17.78|
 
 
 Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#myfootnote1)</sup>:
 
 - **Message Type 1002 and 1010** contain L1 RTK GPS and GLONASS raw satellite data respectively. GPS 1002 message is mandatory to use due to RTKLIB code. You could turn on GLONASS 1010 message if you want to use this GNSS.
 
-- **Message Type 1006** provides the earth-centered, earth-fixed (ECEF) coordinates of the antenna reference point (ARP)
-for a stationary reference station and the height of the ARP above a survey monument. It is the second mandatory message to turn on after GPS 1002.
-
-- **Message Type 1008** provides a descriptor of the reference station antenna and the antenna serial number. Turning it on could help to remove ambiguity about the model number or production run.
-
-- **Messages 1019 and 1020** contain GPS and GLONASS satellite ephemerides respectively. That means broadcasting satellite position in geostationary orbit which helps Reach with getting it coordinates. Usually, the ephemeris is updated with 30 min. - 2 h. frequency and valid for 4 hours. Downloading and averaging takes around 1 min. So, you can turn on messages at the beginning of the work to get update and turn them off after, if you want.
+- **Message Type 1006** provides the earth-centered, earth-fixed (ECEF) coordinates of the antenna reference point (ARP) for a stationary reference station and the height of the ARP above a survey monument. It is the second mandatory message to turn on after GPS 1002.
 
 - **Messages 1097 (GALILEO), 1107 (SBAS), 1117 (QZSS), 1127 (BeiDou)** are MSM7 (Multiple Signal Messages). MSM7 are high precision messages which contains a complete set of RINEX observations with extended resolution. That means that you should turn on only one message of choosen system to get all data about it.
 
