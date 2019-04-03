@@ -4,29 +4,32 @@
 
 ### Positioning mode
 
-+ Single - standalone positioning mode, does not provide improved precision.
-+ Kinematic - most used positioning mode, assumes that receiver is moving.
-+ Static - an assumption is made that Reach is static. Constraining the system helps to resolve ambiguities faster as well as produce measurements with higher precision.
++ **Single** - standalone positioning mode, does not provide improved precision.
++ **Kinematic** - most used positioning mode, assumes that the receiver is moving.
++ **Static** - an assumption is made that Reach is static. Constraining the system helps to resolve ambiguities faster as well as produce measurements with higher precision.
 
-### AR (Ambiguity resolution) mode
+### GPS AR mode
+
 There are two main strategies for resolving ambiguities:
  
-+ Fix-and-hold: after first ambiguity fix hold them constrained. Fix is more stable, but in case first initialization was not correct it will take longer to recover and initialize correctly. You can think of it as if Fix had inertia.
-+ Continuous: ambiguities are resolved epoch by epoch. Less stable, but no risk of holding a false fix.
++ **Fix-and-hold**: after first ambiguity fix hold them constrained. Fix is more stable, but in case first initialization was not correct it will take longer to recover and initialize correctly. You can think of it as if Fix had inertia.
++ **Continuous**: ambiguities are resolved epoch by epoch. Less stable, but no risk of holding a false fix.
 
-In real-life conditions on moving platform Fix-and-hold provides better overall performance.
+In real-life conditions on a moving platform, Fix-and-hold provides better overall performance.
 
-### Glonass AR mode 
-Contrary to GPS, all GLONASS satellites transmit on different frequencies, which results in Inter Channel Biases (ICB) that are unique for each receiver model. When using base station that is not Reach or Reach RS/RS+ you should disable Glonass ambiguity resolution or calibrate it. The ICBs can be calibrated using GPS satellites if you set GLONASS AR to Fix-and-hold. In this mode initial ambiguity resolution will be performed using GPS and according to the result GLONASS ICBs will be calculated and used later in positioning.
+### GLONASS AR mode 
+Contrary to GPS, all GLONASS satellites transmit on different frequencies, which results in Inter Channel Biases (ICB) that are unique for each receiver model. 
+
+Reach can correct GLONASS ICBs, allowing for GLONASS AR with non-Reach bases, such as NTRIP casters. The general recommendation is to always have GLONASS AR set to on.
 
 ### Elevation mask angle
-- Satellites lower than set elevation will be excluded from computation. Default setting is 15 degrees. Usually satellites with lower elevation provide too noisy measurements.
+Satellites lower than set elevation will be excluded from the computation. The default setting is 15 degrees. Usually, satellites with a lower elevation provide too noisy measurements.
 
 ### SNR mask
-- Satellites with low SNR will be excluded from computation. Default setting is 35.
+Satellites with low SNR will be excluded from the computation. The default setting is 35.
 
 ### Max acceleration
-- Set it according to what acceleration antenna experiences on your platform. If you are not sure about the correct value collect a dataset and use RTKPLOT to see what kind of accelerations are present in your application. Default value is 1 m/s^2.
+Set it according to what acceleration antenna experiences on your platform. If you are not sure about the correct value collect a dataset and use RTKPLOT to see what kind of accelerations are present in your application. Default value is 1 m/s^2.
 
 ## GNSS selection
 
