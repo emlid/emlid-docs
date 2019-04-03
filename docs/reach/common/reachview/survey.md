@@ -146,6 +146,44 @@ You can upload files in CSV, GeoJSON or DXF formats or just enter coordinates ma
 !!! note ""
 	Check the templates to find out what exactly your data should look like.
 
+	??? note "CSV template"
+		    name,longitude,latitude,elevation
+		    Point 1,30.339,59.958,53.618
+		    Point 2,30.334,59.960,58.944
+
+	??? note "GeoJSON template"
+		    {
+		      "type": "FeatureCollection",
+		      "crs": {
+		        "type": "name",
+		          "properties": {
+		            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		          }
+		       },
+		      "features": [
+		        {
+		          "type": "Feature",
+		          "properties": {
+		            "name": "Point 1"
+		          },
+		          "geometry": {
+		            "type": "Point",
+		            "coordinates": [ 30.339, 59.958, 53.618 ]
+		          }
+		        },
+		        {
+		          "type": "Feature",
+		          "properties": {
+		            "name": "Point 2"
+		          },
+		          "geometry": {
+		            "type": "Point",
+		            "coordinates": [ 30.334, 59.960, 58.944 ]
+		          }
+		        }
+		      ]
+		    }
+
 After you finish adding coordinates, hit the **Import** button.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/import-points-2.gif" style="width: 800px;" /></p>
