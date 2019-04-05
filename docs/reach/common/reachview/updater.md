@@ -2,7 +2,7 @@ ReachView app constantly improves ([changelogs](../../reachview/changelogs)) tha
 
 ## Updating ReachView
 
-* Connect your Reach device to the network with the Internet access
+* [Connect your Reach device to the network with the Internet access](../../tutorials/connecting-to-the-internet/)
 * When connected to the Internet ReachView will automatically check if a new version is available and show you a notification.
 
 * Go to Settings to check the current version of ReachView and see update options
