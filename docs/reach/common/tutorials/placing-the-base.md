@@ -120,7 +120,7 @@ General steps:
 !!! danger "Pay Attention!"
     The mismeasured height of the antenna above the mark is probably the most pervasive and frequent blunder in GPS control surveying.
 
-#### Placing Reach RS/RS+ (Figure 5)
+#### Placing Reach RS/RS+
 
 * Make sure your Reach device is placed precisely above the marked point on the tripod and leveled
 * If you are setting up base coordinates manually measure the antenna height offset
@@ -135,18 +135,6 @@ _Figure 5_
  <br>
 
 * When you securely placed Reach RS/RS+ over the mark, you are ready to set or determine its position.
-
-#### Placing Reach (Figure 6)
-
-* Place Tallysman antenna on the ground plane as described in [Reach Antenna placement section](https://docs.emlid.com/reach/antenna-placement/#ground-plane).
-* Make sure Reach antenna is placed precisely above the marked point on the tripod and leveled
-* If you are setting up base coordinates manually measure the antenna height offset. For Tallysman antenna going with Reach, ARP is the bottom surface. 
-
-<p style="text-align:center"><img src="../img/reach/placing-the-base/placing-reach.png" style="width: 800px;"/></p>  
-_Figure 6_
- <br>
-
-* When you securely placed Reach antenna over the mark, you are ready to set or determine its position.
 
  
 ### Storing the base position
