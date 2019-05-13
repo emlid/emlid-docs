@@ -6,9 +6,10 @@ You can run ArduPilot on Raspberry Pi 3 or 2 with Navio. The autopilot's code wo
 
 Emlid Raspbian has preinstalled ArduPilot. It includes all vehicles and is based on the most stable branch available. Currently these are:
 
-* ArduPlane: **3.8.5**
-* ArduRover: **3.3.0**
-* ArduCopter: **3.5.5**
+* ArduCopter: **3.6.5**
+* ArduPlane: **3.9.5**
+* ArduRover: **3.4.2**
+* ArduSub: **3.5.3**
 
 ## Greeting
 
@@ -200,7 +201,12 @@ APM Planner is a ground station software for ArduPilot. It can be downloaded fro
 [ardupilot.com](http://firmware.ardupilot.org/Tools/APMPlanner/)
 
 APM Planner listens on UDP port 14550, so it should catch telemetry from the drone automatically.
-Also, if you are using linux, you have to add your user to dialout group '''sudo adduser $USER dialout'''
+Also, if you are using Linux, you have to add your user to dialout group:
+ 
+```bash
+sudo adduser $USER dialout
+```
+
 ### MAVProxy
 
 MAVProxy is a console-oriented ground station software written in Python. It’s well suited for advanced users and developers.
