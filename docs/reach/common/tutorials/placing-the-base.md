@@ -38,7 +38,7 @@ As already mentioned Reach and Reach RS/RS+ used as a base may be positioned usi
 | Average single position   | ~2.5 m           |                               | &lt;5 min            | Immediate, processing on Reach                                               | Free                                |
 | RTK FIX position          | 7mm+1mm/km      | NTRIP stream from base &lt;15km  | &lt;5 min            | Immediate, processing on Reach                                               | Free/$$ depending on local provider |
 | RTK Float position        | 1.0m            | NTRIP stream from base &lt;100km | &lt;15 min           | Immediate, processing on Reach                                               | Free/$$ depending on local provider |
-| Post-Processed Kinematic  | 7mm+1mm/km      | RINEX logs from base &lt;100km   | ~1 h              | 15min on PC after log from reference station available, usually posted hourly | Free/$ depending on local provider  |
+| Post-Processed Kinematic  | 7mm+1mm/km      | RINEX logs from base <br> &lt;30km for RS/RS+ <br> &lt;100km for RS2   | ~1 h              | 15min on PC after log from reference station available, usually posted hourly | Free/$ depending on local provider  |
 | Precise Point Positioning | ~30cm           |                               | ~4 h              | In ~24h after submitting logs to NRCan online service                        | Free                                |
 
 _Numbers in the table are approximate and only for reference purposes. Your experience may vary in different conditions, always follow appropriate survey practices!_ 
