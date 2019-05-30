@@ -135,7 +135,7 @@ This tutorial will guide you through the setup process of two Reach RS units as 
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above horizon.
     **Do not** test the device indoors or near buildings, do not cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
-A guide how to properly place the antennas is available in [Reach RS/RS+ placement](placement.md) section.
+A guide how to properly place the antennas is available in [Reach RS/RS+ placement](common/placement.md) section.
 
 
 ## Working with ReachView app
