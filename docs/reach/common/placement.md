@@ -1,7 +1,7 @@
 !!! tip ""
     A well-placed Reach is essential for achieving good RTK positioning results.
 
-You can place your smartphone near the window in your house and it will obtain GPS coordinates after some time, but for RTK such environment won't be sufficient. For RTK to work there are special requirements for Reach placement.
+You can place your smartphone near the window in your house and it will obtain GNSS coordinates after some time, but for RTK such environment won't be sufficient. For RTK to work there are special requirements for Reach placement.
 
 ### Clear sky view without any obstacles
 
@@ -17,22 +17,20 @@ Examples of **good** environments for Reach placement:
 
 * top of the hill
 
-* the rooftop
+* rooftop
 
 Examples of **bad** environments for Reach placement: 
 
 * indoors
 
-* urban areas
+* urban area
 
-* forest
-
-* close to the ground
+* forestry area
 
 
 ### No electronics nearby
 
-Electronic devices may produce RF noise that could affect the reception of the GPS signal. Keep all electronics as far as possible from the Reach.
+Electronic devices may produce RF noise that could affect the reception of the GNSS signal. Keep all electronics as far as possible from Reach.
 
 <br>
 
