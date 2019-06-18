@@ -11,7 +11,7 @@ Most new features are released via ReachView app updates that can be updated sim
 
 	Get the latest version:
 
-	[**Reach Image v2.16  ↓**](https://files.emlid.com/images/ReachImage_v2.16.2.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)
+	[**Reach Image v2.18  ↓**](http://files.emlid.com/images/ReachImage_v2.18.0.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)
 
 
 	## Flashing process
@@ -40,7 +40,7 @@ Most new features are released via ReachView app updates that can be updated sim
 
 	* Unzip downloaded image
 	* Install **[homebrew](http://brew.sh)**
-	* Install dependencies with `brew install dfu-util coreutils gnu-getopt`
+	* Install dependencies with `brew install dfu-util coreutils gnu-getopt lsusb`
 	* Unplug Reach if it's plugged in
 
 	To flash:
@@ -84,7 +84,7 @@ Most new features are released via ReachView app updates that can be updated sim
 
 	Get the latest version:
 
-	[**Reach Plus Image v2.16  ↓**](http://files.emlid.com/images/reach-plus-v2.16.2.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
+	[**Reach Plus Image v2.18  ↓**](http://files.emlid.com/images/reach-plus-v2.18.0.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)
 
 	## Flashing process
 
