@@ -1,0 +1,84 @@
+site_name: Reach RS2 docs
+site_url: https://emlid.com/reachrs2/
+docs_dir: docs/reach/rs2
+copyright: "Emlid.com"
+edit_uri: ""
+
+theme:
+        name: material
+        logo: 'common/img/logo.png'
+        favicon: 'common/img/favicon.ico'
+        palette:
+            primary: 'light blue'
+            accent: 'light blue'
+        custom_dir: 'theme'
+
+repo_url: https://github.com/emlid/emlid-docs
+
+extra:
+  social:
+    - type: github
+      link: https://github.com/emlid
+    - type: twitter
+      link: https://twitter.com/emlid
+    - type: facebook
+      link: https://facebook.com/emlidtech
+
+google_analytics:
+  - UA-49508097-1
+  - auto
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: False
+    - def_list
+    - footnotes
+    - meta
+    - toc:
+        permalink: True
+    - pymdownx.details
+    - attr_list
+
+nav:
+- Introduction: index.md
+- Power supply: power-supply.md
+- Placement: common/placement.md
+- ReachView:
+  - Introduction: common/reachview/index.md
+  - Settings: common/reachview/settings.md
+  - Status: common/reachview/status.md
+  - Survey: common/reachview/survey.md
+  - RTK settings: common/reachview/rtk-settings.md
+  - Correction input: common/reachview/correction-input.md
+  - Position output: common/reachview/position-output.md
+  - Base mode: common/reachview/base-mode.md
+  - Logging: common/reachview/logging.md
+  - Camera control: common/reachview/camera-control.md
+  - Wi-Fi: common/reachview/wifi.md
+  - Bluetooth: common/reachview/bluetooth.md
+  - Firmware reflashing: common/reachview/firmware-reflashing.md
+  - Updater: common/reachview/updater.md
+  - Changelogs: common/reachview/changelogs.md
+- LED status: led-status.md
+- Specification: specs.md
+- Quickstart: quickstart.md
+- Tutorials:
+  - Basics:
+    - How RTK works: common/tutorials/rtk-introduction.md
+    - How PPK works: common/tutorials/ppk-introduction.md
+    - Connecting Reach to the Internet: common/tutorials/connecting-to-the-internet.md
+    - Working with NTRIP service: common/tutorials/ntrip-workflow.md
+    - Placing GCPs in RTK mode: common/tutorials/placing-gcps.md
+    - How to download files from Reach: common/tutorials/downloading-files.md
+    - Placing the base: common/tutorials/placing-the-base.md
+  - Post-processing workflow:
+    - How PPK works: common/tutorials/ppk-introduction.md 
+    - GPS post-processing: common/tutorials/gps-post-processing.md
+    - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
+  - Integration with external software:
+    - Bluetooth output and Android mock location: common/tutorials/mock-location.md
+    - Using QGIS as survey tool: qgis-survey.md
+    - Microsurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
+    - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
+    - Topcon MAGNET Field Layout setup guide: common/tutorials/magnetfield.md
