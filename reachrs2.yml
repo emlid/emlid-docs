@@ -43,7 +43,7 @@ markdown_extensions:
 nav:
 - Introduction: index.md
 - Power supply: power-supply.md
-- Placement: common/placement.md
+- Placement: placement.md
 - ReachView:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
