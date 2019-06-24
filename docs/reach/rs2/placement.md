@@ -9,7 +9,7 @@ Reach needs to have a clear sky view 30 degrees above the horizon. There should 
 
 Take a look at 2 pictures below. The left picture demonstrates desirable conditions for Reach location. The right one is an example of bad surrounding conditions such as the reduced view of the sky, possible obstructions or vegetation nearby.
 
-<div style="text-align: center;"><img src="../img/placement/Reach-placement-correct-wrong.png" style="width: 800px;"></div><br>
+<div style="text-align: center;"><img src="../img/reachrs2/placement/Reach-placement-correct-wrong.png" style="width: 800px;"></div><br>
 
 Examples of **good** environments for Reach placement:
 
@@ -34,4 +34,4 @@ Electronic devices may produce RF noise that could affect the reception of the G
 
 <br>
 
-[Learn more about placing the base by following this link.](tutorials/placing-the-base.md)
+[Learn more about placing the base by following this link.](common/tutorials/placing-the-base.md)
