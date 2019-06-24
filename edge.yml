@@ -3,6 +3,8 @@ site_url: https://emlid.com/edge/
 docs_dir: docs/autopilots/edge
 copyright: "Emlid.com"
 edit_uri: ""
+extra_css:
+    - '/assets/stylesheets/extra.css'
 
 theme:
         name: material
@@ -10,7 +12,9 @@ theme:
         favicon: 'common/img/favicon.ico'
         palette:
             primary: 'light blue'
-            accent: 'light blue'
+        font:
+            text: 'Open Sans'
+            code: 'Open Sans'
         custom_dir: 'theme'
 
 repo_url: https://github.com/emlid/emlid-docs

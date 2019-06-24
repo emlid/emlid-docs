@@ -3,6 +3,8 @@ site_url: https://emlid.com/navio/
 docs_dir: docs/autopilots/navio2
 copyright: "Emlid.com"
 edit_uri: ""
+extra_css:
+    - '/assets/stylesheets/extra.css'
 
 theme:
         name: material
@@ -11,6 +13,9 @@ theme:
         palette:
             primary: 'light blue'
             accent: 'light blue'
+        font:
+            text: 'Open Sans'
+            code: 'Open Sans'
         custom_dir: 'theme'
 
 repo_url: https://github.com/emlid/emlid-docs
