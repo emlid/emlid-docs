@@ -3,6 +3,8 @@ site_url: https://emlid.com/reachrs2/
 docs_dir: docs/reach/rs2
 copyright: "Emlid.com"
 edit_uri: ""
+extra_css:
+    - '/assets/stylesheets/extra.css'
 
 theme:
         name: material
@@ -11,6 +13,9 @@ theme:
         palette:
             primary: 'light blue'
             accent: 'light blue'
+        font:
+            text: 'Open Sans'
+            code: 'Open Sans'
         custom_dir: 'theme'
 
 repo_url: https://github.com/emlid/emlid-docs
@@ -74,7 +79,7 @@ nav:
     - How to download files from Reach: common/tutorials/downloading-files.md
     - Placing the base: common/tutorials/placing-the-base.md
   - Post-processing workflow:
-    - How PPK works: common/tutorials/ppk-introduction.md 
+    - How PPK works: common/tutorials/ppk-introduction.md
     - GPS post-processing: common/tutorials/gps-post-processing.md
     - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
   - Integration with external software:

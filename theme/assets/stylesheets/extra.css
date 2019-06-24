@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("https://emlid.com/wp-content/themes/flatshop/fonts/GothamPro/GothamProMedium/GothamProMedium.eot");
+  src: url("https://emlid.com/wp-content/themes/flatshop/fonts/GothamPro/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+    url("https://emlid.com/wp-content/themes/flatshop/fonts/GothamPro/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("https://emlid.com/wp-content/themes/flatshop/fonts/GothamPro/GothamProMedium/GothamProMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+.md-header {
+  background-color: #000000 !important;
+  box-shadow: none;
+}
+
+.md-header[data-md-state=shadow] {
+  box-shadow: none;
+}
+
+.md-typeset h1 {
+  font-size: 40px;
+  color: #000000;
+  font-family: GothamProMedium;
+  letter-spacing: -0.04em;
+}
+
+.md-typeset h2 {
+  font-size: 28px;
+  color: #000000;
+  font-family: GothamProMedium;
+  letter-spacing: -0.04em;
+}
+
+.md-typeset h3 {
+  font-size: 19px;
+  color: #000000;
+  font-family: GothamProMedium;
+  letter-spacing: -0.04em;
+}
+
+[data-md-color-primary=light-blue] .md-typeset a {
+  color: #008BEE;
+}
+
+.md-typeset a {
+  color: #008BEE;
+}
+
+[data-md-color-primary=light-blue] .md-nav__link--active, [data-md-color-primary=light-blue] .md-nav__link:active {
+  color: #008BEE;
+}
+
+.headerlink:hover, .md-typeset h3[id]:target .headerlink {
+  color: #008BEE;
+}
+
+.headerlink:hover, .md-typeset h3[id]:target .headerlink {
+  color: #008BEE;
+}
+
+.md-nav__link--active, .md-nav__link:active {
+  color: #008BEE;
+}
+
+.md-nav__link:focus, .md-nav__link:hover {
+  color: #008BEE;
+}
+
+.md-search__input {
+    background-color: #2F3030;
+}
