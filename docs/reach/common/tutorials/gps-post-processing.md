@@ -6,14 +6,18 @@ This tutorial requires:
 * Raw logs from the base
 * (Optional) For absolute positioning: RINEX observations log from a reference station in range of 100 km
 * (Optional) For processing improvement: precise ephemeris and clock files from the IGS
-* Emlid version of RTKLIB
+* RTKLIB
 
-Download the latest version of Emlid RTKLIB for your system: 
+??? "RTKLib for Reach RS/RS+/M+"
+    Download the latest version of Emlid RTKLIB for your system: 
 
-| Win 64-bit | Linux 64-bit |
-|------------|--------------|
-| [Download](https://files.emlid.com/RTKLIB/RTKLIB-Win-x64.zip)   | [Download](https://files.emlid.com/RTKLIB/RTKLIB-qt-Linux-x64.zip)     |
-| [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)        | [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)          |
+    | Win 64-bit | Linux 64-bit |
+    |------------|--------------|
+    | [Download](https://files.emlid.com/RTKLIB/RTKLIB-Win-x64.zip)   | [Download](https://files.emlid.com/RTKLIB/RTKLIB-qt-Linux-x64.zip)     |
+    | [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)        | [md5](https://files.emlid.com/RTKLIB/RTKLIB-MD5SUMS)          |
+
+??? "RTKLib for Reach RS2"
+    Download the [RTKLib 2.4.3 version b31](http://rtkexplorer.com/download/demo5-b31-binaries/) provided by [rtkexplorer](http://rtkexplorer.com/)
 
 Rover track is calculated relatively to the base station so in order to get rover track with correct absolute coordinates the exact position of the base station should be known. You either need to place base station on a point with known coordinate or determine it by post-processing base against a reference station in static mode. It is better if the station is within 100 km range, but longer range might work as well.
 
