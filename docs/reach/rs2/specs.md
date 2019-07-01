@@ -4,11 +4,15 @@
 
 ## Mechanical specs
 
-Coming soon
+| File name | Download link |
+|-----------|---------------|
+| Reach RS2 general drawing | [reachrs2-drawing [PDF, 1 MB]](http://files.emlid.com/docs/reachrs2-drawing.pdf) |
+| Reach RS2 3D model in STEP format | [reachrs2 [STEP, 36.8 MB]](https://github.com/emlid/hardware/blob/master/reachrs2.step) |
+| Reach RS2 3D model in IGES format | [reachrs2 [IGES, 41.7 MB]](https://github.com/emlid/hardware/blob/master/reachrs2.iges) |
 
 ## Electrical specs
 
-Coming soon
+[Reach RS2 extension connector pinout [PDF, 1 MB]](files/RS232-port.pdf)
 
 ## Extension cables specs
 
