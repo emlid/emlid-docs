@@ -1,6 +1,6 @@
 ## Base correction
 
-Configuring correction is required if you want to go beyond standalone positioning. Reach supports following correction formats as input: RTCM2, RTCM3, OEM4, OEM3, UBX, SS2, HEMIS, SKYTRAQ, SP3. RTCM3 is the most popular format in the industry.  Data in any of these formats can be received via Serial, TCP, NTRIP, Bluetooth or LoRa for Reach RS/RS+.
+Configuring correction is required if you want to go beyond standalone positioning. Reach supports following correction formats as input: RTCM2, RTCM3, OEM4, OEM3, UBX, SS2, HEMIS, SKYTRAQ, SP3. RTCM3 is the most popular format in the industry.  Data in any of these formats can be received via Serial, TCP, NTRIP, Bluetooth or LoRa for Reach RS/RS+ and Reach RS2.
 
 ### Serial
 
@@ -9,7 +9,7 @@ Configuring correction is required if you want to go beyond standalone positioni
 Serial port connection is available through several hardware connection options. All of them support following baud rates: 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200, 128000, 153600, 230400, 256000, 460800, 921600.
 
 #### UART
-Corresponds to TTL UART on Reach module or to RS232 port on Reach RS/RS+ extension connector. Common way to connect radio or another device providing correction.
+Corresponds to TTL UART on Reach and Reach M+ modules or to RS232 port on Reach RS/RS+ and Reach RS2 extension connector. Common way to connect radio or another device providing correction.
 
 #### USB-to-PC
 When connected over USB to a PC Reach will show up as several devices, one of them will be a serial port. You can use this serial port to send corrections to the device.
@@ -34,6 +34,8 @@ In order to receive correction from NTRIP caster you need to know:
 
 When connecting to a mount point that has VRS or Nearest feature, that automatically provides you with a connection to closest base station it is required to send your position back to the caster. Tick the “Send NMEA GGA messages to the corrections provider” and after Reach obtains single solution it will start sending it to the caster.
 
+[Check out this guide to learn more about working with NTRIP service](../tutorials/ntrip-workflow.md)
+
 ### TCP
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/tcp.png" style="width: 800px;" /></p>
@@ -55,7 +57,7 @@ If ReachView does not allow to set a certain port number it means that it is res
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/Lora.png" style="width: 800px;" /></p>
 
-**Reach RS/RS+** has internal LoRa radio which is used for receiving or sending corrections. For **Reach M+** external LoRa radio is available, it can be connected via USB or S1/S2 port. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base. 
+**Reach RS/RS+ and Reach RS2** have internal LoRa radio which is used for receiving or sending corrections. For **Reach M+** external LoRa radio is available, it can be connected via USB or S1/S2 port. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base. 
 
 Frequency and air rate settings must match what was configured on the base.
 
@@ -63,11 +65,5 @@ Frequency and air rate settings must match what was configured on the base.
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/Bluetooth.png" style="width: 800px;" /></p>
 
-You can use Bluetooth for correction input. For example you can use your phone to pass NTRIP corrections via Bluetooth to Reach / Reach RS/RS+. Check out [Bluetooth section](bluetooth.md) to learn more about connecting your device via Bluetooth.
-
-## Additional correction
-Will be used for precise ephemeris and clocks. Not implemented yet.
-
-<p style="text-align:center" ><img src="../img/reachview/correction_input/additional.png" style="width: 800px;" /></p>
-
+You can use Bluetooth for correction input. For example you can use your phone to pass NTRIP corrections via Bluetooth to Reach. Check out [Bluetooth section](bluetooth.md) to learn more about connecting your device via Bluetooth.
 
