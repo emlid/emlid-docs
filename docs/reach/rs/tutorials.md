@@ -22,7 +22,7 @@ Explore these step-by-step guides to get a better understanding of your Reach po
 ###Integration with external software
 
 * [Bluetooth output and Android mock location](common/tutorials/mock-location.md)
-* [Using QGIS as survey tool](qgis-survey.md)
+* [Using QGIS as survey tool](common/tutorials/qgis-survey.md)
 * [Microsurvey FieldGenius setup guide](common/tutorials/fieldgenius.md)
 * [Carlson SurvCE/SurvPC setup guide](common/tutorials/survce.md)
 * [Topcon MAGNET Field Layout setup guide](common/tutorials/magnetfield.md)
