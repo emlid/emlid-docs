@@ -120,7 +120,7 @@ Then type:
 pi@navio: ~ $ sudo systemctl start arducopter
 ```
 
-This command launches ArduPilot (one-shot. <sub>```sudo systemctl enable arducopter```</sub> to make it persistent). You'll see your LED blinking.
+This command launches ArduPilot (one-shot ```sudo systemctl enable arducopter``` to make it persistent). You'll see your LED blinking.
 
 In case you make changes in ArduPilot while it's working, you should then restart:
 
@@ -129,7 +129,6 @@ pi@navio: ~ $ sudo systemctl restart arducopter
 ```
 
 Continue <a href="https://asciinema.org/a/1i915k6h2b0i9sf02mwom7qu8?t=1:14" target="_blank">watching the tutorial</a> for this step.
-
 ### Running a GCS
 
 [Launch](../../ardupilot/installation-and-running/#connecting-to-the-gcs) your GCS (Ground Control Station) of choice. On the next step you'll understand why.
