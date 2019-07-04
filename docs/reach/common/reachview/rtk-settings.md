@@ -4,9 +4,9 @@
 
 ### Positioning mode
 
-+ **Single** - standalone positioning mode, does not provide improved precision.
-+ **Kinematic** - most used positioning mode, assumes that the receiver is moving.
-+ **Static** - an assumption is made that Reach is static. Constraining the system helps to resolve ambiguities faster as well as produce measurements with higher precision.
++ **Single** - standalone positioning mode, does not provide improved precision
++ **Kinematic** - most used positioning mode, assumes that the receiver is moving
++ **Static** - an assumption is made that Reach is static. Constraining the system helps to resolve ambiguities faster as well as produce measurements with higher precision
 
 ### GPS AR mode
 
@@ -37,9 +37,9 @@ Set it according to what acceleration antenna experiences on your platform. If y
 
 Depending on your location it might be beneficial to choose certain set of GNSS systems: 
 
-+ GPS+Glonass+SBAS+QZSS at 5 Hz is our default recommendation.
-+ GPS+Beidou+SBAS+QZSS at 5 Hz recommended for APAC, where QZSS and Beidou is visible.
-+ GPS+SBAS+QZSS at 14 Hz for most dynamic platforms that require high update rate.
++ GPS + GLONASS + SBAS + QZSS at 5 Hz is our default recommendation
++ GPS + BEIDOU + SBAS + QZSS at 5 Hz recommended for APAC, where QZSS and BEIDOU is visible
++ GPS + SBAS + QZSS at 14 Hz for most dynamic platforms that require high update rate
 
 ### GNSS selection for time marks logging 
 We recommend using the following configurations for PPK flights: 
