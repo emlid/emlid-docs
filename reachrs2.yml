@@ -54,7 +54,7 @@ nav:
   - Settings: common/reachview/settings-rs2.md
   - Status: common/reachview/status.md
   - Survey: common/reachview/survey.md
-  - RTK settings: common/reachview/rtk-settings.md
+  - RTK settings: common/reachview/rtk-settings-rs2.md
   - Correction input: common/reachview/correction-input.md
   - Position output: common/reachview/position-output.md
   - Base mode: common/reachview/base-mode.md
