@@ -1,6 +1,6 @@
 Welcome to your Emlid Reach RS / Reach RS+!
 
-  [![](img/reachrs/Quickstart.png){: style="width: 200px;"} ](quickstart.md)
+  [![](img/reachrs/Quickstart.png){: style="width: 200px;"} ](quickstart/first-setup.md)
   [![](img/reachrs/Tutorials.png){: style="width: 200px;"}](tutorials.md)
   [![](img/reachrs/ReachView.png){: style="width: 200px;"}](common/reachview)
 

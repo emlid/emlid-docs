@@ -66,7 +66,9 @@ nav:
   - Changelogs: common/reachview/changelogs.md
 - LED status: led-status.md
 - Specification: specs.md
-- Quickstart: quickstart.md
+- Quickstart:
+  - First setup: quickstart/first-setup.md
+  - Base and Rover setup: quickstart/base-rover-setup.md
 - Tutorials:
   - Basics:
     - How RTK works: common/tutorials/rtk-introduction.md
