@@ -58,13 +58,13 @@ The last logging option is base corrections. This log format is defined by corre
 
 After completing the survey, you can save logs to your Mac, Windows, Linux or mobile device. You can do it in the same "Logging" tab in ReachView.
 
-Turn off toggles <img src="../img/reachview/logging/toggle.png" align="middle" /> to stop record the logs. Find your logs below in the "Logging" tab in ReachView.
+Turn off toggles <img src="../img/reachview/logging/toggle.svg" align="middle" /> to stop record the logs. Find your logs below in the "Logging" tab in ReachView.
 
 <p style="text-align:center" ><img src="../img/reachview/logging/download-logs.gif" style="width: 800px;" /></p>
 
 You can see the recording date and time. 
 
-There are two buttons on the right side of each log: <img src="../img/reachview/logging/blue-arrow.png" align="middle" alt="blue arrow" />  button allows to save it, and <img src="../img/reachview/logging/garbage-can.png" align="middle" alt="red garbage can" /> button deletes it.
+There are two buttons on the right side of each log: <img src="../img/reachview/logging/blue-arrow.svg" align="middle" alt="blue arrow" />  button allows to save it, and <img src="../img/reachview/logging/garbage-can.svg" align="middle" alt="red garbage can" /> button deletes it.
 
 Now when the logs are downloaded, you can use [RTKLIB software](../../tutorials/gps-post-processing) from Emlid docs to start working with your data.
 

@@ -59,7 +59,7 @@ Survey tool interface shows the map with base and rover on it.
 
 ####Antenna height setup
 
-* Press <img src="../img/reachview/survey/antenna-height-icon.png" align="center" /> to open the Pole height menu
+* Press <img src="../img/reachview/survey/antenna-height-icon.svg" align="center" /> to open the Pole height menu
 * If you use thread adapter, check the box
 * Change pole height in the next form if it differs from the standard 2m value
 * Press the **Save** button
@@ -68,7 +68,7 @@ Survey tool interface shows the map with base and rover on it.
 
 ####Collecting the point
 
-* Press <img src="../img/reachview/survey/new-point-icon.png" align="center" /> to go to the next window
+* Press <img src="../img/reachview/survey/new-point-icon.svg" align="center" /> to go to the next window
 	
 	You can set the point’s name or use the default value. If you leave the name field blank the default point name will be “Point 1”, “Point 2”, etc.
 
@@ -93,7 +93,7 @@ You’ll see the map with all the points you’ve collected
 
 ####Point options
 
-To open the list of all points, press <img src="../img/reachview/survey/points-list-icon.png" align="center" />. You can open point details, edit the point info, find it on the map or stake out the point.
+To open the list of all points, press <img src="../img/reachview/survey/points-list-icon.svg" align="center" />. You can open point details, edit the point info, find it on the map or stake out the point.
 [Read more about Stake out function in our guide](#point-stakeout).
 
 <p style="text-align:center" ><img src="../img/reachview/survey/list-all-points.gif" style="width: 800px;" /></p>
@@ -102,7 +102,7 @@ Also, you can work with each point separately by choosing it on the map.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/point-options.gif" style="width: 800px;" /></p>
 
-When the surveying is done, press <img src="../img/reachview/survey/back-button-icon.png" align="center" /> to close and save the project. It’ll be available in Survey tab menu.
+When the surveying is done, press <img src="../img/reachview/survey/back-button-icon.svg" align="center" /> to close and save the project. It’ll be available in Survey tab menu.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/close-project.gif" style="width: 800px;" /></p>
 
