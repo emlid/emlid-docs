@@ -1,5 +1,22 @@
 ## ReachView changelog
 
+### v2.18.0
+([release](https://community.emlid.com/t/reachview-v2-18-1/14591))
+
+##### Bug fixes
+
+* "LoRa is not connected" message popping up on some RS and RS+ receivers
+* Android scanner app is now able to download logs, projects or project templates
+* iOS scanner app now supports iPhone X series
+* LoRa radio now supports complex constraints with several ranges
+* Fix a bug with project list's dropdown menus geting stuck in some cases
+* Wi-Fi now can see channels 12-14
+* Fix jumping correction input tab  
+* Pop-up menus behavior is more consistent
+* RTCM transmission via Bluetooth is now more stable
+* Bluetooth name change now applies immediately, not after reboot
+* Red Power LED now works correctly on RS+
+
 ### v2.16.0
 ([release](https://community.emlid.com/t/reachview-v2-16-0-point-stakeout/11894))
 
