@@ -2,7 +2,7 @@
 
 ## RTK options
 
-<p style="text-align:center" ><img src="../img/reachview/rtk_settings/rtk-settings-rs2.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/rtk-settings/rtk-settings-rs2.png" style="width: 800px;" /></p>
 
 ### Positioning mode
 
