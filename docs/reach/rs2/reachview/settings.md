@@ -6,7 +6,7 @@
 Every time you power up Reach in a Wi-Fi network, it checks for new ReachView update and notify you accordingly.
 
 !!! note ""
-    The update check is only done one time during the boot process. If you want to force new version check, please proceed to ReachView Updater. It is available on port 5000, for example, `http://reach.local:5000`. The Updater automatically scans Emlid update servers when you open it. [Learn more about ReachView updater.](updater.md)
+    The update check is only done one time during the boot process. If you want to force new version check, please proceed to ReachView Updater. It is available on port 5000, for example, `http://reach.local:5000`. The Updater automatically scans Emlid update servers when you open it. [Learn more about ReachView updater.](../common/reachview/updater.md)
 
 ## System utilities
 
@@ -32,7 +32,7 @@ The former is for the forum and makes it easy to share settings, network state, 
 Enables sound notifications on Reach and allows volume adjusting. Reach will warn you once it gets or loses the fix solution status.
 
 ### Reset settings to default  
-Click *Reset setting to default* button to return all settings to factory configuration. Only logs and wireless settings are preserved. If you would like to perform a complete factory reset and wipe all your data you can [reflash firmware image](firmware-reflashing.md).
+Click *Reset setting to default* button to return all settings to factory configuration. Only logs and wireless settings are preserved. If you would like to perform a complete factory reset and wipe all your data you can [reflash firmware image](../common/reachview/firmware-reflashing.md).
 
 ## General settings
 
