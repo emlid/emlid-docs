@@ -51,14 +51,14 @@ nav:
 - Placement: placement.md
 - ReachView:
   - Introduction: common/reachview/index.md
-  - Settings: common/reachview/settings-rs2.md
+  - Settings: reachview/settings.md
   - Status: common/reachview/status.md
   - Survey: common/reachview/survey.md
-  - RTK settings: common/reachview/rtk-settings-rs2.md
+  - RTK settings: reachview/rtk-settings.md
   - Correction input: common/reachview/correction-input.md
   - Position output: common/reachview/position-output.md
   - Base mode: common/reachview/base-mode.md
-  - Logging: common/reachview/logging.md
+  - Logging: reachview/logging.md
   - Wi-Fi: common/reachview/wifi.md
   - Bluetooth: common/reachview/bluetooth.md
   - Firmware reflashing: common/reachview/firmware-reflashing.md
