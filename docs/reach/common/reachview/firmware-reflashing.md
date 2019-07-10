@@ -31,7 +31,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|Windows|Linux|
 	|:-------------:|:----------:|
-	|[Download](https://play.google.com/store/apps/details?id=com.reachview)|[Download](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)|
+	|[Download](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.0.0_setup.exe)|[Download](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.0.0_amd64.deb)|
 
 	</center>
 
