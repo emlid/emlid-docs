@@ -30,7 +30,7 @@ The same shift producing effect may be noticed if the base is placed inaccuratel
 
 ## Ways to set the base
 
-As already mentioned Reach and Reach RS/RS+ used as a base may be positioned using various ways. You can manually enter the base coordinates, use the averaging feature or use PPP and PPK techniques to determine the coordinates.
+As already mentioned Reach used as a base may be positioned using various ways. You can manually enter the base coordinates, use the averaging feature or use PPP and PPK techniques to determine the coordinates.
 
 | Base setup method         | Accuracy        | Requirement                   | Observation time | Processing time                                                              | Cost                                |
 |---------------------------|-----------------|-------------------------------|------------------|------------------------------------------------------------------------------|-------------------------------------|
@@ -56,7 +56,7 @@ Manual input of the position is rather straightforward and is used when you have
 _Triangulation station also known as trig point or trig beacon with Reach RS/RS+ on top (photo by Luke Wijnberg)_
 <br>
 
-Pay attention and carefully place the base over a known point and measure the height of the antenna from the mark. It will help to avoid shifts from the absolute position and keep measurements accurate. Refer to [Placing Reach and Reach RS/RS+ in the field](#placing-the-base-station-in-the-field) for detailed instructions.
+Pay attention and carefully place the base over a known point and measure the height of the antenna from the mark. It will help to avoid shifts from the absolute position and keep measurements accurate. Refer to [Placing Reach RS2 and Reach RS/RS+ in the field](#placing-the-base-station-in-the-field) for detailed instructions.
  
 #####Average
 Let’s take a closer look at setting up the base using the position averaging with single, float and fix solutions. All these ways provide different levels of base coordinates accuracy and are suitable for different applications.
@@ -137,6 +137,21 @@ _Figure 5_
 
 * When you securely placed Reach RS/RS+ over the mark, you are ready to set or determine its position.
 
+#### Placing Reach RS2
+
+* Make sure your Reach device is placed precisely above the marked point on the tripod and leveled
+* If you are setting up base coordinates manually measure the antenna height offset
+
+!!! note "" 
+    Antenna height is measured as the distance between the mark and the antenna reference point (ARP). 
+
+ For Reach RS2, consider the antenna height as the distance between the mark and the bottom of Reach RS2 (h on figure 6) plus 134 mm.
+
+<p style="text-align:center"><img src="../img/reach/placing-the-base/placing-reach-rs2.png" style="width: 800px;"/></p>  
+_Figure 6_
+ <br>
+
+ * When you securely placed Reach RS2 over the mark, you are ready to set or determine its position.
  
 ### Storing the base position
  
