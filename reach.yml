@@ -4,7 +4,7 @@ docs_dir: docs/reach/rtk
 copyright: "Emlid.com"
 edit_uri: ""
 extra_css:
-    - 'assets/stylesheets/extra.css'
+    - 'assets/stylesheets/extra.css?v=2'
 
 theme:
         name: material
