@@ -59,6 +59,7 @@ nav:
   - Position output: common/reachview/position-output.md
   - Base mode: reachview/base-mode.md
   - Logging: reachview/logging.md
+  - Mobile data: reachview/mobile-data.md
   - Wi-Fi: reachview/wifi.md
   - Bluetooth: common/reachview/bluetooth.md
   - Firmware reflashing: common/reachview/firmware-reflashing.md
