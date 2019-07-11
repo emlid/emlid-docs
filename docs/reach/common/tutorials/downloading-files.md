@@ -7,15 +7,31 @@ This guide overviews how to download system report, export survey project or sav
 
 ##Turning Reach on
 
-Press Reach power button and wait until it boots. When the red LED and green LED stay solid, check the blue LED status.
+Press Reach power button and wait until it boots. 
 
-* **Blue LED is solid.** Reach is in hotspot mode and you can connect your laptop or phone to it. [Click this link to continue following the guide.](#reach-is-in-hotspot-mode)
-* **Blue LED blinks slowly.** Reach is in client mode and connected to the Wi-Fi network. [Proceed to this part of the guide to continue.](#reach-is-in-client-mode)
-<br>
+??? note "Reach RS/RS+ workflow"
 
-|Hotspot mode|Client mode|
-|:----------:|:---------:|
-|<img src="../img/reach/downloading-files/running-hotspot.png" style="height: 200px;">|<img src="../img/reach/downloading-files/running-client.gif" style="height: 200px;">|
+	When the red LED and green LED stay solid, check the blue LED status.
+
+	* **Blue LED is solid.** Reach is in hotspot mode and you can connect your laptop or phone to it. [Click this link to continue following the guide.](#reach-is-in-hotspot-mode)
+	* **Blue LED blinks slowly.** Reach is in client mode and connected to the Wi-Fi network. [Proceed to this part of the guide to continue.](#reach-is-in-client-mode)
+	<br>	
+
+	|Hotspot mode|Client mode|
+	|:----------:|:---------:|
+	|<img src="../img/reach/downloading-files/running-hotspot.png" style="height: 200px;">|<img src="../img/reach/downloading-files/running-client.gif" style="height: 200px;">|
+
+??? note "Reach RS2 workflow"
+
+	When the Power LEDs and Power Button stay solid, check the network LED status.
+
+	* **Network LED is solid white.** Reach is in hotspot mode and you can connect your laptop ot phone to it. [Click this link to continue following the guide.](#reach-is-in-hotspot-mode)
+	* **Network LED is solid blue.** Reach is in client mode and connected to the Wi-Fi network. [Proceed to this part of the guide to continue.](#reach-is-in-client-mode)
+	<br>
+
+	|Hotspot mode|Client mode|
+	|:----------:|:---------:|
+	|<img src="../img/reach/downloading-files/hotspot.png" style="height: 200px;">|<img src="../img/reach/downloading-files/client-mode.png" style="height: 200px;">|
 
 ##Connecting to ReachView
 
