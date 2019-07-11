@@ -1,17 +1,17 @@
-SurvCE starting from version 5.06 supports Emlid Reach RS/RS+. In this tutorial you'll find the information on how to setup data collector running SurvCE/SurvPC with Reach RS/RS+ via Bluetooth.
+SurvCE starting from version 5.06 supports Reach. In this tutorial you'll find the information on how to setup data collector running SurvCE/SurvPC with Reach via Bluetooth.
 
 ## Configuring Bluetooth connection
 
 !!! note ""
     In this tutorial the Bluetooth connection with Windows device is shown. Exact steps of pairing the devices may vary on different platforms.
 
-* In the ReachView app go to Wi-Fi/Bluetooth tab. Turn on Bluetooth and make Reach RS/RS+ always discoverable.
+* In the ReachView app go to the **Bluetooth** tab. Turn on Bluetooth and make Reach always discoverable
 <p style="text-align:center"><img src="../img/reach/survce/bt-on.png" style="width: 800px;"/></p> 
 <br>
-* On data collector go to Bluetooth settings and select "Add a Bluetooth Device". Select Reach from the list of discovered devices and confirm the connection.
+* On data collector go to Bluetooth settings and select _Add a Bluetooth Device_. Select Reach from the list of discovered devices and confirm the connection
 <p style="text-align:center"><img src="../img/reach/survce/windows-pairing.png" style="width: 800px;"/></p> 
 <br>
-* When pairing is completed you will see the data collector is listed in ReachView. 
+* When pairing is completed you will see the data collector is listed in ReachView
 <p style="text-align:center"><img src="../img/reach/survce/reachview-paired.png" style="width: 800px;"/></p> 
 
 
@@ -26,25 +26,25 @@ After successful Bluetooth pairing you should configure BT position output and c
 
 ### Position output
 
-* Go to Position output in ReachView and select BT tab. Select NMEA format and click Apply.
+* Go to **Position output** in ReachView and select BT tab. Select NMEA format and click _Apply_
 <p style="text-align:center"><img src="../img/reach/survce/position-output.png" style="width: 800px;"/></p> 
 
 
 ### Correction input
 
-* If you want to send the corrections from your controller via Bluetooth go to Correction input and select BT tab. Set RTCM3 format and Apply settings.
+* If you want to send the corrections from your controller via Bluetooth, go to **Correction input** and select BT tab. Set RTCM3 format and apply settings
 <p style="text-align:center"><img src="../img/reach/survce/correction-input.png" style="width: 800px;"/></p> 
 
 ## Configuring SurvCE
 
-### Configuring the communication between SurvCE and Reach RS/RS+
-* After launching SurvCE and creating a new project go to the Equip tab and select GPS Rover.
+### Configuring the communication between SurvCE and Reach
+* After launching SurvCE and creating a new project, go to the **Equip** tab and select GPS Rover
 <p style="text-align:center"><img src="../img/reach/survce/GPS-rover.png" style="width: 600px;"/></p> 
 <br>
-* Select EMLID as Manufacturer. 
+* Select EMLID as Manufacturer 
 <p style="text-align:center"><img src="../img/reach/survce/emlid-reachrs.png" style="width: 600px;"/></p> 
 <br>
-* Then go to Comms tab and pick Bluetooth settings.
+* Then go to **Comms** tab and pick Bluetooth settings
 
 <p style="text-align:center"><img src="../img/reach/survce/bt-configure.png" style="width: 600px;"/></p> 
 
@@ -52,27 +52,28 @@ After successful Bluetooth pairing you should configure BT position output and c
     If you are using SurvPC on Windows system with built-in Bluetooth adapter, you just need to choose Generic BT Type and select COM port assigned to the BT device: <p style="text-align:center"><img src="../img/reach/survce/surv-pc-com-port.png" style="width: 600px;"/></p> 
 
 
-* In a dialog window click "Find Device".
+* In a dialog window click _Find Device_
 <p style="text-align:center"><img src="../img/reach/survce/find-the-device.png" style="width: 600px;"/></p> 
 <br>
-* Once Reach RS/RS+ is detected select it.
+* Once Reach is detected, select it
 <p style="text-align:center"><img src="../img/reach/survce/choose-reach.png" style="width: 600px;"/></p> 
 <br>
-* Connect Reach RS/RS+ and SurvCE.
+* Connect Reach and SurvCE
 <p style="text-align:center"><img src="../img/reach/survce/connect-bt.png" style="width: 600px;"/></p> 
 <br>
-* You will see the confirmation of connection. 
+* You will see the confirmation of connection
 <p style="text-align:center"><img src="../img/reach/survce/success.png" style="width: 600px;"/></p> 
 
 ### Configure SurvCE to receive RTK corrections from NTRIP caster
 
-* In GPS Rover dialog select RTK tab. Select Data Collector Internet as Device and NTRIP as Network.
+* In GPS Rover dialog select **RTK** tab. Select Data Collector Internet as Device and NTRIP as Network
 <p style="text-align:center"><img src="../img/reach/survce/NTRIP-configure.png" style="width: 600px;"/></p> 
 <br>
-* Go to Network settings and fill in NTRIP caster details. 
+* Go to Network settings and fill in NTRIP caster details
 <p style="text-align:center"><img src="../img/reach/survce/ntrip-account.png" style="width: 600px;"/></p> 
 <br>
-* After this select the mountpoint and click on the green tick. 
+* After this, select the mountpoint and click on the green tick
 <p style="text-align:center"><img src="../img/reach/survce/mountpoints.png" style="width: 600px;"/></p> 
 <br>
-* The setup finished. You are ready to collect the data with Reach RS/RS+ and SurvCE!
+
+The setup is finished. You are ready to collect the data with Reach and SurvCE!
