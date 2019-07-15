@@ -186,5 +186,5 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 
 Once Reach connects to the Internet, you can:
 
-* [Update the receiver](../../reachview/settings/#check-app-version)
+* [Update the receiver](../reachview/settings/#check-app-version)
 * [Connect to NTRIP](../common/tutorials/ntrip-workflow/)
