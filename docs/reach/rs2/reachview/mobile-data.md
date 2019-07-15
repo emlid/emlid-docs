@@ -3,6 +3,8 @@
 
 Enable Mobile data on Reach to [get corrections from NTRIP over the Internet](../../common/tutorials/ntrip-workflow/) if a SIM card is inserted.
 
+[Follow this guide to insert a SIM card into Reach RS2.](../connecting-to-the-internet.md#video-guide)
+
 !!! note ""
     You may need to enter the APN details of your mobile operator to connect to mobile data. Reach out to your mobile network operator to get APN.
 
