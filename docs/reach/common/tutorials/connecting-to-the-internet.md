@@ -107,7 +107,7 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 ??? note "Connecting via a web browser from any device"
 
 	1. Connect your device to the same Wi-Fi network as Reach
-	2. Use [one of the Network Scan utility](https://docs.emlid.com/reachrs/quickstart/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address 
+	2. Use [one of the Network Scan utility](https://docs.emlid.com/reachrs/quickstart/first-setup/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address 
 	3. Go to IP address in a web browser
 
 
