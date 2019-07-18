@@ -1,32 +1,49 @@
-### What is Reach and what is it for?
+RTK is a technique used to improve the accuracy of a standalone GNSS receiver. Traditional GNSS receivers, like the one in a smartphone, could only determine the position with 2-4 meters accuracy. RTK can give you centimeter accuracy.
 
-Reach is an RTK GNSS receiver for applications when your standard GPS with several meters accuracy just won’t cut it. It relies on RTK (real-time kinematics) technology to deliver centimeter level accuracy.
+GNSS receivers measure how long it takes for a signal to travel from a satellite to the receiver. Transmitted signals travel through the ionosphere and atmosphere and are slowed down and perturbed on the way. For example, travel time on a cloudy day and in clear sky conditions would be different. That is why it is difficult for a standalone receiver to precisely determine its position. RTK is a technology that solves this issue.
 
-RTK was here for a long time, used mostly by surveyors and unaffordable to hobbyists and makers. If you needed centimeter precise positioning you had to spend thousands of dollars on an RTK system. With Reach we want to change that.
+## High real-time precision
 
-Reach runs open-source RTK processing software called RTKLIB written by Tomoji Takasu. Previously a computer was required to run RTKLIB, but now all RTKLIB features are available directly on Reach.
+Two receivers are used in RTK. One of them is stationary, another moves freely. They are called **base station** and **rover**. 
 
-### What is an RTK?
+<p style="text-align:center" ><img src="../img/reach/rtk-introduction/base-rover.jpg" style="width: 800px;" /></p>
 
-RTK is a technique used to improve the accuracy of gps system. Traditional GPS receivers, like one you can find in your smartphone, or on most robotic platforms could only determine  their position with 2-4 meters accuracy. RTK can give you centimeters.
+Base's mission is to stay in one place, calculate distortions in satellites signals, and send corrections to a moving receiver. Rover uses that data to achieve centimeter precise position. Any number of rovers can connect to one base if their input settings match the base's output.
 
-The whole GPS system is based on measuring how long does it take for a signal to travel from a satellite to the receiver. Knowing the precise orbits of the space vehicles – the ephemeris, and at least 4 travel times one can determine his position on the planet.
-Given the L1 GPS carrier frequency is 1575MHz, each wave is around 19cm in length. A receiver also measures the carrier phase of each of the signals. Theoretically, this should have given  us millimeter precision, so why do we still have to struggle with 2-4 meters accuracy? What are the sources of error, and what we can do to remove them?
+<p style="text-align:center" ><img src="../img/reach/rtk-introduction/multiple-rovers.jpg" style="width: 800px;" /></p>
 
-The satellites orbit at 20 200 km above Earth surface. Transmitted signals travel through ionosphere and atmosphere and are slowed down and perturbed on the way. For example, travel time on cloudy day and in clear sky conditions would be different! Many factors can increase position error, the great thing is that we can assume that these factors do not change much in one area.
+## Corrections over NTRIP
 
-There are GPS augmentation systems (DGPS), like SBAS or WAAS that measure current signal perturbations on many ground control stations all over the world, build an error propagation model and broadcast corrections through satellites or radio. Many commercial receivers can use these signals for submeter positioning accuracy. But what to do if you want to get closer to centimeters?
+You don’t necessarily need a second unit for RTK all the time. Usually, there are local services that share base corrections over the Internet. This technology is called NTRIP.
 
-The technology that would let us do it is called RTK (real-time kinematics). Two receivers are used, one of them is stationary and is called “base station”, the other one is “rover”. The base station measures errors, and knowing that it is stationary transmits corrections to the rover. The idea is simple, but not the math. Commercial systems could be subcentimeter precise and would cost you a fortune($5k+).
+NTRIP is a good option for areas with strong 3G/LTE coverage and a vast network of NTRIP bases nearby. In other cases, using the second receiver as a local base station has two advantages:
 
-Also, if you do not need the precise coordinates in real-time, you can just record the data from the rover and the base and process it afterwards thus eliminating need in constant radiolink. This method is called post processing and is the most precise among all.
+* autonomy in remote areas as there’s no need in the Internet connection
+* independency from local providers, no additional fees by NTRIP service
 
-** Comparison of RTK and standalone coordinates **
+<p style="text-align:center" ><img src="../img/reach/rtk-introduction/NTRIP-corrections.jpg" style="width: 800px;" /></p>
 
-*Static mode:*
+##Single-band and multi-band receivers
 
-<p style="text-align:center" ><img src="../img/reach/rtk-introduction/reach-static-rtk-demo.png" style="width: 800px;" /></p>
+Roughly speaking, there are two types of receivers: single-band (L1) and multi-band (L1/L2 or more). Their differences come from how much data they can receive from satellites.
 
-*Kinematic mode:*
+For example, it helps to increase the maximum distance between base and rover, which is also called **baseline**:
 
-<p style="text-align:center" ><img src="../img/reach/rtk-introduction/reach-kinematic-rtk-demo.png" style="width: 800px;" /></p>
+<center>
+
+|     | Single-band maximum baseline | Multi-band maximum baseline |
+|:---:|:------------:|:------------:|
+| RTK | 10 km | 60 km |
+| PPK | 30 km | 100 km |
+
+</center>
+
+Multi-band receiver is also way more robust when it comes to sky view. It can maintain centimeter precision even if you survey in challenging conditions: forest, city, mining sights, quarries, etc.
+
+<br>
+
+Further Reading:
+
+* [How PPK works](ppk-introduction.md)
+* [Placing the base](placing-the-base.md)
+* [Working with NTRIP service](ntrip-workflow.md)
