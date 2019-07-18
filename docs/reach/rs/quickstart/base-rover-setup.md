@@ -2,7 +2,7 @@
 
 This tutorial will show how to set up two Reach RS/RS+ units as rover and base and how to make them work over LoRa radio in RTK mode.
 
-For setting NTRIP base corrections, [follow the steps from "Working with NTRIP service" guide](common/tutorials/ntrip-workflow.md).
+For setting NTRIP base corrections, [follow the steps from "Working with NTRIP service" guide](../common/tutorials/ntrip-workflow.md).
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/4GfUDoDwEAE" allowfullscreen></iframe></div>
 
@@ -94,7 +94,7 @@ Mount Reach RS/RS+ base and accurately level the tripod. Put the rover on the po
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above the horizon.
     **Do not** test the device indoors or near buildings, do not cover the sky view for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
-A guide on how to properly place the antennas is available in [Reach RS/RS+ placement](common/placement.md) section.
+A guide on how to properly place the antennas is available in [Reach RS/RS+ placement](../placement.md) section.
 
 Let’s set up the base station.
 
