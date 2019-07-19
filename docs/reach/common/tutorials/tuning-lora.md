@@ -1,11 +1,11 @@
-#Tuning LoRa settings for RTK data collection with Reach
+#Tuning LoRa settings for RTK data collection
 
 ##Overview
 
 This guide explains how to tune LoRa radios on Reach base and rover for RTK.
 
 !!! tip ""
-	In [Base and rover setup video guide](https://youtu.be/4GfUDoDwEAE) we show recommended settings for LoRa. These settings should work well in most cases so check this video first.
+	In [Base and Rover setup video guide](https://youtu.be/4GfUDoDwEAE) we show recommended settings for LoRa. These settings should work well in most cases so check this video first.
 
 ## LoRa setup
 
@@ -19,7 +19,7 @@ Go through this simple check-list to make sure your setup is optimal:
 
 * Check that LoRa antennas are firmly attached
 
-* Make sure you specified the same LoRa settings on both base and rover units. Here are the recommended settings:
+* Make sure you specified the same LoRa settings in **Base mode** tab on the base unit and in **Correction Input** on the rover. Here are the recommended settings:
 	- Frequency is set by default in the app
     - 20 dBm output power
     - 9.11 kb/s air data rate
@@ -67,14 +67,14 @@ High air data rate provides a more stable correction stream that allows transmit
 
 ### Frequency
 
-Sometimes allowed frequency range in your working area can be affected by some local factors. That’s why it’s important to find a frequency that works efficiently for your environmental conditions.
+Sometimes allowed frequency range in your working area can be affected by some local factors. That is why it is important to find a frequency that works efficiently for your environmental conditions.
 
 * Check that you set up [the default settings for LoRa mentioned above](#lora-setup)
 
-* Double check what frequency ranges can be used in your area
+* Double check which frequency ranges can be used in your area
 
 !!! danger ""
-	Some frequency bands might not be allowed in your region. These limitations are currently applied automatically in ReachView for different countries.
+	Some frequency bands might not be allowed in your region. These limitations are currently applied automatically in ReachView for some countries.
 
 * Set up frequency at the highest allowed value
 
