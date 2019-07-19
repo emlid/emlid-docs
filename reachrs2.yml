@@ -52,7 +52,7 @@ nav:
 - ReachView:
   - Introduction: common/reachview/index.md
   - Settings: reachview/settings.md
-  - Status: common/reachview/status.md
+  - Status: reachview/status.md
   - Survey: common/reachview/survey.md
   - RTK settings: reachview/rtk-settings.md
   - Correction input: common/reachview/correction-input.md
