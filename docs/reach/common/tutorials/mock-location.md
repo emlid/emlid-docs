@@ -25,17 +25,20 @@ Make sure your Android device provides Bluetooth connectivity.
 !!! tip ""
 	To output a centimeter accurate position, Reach should be in RTK mode. Refer to the article [How RTK works](rtk-introduction.md) to learn more.
 
-Configure Reach RS+ unit to act as a rover in RTK.
+Configure Reach unit to act as a rover in RTK.
 
-??? note "Getting corrections from Reach RS+ base"
+??? note "Getting corrections from Reach RS2 base on Reach RS2 rover"
+	Set up RTK communication between 2 Reach RS2 units over LoRa radio [following this video guide](https://youtu.be/-K32ayVmH6U).
+
+??? note "Getting corrections from Reach RS+ base on Reach RS+ rover"
 	Set up RTK communication between 2 Reach RS+ units over LoRa radio [following this video guide](https://youtu.be/4GfUDoDwEAE). 
 
 ??? note "Getting corrections from NTRIP/CORS"
 	Configure [NTRIP/CORS network as a source of positioning corrections](ntrip-workflow.md) for Reach rover.
 
-##Pairing Reach RS+ with an Android device
+##Pairing Reach with an Android device
 
-**Access Reach RS+ rover using ReachView**
+**Access Reach rover using ReachView**
 
 ??? note "Connecting to Reach with iOS/Android device"
 
@@ -54,21 +57,21 @@ Configure Reach RS+ unit to act as a rover in RTK.
 	4. Launch a web browser (we recommend using Chrome or Mozilla)
 	5. Go to 192.168.42.1
 
-* Open **Bluetooth** configuration screen, enable Bluetooth connection and set on the **Always discoverable**
+* Open **Bluetooth** configuration screen, enable Bluetooth connection and set on the *Always discoverable*
 
 <p style="text-align:center"><img src="../img/reach/mock-location/enable-bt.png" style="width: 800px;"/></p>
 
 !!! note ""
-	Reach RS+ name is displayed just above its MAC. In this guide, we used the unit named as **Reach**.
+	Reach name is displayed just above its MAC. In this guide, we used the unit named as **Reach**.
 
 **Access an Android device**
 
 * Navigate to the Bluetooth configuration screen. Activate the Bluetooth connection
 
-* Wait for Reach RS+ to be listed as an available device
+* Wait for Reach to be listed as an available device
 
 !!! tip ""
-	Keep Reach RS+ within a few meters from your Android device.
+	Keep Reach within a few meters from your Android device.
 
 <p style="text-align:center"><img src="../img/reach/mock-location/bt-scanning.jpg" style="width: 800px;"/></p>
 
@@ -82,13 +85,13 @@ Configure Reach RS+ unit to act as a rover in RTK.
 
 **Back to the Android device**
 
-* You should receive a pairing request from Reach RS+. Confirm it
+* You should receive a pairing request from Reach. Confirm it
 
 <p style="text-align:center"><img src="../img/reach/mock-location/pairing-request.jpg" style="width: 800px;"/></p>
 
 <br>
 
-Reach RS+ and Android device are now paired:
+Reach and Android device are now paired:
 
 <p style="text-align:center"><img src="../img/reach/mock-location/android-paired.jpg" style="width: 800px;"/></p>
 
@@ -98,7 +101,7 @@ Reach RS+ and Android device are now paired:
 
 * In ReachView app, navigate to the **Position output** screen
 
-* Activate **Output 1**, set it to **BT** and select solution output format to **NMEA**. After that, click the **Apply** button
+* Activate *Output 1*, set it to BT and select solution output format to NMEA. After that, click the *Apply* button
 
 <p style="text-align:center"><img src="../img/reach/mock-location/position-output.png" style="width: 800px;"/></p>
 
@@ -116,29 +119,29 @@ Besides being an NTRIP Client, this app also allows NMEA data input via Bluetoot
 
 * Install the app [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient) in your Android device
 
-* Open **Developer Options** on your Android device and choose **Lefebure NTRIP Client** in **Select mock location app** field
+* Open *Developer Options* on your Android device and choose *Lefebure NTRIP Client* in *Select mock location app* field
 
 <p style="text-align:center"><img src="../img/reach/mock-location/developer-options.jpg" style="width: 800px;"/></p>
 
-*  Launch the Lefebure NTRIP Client app and tap on the **settings** icon (gear in the upper right corner)
+*  Launch the Lefebure NTRIP Client app and tap on the *settings* icon (gear in the upper right corner)
 
 <p style="text-align:center"><img src="../img/reach/mock-location/lefebure-main-screen.jpg" style="width: 800px;"/></p>
 
-* Go to the **Receiver Settings**
+* Go to the *Receiver Settings*
 
 <p style="text-align:center"><img src="../img/reach/mock-location/lefebure-settings.jpg" style="width: 800px;"/></p>
 
 !!! check "Inside Receiver Settings:" 
-    1. Configure Receiver Connection as **External via Bluetooth**
+    1. Configure Receiver Connection as *External via Bluetooth*
     2. Change Bluetooth device to the Reach you are paired with  
-    3. Change Bluetooth Connection Method to **Secure via Reflection**  
-    4. Enable **GPS Mock Locations** 
+    3. Change Bluetooth Connection Method to *Secure via Reflection*
+    4. Enable *GPS Mock Locations*
 
 <p style="text-align:center"><img src="../img/reach/mock-location/lefebure-receiver-settings-1.jpg" style="width: 800px;"/></p>
 
 <p style="text-align:center"><img src="../img/reach/mock-location/lefebure-receiver-settings-2.jpg" style="width: 800px;"/></p>
 
-* Go back to the main screen and hit **Connect** button
+* Go back to the main screen and hit *Connect* button
 
 !!! tip ""
 	Check the log messages to confirm the Bluetooth connection got established and the information about satellites is updated.
@@ -148,4 +151,4 @@ Besides being an NTRIP Client, this app also allows NMEA data input via Bluetoot
 From this moment on, all apps in the Android device that use location services will automatically have access to the positional data streamed from Reach. You can just open a GIS app you want to use and start surveying.
 
 !!! note ""
-	Tapping the **Disconnect** button in the Lefebure NTRIP Client will revert back to the Android built-in GNSS.	
+	Tapping the *Disconnect* button in the Lefebure NTRIP Client will revert back to the Android built-in GNSS.	
