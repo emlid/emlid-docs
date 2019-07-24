@@ -133,7 +133,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|Download link|
 	|:-------------:|
-	|[**Reach Image v2.18  ↓**](https://files.emlid.com/images/ReachImage_v2.18.0.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
+	|[**Reach Image v2.18  ↓**](https://files.emlid.com/images/ReachImage_v2.18.1.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
 
 	</center>
 
