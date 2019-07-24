@@ -7,7 +7,7 @@ You can collect points with the ReachView app using Point Collection tool. The f
 
 * Go to Reach rover with a browser or ReachView mobile app
 * Choose the Survey tab in the menu
-* To create a new project press **New project** or click on the project name to open it
+* To create a new project press *New project* or click on the project name to open it
 
 <p style="text-align:center" ><img src="../img/reachview/survey/create-new-project.gif" style="width: 800px;" /></p>
 
@@ -16,7 +16,7 @@ You can collect points with the ReachView app using Point Collection tool. The f
 
 ####Basic information
 
-On the first step, you can fill in Project name, Author and add Comment if you want. However, you can use default settings and press **Next** button.
+On the first step, you can fill in Project name, Author and add Comment if you want. However, you can use default settings and press *Next* button.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/step1-fill-in.gif" style="width: 800px;" /></p>
 
@@ -43,7 +43,7 @@ To configure auto-save rules:
 	#####DOP
 	DOP stands for “the dilution of precision” and specifies the effect of satellite geometry on measurement precision. The better the geometry - the lower the DOP value. For auto-save rules default value is 2, when DOP is higher it is not recommended to collect points as bad satellite geometry might affect accuracy.
 
-* If you don’t need auto-saving, you can click **Done** to go further. In that case, you’ll need to start and stop point collection manually
+* If you don’t need auto-saving, you can click *Done* to go further. In that case, you will need to start and stop point collection manually
 
 <p style="text-align:center" ><img src="../img/reachview/survey/step2-auto-save-rules.gif" style="width: 800px;" /></p>
 
@@ -61,8 +61,12 @@ Survey tool interface shows the map with base and rover on it.
 
 * Press <img src="../img/reachview/survey/antenna-height-icon.svg" align="center" /> to open the Pole height menu
 * If you use thread adapter, check the box
+
+!!! note ""
+	Reach RS2 has an industry-standard 5/8" mount and doesn't require a thread adapter
+
 * Change pole height in the next form if it differs from the standard 2m value
-* Press the **Save** button
+* Press the *Save* button
 
 <p style="text-align:center" ><img src="../img/reachview/survey/antenna-height.gif" style="width: 800px;" /></p>
 
@@ -75,19 +79,19 @@ Survey tool interface shows the map with base and rover on it.
 	!!! note ""
     	You can also set the new Pole height value if it changed.
 
-* Press **Collect** to start point collecting process
+* Press *Collect* to start point collecting process
 
 <p style="text-align:center" ><img src="../img/reachview/survey/start-point-collecting.gif" style="width: 800px;" /></p>
 
-If you set Auto-save rules, you’ll see the status bar indicating the time until the end of point collection. Otherwise, you need to stop collecting point by pressing the **Accept** button.
+If you set Auto-save rules, you will see the status bar indicating the time until the end of point collection. Otherwise, you need to stop collecting point by pressing the *Accept* button.
 
 !!! danger ""
-    If the **Collect** button is unavailable and you see the message “Waiting for solution status”, you won’t be able to start point collection. Check the solution status.
+    If the *Collect* button is unavailable and you see the message “Waiting for solution status”, you won’t be able to start point collection. Check the solution status.
 
-You can stop the process by pressing the **Cancel** button. In that case, the point will not be saved.
+You can stop the process by pressing the *Cancel* button. In that case, the point will not be saved.
 
-* If you want to end surveying or look at the result, press the **Back** button.
-You’ll see the map with all the points you’ve collected
+* If you want to end surveying or look at the result, press the *Back* button.
+You will see the map with all the points you have collected
 
 <p style="text-align:center" ><img src="../img/reachview/survey/back-button.gif" style="width: 800px;" /></p>
 
@@ -102,7 +106,7 @@ Also, you can work with each point separately by choosing it on the map.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/point-options.gif" style="width: 800px;" /></p>
 
-When the surveying is done, press <img src="../img/reachview/survey/back-button-icon.svg" align="center" /> to close and save the project. It’ll be available in Survey tab menu.
+When the surveying is done, press <img src="../img/reachview/survey/back-button-icon.svg" align="center" /> to close and save the project. It will be available in Survey tab menu.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/close-project.gif" style="width: 800px;" /></p>
 
@@ -110,14 +114,14 @@ When the surveying is done, press <img src="../img/reachview/survey/back-button-
 
 When you finish collecting points, you can export your project in CSV, DXF, GeoJSON, DroneDeploy CSV or ESRI Shapefiles format.
 
-To do it, press "•••", click **Export** and choose the right format. The downloading will start automatically. Large projects might take some time to process. After that, you can find your archive in the default Downloads folder.
+To do it, press •••, click *Export* and choose the right format. The downloading will start automatically. Large projects might take some time to process. After that, you can find your archive in the default Downloads folder.
 
 !!! note ""
-	If you use ReachView app on Android, exporting will be made in a Downloads folder. As for iOS, you’ll need to choose the way you want to save your project.
+	If you use ReachView app on Android, exporting will be made in a Downloads folder. As for iOS, you will need to choose the way you want to save your project.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/export-button.gif" style="width: 800px;" /></p>
 
-It’s also possible to export your project in Survey tab without opening it. Click the **Export** button in the project window and choose the format as in a previous way.
+It is also possible to export your project in Survey tab without opening it. Click the *Export* button in the project window and choose the format as in a previous way.
 
 ## Point stakeout
 
@@ -137,7 +141,7 @@ You can use coordinates collected earlier or just upload a list with required po
 
 #### Points import
 
-Hit "•••" button on the right side of the project name and choose **Import** in the drop-down list.
+Hit ••• button on the right side of the project name and choose *Import* in the drop-down list.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/import-points-1.gif" style="width: 800px;" /></p>
 
@@ -184,15 +188,15 @@ You can upload files in CSV, GeoJSON or DXF formats or just enter coordinates ma
 		      ]
 		    }
 
-After you finish adding coordinates, hit the **Import** button.
+After you finish adding coordinates, hit the *Import* button.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/import-points-2.gif" style="width: 800px;" /></p>
 
 ### Interface
 
-Tap the point you want to stake out. It will be highlighted in blue. At the bottom of the screen, you’ll see point description that includes the name of the point, point collection UTC date and time and solution status.
+Tap the point you want to stake out. It will be highlighted in blue. At the bottom of the screen, you will see point description that includes the name of the point, point collection UTC date and time and solution status.
 
-Hit the **Stake out** button to start.
+Hit the *Stake out* button to start.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/start-stakeout.gif" style="width: 800px;" /></p>
 
@@ -201,11 +205,11 @@ Let’s get in touch with the stake out interface before proceeding.
 <p style="text-align:center" ><img src="../img/reachview/survey/stakeout-interface.PNG" style="width: 800px;" /></p>
 
 * You can see [solution status](../../reachview/status/#solution-status), [AR ratio](../../reachview/status/#ar-validation-ratio), [age of differential](../../reachview/status/#age-of-differential), satellite number and [Reach name](../../reachview/settings/#change-reach-name) in the status bar placed in the top of the page. Make sure you have Fix
-* **The antenna height value** can be found under the status bar
-* In this mode, the map is always **North-oriented**
-* There’s a dark-gray field at the bottom of the window. The left value is the **horizontal distance** to the point, the right value is **vertical**
-* **Done** button finishes the stakeout
-* There are **other points** you can switch under the distance values
+* The antenna height value can be found under the status bar
+* In this mode, the map is always North-oriented
+* There’s a dark-gray field at the bottom of the window. The left value is the horizontal distance to the point, the right value is vertical
+* *Done* button finishes the stakeout
+* There are other points you can switch under the distance values
 
 ### Staking out points
 
@@ -216,7 +220,7 @@ Try to move in the direction to the point. The map zooms in automatically.
 
 When the distance to the point is less than 50 centimeters, stakeout changes the mode.
 
-You need to put a blue rover circle into the white ring by moving the pole. Ensure the pole isn’t tilted. Does rover circle become green? Good job! We’ve almost finished.
+You need to put a blue rover circle into the white ring by moving the pole. Ensure the pole isn’t tilted. Does rover circle become green? Good job! We have almost finished.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/stakeout-process.gif" style="width: 800px;" /></p>
 
@@ -224,7 +228,7 @@ Here you also can choose the **2D** or **3D** option. **2D** stands for latitude
 
 <p style="text-align:center" ><img src="../img/reachview/survey/2D-3D.gif" style="width: 800px;" /></p>
 
-Congratulations! You’ve just staked out your first point! Now you can switch to another point to continue or hit **Done** button to finish.
+Congratulations! You’ve just staked out your first point! Now you can switch to another point to continue or hit *Done* button to finish.
 
 ## To-Dos
 
