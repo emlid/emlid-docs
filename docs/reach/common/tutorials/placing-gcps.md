@@ -1,12 +1,12 @@
 # Placing GCPs in RTK mode
 
-To place GCPs with Reach RS/RS+ follow the steps from this guide.
+To place GCPs with Reach units follow the steps from this guide.
 
 ### Configure RTK
 
+* If you have 2 Reach RS2, [this video will guide you on how to set them up in RTK](https://youtu.be/-K32ayVmH6U)
 * If you have 2 Reach RS/RS+, set RTK settings by [following "Base and rover setup" video guide](https://youtu.be/4GfUDoDwEAE)
-* If you have just one Reach RS/RS+, you need to connect it to NTRIP first. [Check this guide for more details](../../tutorials/ntrip-workflow/)
-
+* If you have just one Reach receiver, you need to connect it to NTRIP first. [Check this guide for more details](../../tutorials/ntrip-workflow/)
 
 ### Create a project
 
@@ -24,7 +24,7 @@ Put your pole in the center of the target.
 
 ### Collect point
 
-In ReachView Survey tool press the **Collect** button and save your GCP. Repeat the procedure for as many GCPs as you need.
+In ReachView Survey tool press the *Collect* button and save your GCP. Repeat the procedure for as many GCPs as you need.
 
 !!! tip ""
 	[More info about Survey tool functionality you can find here](../../reachview/survey/)
