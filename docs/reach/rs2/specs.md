@@ -21,3 +21,9 @@
 | Without second connector 2m |[without-connector [PDF, 40 KB]](files/without-connector.pdf) |
 | DB9F 2m |[DB9F [PDF, 58 KB]](files/DB9F.pdf) |
 | DB9 2m |[DB9 [PDF, 57 KB]](files/DB9.pdf) |
+
+## Serial Number
+
+Scan QR code under the SIM card slot cover to see serial number of your Reach RS2.
+
+<p style="text-align:center" ><img src="../img/reachrs2/specs/RS2_QR_code.jpg" style="width: 800px;" /></p>
