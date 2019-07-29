@@ -19,6 +19,6 @@ env = Environment(
         autoescape=select_autoescape(["html", "md"])
 )
 
-template = env.get_template("reach_power.md")
+template = env.get_template("index_template.md")
 
 print(template.render(data))
