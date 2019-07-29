@@ -1,16 +1,15 @@
 Welcome to your Emlid Reach M+!
 
-{% for image in images %}
-{{ image }}
 
-{% endfor %}
+{% for image in images %}
+{{ image | safe}}
+{%- endfor %}
 ## Package contents
 
 In the box:
 
 {% for component in inthebox %}
 {{ component }}
-
 {% endfor %}
 ### Collaboration
 
