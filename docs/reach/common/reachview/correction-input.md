@@ -1,6 +1,6 @@
 ## Base correction
 
-Configuring correction is required if you want to go beyond standalone positioning. Reach supports following correction formats as input: RTCM2, RTCM3, OEM4, OEM3, UBX, SS2, HEMIS, SKYTRAQ, SP3. RTCM3 is the most popular format in the industry.  Data in any of these formats can be received via Serial, TCP, NTRIP, Bluetooth or LoRa for Reach RS/RS+ and Reach RS2.
+Configuring correction is required if you want to go beyond standalone positioning. Reach supports corrections input in RTCM3 format, which is the most popular format in the industry. Data in this format can be received via Serial, TCP, NTRIP, Bluetooth or LoRa for Reach RS/RS+ and Reach RS2.
 
 ### Serial
 
