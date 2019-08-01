@@ -42,7 +42,7 @@ Multi-band receiver is also way more robust when it comes to sky view. It can ma
 
 <br>
 
-Further Reading:
+Further reading:
 
 * [How PPK works](ppk-introduction.md)
 * [Placing the base](placing-the-base.md)
