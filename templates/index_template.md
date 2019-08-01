@@ -1,8 +1,8 @@
 Welcome to your Emlid Reach M+!
 
 
-{% for image in images %}
-{{ image | safe}}
+{% for image in index_images %}
+[![]({{ image | safe}}){: style="width: 200px;"} ](quickstart.md)
 {%- endfor %}
 ## Package contents
 
