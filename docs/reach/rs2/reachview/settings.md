@@ -14,7 +14,7 @@ Every time you power up Reach in a Wi-Fi network, it checks for new ReachView up
 Night mode allows you to turn off the LEDs until the next reboot of the device. 
 
 ### Bottom connector settings
-Enables automatic boot using the bottom connector on Reach. Perfect for integrating the receiver with cars or tractors.
+Enables automatic boot and shutdown using the bottom connector on Reach. Perfect for integrating the receiver with cars or tractors.
 
 ### System report
 The tool is used to facilitate issues reports. There are two kinds of system reports:
@@ -29,7 +29,7 @@ The former is for the forum and makes it easy to share settings, network state, 
 
 ### Sound notifications
 
-Enables sound notifications on Reach and allows volume adjusting. Reach will warn you once it gets or loses the fix solution status.
+Enables sound notifications on Reach and allows to adjust the volume. Reach will warn you once it gets or loses the fix solution status.
 
 ### Reset settings to default  
 Click *Reset setting to default* button to return all settings to factory configuration. Only logs and wireless settings are preserved. If you would like to perform a complete factory reset and wipe all your data you can [reflash firmware image](../common/reachview/firmware-reflashing.md).
