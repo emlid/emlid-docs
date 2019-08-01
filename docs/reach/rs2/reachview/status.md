@@ -4,7 +4,7 @@ This is the main dashboard with all information about position and satellite rec
 
 <p style="text-align:center" ><img src="../img/reachview/status/rs2_status.png" style="width: 800px;" /></p>
 
-RTK positioning requires excellent reception of signals from GNSS satellites. SNR (Signal to Noise Ratio) is the primary indicator of how good the reception is. The graph lists all satellites that fit in your screen size and corresponding SNR. Data is updated in real-time.
+RTK positioning requires excellent reception of signals from satellites. SNR (Signal to Noise Ratio) is the primary indicator of how good the reception is. The graph lists all satellites that fit in your screen size and corresponding SNR. Data is updated in real-time.
 
 | Legend |                   |
 |--------|-------------------|
