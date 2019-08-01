@@ -1,7 +1,7 @@
 !!! tip ""
-    A well-placed Reach is essential for achieving good RTK positioning results.
+    A well-placed Reach base is essential for achieving good RTK positioning results.
 
-You can place your smartphone near the window in your house and it will obtain GNSS coordinates after some time, but for RTK such environment won't be sufficient. For RTK to work there are special requirements for Reach placement.
+You can place your smartphone near the window in your house and it will obtain GNSS coordinates after some time, but for RTK such environment won't be sufficient. For RTK to work there are special requirements for placing the base.
 
 ### Clear sky view without any obstacles
 
@@ -32,6 +32,6 @@ Examples of **bad** environments for Reach placement:
 
 Electronic devices may produce RF noise that could affect the reception of the GNSS signal. Keep all electronics as far as possible from Reach.
 
-<br>
+### Setting up the base
 
-[Learn more about placing the base by following this link.](common/tutorials/placing-the-base.md)
+[Learn more about placing the base from the dedicated article in our docs.](common/tutorials/placing-the-base.md)
