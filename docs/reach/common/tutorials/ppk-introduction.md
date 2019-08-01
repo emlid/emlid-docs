@@ -34,7 +34,7 @@ As a result of UAV PPK mapping with Reach, you'll have a set of images and a tex
 !!! tip "DJI Drones Workaround"
 	You can’t easily integrate Reach M+ with DJI Mavic or Phantom, as their cameras don’t have hot shoe. But you can always stick to working with GCPs, which is simple and efficient for small areas – just like your DJI drone.
 
-Further Reading:
+Further reading:
 
 * [Camera control](../../reachview/camera-control)
 * [Logging](../../reachview/logging)
