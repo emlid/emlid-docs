@@ -1,9 +1,14 @@
-
 <p style="text-align:center" ><img src="../img/reachview/mobile-data/mobile-data.png" style="width: 800px;" /></p>
 
 Enable Mobile data on Reach to [get corrections from NTRIP over the Internet](../../common/tutorials/ntrip-workflow/) if a SIM card is inserted.
 
-[Follow this guide to insert a SIM card into Reach RS2.](../connecting-to-the-internet.md#video-guide)
+??? note "Check how to insert a SIM card into Reach RS2 in our video guide"
+    
+    <center>
+
+	<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/YJ2VzsKx9zQ" allowfullscreen></iframe></div>
+
+	</center>
 
 !!! note ""
     You may need to enter the APN details of your mobile operator to connect to mobile data. Reach out to your mobile network operator to get APN.
@@ -14,10 +19,16 @@ Reach with SIM card can share an Internet connection with other devices. Enable 
 
 ### Data Roaming
 
-Switch on the Data Roaming if you want to get the Internet connection internationally. 
+Switch on the Data Roaming if you want to get the Internet connection internationally.
 
-!!! danger ""
-    The general recommendation is to keep Data roaming disabled as there are can be roaming charges. The cost depends on your network operator.
+!!! note ""
+    Sometimes, you need to enable roaming when you work in a different region within the same country. Check with your local provider before work.
+
+### Statistics
+
+You can check data usage statistics in the Current period field. View how much cellular data Reach has used from the last reset.
+
+Tap on *Reset* button to start collecting statistics from scratch.
 
 ### About
 
