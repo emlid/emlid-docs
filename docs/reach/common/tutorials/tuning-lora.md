@@ -5,7 +5,23 @@
 This guide explains how to tune LoRa radios on Reach base and rover for RTK.
 
 !!! tip ""
-	In [Base and Rover setup video guide](https://youtu.be/4GfUDoDwEAE) we show recommended settings for LoRa. These settings should work well in most cases so check this video first.
+	In Base and Rover setup video guides we show recommended settings for LoRa. These settings should work well in most cases so check the video first:
+
+    ??? note "Setting RTK on Reach RS2 base and rover over LoRa radio"
+        
+        <center>
+
+	    <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/-K32ayVmH6U" allowfullscreen></iframe></div>
+
+	    </center>
+
+    ??? note "Setting RTK on Reach RS+ base and rover over LoRa radio"
+        
+        <center>
+
+	    <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/4GfUDoDwEAE" allowfullscreen></iframe></div>
+
+	    </center>
 
 ## LoRa setup
 
