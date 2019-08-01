@@ -4,9 +4,28 @@ To place GCPs with Reach units follow the steps from this guide.
 
 ### Configure RTK
 
-* If you have 2 Reach RS2, [this video will guide you on how to set them up in RTK](https://youtu.be/-K32ayVmH6U)
-* If you have 2 Reach RS/RS+, set RTK settings by [following "Base and rover setup" video guide](https://youtu.be/4GfUDoDwEAE)
-* If you have just one Reach receiver, you need to connect it to NTRIP first. [Check this guide for more details](../../tutorials/ntrip-workflow/)
+??? note "Setting RTK on Reach RS2 base and rover over LoRa radio"
+
+	If you have 2 Reach RS2, this video will guide you on how to set them up in RTK:
+
+    <center>
+
+	<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/-K32ayVmH6U" allowfullscreen></iframe></div>
+
+	</center>
+
+??? note "Setting RTK on Reach RS+ base and rover over LoRa radio"
+
+	If you have 2 Reach RS/RS+, configure RTK by following "Base and rover setup" video guide:
+        
+	<center>
+
+	<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/4GfUDoDwEAE" allowfullscreen></iframe></div>
+
+	</center>
+
+??? note "Setting RTK on Reach rover over NTRIP"
+	If you have just one Reach receiver, you need to connect it to NTRIP first. [Check this guide for more details](../../tutorials/ntrip-workflow/)
 
 ### Create a project
 
