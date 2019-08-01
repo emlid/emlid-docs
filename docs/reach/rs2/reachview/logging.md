@@ -3,7 +3,7 @@
 This tutorial shows how to record logs for Data Analysis and Post-Processing Kinematic (PPK) and how to download them from Reach to your computer.
 
 !!! tip ""
-	To learn more about PPK check [this article](../../tutorials/ppk-introduction).
+	To learn more about PPK check [our introduction to post-processed kinematics](../../tutorials/ppk-introduction).
 
 ##Log split period
 
