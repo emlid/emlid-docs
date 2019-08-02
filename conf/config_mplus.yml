@@ -1,7 +1,7 @@
 ---
 model: M+
 power_port: JST-GH
-images:
+index_images:
   - 'img/reachm-plus/quickstart.png'
   - 'img/reachm-plus/tutorials.png'
   - 'img/reachm-plus/reachview.png'
