@@ -1,6 +1,8 @@
-Welcome to your Emlid Reach M+!
+Welcome to your Reach {{ model }}!
 
-
+{% if model == "RTK" %}
+{% include "index_rtk_template.md" %}
+{% else %}
 {% for image in index_images %}
 [![]({{ image | safe}}){: style="width: 200px;"} ](quickstart.md)
 {%- endfor %}
@@ -18,3 +20,4 @@ This document can be edited on GitHub in markdown. If you find any mistakes, typ
 ### Discussion
 
 We are happy to answer any questions at [community.emlid.com](http://community.emlid.com)
+{% endif %}
