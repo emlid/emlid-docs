@@ -1,4 +1,4 @@
-Welcome to your Emlid Reach M+!
+Welcome to your Reach {{ model }}!
 
 
 {% for image in index_images %}
