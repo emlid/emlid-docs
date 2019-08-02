@@ -1,5 +1,5 @@
 ---
-model: RS2
+model: 'RS/RS+'
 index_images:
     - 'img/reachrs/Quickstart.png'
     - 'img/reachrs/Tutorials.png'
