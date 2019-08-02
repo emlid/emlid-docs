@@ -30,7 +30,7 @@ To make things clear let's proceed to step-by-step ROS running practical instruc
 ## How to get your hands on: step by step
 ### ROS setup
 
-ROS needs a little setup before running. Namely, this boils down to [sourcing](http://superuser.com/questions/176783/what-is-the-difference-between-executing-a-bash-script-and-sourcing-a-bash-scrip) a special script provided in /opt/ and installing GeographicLib:
+ROS needs a little setup before running. Namely, this boils down to [sourcing](http://superuser.com/questions/176783/what-is-the-difference-between-executing-a-bash-script-and-sourcing-a-bash-scrip) a special script provided in `/opt/` and installing GeographicLib:
 
 ```
 pi@navio: ~ $ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
@@ -150,7 +150,7 @@ Make sure that:
 
 If you feel enthusiastic you can create a custom [.launch](http://wiki.ros.org/mavros#Usage) file or edit pre-installed to launch everything quicker.
 Roslaunch will automatically start a roscore if there isn’t already one running.
-Example launch files are available in the /opt/ros/kinetic/share/mavros/launch directory.
+Example launch files are available in the `/opt/ros/kinetic/share/mavros/launch` directory.
 
 You need to modify ```fcu_url``` and ```gcs_url``` in ```/opt/ros/kinetic/share/mavros/launch/apm.launch``` and run:
 
@@ -158,7 +158,7 @@ You need to modify ```fcu_url``` and ```gcs_url``` in ```/opt/ros/kinetic/share/
 roslaunch mavros apm.launch.
 ```
 
-To run this on boot you can create a simple systemd service. Create mavros.service file in /lib/systemd/system with the following contents:
+To run this on boot you can create a simple systemd service. Create mavros.service file in `/lib/systemd/system` with the following contents:
 ```
 [Unit]
 Description=mavros 
@@ -211,7 +211,7 @@ pi@navio: ~ $ rostopic echo /mavros/imu/data
 ![rostopic](img/ros/rostopic.png)
 
 
-After typing *rostopic echo /mavros/* you can press TAB to see the list of existing topics and check them to practice more.
+After typing `rostopic echo /mavros/` you can press TAB to see the list of existing topics and check them to practice more.
 
 Continue <a href="https://asciinema.org/a/1i915k6h2b0i9sf02mwom7qu8?t=4:01" target="_blank">watching the tutorial</a> for this step.
 
