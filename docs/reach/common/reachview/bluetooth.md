@@ -11,5 +11,5 @@ Once your Reach appears in the "discoverable" section on your device, click on i
 
 ReachView supports a secure pairing protocol, which extends the range of supported devices. Reach supports integration with Windows based collectors.
 
-<p style="text-align:center" ><img src="../img/reachview/bluetooth/rs2_survce.jpg" style="width: 600px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/bluetooth/rs2_survce.JPG" style="width: 600px;" /></p>
 <p style="text-align:center" >Reach RS2 integration with Calrson SurvPC</p>
