@@ -18,7 +18,7 @@ From this place we now are able to find *nodes* and make them communicate to eac
 ![Scheme 1](img/ros/scheme1.png)
 
 
-Now we are going just a little bit deeper. nodes can find each other and share data. This data shared between nodes is called "Messages". nodes can [publish messages](#running-rostopic) to the topics  and may subscribe to topics to receive messages.
+Now we are going just a little bit deeper. Nodes can find each other and share data. This data shared between nodes is called "Messages". Nodes can [publish messages](#running-rostopic) to the topics  and may subscribe to topics to receive messages.
 
 Let's take into consideration that we usually run ROS alongside ardupilot. For your convenience Emlid image contains [mavros node](#running-mavros-node) pre-installed. This node provides a lot of sensor drivers, communication driver for [ardupilot](#running-ardupilot) and proxy to [GCS](#running-a-gcs).
 
