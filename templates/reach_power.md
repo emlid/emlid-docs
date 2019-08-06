@@ -1,3 +1,6 @@
+{% if model != "RTK" and model != "M+" %}
+{% include "reach_power_rs.md" %}
+{% else %}
 {% if model == "RTK" %}
 !!! tip ""
 	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
@@ -50,4 +53,5 @@ When Reach is powered over {{ power_port }} port it will pass power to devices c
 
 {% if model == "RTK" %}
 <div style="text-align: center;"><img src="../img/reach/power-supply/accessory-power-supply.png" style="width: 550px;"></div><br>
+{% endif %}
 {% endif %}
