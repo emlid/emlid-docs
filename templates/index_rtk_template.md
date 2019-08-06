@@ -13,6 +13,8 @@ Reach RTK kit includes the following:
 
 ### Standalone Reach unit
 
+Standalone Reach units come with the following:
+
 {% for item in standalone %}
 * {{ item|safe }}
 {% endfor %}
