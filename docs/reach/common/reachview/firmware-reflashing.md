@@ -15,7 +15,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|For Reach RS2|For Reach RS+ / M+|
 	|:-------------:|:-------------:|
-	|[**Reach RS2 Image v2.20.4  ↓**](http://files.emlid.com/images/reach-rs2-v2.20.4.zip), [(md5)](http://files.emlid.com/images/reach-rs2-MD5SUMS)|[**Reach RS+/M+ Image v2.18  ↓**](http://files.emlid.com/images/reach-plus-v2.18.1.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|
+	|[**Reach RS2 Image v2.20.5  ↓**](http://files.emlid.com/images/reach-rs2-v2.20.5.zip), [(md5)](http://files.emlid.com/images/reach-rs2-MD5SUMS)|[**Reach RS+/M+ Image v2.18  ↓**](http://files.emlid.com/images/reach-plus-v2.18.1.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|
 
 	</center>
 	
@@ -31,7 +31,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|Windows|Linux|
 	|:-------------:|:----------:|
-	|[Download](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.0.0_setup.exe)|[Download](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.0.0_amd64.deb)|
+	|[Download](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.0.1_setup.exe)|[Download](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.0.0_amd64.deb)|
 
 	</center>
 
