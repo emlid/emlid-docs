@@ -29,7 +29,7 @@ In the case of a steady correction stream, age of differential will indicate lin
 This is result of ratio test performed on the potential “Fix” solution, it shows how many times is the best solution better than the next one. If this number is more than 3 Reach will consider RTK solution Fixed. 
 
 ### Baseline
-Baseline is the distance from rover to the base. It should be kept within 10km, if it is increased further you might experience slower fix time and lower accuracy. Accuracy is decreased by 1mm each km of baseline. 
+Baseline is the distance from rover to the base. It should be kept within 10km (6 miles), if it is increased further you might experience slower fix time and lower accuracy. Accuracy is decreased by 1mm each km of baseline. 
  
 ## Map
 Integrated map is used to show your current position. Map layer is provided by OpenStreetMap.
