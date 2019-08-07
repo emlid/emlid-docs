@@ -155,7 +155,7 @@ Example launch files are available in the `/opt/ros/kinetic/share/mavros/launch`
 You need to modify ```fcu_url``` and ```gcs_url``` in ```/opt/ros/kinetic/share/mavros/launch/apm.launch``` and run:
 
 ```
-roslaunch mavros apm.launch.
+roslaunch mavros apm.launch
 ```
 
 To run this on boot you can create a simple systemd service. Create mavros.service file in `/lib/systemd/system` with the following contents:
