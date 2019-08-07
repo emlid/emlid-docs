@@ -42,7 +42,7 @@ You need to specify IP address of the server and port number.
 If ReachView does not allow to set a certain port number it means that it is reserved for internal use.
 
 ### LoRa Radio
-**Reach RS/RS+** has internal LoRa radio which is used for receiving or sending corrections. For **Reach M+** external LoRa radio is available, it can be connected via USB or S1/S2 port. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base.
+**Reach RS/RS+** has internal LoRa radio which is used for receiving or sending corrections. For **Reach M+** external LoRa radio is available, it can be connected via USB or S1/S2 port. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km (11.8 miles) in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base.
 
 The lower the air rate, the longer the working distance will be. Depending on your RTCM3 messages selection ReachView will automatically block insufficient air rates. Disable correction messages or reduce rate in order to unlock lower air rates. Air rate on transmitting Reach and on receiving must match.
 
@@ -95,7 +95,7 @@ Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#
 There are two main options how to specify base station position. Note that RTK positioning is relative to the base station, so any inaccuracy in it’s position will result in a constant shift of rover coordinates. For many applications it is not critical and averaged single coordinate of the base could be used. If your application requires absolute accuracy for rover position an accurate  base coordinate must be entered.
 
 ### Manual
-In this mode you supply an a priori known coordinate by locating the unit above surveyed point. Coordinate has to be supplied in ECEF XYZ or in WGS84 Latitude and Longitude and WGS84 ellipsoid height. Antenna height offset is entered at this stage as well, offset is limited to 6.5535 m by the RTCM message.
+In this mode you supply an a priori known coordinate by locating the unit above surveyed point. Coordinate has to be supplied in ECEF XYZ or in WGS84 Latitude and Longitude and WGS84 ellipsoid height. Antenna height offset is entered at this stage as well, offset is limited to 6.5535 m (21.5 feet) by the RTCM message.
 
 You can change position format in the top right corner of Base coordinates frame.
 
