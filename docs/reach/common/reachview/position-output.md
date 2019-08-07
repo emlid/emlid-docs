@@ -6,21 +6,21 @@
 Reach supports following position output formats: 
 
 #### LLH
-Simple text protocol for Latitude Longitude and Height as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+Simple text protocol for Latitude Longitude and Height as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### XYZ
-Simple text protocol for X, Y, Z ECEF coordinates as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+Simple text protocol for X, Y, Z ECEF coordinates as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### ENU
-Simple text protocol for East, North and UP components of the baseline as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+Simple text protocol for East, North and UP components of the baseline as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### NMEA 0183
 The most popular standard in the industry. Supported messages: GNRMC, GNGGA, GPGSA, GLGSA, GAGSA, GPGSV, GLGSV, GAGSV, GNGST, GNVTG.
 
-Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### ERB
-Used for communication to Ardupilot, protocol description can be found [here](https://files.emlid.com/ERB.pdf).
+Used for communication to Ardupilot, [protocol description can be found by following this link [PDF, 202 KB]](https://files.emlid.com/ERB.pdf).
 
 
 **Data in any of these formats can be sent via Serial, TCP or Bluetooth.**
