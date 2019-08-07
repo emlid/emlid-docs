@@ -6,17 +6,17 @@ Reach RS2 has built-in LiFePO4 battery providing up to 22 hours of autonomous wo
 
 ## Charging over USB
 
-You can power and charge Reach RS/RS+ over Micro-USB cable using power supplies like:
+You can power and charge Reach {{ model }} over {{ usb }} cable using power supplies like:
 
 * Power bank
 * USB wall adapter
 
-## Powering Reach RS+ from external connector
+## Powering Reach {{ model }} from external connector
 
+{% if model == "RS/RS+" %} 
 !!! note ""
 	Works only for Reach RS+
 
-{% if model == "RS/RS+" %} 
 Reach RS+ can automatically turn on when the power is supplied to the device via an external 9-pin bottom connector with a voltage in the range from 5V to 40V.
 {% else %}
 Reach RS2 can automatically turn on when the power is supplied to the device via [an external 9-pin bottom connector](../specs/#electrical-specs) with a voltage in the range from 6V to 40V. [You can enable this feature in the ReachView Settings tab.](reachview/settings.md)
