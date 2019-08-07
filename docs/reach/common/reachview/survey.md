@@ -218,7 +218,7 @@ Try to move in the direction to the point. The map zooms in automatically.
 !!! tip "How to understand in which direction the point is?"
 	Once start walking, you will see Rover symbol changes to the arrow.
 
-When the distance to the point is less than 50 centimeters, stakeout changes the mode.
+When the distance to the point is less than 50 centimeters (1.64 feet), stakeout changes the mode.
 
 You need to put a blue rover circle into the white ring by moving the pole. Ensure the pole isn’t tilted. Does rover circle become green? Good job! We have almost finished.
 
