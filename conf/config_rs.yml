@@ -1,5 +1,6 @@
 ---
 model: 'RS/RS+'
+usb: 'Micro-USB'
 index_images:
     - 'img/reachrs/Quickstart.png'
     - 'img/reachrs/Tutorials.png'
