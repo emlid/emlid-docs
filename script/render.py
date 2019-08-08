@@ -8,10 +8,10 @@ from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 
 class TemplateRenderer:
         def __init__(self):
-                self.conf_path = "conf/"
-                self.reach_path = "docs/reach/"
-                self.autopilot_path = "docs/autopilots/"
-                self.templates_path = "templates/"
+                self.conf_path = "../conf/"
+                self.reach_path = "../docs/reach/"
+                self.autopilot_path = "../docs/autopilots/"
+                self.templates_path = "../templates/"
                 self.env = Environment(
                         loader=FileSystemLoader(self.templates_path),
                         autoescape=select_autoescape(["html", "md"]))
@@ -37,7 +37,7 @@ class TemplateRenderer:
                        self.render_template(template_name, conf_name)
                 
         def update_everything(self):
-                for template_name in os.listdir(self.templates_path):
+                for template_name in [file for file in os.listdir(self.templates_path) if os.path.isfile(self.templates_path + file)]:
                         self.update_template(template_name)
 
 
