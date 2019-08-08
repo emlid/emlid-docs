@@ -1,5 +1,6 @@
 ---
 model: RS2
+usb: 'USB-C'
 index_images:
     - 'img/reachrs2/Quickstart.png'
     - 'img/reachrs2/Tutorials.png'
