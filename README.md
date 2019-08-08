@@ -9,6 +9,13 @@ We use mkdocs to build the docs and Pipenv to manage the dependencies.
 - python3
 - python3-pip
 
+# Rendering all templates
+
+```bash
+cd script
+python3 render.py
+```
+
 # Building
 
 ```bash
