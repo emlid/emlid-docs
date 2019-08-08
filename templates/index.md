@@ -1,7 +1,7 @@
 Welcome to your Reach {{ model }}!
 
 {% if model == "RTK" %}
-{% include "index_rtk_template.md" %}
+{% include "include/index_rtk_template.md" %}
 {% else %}
 {% for image in index_images %}
 [![]({{ image | safe}}){: style="width: 200px;"} ](quickstart.md)
