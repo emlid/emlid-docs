@@ -1,4 +1,4 @@
-Welcome to your Reach {{ model }}!
+Welcome to your Emlid Reach {{ model }}!
 
 {% if model == "RTK" %}
 {% include "include/index_rtk_template.md" %}
