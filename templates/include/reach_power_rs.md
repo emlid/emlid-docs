@@ -11,7 +11,7 @@ You can power and charge Reach {{ model }} over {{ usb }} cable using power supp
 * Power bank
 * USB wall adapter
 
-## Powering Reach {{ model }} from external connector
+## Powering Reach {{ model }} from the external connector
 
 {% if model == "RS/RS+" %} 
 !!! note ""

@@ -1,5 +1,5 @@
 {% if model != "RTK" and model != "M+" %}
-{% include "reach_power_rs.md" %}
+{% include "include/reach_power_rs.md" %}
 {% else %}
 {% if model == "RTK" %}
 !!! tip ""
