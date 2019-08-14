@@ -10,6 +10,8 @@ mkdocs = "==1.0.4"
 pygments = "*"
 mkdocs-material = "==4.0.1"
 backports-abc = "*"
+pyyaml = "*"
+jinja2 = "*"
 
 [requires]
 python_version = "3"
