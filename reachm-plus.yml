@@ -101,3 +101,6 @@ inthebox:
   - "* 1 x JST-GH 5-pin to jumper pin cable"
   - "Optionally:" 
   - "* 1 x Tallysman multi-GNSS antenna" 
+templates:
+  index.md: "index.mdx"
+  power-supply.md: "power-supply.mdx"

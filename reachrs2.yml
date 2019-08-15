@@ -103,3 +103,6 @@ inthebox:
     - '* 1 x Carry case'
     - '* 1 x Radio antenna'
     - '* 1 x USB-C cable'
+templates:
+    index.md: 'index.mdx'
+    power-supply.md: 'power-supplyrs.mdx'
