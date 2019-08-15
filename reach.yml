@@ -101,3 +101,5 @@ standalone:
         - 'DF13 <-> jumper wires cable'
         - 'Micro-USB <-> USB cable'
         - 'Micro-USB <-> USB-F OTG cable'
+templates:
+         power-supply.md: 'power-supply.mdx'
