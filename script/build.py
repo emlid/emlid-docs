@@ -21,15 +21,14 @@ class Builder:
                                         mark = exc.problem_mark
                                         print(f"Invalid syntax. Error at Line {mark.line+1}, Position {mark.column+1}, In {conf}")
 
-        def render_template(self, template_name):
+        def render_template(self, destination, template_name):
                 template = self.env.get_template(template_name)
-                with open("../" + self.data["docs_dir"] + "/"  + template_name[:-1], "w") as dest:
+                with open("../" + self.data["docs_dir"] + "/"  + destination, "w") as dest:
                         dest.write(template.render(self.data))
 
         def render_all_templates(self):
-                for template_name in [file for file in os.listdir(self.templates_path) if os.path.isfile(self.templates_path + file)]:
-                    self.render_template(template_name)
-                        
+                for dest, temp in self.data["templates"].items():
+                        self.render_template(dest, temp)
                         
 renderer = Builder(sys.argv[1])
 renderer.render_all_templates()
