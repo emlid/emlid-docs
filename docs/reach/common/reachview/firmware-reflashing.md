@@ -31,7 +31,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|Windows|Linux|
 	|:-------------:|:----------:|
-	|[Download [EXE, 78.2 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.0.1_setup.exe)|[Download [DEB, 51.9 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.0.0_amd64.deb)|
+	|[Download [EXE, 78.3 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.0.2_setup.exe)|[Download [DEB, 51.9 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.0.0_amd64.deb)|
 
 	</center>
 
