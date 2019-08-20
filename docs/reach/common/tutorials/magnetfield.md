@@ -23,6 +23,9 @@ In this tutorial you'll find the information on how to setup data collector runn
 
 After successful Bluetooth pairing, you should configure BT position output and correction input if needed.
 
+!!! note ""
+    Make sure you set up the update rate higher than 1 Hz in RTK Settings.
+
 ### Position output
 
 * Go to **Position output** in ReachView and select BT tab. Select NMEA format and click _Apply_
@@ -78,8 +81,9 @@ After successful Bluetooth pairing, you should configure BT position output and 
 <p style="text-align:center"><img src="../img/reach/magnetfield/pin-code.png" style="width: 600px;"/></p> 
 <br>
 * Now go to **Setup** and check the Status. If the connection is successful, the position will be displayed with a number of satellites and PDOP
+
 <p style="text-align:center"><img src="../img/reach/magnetfield/integration-done.png" style="width: 600px;"/></p> 
-<br>
+
 * In case of successful connection, you'll also see the receiver icon in the corner of MAGNET Field interface
 <p style="text-align:center"><img src="../img/reach/magnetfield/successful-connection.png" style="width: 600px;"/></p> 
 <br>
