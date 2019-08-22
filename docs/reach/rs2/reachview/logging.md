@@ -23,6 +23,9 @@ A raw data log contains GNSS observations from the receiver without calculation 
 
 Time marks for UAV mapping are stored in this file as well.
 
+!!! note ""
+    While recording in RINEX format, UBX file is logging as a backup.
+
 ###Position
 
 Position can be logged in different formats. Open a dropdown list to choose the format for position coordinates.
