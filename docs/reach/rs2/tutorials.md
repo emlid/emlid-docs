@@ -7,11 +7,8 @@ Explore these step-by-step guides to get a better understanding of your Reach po
 * [How RTK works](common/tutorials/rtk-introduction.md)
 * [How PPK works](common/tutorials/ppk-introduction.md)
 * [Tuning LoRa for RTK](common/tutorials/tuning-lora.md)
-* [Connecting Reach to the Internet](connecting-to-the-internet.md)
-* [Working with NTRIP service](ntrip-workflow.md)
-* [Placing GCPs in RTK mode](common/tutorials/placing-gcps.md)
-* [How to download files from Reach](common/tutorials/downloading-files.md)
 * [Placing the base](common/tutorials/placing-the-base.md)
+* [Placing GCPs in RTK mode](common/tutorials/placing-gcps.md)
 
 ###Post-processing workflow
 
