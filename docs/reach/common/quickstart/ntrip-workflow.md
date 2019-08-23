@@ -25,7 +25,7 @@ Reach requires the Internet connection to work with NTRIP. You don’t need any 
 
 Turn on mobile data on your smartphone and share it over Wi-Fi hotspot. Reach will connect to your network and get access to the Internet.
 
-[Check the tutorial for more information about how to connect Reach to other networks.](../../tutorials/connecting-to-the-internet/)
+[Check the tutorial for more information about how to connect Reach to other networks.](../connecting-to-the-internet/)
 
 ##Configure Reach for RTK mode with NTRIP
 
@@ -36,14 +36,14 @@ Open ReachView and go to **RTK settings**. Set everything to the same options as
 
 Apply changes.
 
-<div style="text-align: center;"><img src="../img/reach/ntrip-workflow/rtk-settings.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/ntrip-workflow/rtk-settings.png" style="width: 800px;"></div>
 
 Now go to **Correction input** tab, select **NTRIP** and fill in the information from your provider. Choose the nearest reference station to receive the corrections from.
 
 !!! tip ""
 	Check the website of your NTRIP provider to find out which mount point suits you better. 
 
-<div style="text-align: center;"><img src="../img/reach/ntrip-workflow/ntrip-correction-input.png" style="width: 600px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/ntrip-workflow/ntrip-correction-input.png" style="width: 600px;"></div>
 
 !!! note ""
 	If you are using VRS service, you might need to enable GGA messages. 
@@ -54,7 +54,7 @@ Press **Apply**.
 
 Reach RS needs to have a clear view of the sky approximately 30 degrees above the horizon. There should be no obstacles that could block the view like buildings, trees, cars, humans, laptops etc.
 
-<div style="text-align: center;"><img src="../img/reach/ntrip-workflow/skyview-obstacles.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/ntrip-workflow/skyview-obstacles.png" style="width: 800px;"></div>
 
 [Learn more about Reach setup in the Placement section of Reach RS+ docs](https://docs.emlid.com/reachrs/placement/)
 

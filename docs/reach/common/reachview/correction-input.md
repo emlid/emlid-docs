@@ -36,8 +36,8 @@ When connecting to a mount point that has VRS or Nearest feature, that automatic
 
 Check out the guide to learn more about working with NTRIP service:
 
-* [Reach RS2 NTRIP setup](../../ntrip-workflow.md)
-* [Reach M+ or Reach RS/RS+ NTRIP setup](../tutorials/ntrip-workflow.md)
+* [Reach RS2 NTRIP setup](https://docs.emlid.com/reachrs2/ntrip-workflow/)
+* [Reach M+ or Reach RS/RS+ NTRIP setup](../quickstart/ntrip-workflow.md)
 
 ### TCP
 

@@ -19,7 +19,7 @@ Press Reach power button and wait until it boots.
 
 	|Hotspot mode|Client mode|
 	|:----------:|:---------:|
-	|<img src="../img/reach/downloading-files/running-hotspot.png" style="height: 200px;">|<img src="../img/reach/downloading-files/running-client.gif" style="height: 200px;">|
+	|<img src="../img/quickstart/downloading-files/running-hotspot.png" style="height: 200px;">|<img src="../img/quickstart/downloading-files/running-client.gif" style="height: 200px;">|
 
 ??? note "Reach RS2 workflow"
 
@@ -31,7 +31,7 @@ Press Reach power button and wait until it boots.
 
 	|Hotspot mode|Client mode|
 	|:----------:|:---------:|
-	|<img src="../img/reach/downloading-files/hotspot.png" style="height: 200px;">|<img src="../img/reach/downloading-files/client-mode.png" style="height: 200px;">|
+	|<img src="../img/quickstart/downloading-files/hotspot.png" style="height: 200px;">|<img src="../img/quickstart/downloading-files/client-mode.png" style="height: 200px;">|
 
 ##Connecting to ReachView
 
@@ -68,13 +68,13 @@ Press Reach power button and wait until it boots.
 	2. Scan for available Reach devices
 	3. Choose Reach from the list
 	
-	<div style="text-align: center;"><img src="../img/reach/downloading-files/Reach-list.PNG" style="width: 800px;"></div>
+	<div style="text-align: center;"><img src="../img/quickstart/downloading-files/Reach-list.PNG" style="width: 800px;"></div>
 
 
 ??? note "Connecting via web-browser (any device)"
 
 	1. Connect your device to the same Wi-Fi network as Reach
-	2. Use one of the [Network Scan utility](https://docs.emlid.com/reachrs/quickstart/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address
+	2. Use one of the [Network Scan utility](https://docs.emlid.com/reachrs/quickstart/first-setup/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address
 	3. Launch a web browser (we recommend using Chrome or Mozilla)
 	4. Go to determined Reach IP
 
@@ -83,7 +83,7 @@ Press Reach power button and wait until it boots.
 
 ### System Reports
 
-<div style="text-align: center;"><img src="../img/reach/downloading-files/system-report.PNG" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/downloading-files/system-report.PNG" style="width: 800px;"></div>
 
 System reports carry important for issue resolving information about Reach settings and state. There are two types of system reports:
 
@@ -97,13 +97,13 @@ To download the system report you just need [to open ReachView Settings tab and 
 
 ### Logs
 
-<div style="text-align: center;"><img src="../img/reach/downloading-files/logging.PNG" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/downloading-files/logging.PNG" style="width: 800px;"></div>
 
 You can download logs as well as start or stop logs recording in ReachView “Logging” tab. [Check the Logging section in our docs to download it and learn more about log formats.](../../reachview/logging/#downloading)
 
 ### Survey projects
 
-<div style="text-align: center;"><img src="../img/reach/downloading-files/survey.PNG" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/downloading-files/survey.PNG" style="width: 800px;"></div>
 
 Survey projects contain points you saved during RTK survey. You can find them in ReachView Survey tab. [Proceed to the corresponding article to figure out how you can export them and which formats are available.](../../reachview/survey/#exporting-data) 
 
@@ -119,8 +119,8 @@ Files from Reach are usually saved to the default **Downloads** folder.
 
 * **iOS**: After “Download complete” message appears, you can choose the folder to save file or share it using AirDrop or another app.
 
-<div style="text-align: center;"><img src="../img/reach/downloading-files/download-iPad.PNG" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/downloading-files/download-iPad.PNG" style="width: 800px;"></div>
 
 * **Android**: “Download complete!” message means the file was saved successfully. It’s more likely you will find this file in `My Files/Downloads` or in `My Files/Internal Storage/Download` folders.
 
-<div style="text-align: center;"><img src="../img/reach/downloading-files/download-Android.jpg" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/downloading-files/download-Android.jpg" style="width: 800px;"></div>

@@ -36,8 +36,8 @@ Configure Reach unit to act as a rover in RTK.
 ??? note "Getting corrections from NTRIP/CORS"
 	Configure NTRIP/CORS network as a source of positioning corrections for:
 	
-	* [Reach RS2 rover](../../ntrip-workflow.md)
-	* [Reach M+ or Reach RS/RS+ rover](ntrip-workflow.md)
+	* [Reach RS2 rover](https://docs.emlid.com/reachrs2/ntrip-workflow/)
+	* [Reach M+ or Reach RS/RS+ rover](../quickstart/ntrip-workflow.md)
 
 ##Pairing Reach with an Android device
 

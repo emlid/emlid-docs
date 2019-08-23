@@ -33,7 +33,7 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 	
 	* If you can’t see your mobile hotspot, press **Connect to a hidden network**
 
-<p style="text-align:center" ><img src="../img/reach/connecting-to-the-internet/hidden-network.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/quickstart/connecting-to-the-internet/hidden-network.gif" style="width: 800px;" /></p>
 
 * Fill in the connection form
 	
@@ -56,11 +56,11 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 	!!! danger "Double check the password!"
 		You can unmask the password by clicking on an eye symbol at the end of a password field.
 
-<p style="text-align:center" ><img src="../img/reach/connecting-to-the-internet/new-connection.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/quickstart/connecting-to-the-internet/new-connection.gif" style="width: 800px;" /></p>
 
 * Press the **Connect** button. Blue LED should start blinking on Reach
 
-	<p style="text-align:center" ><img src="../img/reach/connecting-to-the-internet/network-scan.gif" style="width: 400px;" /></p>
+	<p style="text-align:center" ><img src="../img/quickstart/connecting-to-the-internet/network-scan.gif" style="width: 400px;" /></p>
 
 
 ## Connecting process
@@ -82,11 +82,11 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 
 * If the connection is successful, you will see blue LED is blinking slowly
 
-	<p style="text-align:center" ><img src="../img/reach/connecting-to-the-internet/running-client.gif" style="width: 400px;" /></p>
+	<p style="text-align:center" ><img src="../img/quickstart/connecting-to-the-internet/running-client.gif" style="width: 400px;" /></p>
 
 * If the connection fails, you will see the blue LED stays solid
 
-	<p style="text-align:center" ><img src="../img/reach/connecting-to-the-internet/running-hotspot.png" style="width: 400px;" /></p>
+	<p style="text-align:center" ><img src="../img/quickstart/connecting-to-the-internet/running-hotspot.png" style="width: 400px;" /></p>
 
 	!!! tip "If the connection fails:"
 		* Connect to Reach hotspot again

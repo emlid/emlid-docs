@@ -2,7 +2,7 @@
 
 This tutorial will show how to set up two Reach RS/RS+ units as rover and base and how to make them work over LoRa radio in RTK mode.
 
-For setting NTRIP base corrections, [follow the steps from "Working with NTRIP service" guide](../common/tutorials/ntrip-workflow.md).
+For setting NTRIP base corrections, [follow the steps from "Working with NTRIP service" guide](../common/quickstart/ntrip-workflow.md).
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/4GfUDoDwEAE" allowfullscreen></iframe></div>
 
