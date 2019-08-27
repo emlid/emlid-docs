@@ -2,7 +2,7 @@
 
 This tutorial will show how to set up two Reach RS2 units as rover and base and how to make them work over LoRa radio in RTK mode.
 
-For setting NTRIP base corrections, [follow the steps from "Working with NTRIP service" guide](../common/tutorials/ntrip-workflow.md).
+For setting NTRIP base corrections, [follow the steps from "Working with NTRIP service" guide](../ntrip-workflow.md).
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/-K32ayVmH6U" allowfullscreen></iframe></div>
 
@@ -35,9 +35,6 @@ Now we will configure RTK settings and communication between base and rover. Let
 * Connect to the base unit
 
 * Open **RTK Settings** tab and pick each of the satellite systems
-
-<!-- !!! note ""
-    Choose which one to use depending on your location. While GLONASS covers most of the world, BeiDou might be more efficient in the Asia-Pacific region. -->
 
 * Set the update rate at 1 Hz
 

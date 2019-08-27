@@ -34,7 +34,10 @@ Configure Reach unit to act as a rover in RTK.
 	Set up RTK communication between 2 Reach RS+ units over LoRa radio [following this video guide](https://youtu.be/4GfUDoDwEAE). 
 
 ??? note "Getting corrections from NTRIP/CORS"
-	Configure [NTRIP/CORS network as a source of positioning corrections](ntrip-workflow.md) for Reach rover.
+	Configure NTRIP/CORS network as a source of positioning corrections for:
+	
+	* [Reach RS2 rover](../../ntrip-workflow.md)
+	* [Reach M+ or Reach RS/RS+ rover](ntrip-workflow.md)
 
 ##Pairing Reach with an Android device
 
