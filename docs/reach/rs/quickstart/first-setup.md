@@ -116,8 +116,6 @@ The blue LED will blink rapidly while scanning for networks. Once Reach connects
 
     * Put Reach IP in the address bar and go
 
-    Read more on resolving IP addresses in the [ReachView section](../common/reachview/index.md#resolving-ip).
-
 
 ### Updating ReachView
 
@@ -128,8 +126,6 @@ After connecting to Reach RS/RS+, you will see ReachView Updater again. Wait unt
 * When it’s done tap *Reboot and go to the app* button to reboot Reach RS/RS+
 
 * Wait for the blue LED to start blinking slowly, showing that Reach RS has joined your Wi-Fi network again
-
-* Press *Reboot and go to the app* button and wait while device reboots
 
 If you use ReachView app, swipe right to get back to the list of devices, refresh the list and tap **reach**. As for the web browser, just refresh the page with ReachView. You’ll see the filling EMLID logo indicating the loading process of ReachView.
 
