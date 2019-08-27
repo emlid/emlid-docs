@@ -46,4 +46,5 @@ Further reading:
 
 * [How PPK works](ppk-introduction.md)
 * [Placing the base](placing-the-base.md)
-* [Working with NTRIP service](ntrip-workflow.md)
+* [Working with NTRIP service on Reach RS2](../../ntrip-workflow.md)
+* [Working with NTRIP service on Reach M+ or Reach RS/RS+](ntrip-workflow.md)

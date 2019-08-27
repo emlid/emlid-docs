@@ -34,7 +34,10 @@ In order to receive correction from NTRIP caster you need to know:
 
 When connecting to a mount point that has VRS or Nearest feature, that automatically provides you with a connection to closest base station it is required to send your position back to the caster. Tick the “Send NMEA GGA messages to the corrections provider” and after Reach obtains single solution it will start sending it to the caster.
 
-[Check out this guide to learn more about working with NTRIP service](../tutorials/ntrip-workflow.md)
+Check out the guide to learn more about working with NTRIP service:
+
+* [Reach RS2 NTRIP setup](../../ntrip-workflow.md)
+* [Reach M+ or Reach RS/RS+ NTRIP setup](../tutorials/ntrip-workflow.md)
 
 ### TCP
 
