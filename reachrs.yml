@@ -98,7 +98,7 @@ index_images:
     - 'img/reachrs/Placement.png'
     - 'img/reachrs/Power-supply.png'
     - 'img/reachrs/Specs.png'
-inthebox:
+kit:
     - '* 1 x Reach receiver'
     - '* 1 x Carry case'
     - '* 1 x Radio antenna'
