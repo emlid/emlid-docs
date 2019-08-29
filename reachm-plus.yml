@@ -93,7 +93,7 @@ index_images:
   - 'img/reachm-plus/antenna-placement.png'
   - 'img/reachm-plus/power-supply.png'
   - 'img/reachm-plus/specs.png'
-inthebox:
+kit:
   - "* 1 x Reach M+ module"
   - "* 1 x USB cable" 
   - "* 1 x USB-OTG cable"
