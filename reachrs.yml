@@ -89,3 +89,18 @@ nav:
     - MicroSurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
     - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
     - Topcon MAGNET Field Layout setup guide: common/tutorials/magnetfield.md
+model: 'RS/RS+'
+usb: 'Micro-USB'
+index_images:
+    - 'img/reachrs/Quickstart.png'
+    - 'img/reachrs/Tutorials.png'
+    - 'img/reachrs/ReachView.png'
+    - 'img/reachrs/Placement.png'
+    - 'img/reachrs/Power-supply.png'
+    - 'img/reachrs/Specs.png'
+inthebox:
+    - '* 1 x Reach receiver'
+    - '* 1 x Carry case'
+    - '* 1 x Radio antenna'
+    - '* 1 x Adapter for survey pole ( 5/8 )'
+    - '* 1 x USB cable'
