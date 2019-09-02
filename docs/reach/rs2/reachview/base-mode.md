@@ -77,6 +77,10 @@ Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#
 
 ## Base position
 
+
+!!! tip ""
+    [Check the Placing the base guide](https://docs.emlid.com/reachrs2/common/tutorials/placing-the-base/) to learn about different ways to set up your base.  
+
 <p style="text-align:center"><img src="../img/reachview/base-mode/position.jpg" style="width: 800px;"/></p>
 
 There are two main options how to specify base station position. Note that RTK positioning is relative to the base station, so any inaccuracy in it’s position will result in a constant shift of rover coordinates. For many applications it is not critical and averaged single coordinate of the base could be used. If your application requires absolute accuracy for rover position an accurate  base coordinate must be entered.
