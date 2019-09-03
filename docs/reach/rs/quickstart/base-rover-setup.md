@@ -41,17 +41,23 @@ Now we’ll configure RTK settings and communication between base and rover. Let
 
 * Set the update rate at 1 Hz
 
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reachrs-base-rtk-settings.png" style="width: 800px;"></div>
 
 Now we’ll set up LoRa radio on Reach RS/RS+ base to broadcast RTK corrections.
 
 * Go to **Base mode** tab and in the **Corrections output** section select **LoRa**
 
-* In the list of RTCM3 messages select to output GPS L1 observations at 1 Hz, ARP station coordinates at 0.1 Hz, GLONASS L1 observation at 1 Hz and GALILEO or BeiDou at 1 Hz
-
 * Set the output power to **20 dBm** and air rate at **9.11 kb/s**
 
 !!! danger ""
     Make sure to select appropriate output power and frequency according to your local regulations. 
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reachrs-base-lora.png" style="width: 800px;"></div>
+
+* In the list of RTCM3 messages select to output GPS L1 observations at 1 Hz, ARP station coordinates at 0.1 Hz, GLONASS L1 observation at 1 Hz and GALILEO or BeiDou at 1 Hz
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reachrs-base-rtcm3.png" style="width: 800px;"></div>
+
 
 * Apply settings and wait until base averages its position in Base coordinates box
 
@@ -64,7 +70,11 @@ Now we’ll set up LoRa radio on Reach RS/RS+ base to broadcast RTK corrections.
 
 * Set the positioning mode to **Kinematic**, GPS Ambiguity resolution mode to **Fix-and-hold** and GLONASS Ambiguity resolution mode to **ON**
 
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reachrs-rover-rtk-settings.png" style="width: 800px;"></div>
+
 * Select the same GNSS systems as for the base, set 5 Hz update rate and press *Apply*
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reachrs-rover-rtk-settings2.png" style="width: 800px;"></div>
 
 Now we’ll configure LoRa radio on the rover unit to receive the corrections. 
 
@@ -76,7 +86,7 @@ Now we’ll configure LoRa radio on the rover unit to receive the corrections.
 
 * Apply changes and you will see rover is connected to the base
 
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reachrs-lora-rover.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reachrs-rover-lora.png" style="width: 800px;"></div>
 
 !!! tip ""
     To make sure that corrections are passing from base to rover, you can put both receivers by the window for a few minutes to provide the sky visibility. Go to the status tab on the rover unit. Colorful bars are standing for available satellites. If LoRa is configured correctly, they’ll be accompanied by grey bars. These are standing for the corrections received from the base station.
@@ -111,7 +121,7 @@ Let’s set up the base station.
 
 Connect to the rover and check the status tab. If everything is configured correctly, you’ll see a lot of green satellites accompanied by grey bars.
 
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reach_view_status_menu_correction.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/reachrs2-status-correction.png" style="width: 800px;"></div>
 
 
 ## Viewing results
