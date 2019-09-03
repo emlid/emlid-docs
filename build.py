@@ -8,7 +8,7 @@ from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 
 class Builder:
         def __init__(self, conf_path):
-                self.templates_path = "../docs/templates/"
+                self.templates_path = "./docs/templates/"
                 self.env = Environment(
                         loader=FileSystemLoader(self.templates_path),
                         autoescape=select_autoescape(["html", "md"]))
@@ -23,7 +23,7 @@ class Builder:
 
         def render_template(self, destination, template_name):
                 template = self.env.get_template(template_name)
-                with open("../" + self.data["docs_dir"] + "/"  + destination, "w") as dest:
+                with open(self.data["docs_dir"] + "/"  + destination, "w") as dest:
                         dest.write(template.render(self.data))
 
         def render_all_templates(self):
