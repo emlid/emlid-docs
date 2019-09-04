@@ -65,17 +65,18 @@ nav:
   - Changelogs: common/reachview/changelogs.md
 - LED status: led-status.md
 - Specification: specs.md
-- Quickstart: quickstart.md
+- Quickstart:
+  - Quickstart: quickstart.md
+  - Connecting Reach to the Internet: common/quickstart/connecting-to-the-internet.md
+  - Working with NTRIP service: common/quickstart/ntrip-workflow.md
+  - How to download files from Reach: common/quickstart/downloading-files.md
 - Tutorials:
   - Basics:
     - How RTK works: common/tutorials/rtk-introduction.md
     - How PPK works: common/tutorials/ppk-introduction.md
     - Tuning LoRa for RTK: common/tutorials/tuning-lora.md
-    - Connecting Reach to the Internet: common/tutorials/connecting-to-the-internet.md
-    - Working with NTRIP service: common/tutorials/ntrip-workflow.md
-    - Placing GCPs in RTK mode: common/tutorials/placing-gcps.md
-    - How to download files from Reach: common/tutorials/downloading-files.md
     - Placing the base: common/tutorials/placing-the-base.md
+    - Placing GCPs in RTK mode: common/tutorials/placing-gcps.md
   - Post-processing workflow:
     - How PPK works: common/tutorials/ppk-introduction.md
     - GPS post-processing: common/tutorials/gps-post-processing.md
