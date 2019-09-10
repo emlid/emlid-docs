@@ -1,8 +1,8 @@
 site_name: Reach M+ docs
 site_url: https://emlid.com/reach/
 docs_dir: docs/reach/mplus
-copyright: "Emlid.com"
-edit_uri: ""
+copyright: 'Emlid.com'
+edit_uri: ''
 extra_css:
     - 'assets/stylesheets/extra.css?v=4'
     
@@ -94,13 +94,13 @@ index_images:
   - 'img/reachm-plus/power-supply.png'
   - 'img/reachm-plus/specs.png'
 kit:
-  - "* 1 x Reach M+ module"
-  - "* 1 x USB cable" 
-  - "* 1 x USB-OTG cable"
-  - "* 1 x JST-GH 6-pin to jumper pin cable" 
-  - "* 1 x JST-GH 5-pin to jumper pin cable"
-  - "Optionally:" 
-  - "* 1 x Tallysman multi-GNSS antenna" 
+  - '* 1 x Reach M+ module'
+  - '* 1 x USB cable' 
+  - '* 1 x USB-OTG cable'
+  - '* 1 x JST-GH 6-pin to jumper pin cable' 
+  - '* 1 x JST-GH 5-pin to jumper pin cable'
+  - 'Optionally:' 
+  - '* 1 x Tallysman multi-GNSS antenna' 
 templates:
-  index.md: "index.mdx"
-  power-supply.md: "power-supply.mdx"
+  index.md: 'index.mdx'
+  power-supply.md: 'power-supply.mdx'

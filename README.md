@@ -16,14 +16,26 @@ cd emlid-docs
 pipenv install
 ```
 
-
-
 # Editing docs with templates
 
+## Adding new templates
+
+To add new template you need to create a jinja2 template in **emlid-docs/docs/templates/** with .mdx extension and add an entry to 'templates' section of one or several .yml config files in following format. 
+```yaml
+templates:  # <- this should already be in the file
+    destination: '<template-name.mdx>'
+    index.md: 'index.mdx'
+    power-supply.md: 'power-supply.mdx'
+```
+Where destination is the name of the file in **docs_dir** (docs_dir is specified in each .yml file) directory, that is going to be rendered via template.
+
+And template_name name is the name of the actual template file with .mdx extension that must be placed inside **emlid-docs/doc/templates** directory.
+
+**Without these entries template will be ignored.**
 
 ## Updating docs after editing templates (Generating markdown)
 
-Template building script takes path to .yml file as an argument and rebuilds docs from every template specified in .yml.
+Template building script takes the path to .yml file as an argument and rebuilds docs from every template specified in .yml.
 *This should be run after making any changes to templates.*
 ```bash
 cd emlid-docs
@@ -32,19 +44,6 @@ pipenv run python build.py <target>
 # example
 pipenv run python build.py reachm-plus.yml 
 ```
-## Adding new templates
-
-To add new template you need to create a jinja2 template in **emlid-docs/docs/templates/** with .mdx extension and add an entry to "templates" section of one or several .yml config files in following format. 
-```yaml
-templates:  # <- this should already be in the file
-    destination: '<template-name.mdx>'
-```
-Where destination is the name of the file in **docs_dir** (docs_dir is specified in each .yml file) directory, that is going to be rendered via template.
-
-And template_name name is the name of the actual template file with .mdx extension that must be placed inside **emlid-docs/doc/templates** directory.
-
-**Without these entries template will be ignored.**
-
 # Generating HTML
 
 ```bash

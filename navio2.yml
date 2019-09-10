@@ -1,8 +1,8 @@
 site_name: Navio2 docs
 site_url: https://emlid.com/navio/
 docs_dir: docs/autopilots/navio2
-copyright: "Emlid.com"
-edit_uri: ""
+copyright: 'Emlid.com'
+edit_uri: ''
 extra_css:
     - 'assets/stylesheets/extra.css?v=4'
 
