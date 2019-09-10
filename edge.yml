@@ -1,8 +1,8 @@
 site_name: Edge docs
 site_url: https://emlid.com/edge/
 docs_dir: docs/autopilots/edge
-copyright: "Emlid.com"
-edit_uri: ""
+copyright: 'Emlid.com'
+edit_uri: ''
 extra_css:
     - 'assets/stylesheets/extra.css?v=4'
 
