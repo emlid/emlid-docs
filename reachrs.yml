@@ -90,14 +90,8 @@ nav:
     - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
     - Topcon MAGNET Field Layout setup guide: common/tutorials/magnetfield.md
 model: 'RS/RS+'
+model_path: reachrs
 usb: 'Micro-USB'
-index_images:
-    - 'img/reachrs/Quickstart.png'
-    - 'img/reachrs/Tutorials.png'
-    - 'img/reachrs/ReachView.png'
-    - 'img/reachrs/Placement.png'
-    - 'img/reachrs/Power-supply.png'
-    - 'img/reachrs/Specs.png'
 kit:
     - '* 1 x Reach receiver'
     - '* 1 x Carry case'

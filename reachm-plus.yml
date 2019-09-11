@@ -85,14 +85,8 @@ nav:
     - ArduPilot integration: ardupilot-integration.md
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
 model: M+
+model_path: reachm-plus
 power_port: JST-GH
-index_images:
-  - 'img/reachm-plus/quickstart.png'
-  - 'img/reachm-plus/tutorials.png'
-  - 'img/reachm-plus/reachview.png'
-  - 'img/reachm-plus/antenna-placement.png'
-  - 'img/reachm-plus/power-supply.png'
-  - 'img/reachm-plus/specs.png'
 kit:
   - '* 1 x Reach M+ module'
   - '* 1 x USB cable' 
