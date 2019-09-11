@@ -1,12 +1,16 @@
 Welcome to your Emlid Reach {{ model }}!
 
-{% for image in index_images %}
-[![]({{ image | safe}}){: style="width: 200px;"} ](quickstart.md)
-{%- endfor %}
+  [![](img/{{ model_path }}/quickstart.png){: style="width: 200px;"}](quickstart{{ '/first-setup' if model == "RS/RS+" }}.md)
+  [![](img/{{ model_path }}/tutorials.png){: style="width: 200px;"}](tutorials.md)
+  [![](img/{{ model_path }}/reachview.png){: style="width: 200px;"}](common/reachview)
+
+  [![](img/{{ model_path }}/{{ 'antenna-' if model == 'M+' else '' }}placement.png){: style="width: 200px;"}]({{ 'antenna-' if model == 'M+' else '' }}placement.md)
+  [![](img/{{ model_path }}/power-supply.png){: style="width: 200px;"}](power-supply.md)
+  [![](img/{{ model_path }}/specs.png){: style="width: 200px;"}](specs.md)
+
 ## Package contents
 
 In the box:
-
 {% for component in kit %}
 {{ component }}
 {% endfor %}
