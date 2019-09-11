@@ -90,14 +90,8 @@ nav:
     - MicroSurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
     - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
 model: RS2
+model_path: reachrs2
 usb: 'USB-C'
-index_images:
-    - 'img/reachrs2/Quickstart.png'
-    - 'img/reachrs2/Tutorials.png'
-    - 'img/reachrs2/ReachView.png'
-    - 'img/reachrs2/Placement.png'
-    - 'img/reachrs2/Power-supply.png'
-    - 'img/reachrs2/Specs.png'
 kit:
     - '* 1 x Reach RS2 receiver'
     - '* 1 x Carry case'
@@ -105,4 +99,4 @@ kit:
     - '* 1 x USB-C cable'
 templates:
     index.md: 'index.mdx'
-    power-supply.md: 'power-supplyrs.mdx'
+    power-supply.md: 'power-supply-rs.mdx'
