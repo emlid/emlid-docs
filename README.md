@@ -24,14 +24,20 @@ To add new template you need to create a jinja2 template in **emlid-docs/docs/te
 ```yaml
 templates:  # <- this should already be in the file
     destination: '<template-name.mdx>'
-    index.md: 'index.mdx'
-    power-supply.md: 'power-supply.mdx'
 ```
 Where destination is the name of the file in **docs_dir** (docs_dir is specified in each .yml file) directory, that is going to be rendered via template.
 
 And template_name name is the name of the actual template file with .mdx extension that must be placed inside **emlid-docs/doc/templates** directory.
 
 **Without these entries template will be ignored.**
+
+Example:
+
+```yaml
+templates:
+    index.md: 'index.mdx'
+    power-supply.md: 'power-supply.mdx'
+```
 
 ## Updating docs after editing templates (Generating markdown)
 
