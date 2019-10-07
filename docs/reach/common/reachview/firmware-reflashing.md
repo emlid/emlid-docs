@@ -1,6 +1,6 @@
 On this page, you will find the information on how to reflash Reach firmware.
 
-Note that you **do not** need to do this unless you want to bring Reach to its initial state.
+Note that you **do not** need to do this unless you want to bring Reach to its initial state as all the data are erased during the reflashing procedure.
 
 !!! tip ""
 	Most new features are released via ReachView app and can be updated simply via its interface. More information on how to update ReachView app is available in [introduction section](../../reachview/#updating).
@@ -31,7 +31,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|Windows|Linux|
 	|:-------------:|:----------:|
-	|[Download [EXE, 78.3 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.0.2_setup.exe)|[Download [DEB, 51.9 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.0.0_amd64.deb)|
+	|[Download [EXE, 83.9 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.1.1_setup.exe)|[Download [DEB, 56.5 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.1.1_amd64.deb)|
 
 	</center>
 
@@ -131,13 +131,13 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 
 	<center>
 	
-	|Download link|
-	|:-------------:|
-	|[**Reach Image v2.18 [ZIP, 234 MB]**](https://files.emlid.com/images/ReachImage_v2.18.1.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
+	|Stable firmware image|Dev firmware image|
+	|:-------------:|:------------:|
+	|[**Reach Image v2.18 [ZIP, 234 MB]**](https://files.emlid.com/images/ReachImage_v2.18.1.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|[**Reach Image v2.21 [ZIP, 234 MB]**](http://files.emlid.com/images/reach-rs-v2.21.0-dev.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
 
 	</center>
 
-	### Flashing process
+	### Flashing process for v2.18
 
 	??? note "Steps for Windows"
 
@@ -197,6 +197,51 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 		3. Plug Reach in
 		4. Monitor progress in the terminal window
 		5. Proceed to "After flashing" section below
+
+	### Flashing process for v2.21
+
+	* Get the Reach Firmware Flash Tool:
+
+	<center>
+	
+	|Windows|Linux|
+	|:-------------:|:----------:|
+	|[Download [EXE, 83.9 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.1.1_setup.exe)|[Download [DEB, 56.5 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.1.1_amd64.deb)|
+
+	</center>
+
+	* Double click on the downloaded file
+	
+	* Follow the instructions to install Reach Firmware Flash Tool on your PC
+
+	* Open Reach Firmware Flash Tool and choose Reach model
+
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step1-device-select-rs.png" style="width: 300px;" /></p>
+
+	* Select ReachView firmware .zip file
+
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step2-image-select-rs.png" style="width: 300px;" /></p>
+
+	* Disconnect all Reach units. If there are none, Flash Tool will automatically skip this step
+	
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step3-disconnect-devices-rs.png" style="width: 300px;" /></p>
+
+	* Connect Reach device and turn it on. "Reach connected" message will appear
+
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step4-connected-reach-rs.png" style="width: 300px;" /></p>
+
+	* Wait until the end of the flashing process
+
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-flashing-rs.png" style="width: 300px;" /></p>
+
+	* After reflashing, Reach will reboot
+
+	!!! danger ""
+		Do not unplug the Reach on this step.
+
+	* When Reach successfully reboots, you'll see "Reach is flashed and ready to use" message
+
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-flashed-reach-rs.png" style="width: 300px;" /></p>
 
 	## After flashing
 
