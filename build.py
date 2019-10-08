@@ -29,6 +29,6 @@ class Builder:
         def render_all_templates(self):
                 for dest, temp in self.data["templates"].items():
                         self.render_template(dest, temp)
-                        
-renderer = Builder(sys.argv[1])
-renderer.render_all_templates()
+if __name__ == "__main__":                        
+    renderer = Builder(sys.argv[1])
+    renderer.render_all_templates()
