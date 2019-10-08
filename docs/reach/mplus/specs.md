@@ -1,8 +1,14 @@
 ## Mechanical specs
 
+| File name | Download link |
+|-----------|---------------|
+| Reach M+ 3D model in STEP format | [reach-mplus [STEP, 2.1 MB]](https://github.com/emlid/hardware/blob/master/reach-mplus.step)|
+| Reach M+ 3D model in IGES format | [reach-mplus [IGES, 3.6 MB]](https://github.com/emlid/hardware/blob/master/reach-mplus.iges)|
+| Reach M+ LoRa radio 3D model in STEP format | [LoRa-radio [STEP, 344 KB]](https://github.com/emlid/hardware/blob/master/LoRa-radio.step) |
+| Reach M+ LoRa radio 3D model in IGES format | [LoRa-radio [IGES, 661 KB]](https://github.com/emlid/hardware/blob/master/LoRa-radio.iges) |
+
+
 ### Dimensions
-
-
 
 <div style="text-align: center;"><img src="../img/reachm-plus/specs/dimensions.png" style="width: 650px;"></div><br>
 <div style="text-align: center;"><img src="../img/reachm-plus/specs/height.png" style="width: 650px;"></div><br>
@@ -16,13 +22,6 @@ Reach has 4 JST-GH connectors and comes with all required cables to connect to o
 Antenna connector is MCX, to connect to SMA or TNC antenna cable you can use one of the numerous adapters. ([cable](http://www.digikey.com/product-detail/en/CAB.0130/931-1102-ND/2332729), [adapter](http://www.digikey.com/product-detail/en/242127/ACX1348-ND/1012025))
 
 <div style="text-align: center;"><img src="../img/reachm-plus/specs/sma-mcx-cable.jpg" style="width: 150px;"><img src="../img/reachm-plus/specs/sma-mcx-adapter.jpg" style="width: 150px;"></div><br>
-
-### 3D model
-
-Reach M+ 3D model can be downloaded here:
-
-* [Reach M+ Step file](https://github.com/emlid/hardware/blob/master/ReachM%2B.step)
-
 
 ## Electrical specs
 
