@@ -214,6 +214,8 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	* Follow the instructions to install Reach Firmware Flash Tool on your PC
 
+	* Install the [Intel Edison Driver](http://files.emlid.com/firmware-reflashing-tool/IntelEdisonDriverSetup1.2.1.exe)
+
 	* Open Reach Firmware Flash Tool and choose Reach model
 
 	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step1-device-select-rs.png" style="width: 300px;" /></p>
