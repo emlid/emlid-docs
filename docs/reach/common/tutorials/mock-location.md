@@ -6,6 +6,7 @@ This guide demonstrates how to get precise coordinates from Reach on an Android 
 
 !!! tip "Some of the GIS apps for Android used with Reach:"
 	* Mobile Topographer Pro
+	* PointMan
 	* ESRI ArcGIS Collector
 	* Mapit GIS
 	* LandStar
@@ -35,7 +36,7 @@ Configure Reach unit to act as a rover in RTK.
 
 ??? note "Getting corrections from NTRIP/CORS"
 	Configure NTRIP/CORS network as a source of positioning corrections for:
-	
+
 	* [Reach RS2 rover](https://docs.emlid.com/reachrs2/ntrip-workflow/)
 	* [Reach M+ or Reach RS/RS+ rover](../quickstart/ntrip-workflow.md)
 
