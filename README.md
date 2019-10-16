@@ -61,4 +61,4 @@ This will build the \<target\> and save the generated docs to \<dir\>.
 
 You can also `pipenv run mkdocs serve -f <target>.yml` to take a look at the docs on your local machine.
 
-
+To preview changes in html after rendering templates automatically run `pipenv run python update_serve.py <target>.yml`. This essentially executes `build.py` and `mkdocs serve -f` in one command.
