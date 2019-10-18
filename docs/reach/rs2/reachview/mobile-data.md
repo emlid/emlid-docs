@@ -1,6 +1,6 @@
 <p style="text-align:center" ><img src="../img/reachview/mobile-data/mobile-data.png" style="width: 800px;" /></p>
 
-Enable Mobile data on Reach to [get corrections from NTRIP over the Internet](../../common/tutorials/ntrip-workflow/) if a SIM card is inserted.
+Enable Mobile data on Reach to [get corrections from NTRIP over the Internet](https://docs.emlid.com/reachrs2/ntrip-workflow/) if a SIM card is inserted.
 
 ??? note "Check how to insert a SIM card into Reach RS2 in our video guide"
     
