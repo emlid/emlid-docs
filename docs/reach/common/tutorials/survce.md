@@ -37,14 +37,29 @@ After successful Bluetooth pairing you should configure BT position output and c
 
 ## Configuring SurvCE
 
-### Configuring the communication between SurvCE and Reach
+### Configuring Reach profile in SurvCE
 * After launching SurvCE and creating a new project, go to the **Equip** tab and select GPS Rover
 <p style="text-align:center"><img src="../img/reach/survce/GPS-rover.png" style="width: 600px;"/></p> 
 <br>
-* Select EMLID as Manufacturer 
-<p style="text-align:center"><img src="../img/reach/survce/emlid-reachrs.png" style="width: 600px;"/></p> 
+
+* Select _NMEA GPS Receiver_ as Manufacturer and _DGPS_ as Model
+<p style="text-align:center"><img src="../img/reach/survce/nmea-profile.png" style="width: 600px;"/></p> 
 <br>
-* Then go to **Comms** tab and pick Bluetooth settings
+
+* Then go to **Receiver** and click on Antenna type icon.
+<p style="text-align:center"><img src="../img/reach/survce/antenna-type.png" style="width: 600px;"/></p> 
+<br>
+
+* Click _New_ in a opened window
+<p style="text-align:center"><img src="../img/reach/survce/new-antenna.png" style="width: 600px;"/></p> 
+<br>
+
+* Specify the antenna offset in both L1 and L2 tabs. Antenna offset for Reach RS/RS+ is 0.065m and for Reach RS2 is 0.134m.
+<p style="text-align:center"><img src="../img/reach/survce/antenna-offset.png" style="width: 600px;"/></p> 
+<br>
+
+### Configuring the communication between SurvCE and Reach
+* Proceed to **Comms** tab and pick Bluetooth settings
 
 <p style="text-align:center"><img src="../img/reach/survce/bt-configure.png" style="width: 600px;"/></p> 
 
