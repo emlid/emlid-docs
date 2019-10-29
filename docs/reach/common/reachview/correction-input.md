@@ -6,7 +6,7 @@ Configuring correction is required if you want to go beyond standalone positioni
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/serial.png" style="width: 800px;" /></p>
 
-Serial port connection is available through several hardware connection options. All of them support following baud rates: 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200, 128000, 153600, 230400, 256000, 460800, 921600.
+Serial port connection is available through several hardware connection options. All of them support the following baud rates: 9600, 19200, 38400, 57600, 115200. Reach RS2 also supports 230400 baud rate.
 
 #### UART
 Corresponds to TTL UART on Reach and Reach M+ modules or to RS232 port on Reach RS/RS+ and Reach RS2 extension connector. Common way to connect radio or another device providing correction.
