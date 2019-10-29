@@ -119,13 +119,16 @@ We provide a guide on how to use Reach with [Lefebure NTRIP Client](https://play
 Besides being an NTRIP Client, this app also allows NMEA data input via Bluetooth and supports Android feature called **mock location**. This feature allows substituting your device's built-in GPS receiver with an external location provider.
 
 !!! note ""
-	Lefebure NTRIP Client allows GIS apps in the Android device to  use accurate coordinates from Reach.
+	Lefebure NTRIP Client allows GIS apps in the Android device to use accurate coordinates from Reach.
 
 * Install the app [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient) in your Android device
 
 * Open *Developer Options* on your Android device and choose *Lefebure NTRIP Client* in *Select mock location app* field
 
 <p style="text-align:center"><img src="../img/reach/mock-location/developer-options.jpg" style="width: 800px;"/></p>
+
+!!! note ""
+	It is recommended to switch off the power-saving mode on your phone as it may limit background data usage for the Lefebure NTRIP client app.
 
 *  Launch the Lefebure NTRIP Client app and tap on the *settings* icon (gear in the upper right corner)
 
