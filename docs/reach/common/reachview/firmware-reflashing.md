@@ -5,6 +5,46 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 !!! tip ""
 	Most new features are released via ReachView app and can be updated simply via its interface. More information on how to update ReachView app is available in [introduction section](../../reachview/#updating).
 
+## Reach Firmware Flash Tool installation
+
+!!! note "" 
+	In the meantime, please use **Windows** or **Linux** operating systems to flash your Reach devices. Flash Tool for **Mac OS X** is coming soon.
+	
+* Get the Reach Firmware Flash Tool:
+
+<center>
+	
+|Windows|Linux|
+|:-------------:|:----------:|
+|[Download [EXE, 81.9 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.2.0_setup.exe)|[Download [DEB, 109.8 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.2.0_amd64.deb)|
+
+</center>
+
+### Window installation
+
+* Double click on the downloaded file
+	
+* Follow the instructions to install Reach Firmware Flash Tool on your PC
+
+* If you have got Reach RS / RTK devices, install the [Intel Edison Driver](http://files.emlid.com/firmware-reflashing-tool/IntelEdisonDriverSetup1.2.1.exe)
+
+* Reboot your PC
+
+### Linux installation
+
+We recommend using the terminal to install the Flash Tool on your Linux PC. Follow these steps to accomplish it:
+
+* Press `Ctrl+Alt+T` to open the terminal
+* Navigate to the directory with the downloaded file with `cd ~/Downloads` command
+* Run `sudo dpkg -i reach-firmware-flash-tool_1.2.0_amd64.deb` to start installation
+
+!!! danger ""
+	Please confirm adding the current user to `plugdev`, `dialout` and `lpadmin` groups during the installation process. In case of a negative answer, the application might not work as expected.
+
+* Reboot your PC
+
+## Firmware reflashing
+
 ??? note "Firmware Flash Guide for Reach RS2 / RS+ / M+"
 
 	### Reach RS2 / RS+ / M+ firmware download
@@ -15,29 +55,9 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|For Reach RS2|For Reach RS+ / M+|
 	|:-------------:|:-------------:|
-	|[**Reach RS2 Image v2.20.7 [ZIP, 358.7 MB]**](http://files.emlid.com/images/reach-rs2-v2.20.7.zip), [(md5)](http://files.emlid.com/images/reach-rs2-MD5SUMS)|[**Reach RS+/M+ Image v2.18 [ZIP, 347 MB]**](http://files.emlid.com/images/reach-plus-v2.18.1.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|
+	|[**Reach RS2 Image v2.20.8 [ZIP, 369.7 MB]**](http://files.emlid.com/images/reach-rs2-v2.20.8.zip), [(md5)](http://files.emlid.com/images/reach-rs2-MD5SUMS)|[**Reach RS+/M+ Image v2.20.8 [ZIP, 369.8 MB]**](http://files.emlid.com/images/reach-plus-v2.20.8.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|
 
 	</center>
-	
-
-	### Reach Firmware Flash Tool download
-
-	!!! note "" 
-		In the meantime, please use **Windows** or **Linux** operating systems to flash your Reach RS2 / RS+ / M+ devices. Flash Tool for **Mac OS X** is coming soon.
-	
-	* Get the Reach Firmware Flash Tool:
-
-	<center>
-	
-	|Windows|Linux|
-	|:-------------:|:----------:|
-	|[Download [EXE, 79.9 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.1.3_setup.exe)|[Download [DEB, 53.9 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.1.3_amd64.deb)|
-
-	</center>
-
-	* Double click on the downloaded file
-	
-	* Follow the instructions to install Reach Firmware Flash Tool on your PC
 
 	### Flashing process
 
@@ -45,83 +65,63 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 
 	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step1-device-select.png" style="width: 300px;" /></p>
 
-	<!-- delete part with RS -->
+	* Connect Reach in Firmware Update mode
 
-	* Select ReachView firmware .img file
+		??? note "Steps for RS2 device"
+			
+			* Make sure that **Reach RS2** is turned off
+			
+			* Press and hold the power button
+			
+			* Plug the USB cable into PC
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step2-image-select.png" style="width: 300px;" /></p>
+			* Release the power button
 
-	* Disconnect all Reach units. If there are none, Flash Tool will automatically skip this step
+			* All LEDs should blink several times simultaneously, and then start blinking one after another
+			<br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/connect_fel_rs2.webp" style="width: 400px;" /></p>
+
+		??? note "Steps for RS+ device"
+			
+			* Make sure that **Reach RS+** is turned off
+
+			* Press and hold the power button
+			
+			* Plug the USB cable into PC
+
+			* Release the power button
+
+			* All LEDs should blink several times simultaneously, and then start blinking one after another 
+			<br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/connect_fel_rsplus.webp" style="width: 400px;" /></p>
+		
+		??? note "Steps for M+ device"
+			
+			* Make sure that **Reach M+** is disconnected from the PC
+
+			* Use a pin to press and hold the button located in the deepening under the power LED
+
+			* Plug the USB into PC. No LEDs should blink
+
+			* Release the button
+			<br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/connect_fel_mplus.webp" style="width: 400px;" /></p>
+
+	* Select ReachView firmware .img file and click on _Flash_
 	
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step3-disconnect-devices.png" style="width: 300px;" /></p>
-
-	* Connect Reach device and turn it on. "Reach connected" message will appear
-
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step4-connected-reach.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step3-select-firmware-rs2.png" style="width: 300px;" /></p>
 
 	* Wait until the end of the flashing process
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-flashing.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step4-flashing-rs2.png" style="width: 300px;" /></p>
 
 	* After reflashing, Reach will reboot
 
 	!!! danger ""
 		Do not unplug the Reach on this step.
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-rebooting.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-rebooting-rs2.png" style="width: 300px;" /></p>
 
 	* When Reach successfully reboots, you'll see "Reach is flashed and ready to use" message
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-flashed-reach.png" style="width: 300px;" /></p>
-
-	??? danger ""Flashing failed" error troubleshooting"
-
-		If you faced "Flashing failed" error, we recommend following the next steps:
-
-		<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-flashing-failed.png" style="width: 300px;" /></p>
-
-		??? note "Steps for RS2 device"
-			
-			* Disconnect **Reach RS2** device from the PC
-			
-			* Hold the power button for 10 seconds until Reach turns off
-
-			* Press *Try again* button in the Reach Firmware Flash Tool on PC
-
-			* Now you need to enter Firmware Update Mode. To enable it on Reach RS2 press and hold the power button and then plug the USB into PC. All LEDs should blink several times simultaneously, and then start blinking one after another
-			<br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/failed-rs2.gif" style="width: 400px;" /></p>
-
-
-		??? note "Steps for RS+ device"
-			
-			* Disconnect **Reach RS+** device from the PC
-			
-			* Hold the power button for 10 seconds until Reach turns off
-
-			* Press *Try again* button in the Reach Firmware Flash Tool on PC
-
-			* Now you need to enter Firmware Update Mode. To enable it on Reach RS+ press and hold the power button and then plug the USB into PC. All LEDs should blink several times simultaneously, and then start blinking one after another 
-			<br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/failed-rs-plus.gif" style="width: 400px;" /></p>
-		
-		
-		??? note "Steps for M+ device"
-			
-			* Disconnect **Reach M+** device from the PC
-
-			* Press *Try again* button in the Reach Firmware Flash Tool on PC
-
-			* Now you need to enter Firmware Update Mode. To enable Firmware Update mode on Reach M+ use a pin to press and hold the button, located in the deepening under the power LED and then plug the USB into PC. No LEDs should blink
-			<br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/failed-m-plus.gif" style="width: 400px;" /></p>
-
-	### After flashing
-
-	If the flashing has been completed successfully, you will see "Reach is flashed and ready to use" message. You may disconnect your Reach at this point.
-
-	Proceed to Quickstart section to set up your Reach RS2, RS+ or Reach M+:
-
-	* [Quickstart for Reach RS2](https://docs.emlid.com/reachrs2/quickstart/)
-	* [Quickstart for Reach RS+](https://docs.emlid.com/reachrs/quickstart/first-setup)
-	* [Quickstart for Reach M+](https://docs.emlid.com/reachm-plus/quickstart/)
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-flashed-rs2.png" style="width: 300px;" /></p>
 
 ??? note "Firmware Flash Guide for Reach RS / RTK"
 
@@ -131,110 +131,34 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 
 	<center>
 	
-	|Stable firmware image|Dev firmware image|
-	|:-------------:|:------------:|
-	|[**Reach Image v2.18 [ZIP, 234 MB]**](https://files.emlid.com/images/ReachImage_v2.18.1.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|[**Reach Image v2.21 [ZIP, 234 MB]**](http://files.emlid.com/images/reach-rs-v2.21.0-dev.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
+	|For Reach RS / RTK|
+	|:-------------:|
+	|[**Reach Image v2.20.8 [ZIP, 252.3 MB]**](http://files.emlid.com/images/ReachImage_v2.20.8.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
 
 	</center>
 
-	### Flashing process for v2.18
-
-	??? note "Steps for Windows"
-
-		#### Windows
-
-		Before flashing:
-
-		* Install [Intel Edison driver](http://files.emlid.com/firmware-reflashing-tool/IntelEdisonDriverSetup1.2.1.exe)
-		* Unzip the downloaded image
-		* Download copy of [dfu-util.exe](https://files.emlid.com/images/dfu-util/dfu-util.exe) and [libusb-1.0.dll](https://files.emlid.com/images/dfu-util/libusb-1.0.dll)
-		* Place these files in the same folder as the image files
-		* Unplug Reach if it's plugged in
-
-		To flash:
-
-		1. Navigate to the image directory
-		2. Run `flashall.bat`
-		3. Plug Reach in
-		4. Monitor progress in the terminal window
-		5. Proceed to "After flashing" section below
-
-
-	??? note "Steps for Mac OS X"
-		
-		#### Mac OS X
-
-		Before flashing:
-
-		* Unzip downloaded image
-		* Install **[homebrew](http://brew.sh)**
-		* Install dependencies with `brew install dfu-util coreutils gnu-getopt lsusb`
-		* Unplug Reach if it's plugged in
-
-		To flash:
-
-		1. `cd` into the image directory
-		2. Run `./flashall.sh`
-		3. Plug Reach in
-		4. Monitor progress in the terminal window
-		5. Proceed to "After flashing" section below
-
-
-	??? note "Steps for Linux"
-
-		#### Linux
-
-		Before flashing:
-
-		* Unzip downloaded image
-		* Install dfu-util with `sudo apt-get install dfu-util`
-		* Unplug Reach if it's plugged in
-
-		To flash:
-
-		1. `cd` into the image directory
-		2. Run `sudo ./flashall.sh`
-		3. Plug Reach in
-		4. Monitor progress in the terminal window
-		5. Proceed to "After flashing" section below
-
-	### Flashing process for v2.21
-
-	* Get the Reach Firmware Flash Tool:
-
-	<center>
-	
-	|Windows|Linux|
-	|:-------------:|:----------:|
-	|[Download [EXE, 79.9 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.1.3_setup.exe)|[Download [DEB, 53.9 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.1.3_amd64.deb)|
-
-	</center>
-
-	* Double click on the downloaded file
-	
-	* Follow the instructions to install Reach Firmware Flash Tool on your PC
-
-	* Install the [Intel Edison Driver](http://files.emlid.com/firmware-reflashing-tool/IntelEdisonDriverSetup1.2.1.exe)
+	### Flashing process
 
 	* Open Reach Firmware Flash Tool and choose Reach model
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step1-device-select-rs.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step1-device-select.png" style="width: 300px;" /></p>
 
-	* Select ReachView firmware .zip file
+	* Connect Reach. Follow the steps for your device
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step2-image-select-rs.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step2-connect-rs.png" style="width: 300px;" /></p>
 
-	* Disconnect all Reach units. If there are none, Flash Tool will automatically skip this step
-	
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step3-disconnect-devices-rs.png" style="width: 300px;" /></p>
+	??? danger ""Not suitable USB port" error" 
+		If you face "USB port not suitable for flashing" error, disconnect Reach, turn it off and try another USB port.
+		<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step2-choose-usb-rs.png" style="width: 300px;" /></p>
 
-	* Connect Reach device and turn it on. "Reach connected" message will appear
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step4-connected-reach-rs.png" style="width: 300px;" /></p>
+	* Select ReachView firmware .zip file and press _Flash_
+
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step3-select-firmware-rs.png" style="width: 300px;" /></p>
 
 	* Wait until the end of the flashing process
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-flashing-rs.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step4-flashing-rs.png" style="width: 300px;" /></p>
 
 	* After reflashing, Reach will reboot
 
@@ -243,17 +167,14 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 
 	* When Reach successfully reboots, you'll see "Reach is flashed and ready to use" message
 
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step5-flashed-reach-rs.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/app-step4-flashed-rs.png" style="width: 300px;" /></p>
 
-	## After flashing
+## After flashing
 
-	After the initial process is done, Reach will reboot. 
-	
-	!!! danger ""
-		Do not unplug it until it reboots and goes through the initial setup process completely.
+Proceed to Quickstart section to set up your Reach device:
 
-
-	Proceed to Quickstart section to set up your Reach RS / RTK:
-
-	* [Quickstart for Reach RS](https://docs.emlid.com/reachrs/quickstart/first-setup)
-	* [Quickstart for Reach RTK](https://docs.emlid.com/reach/quickstart/)
+* [Quickstart for Reach RS2](https://docs.emlid.com/reachrs2/quickstart/)
+* [Quickstart for Reach RS+](https://docs.emlid.com/reachrs/quickstart/first-setup)
+* [Quickstart for Reach M+](https://docs.emlid.com/reachm-plus/quickstart/)
+* [Quickstart for Reach RS](https://docs.emlid.com/reachrs/quickstart/first-setup)
+* [Quickstart for Reach RTK](https://docs.emlid.com/reach/quickstart/)
