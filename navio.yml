@@ -4,7 +4,7 @@ docs_dir: docs/autopilots/navio
 copyright: "Emlid.com"
 edit_uri: ""
 extra_css:
-    - 'assets/stylesheets/extra.css?v=3'
+    - 'assets/stylesheets/extra.css?v=4'
 
 theme:
         name: material
