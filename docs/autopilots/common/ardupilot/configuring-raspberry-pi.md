@@ -88,6 +88,9 @@ If required you can now upgrade your system by running:
 
 ## Expanding rootfs
 
+!!! note ""
+	Emlid Raspbian Buster makes auto-expanding on a first boot.
+
 By default when Emlid Raspbian for the Rapsberry Pi is installed the file system
 will only expand to occupy 3GB of storage. If you don’t have space left on yor device,
 you should expand your file system. To do so, just type
