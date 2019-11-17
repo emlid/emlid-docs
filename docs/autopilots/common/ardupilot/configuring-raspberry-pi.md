@@ -1,6 +1,6 @@
 ## Downloading configured Raspbian image
 
-Navio requires a preconfigured Raspbian to run. We provide a unified SD card image for Raspberry Pi 2 and 3. The OS is headless, i.e. it comes without GUI as it is not required for drone applications.
+Navio requires a preconfigured Raspbian to run. We provide a unified SD card image for Raspberry Pi 2, 3 and 4. The OS is headless, i.e. it comes without GUI as it is not required for drone applications.
 
 [Download SD card image with the latest Raspbian release (Stretch)](http://files.emlid.com/images/emlid-raspbian-20190227.img.xz), [(md5)](https://files.emlid.com/images/MD5SUMS)
 
@@ -17,7 +17,7 @@ More detailed instructions are available [here](http://www.raspberrypi.org/docum
 
 ## Configuring Wi-Fi access
 
-Raspberry Pi3 has an internal Wi-Fi module, while Raspberry Pi 2 requires an external USB Wi-Fi dongle. An extensive list of supported dongles is available [here](http://elinux.org/RPi_USB_Wi-Fi_Adapters).
+Raspberry Pi 3 and 4 have an internal Wi-Fi module, while Raspberry Pi 2 requires an external USB Wi-Fi dongle. An extensive list of supported dongles is available [here](http://elinux.org/RPi_USB_Wi-Fi_Adapters).
 
 Wi-Fi networks can be configured by editing the wpa_supplicant.conf file located on SD card (/boot partition). To add your network simply add the following lines to it:
 
