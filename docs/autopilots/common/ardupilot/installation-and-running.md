@@ -1,6 +1,6 @@
 ## Overview
 
-You can run ArduPilot on Raspberry Pi 3 or 2 with Navio. The autopilot's code works directly on Raspberry Pi. For ArduPilot to work properly please use the configured Raspbian distribution that we provide.  
+You can run ArduPilot on Raspberry Pi 2, 3 or 4 with Navio. The autopilot's code works directly on Raspberry Pi. For ArduPilot to work properly please use the configured Raspbian distribution that we provide.
 
 ## Current vehicle versions
 

@@ -2,6 +2,7 @@
 
 ArduPilot on Navio2 is working on:
 
+* Raspberry Pi 4 Model B
 * Raspberry Pi 3 Model A+
 * Raspberry Pi 3 Model B
 * Raspberry Pi 3 Model B+
