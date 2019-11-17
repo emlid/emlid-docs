@@ -10,7 +10,7 @@ Auxiliary function switches on channels 5-8 are still not supported and could le
 A “Relay” is an digital output pin that can be switched between 0 volts and 3.3V. Similar to a servo it allows the flight controller to invoke some action from another device on the vehicle.
 
 !!! note ""
-    This feature available only on ArduCopter.
+    This feature is available on ArduCopter, ArduPlane, and ArduRover.
 
 [Relay Switch setup](http://ardupilot.org/copter/docs/common-relay.html)
 
