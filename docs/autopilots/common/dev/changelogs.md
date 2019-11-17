@@ -1,5 +1,19 @@
 ## Navio Raspbian changelog
 
+*2019-11-28*
+
+- ArduPilot updated:
+    - ArduCopter: 3.6.11
+    - ArduPlane: 4.0.0
+    - ArduRover: 4.0.0
+    - ArduSub: 3.5.4
+
+- Raspbian Buster
+- Kernel updated to v4.19.83
+- Raspberry PI 4 Model B support
+- Fixed servo rail voltage
+- Rootfs auto-expanding on a first boot
+
 *2019-02-27*
 
 - ArduPilot updated:
