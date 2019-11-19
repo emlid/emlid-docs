@@ -15,7 +15,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|For Reach RS2|For Reach RS+ / M+|
 	|:-------------:|:-------------:|
-	|[**Reach RS2 Image v2.20.7 [ZIP, 358.7 MB]**](http://files.emlid.com/images/reach-rs2-v2.20.7.zip), [(md5)](http://files.emlid.com/images/reach-rs2-MD5SUMS)|[**Reach RS+/M+ Image v2.18 [ZIP, 347 MB]**](http://files.emlid.com/images/reach-plus-v2.18.1.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|
+	|[**Reach RS2 Image v2.20.8 [ZIP, 369.7 MB]**](http://files.emlid.com/images/reach-rs2-v2.20.8.zip), [(md5)](http://files.emlid.com/images/reach-rs2-MD5SUMS)|[**Reach RS+/M+ Image v2.20.8 [ZIP, 369.8 MB]**](http://files.emlid.com/images/reach-plus-v2.20.8.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|
 
 	</center>
 	
@@ -133,7 +133,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 	|Stable firmware image|Dev firmware image|
 	|:-------------:|:------------:|
-	|[**Reach Image v2.18 [ZIP, 234 MB]**](https://files.emlid.com/images/ReachImage_v2.18.1.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|[**Reach Image v2.21 [ZIP, 234 MB]**](http://files.emlid.com/images/reach-rs-v2.21.0-dev.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
+	|[**Reach Image v2.20.8 [ZIP, 252.3 MB]**](http://files.emlid.com/images/ReachImage_v2.20.8.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|[**Reach Image v2.21 [ZIP, 234 MB]**](http://files.emlid.com/images/reach-rs-v2.21.0-dev.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
 
 	</center>
 
