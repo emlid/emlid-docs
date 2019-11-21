@@ -7,6 +7,9 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 
 ## Reach Firmware Flash Tool installation
 
+!!! danger ""
+	Please proceed to [this section of the guide](#flashing-process-for-v2208) if you would like to reflash the **Reach RS** or **Reach RTK** device to the latest stable **v2.20.8** firmware version. You do not need the Flash tool in this case.
+
 !!! note "" 
 	In the meantime, please use **Windows** or **Linux** operating systems to flash your Reach devices. Flash Tool for **Mac OS X** is coming soon.
 	
@@ -131,13 +134,74 @@ We recommend using the terminal to install the Flash Tool on your Linux PC. Foll
 
 	<center>
 	
-	|For Reach RS / RTK|
-	|:-------------:|
-	|[**Reach Image v2.20.8 [ZIP, 252.3 MB]**](http://files.emlid.com/images/ReachImage_v2.20.8.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
+	|Stable firmware image|Dev firmware image|
+	|:-------------:|:------------:|
+	|[**Reach Image v2.20.8 [ZIP, 252.3 MB]**](http://files.emlid.com/images/ReachImage_v2.20.8.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|[**Reach Image v2.21.1 [ZIP, 234 MB]**](http://files.emlid.com/images/reach-rs-v2.21.1-dev.zip), [(md5)](https://files.emlid.com/images/reachview-MD5SUMS)|
 
 	</center>
 
-	### Flashing process
+	### Flashing process for v2.20.8
+
+	??? note "Steps for Windows"
+
+		#### Windows
+
+		Before flashing:
+
+		* Install [Intel Edison driver](http://files.emlid.com/firmware-reflashing-tool/IntelEdisonDriverSetup1.2.1.exe)
+		* Unzip the downloaded image
+		* Download copy of [dfu-util.exe](https://files.emlid.com/images/dfu-util/dfu-util.exe) and [libusb-1.0.dll](https://files.emlid.com/images/dfu-util/libusb-1.0.dll)
+		* Place these files in the same folder as the image files
+		* Unplug Reach if it's plugged in
+
+		To flash:
+
+		1. Navigate to the image directory
+		2. Run `flashall.bat`
+		3. Plug Reach in
+		4. Monitor progress in the terminal window
+		5. Proceed to "After flashing" section below
+
+
+	??? note "Steps for Mac OS X"
+		
+		#### Mac OS X
+
+		Before flashing:
+
+		* Unzip downloaded image
+		* Install **[homebrew](http://brew.sh)**
+		* Install dependencies with `brew install dfu-util coreutils gnu-getopt lsusb`
+		* Unplug Reach if it's plugged in
+
+		To flash:
+
+		1. `cd` into the image directory
+		2. Run `./flashall.sh`
+		3. Plug Reach in
+		4. Monitor progress in the terminal window
+		5. Proceed to "After flashing" section below
+
+
+	??? note "Steps for Linux"
+
+		#### Linux
+
+		Before flashing:
+
+		* Unzip downloaded image
+		* Install dfu-util with `sudo apt-get install dfu-util`
+		* Unplug Reach if it's plugged in
+
+		To flash:
+
+		1. `cd` into the image directory
+		2. Run `sudo ./flashall.sh`
+		3. Plug Reach in
+		4. Monitor progress in the terminal window
+		5. Proceed to "After flashing" section below
+
+	### Flashing process for v2.21.1
 
 	* Open Reach Firmware Flash Tool and choose Reach model
 
