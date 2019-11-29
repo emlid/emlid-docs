@@ -1,9 +1,13 @@
 ## Overview
 
+
 Real Time Kinematic technique requires 2 receivers. One of them is stationary and is called “base station”, the other one is “rover”. The base station measures errors, and knowing that it is stationary transmits corrections to the rover (refer to [How RTK works](../../tutorials/rtk-introduction) for more information about RTK).  Sometimes CORS and NTRIP networks take the place of traditional base stations. They provide accurate absolute position and send corrections over the Internet. Typically the distance between the reference station and local rover shouldn't exceed 10-15 km due to the ionospheric effect. So if the reference station is located too far or simply is absent in the area you will need a local base station. Other advantages of your own base are independence from the Internet connection and lack of NTRIP subscription fees.
 
 If you are setting up your own base it is important to pay attention to this article. A good understanding of different ways to set up the base will help you to reach the desired accuracy for your application.
 
+This tutorial will show you how to set up a Reach RS2 base over a known point. 
+
+<div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/FilRoPVDjCs" allowfullscreen></iframe></div>
 
 ## Absolute and relative position
 ReachView has several ways to determine or set the base station position providing various levels of accuracy. Let's take a look at the illustration below (figure 1). RTK algorithm precisely calculates the distance between base and rover. This distance is called the Baseline. The Rover position is  precisely determined relative to the Base position. At the same time, the rover coordinates offset from the real location depends on the position accuracy of the base. If the position that has been set in the base station is different from the actual True position  on earth the offset equal to this difference will be in the rover position as well.  
