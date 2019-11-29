@@ -19,7 +19,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 |Windows|Linux|
 |:-------------:|:----------:|
-|[Download [EXE, 81.9 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.2.0_setup.exe)|[Download [DEB, 109.8 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.2.0_amd64.deb)|
+|[Download [EXE, 85.9 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.2.1_setup.exe)|[Download [DEB, 109.8 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.2.1_amd64.deb)|
 
 </center>
 
