@@ -8,6 +8,9 @@ QGIS (previously known as Quantum GIS) is the cross-platform free and open-sourc
 
 First of all, we need to connect survey equipment to QGIS. There are two simple ways. One, over local network, or second by USB. 
 
+!!! tip ""
+    To configure the connection in QGIS, you might need to enable the **GPS Information Panel** first. Go to the **View** list in the Menu bar and tick this option in the **Panels** field to accomplish this.
+
 ### TCP
 
 In order to connect over local network, the computer running QGIS needs to be on the same network as the rover. This can be via the rover's hotspot. This screenshot shows the reach Rover config and the QGIS config. The port number is the same as we'll enter in QGIS to find position string.
@@ -17,7 +20,6 @@ In order to connect over local network, the computer running QGIS needs to be on
 
 
 In QGIS, the color panel turns green to indicate connection when we enter in the IP address of the rover and the port number.
-
 
 <div style="text-align: center;"><img src="../img/reach/qgis-survey/qgis-tcp-set.png" style="width: 350px;"></div><br>
 
