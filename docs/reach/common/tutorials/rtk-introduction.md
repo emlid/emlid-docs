@@ -8,7 +8,7 @@ Two receivers are used in RTK. One of them is stationary, another moves freely. 
 
 <p style="text-align:center" ><img src="../img/reach/rtk-introduction/base-rover.jpg" style="width: 800px;" /></p>
 
-Base's mission is to stay in one place, calculate distortions in satellites signals, and send corrections to a moving receiver. Rover uses that data to achieve centimeter precise position. Any number of rovers can connect to one base if their input settings match the base's output.
+The base's mission is to stay in one place and send corrections to a moving receiver. Rover uses that data to achieve centimeter precise position. Any number of rovers can connect to one base if their input settings match the base's output.
 
 <p style="text-align:center" ><img src="../img/reach/rtk-introduction/multiple-rovers.jpg" style="width: 800px;" /></p>
 
