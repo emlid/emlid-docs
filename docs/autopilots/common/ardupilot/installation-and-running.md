@@ -15,40 +15,7 @@ Emlid Raspbian has preinstalled ArduPilot. It includes all vehicles and is based
 
 Once you ssh into Raspberry Pi you'll be greated with a message that looks like this:
 
-```
-                                                                
-                #     #    #    #     # ### ####### 
-                ##    #   # #   #     #  #  #     # 
-                # #   #  #   #  #     #  #  #     # 
-                #  #  # #     # #     #  #  #     # 
-                #   # # #######  #   #   #  #     # 
-                #    ## #     #   # #    #  #     # 
-                #     # #     #    #    ### ####### 
-                                                                
-STEP 1: 
-Choose your vehicle and ArduPilot version using emlidtool
-(Please, read carefully all options and select appropriate one for either Navio 2 or Navio+)
-- sudo emlidtool ardupilot
-
-STEP 2:
-Set your GCS IP 
-        - sudo nano /etc/default/arducopter
-        - sudo nano /etc/default/arduplane
-        - sudo nano /etc/default/ardurover
-STEP 3:
-Reload configuration by issuing these commands
-        - sudo systemctl daemon-reload
-
-Launch, and enable on boot
-
-- sudo emlidtool ardupilot
-
-IMPORTANT:
-
-To show this message one more time type "sudo emlidtool ardupilot help"
-
-* Documentation: https://docs.emlid.com/
-```
+![emlidtool-ui](img/navio2-start-screen.png)
 
 We'll guide you through what's going on under the hood in the sections below.
 
