@@ -58,7 +58,6 @@ nav:
 - Navio2 for developers:
   - 'Pinout': 'dev/pinout.md'
   - 'Video streaming': 'common/dev/video-streaming.md'
-  - 'Wi-Fi Broadcast' : 'common/dev/wbc.md'
   - 'Examples setup': 'common/dev/navio-repository-cloning.md'
   - 'Barometer' : 'common/dev/barometer.md'
   - 'ADC' : 'dev/adc.md'
