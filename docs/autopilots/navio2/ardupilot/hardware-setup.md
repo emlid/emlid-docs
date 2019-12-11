@@ -125,5 +125,5 @@ STL Files:
 [Top](https://github.com/emlid/hardware/blob/master/VibroNavio2top_rev_A.STL)  
 [Bottom](https://github.com/emlid/hardware/blob/master/VibroNavio2bot_rev_A.STL)  
 
-You will also need 8 blue vibration damping balls from [Hobbyking](https://hobbyking.com/en_us/vibration-damping-ball-65g-bag-of-8.html)
+You will also need 8 blue vibration damping balls.
 ![damping-balls](img/damping-balls.jpg)
