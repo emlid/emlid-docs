@@ -72,9 +72,9 @@ Reach RS2 needs to have a clear view of the sky approximately 30 degrees above t
 
 Check tutorials on how to create new projects, collect and stake out points, import and export projects:
 
-* [New project](../../common/reachview/survey/#creating-new-project)
-* [Survey tool overview](../../common/reachview/survey/#survey-tool-interface)
-* [Point collection](../../common/reachview/survey/#collecting-the-point)
-* [Stakeout](../../common/reachview/survey/#point-stakeout)
-* [Project import](../../common/reachview/survey/#points-import) and [export](../../common/reachview/survey/#exporting-data)
+* [New project](../common/reachview/survey/#creating-new-project)
+* [Survey tool overview](../common/reachview/survey/#survey-tool-interface)
+* [Point collection](../common/reachview/survey/#collecting-the-point)
+* [Stakeout](../common/reachview/survey/#point-stakeout)
+* [Project import](../common/reachview/survey/#points-import) and [export](../common/reachview/survey/#exporting-data)
 
