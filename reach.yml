@@ -85,3 +85,19 @@ nav:
   - Integration with external software:
     - ArduPilot integration: ardupilot-integration.md
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
+
+model: RTK
+power_port: DF13
+kit:
+        - '2x Reach RTK module'
+        - '2x Tallysman TW4721 antenna with adhesive mount'
+        - '2x DF13 <-> DF13 straight cable'
+        - '2x DF13 <-> jumper wires cable'
+        - '2x Micro-USB <-> USB cable'
+        - '2x Micro-USB <-> USB-F OTG cable'
+standalone:
+        - 'Reach RTK module'
+        - 'DF13 <-> DF13 straight cable'
+        - 'DF13 <-> jumper wires cable'
+        - 'Micro-USB <-> USB cable'
+        - 'Micro-USB <-> USB-F OTG cable'
