@@ -19,7 +19,7 @@ class Builder:
                         except yaml.YAMLError as exc:
                                 if hasattr(exc, 'problem_mark'):
                                         mark = exc.problem_mark
-                                        print(f"Invalid syntax. Error at Line {mark.line+1}, Position {mark.column+1}, In {conf}")
+                                        print("Invalid syntax")
 
         def render_template(self, destination, template_name):
                 template = self.env.get_template(template_name)
