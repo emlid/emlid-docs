@@ -15,7 +15,7 @@ Simple text protocol for X, Y, Z ECEF coordinates as well as solution status. Pr
 Simple text protocol for East, North and UP components of the baseline as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### NMEA 0183
-The most popular standard in the industry. Supported messages: GNRMC, GNGGA, GPGSA, GLGSA, GAGSA, GPGSV, GLGSV, GAGSV, GNGST, GNVTG.
+The most popular standard in the industry. Supported messages: GNRMC, GNGGA, GPGSA, GLGSA, GAGSA, GPGSV, GLGSV, GAGSV, GNGST, GNVTG, GNZDA.
 
 Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
