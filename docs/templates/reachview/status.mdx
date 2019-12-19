@@ -2,10 +2,19 @@ This is the main dashboard with all information about position and satellite rec
 
 ## Satellite SNR chart
 
-<p style="text-align:center" ><img src="../img/reachview/status/status.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/status/{{ model_path }}/status.png" style="width: 800px;" /></p>
 
-RTK positioning requires excellent reception of signals from GNSS satellites. SNR (Signal to Noise Ratio) is the primary indicator of how good the reception is. The graph lists all satellites that fit in your screen size and corresponding SNR. Data is updated in real-time.
+RTK positioning requires excellent reception of signals from satellites. SNR (Signal to Noise Ratio) is the primary indicator of how good the reception is. The graph lists all satellites that fit in your screen size and corresponding SNR. Data is updated in real-time.
 
+{% if model == "RS2" %}
+| Legend |                   |
+|--------|-------------------|
+|   R    | Glonass satellite |
+|   G    | GPS satellite     |
+|   E    | Galileo satellite |
+|   J    | QZSS satellite    |
+|   C    | Beidou satellite  |
+{% else %}
 | Legend |                   |
 |--------|-------------------|
 |   R    | Glonass satellite |
@@ -14,19 +23,21 @@ RTK positioning requires excellent reception of signals from GNSS satellites. SN
 |   E    | Galileo satellite |
 |   J    | QZSS satellite    |
 |   C    | Beidou satellite  |
- 
+{% endif %}
 
 When SNR of a satellite is over 45, it will be marked green. Grey bars indicate SNR of the base station. You should aim to achieve as many satellites signals in “green zone” as possible. That will make your measurements precise and ambiguity resolution (Fix) fast. On the top of the SNR chart you can see indicators of numbers of satellites visible to rover and base receivers.
 
 ## RTK parameters
 
-<p style="text-align:center" ><img src="../img/reachview/status/rtk_parameters.png" style="width: 550px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/status/{{ model_path }}/rtk_parameters.png" style="width: 550px;" /></p>
 
 ### Age of differential
 In the case of a steady correction stream, age of differential will indicate link latency. It is calculated by subtracting the time when the correction message has been generated from the current receiver time. It is an invaluable tool to debug connectivity issues.
 
+{% if model == "RS/RS+" %} 
 ### AR validation ratio  
 This is result of ratio test performed on the potential “Fix” solution, it shows how many times is the best solution better than the next one. If this number is more than 3 Reach will consider RTK solution Fixed. 
+{% endif %}
 
 ### Baseline
 Baseline is the distance from rover to the base. It should be kept within 10km (6 miles), if it is increased further you might experience slower fix time and lower accuracy. Accuracy is decreased by 1mm each km of baseline. 
@@ -34,7 +45,7 @@ Baseline is the distance from rover to the base. It should be kept within 10km (
 ## Map
 Integrated map is used to show your current position. Map layer is provided by OpenStreetMap.
 
-<p style="text-align:center" ><img src="../img/reachview/status/map.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/status/{{ model_path }}/map.png" style="width: 800px;" /></p>
 
 Available map features:
 
@@ -57,7 +68,7 @@ Available map features:
 ### Position
 WGS84 Latitude and Longitude as well as ellipsoidal height are displayed on the status tab. Position display format can be changed to XYZ ECEF.
 
-<p style="text-align:center" ><img src="../img/reachview/status/position.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/status/{{ model_path }}/position.png" style="width: 800px;" /></p>
 
 ### Solution status
 **"-"** means there is no information for the software to process. Either not enough time has passed or the antenna is not placed correctly.  

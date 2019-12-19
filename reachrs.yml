@@ -100,3 +100,4 @@ kit:
 templates:
     index.md: 'index.mdx'
     power-supply.md: 'power-supply-rs.mdx'
+    common/reachview/status.md: 'reachview/status.mdx'
