@@ -116,8 +116,6 @@ The blue LED will blink rapidly while scanning for networks. Once Reach connects
 
     * Put Reach IP in the address bar and go
 
-    Read more on resolving IP addresses in the [ReachView section](../common/reachview/index.md#resolving-ip).
-
 
 ### Updating ReachView
 
