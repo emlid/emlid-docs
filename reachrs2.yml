@@ -52,7 +52,7 @@ nav:
 - ReachView:
   - Introduction: common/reachview/index.md
   - Settings: reachview/settings.md
-  - Status: reachview/status.md
+  - Status: common/reachview/status.md
   - Survey: common/reachview/survey.md
   - RTK settings: reachview/rtk-settings.md
   - Correction input: common/reachview/correction-input.md
@@ -100,3 +100,4 @@ kit:
 templates:
     index.md: 'index.mdx'
     power-supply.md: 'power-supply-rs.mdx'
+    common/reachview/status.md: 'reachview/status.mdx'
