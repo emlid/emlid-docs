@@ -69,9 +69,9 @@ You can see the recording date and time.
 
 There are two buttons on the right side of each log: <img src="../img/reachview/logging/blue-arrow.svg" align="middle" alt="blue arrow" />  button allows to save it, and <img src="../img/reachview/logging/garbage-can.svg" align="middle" alt="red garbage can" /> button deletes it.
 
-Now when the logs are downloaded, you can use [RTKLIB software](../../tutorials/gps-post-processing) from Emlid docs to start working with your data.
+Now when the logs are downloaded, you can use [RTKLIB software](../../common/tutorials/gps-post-processing) from Emlid docs to start working with your data.
 
-Check [PPK guide](../../tutorials/gps-post-processing) in Emlid docs to learn more about PPK. 
+Check [PPK guide](../../common/tutorials/gps-post-processing) in Emlid docs to learn more about PPK. 
 
 
 
