@@ -25,7 +25,7 @@ To place GCPs with Reach units follow the steps from this guide.
 	</center>
 
 ??? note "Setting RTK on Reach rover over NTRIP"
-	If you have just one Reach receiver, you need to connect it to NTRIP first. [Check this guide for more details](../../ntrip-workflow)
+	If you have just one Reach receiver, you need to connect it to NTRIP first. [Check this guide for more details](../../../ntrip-workflow)
 
 ### Create a project
 
