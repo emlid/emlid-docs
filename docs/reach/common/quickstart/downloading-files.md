@@ -9,6 +9,18 @@ This guide overviews how to download system report, export survey project or sav
 
 Press Reach power button and wait until it boots. 
 
+??? note "Reach M+ workflow"
+
+	When the red LED and green LED stay solid, check the blue LED status.
+
+	* **Blue LED is solid.** Reach is in hotspot mode and you can connect your laptop or phone to it. [Click this link to continue following the guide.](#reach-is-in-hotspot-mode)
+	* **Blue LED blinks slowly.** Reach is in client mode and connected to the Wi-Fi network. [Proceed to this part of the guide to continue.](#reach-is-in-client-mode)
+	<br>	
+
+	|Hotspot mode|Client mode|
+	|:----------:|:---------:|
+	|<img src="../img/quickstart/downloading-files/running-hotspot-mplus.gif" style="height: 100px;">|<img src="../img/quickstart/downloading-files/running-client-mplus.gif" style="height: 100px;">|
+
 ??? note "Reach RS/RS+ workflow"
 
 	When the red LED and green LED stay solid, check the blue LED status.
