@@ -1,0 +1,162 @@
+## Intro
+
+In this tutorial, we will walk you through the following steps:
+
+* Install the ReachView App
+* Connect and place the GNSS antenna
+* Power Reach {{model}}
+* Connect to Reach {{ model }}
+* Perform firmware update
+
+To do that, you will need Reach {{model}} itself, an external GNSS antenna, a Wi-Fi network with Internet access and a smartphone or PC.
+
+## Installing the ReachView App
+
+For managing Reach {{model}}, we recommend using the ReachView app. Get it from the App Store or Google Play before updating.
+
+<center>
+
+|Google Play|App Store|
+|:-------------:|:----------:|
+|[Android ReachView app [7.7 MB]](https://play.google.com/store/apps/details?id=com.reachview)|[iOS ReachView app [7.7 MB]](https://apps.apple.com/us/app/reachview/id1295196887)|
+
+</center>
+
+!!! note ""
+    If you encounter any issues performing these steps, we will be happy to help at our [**community forum**](http://community.emlid.com/).
+
+## Antenna connection
+
+* Plug antenna cable into MCX socket on Reach
+
+* Place antenna on a ground plane. It could be a cut piece of metal > 100mm in diameter, roof of a car or metal roof of a building
+
+<div style="text-align: center;"><img src="../img/quickstart/first-setup/{{model_path}}/antenna-ground-plane.png" style="width: 500px;"></div>
+
+!!! danger ""
+    There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above the horizon.
+
+     **Do not** test the device indoors or near buildings. **Do not** cover the skyview for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
+
+A guide on how to properly place the antennas is available in [Antenna placement](../../../antenna-placement) section.
+
+## Powering up
+
+* Take Micro-USB <--> USB cable that is coming with the package
+
+* Plug Micro-USB end of the cable into Micro-USB port on Reach and plug another end into 5V power source such as USB power bank, USB wall adapter or USB port of a computer
+
+<div style="text-align: center;"><img src="../img/quickstart/first-setup/{{model_path}}/power-supply-options.png" style="width: 500px;"></div>
+
+!!! danger "Attention"
+    **Do not** plug two power supplies at the same time as it may damage the device.
+
+You can read more about the power supply by following [this link.](../../../power-supply)
+
+{%if model == 'M+' %}
+
+After the device is powered up, the blue LED will be blinking for about 30 seconds and then becomes solid. Reach {{model}} is now broadcasting Wi-Fi.
+
+{%else%}
+
+After the device is powered up, the white and the magenta LEDs are going to blink slowly. After about 30 seconds the white and the green LEDs are going to blink alternately. 
+Reach {{model}} is now broadcasting Wi-Fi.
+
+{%endif%}
+
+<div style="text-align: center;"><img src="../img/quickstart/first-setup/{{model_path}}/running-hotspot.gif" style="width: 350px;"></div>
+
+
+## Connecting to Reach {{model}}
+
+* Open a list of Wi-Fi networks on your smartphone, tablet or laptop
+
+* Connect to a network named **reach:xx:xx** 
+
+* Type network password: **emlidreach**
+
+## Setting up Wi-Fi
+
+??? note "Using Reach with iOS/Android device"
+
+    1. Get the ReachView app from [Google Play](https://play.google.com/store/apps/details?id=com.reachview) or [App Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)
+    2. Open the app and choose Reach from the list
+    4. Tap the *plus* button and enter your Wi-Fi network name, security type, and password
+    5. Tap *Save* button
+    6. Tap on the added network and then *Connect*
+
+??? note "Using Reach with a web browser from any device"
+
+    1. Launch a web browser (we recommend using Chrome or Mozilla)
+    2. Go to 192.168.42.1
+    3. Tap the *plus* button and enter your Wi-Fi network name, security type, and password
+    4. Tap *Save* button
+    5. Tap on the added network and then *Connect*
+
+Reach {{model}} will stop broadcasting Wi-Fi and connect to your network. 
+
+{% if model == 'M+' %}
+
+The blue LED will blink rapidly while scanning for networks. Once Reach {{model }} connects to Wi-Fi, the LED will start blinking slowly.
+
+{%else%}
+
+The blue LED will blink rapidly while scanning for networks. Once Reach {{ model }} connects to Wi-Fi, the blue LED will start blinking slowly alternately with the green LED. 
+{%endif%}
+
+<div style="text-align: center;"><img src="../img/quickstart/first-setup/{{model_path}}/running-client.gif" style="width: 350px;"></div>
+
+!!! note ""
+    If your device did not connect to a Wi-Fi network, it will switch back to a hotspot mode.
+    In that case, repeat the steps and double check your network name and password. 
+  
+## Accessing Reach {{model}} device in a network
+
+!!! danger ""
+    Make sure that your smartphone/PC has connected to the same Wi-Fi network as Reach.
+
+??? note "Using Reach with iOS/Android device"
+
+    1. Open ReachView app
+    2. Refresh the list of devices
+    3. Tap **reach**
+
+
+??? note "Using Reach with PC"
+
+    After connecting the Reach device to an existing Wi-Fi network, you will need to identify its IP.
+
+    For this you can use:
+
+    * "**Fing**" app for [iOS](https://goo.gl/Ho0qB) or [Android](https://goo.gl/7Wuwu)
+
+    * ["**Nmap**"](https://nmap.org/) on Linux/OS X
+
+    * ["**Zenmap**"](https://nmap.org/zenmap/) on Windows
+
+    <div style="text-align: center;"><img src="../img/quickstart/first-setup/common/fing.png" style="width: 500px;"></div>
+
+    * Reach will show up as "**Murata Manufacturing**" or "**AMPAK Technology**" device in these apps
+
+    * Put Reach IP in the address bar and go
+
+!!! danger "Reach can't work on the 192.168.2.xx subnet"
+
+    As 192.168.2.x subnet is reserved inside Reach for Ethernet connections, you will need to perform initial setup in a different Wi-Fi or change router settings. Routers usually have a setting to change the subnet address, so you can set it to 192.168.1.xx.
+
+
+## Updating ReachView
+
+After connecting to Reach {{model}}, you will see ReachView Updater again. Wait until it checks for the latest updates.
+
+* If there is an update, press *Update ReachView* button and wait. This process will take a few minutes
+
+* When it is done tap *Reboot and go to the app!* button to reboot Reach {{model}}
+
+* Wait for the blue LED to start blinking slowly, showing that Reach {{model}} has joined your Wi-Fi network again
+
+* If you use ReachView app, swipe right to get back to the list of devices, refresh the list and tap **reach**. As for the web browser, just refresh the page with ReachView. You’ll see the filling EMLID logo indicating the loading process of ReachView
+
+Your Reach {{model}} is ready for work. Do the same with all other units.
+
+[Now you can set up Base and Rover connection by following instruction from our guide.](../base-rover-setup)
