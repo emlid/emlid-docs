@@ -1,0 +1,112 @@
+## Intro
+
+This tutorial will show how to two set up two Reach {{model}} devices as a base and a rover with correction link over Wi-Fi.
+
+!!! tip "Other use cases"
+    For setting NTRIP base corrections, [follow the steps from "Working with NTRIP service" guide.](../ntrip-workflow)
+    
+    {% if model == 'M+'%}
+    To configure the Reach M+ as a rover to Reach RS+ base over LoRa radio, please, [refer to this guide.](https://docs.emlid.com/reachrs/quickstart/base-rover-setup/)
+    {%endif%}
+
+## Renaming Reach devices
+
+By default, every Reach has the same name, and the first thing we will do is renaming them so it is easier to distinguish base and rover in the field.
+
+!!! note "How to define Reach?"
+    There is an easy way to understand which unit you are connected to. Just open the menu and tap the lamp-shaped button. All LEDs will blink simultaneously.
+
+* Connect to Reach {{model}} you want to use as a base
+
+* Go to settings and change the name to **reach-base**. This name will also be used as a Wi-Fi network label when Reach {{model}} is in hotspot mode
+
+* Press *Save*
+
+Do the same with the second Reach {{model}}. However, use **reach-rover** name instead of **reach-base**.
+
+## Setting up base station
+
+Now we’ll configure RTK settings and communication between base and rover. Let’s start with the base.
+
+* Connect to Reach you want to use as a base
+
+* Open **RTK Settings** tab and check that GPS, GALILEO and either GLONASS or BeiDou are enabled. Remember the selection of the satellites on your base, you will need to enable the same systems on the rover unit
+
+!!! note ""
+    Choose which one to use depending on your location. While GLONASS covers most of the world, BeiDou might be more efficient in the Asia-Pacific region.
+
+* Set the update rate at 1 Hz
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtk-settings-base.png" style="width: 800px;"></div>
+
+Now we’ll set up broadcasting RTK corrections via the TCP.
+
+* Navigate to the **Base mode** tab and turn on Correction output box toggle
+
+* Wait until base averages its position in Base coordinates box
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/base-mode-tab.png" style="width: 1200px;"></div>
+
+!!! tip ""
+    By default, the base will be configured as a localhost on a TCP port 9000
+
+* In the list of RTCM3 messages select to output GPS L1 observations at 1 Hz, ARP station coordinates at 0.1 Hz, GLONASS L1 observation at 1 Hz and GALILEO or BeiDou at 1 Hz
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtcm3-configuration.png" style="width: 800px;"></div>
+
+
+## Setting up rover
+
+* Connect to the second Reach
+
+* Go to **RTK settings** tab
+
+* Set the positioning mode to **Kinematic**, GPS Ambiguity resolution mode to **Fix-and-hold** and GLONASS Ambiguity resolution mode to **ON**
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtk-settings-rover.png" style="width: 800px;"></div>
+
+* Select the same GNSS systems as for the base, set 5 Hz update rate and press *Apply*
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtk-settings-rover2.png" style="width: 800px;"></div>
+
+Now we’ll configure the rover unit to receive the corrections via TCP.
+
+* Navigate to the **Correction input** tab
+
+* Choose **TCP** correction mode
+
+* Choose **Client** in **Role** field
+
+* Add base IP in **Address** field
+
+* Add base correction port in **Port** field. Default one is **9000**
+
+* Choose correction input **Format**. Default one is **RTCM3**
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/correction-input-tcp.png" style="width: 800px;"></div>
+
+* Save settings by pushing **Apply** button
+
+Connect to the rover and check the status tab. If everything is configured correctly, you’ll see a lot of green satellites accompanied by grey bars.
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rover-receiving.png" style="width: 800px;"></div>
+
+
+## Viewing results
+
+Go to the **Status** tab of the app on the rover device.
+
+Below the SNR chart, you’ll see the current solution status.
+
+* **Single** means that rover has found a solution relying on its own receiver and base corrections are not applied. Precision in standalone mode is usually meter-level
+
+* **Float** means that the base corrections are now taken into consideration
+
+* **Fix** status means all ambiguities are resolved and RTK solution is centimeter-level accurate
+
+After a short period of time, the rover gets a fixed solution. In good environments, it will take a few minutes to get a fixed solution. In tough conditions, it may take a little longer. Once rover gets fix status, we are all set for work.
+
+Scroll the status tab down to see your location in the real-time.
+
+!!! note ""
+    For more information on placing the receivers, please consult the [First setup guide.](../first-setup) 
