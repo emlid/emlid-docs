@@ -1,7 +1,7 @@
 ## Intro
 
 
-If this is your first time using Reach, following these guides will help you to learn the basics. Ready to get started?
+If this is your first time using Reach, following these guides will help you to learn the basics. 
 
 * [First setup](../first-setup)
 * [Base and rover setup](../base-rover-setup)
