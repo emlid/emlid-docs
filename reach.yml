@@ -68,7 +68,8 @@ nav:
 - LED status: led-status.md
 - Specification: specs.md
 - Quickstart:
-  - Quickstart: quickstart.md
+  - First Setup: common/quickstart/first-setup.md
+  - Base and Rover Setup: common/quickstart/base-rover-setup.md
   - Connecting Reach to the Internet: common/quickstart/connecting-to-the-internet.md
   - Working with NTRIP service: common/quickstart/ntrip-workflow.md
   - How to download files from Reach: common/quickstart/downloading-files.md
@@ -85,10 +86,10 @@ nav:
   - Integration with external software:
     - ArduPilot integration: ardupilot-integration.md
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
-
 model: RTK
 model_path: reach
 power_port: DF13
+usb: 'Micro-USB'
 kit:
         - '2x Reach RTK module'
         - '2x Tallysman TW4721 antenna with adhesive mount'
@@ -103,5 +104,7 @@ standalone:
         - 'Micro-USB <-> USB cable'
         - 'Micro-USB <-> USB-F OTG cable'
 templates:
-         power-supply.md: 'power-supply.mdx'
-         common/reachview/status.md: 'reachview/status.mdx'
+  power-supply.md: 'power-supply.mdx'
+  common/reachview/status.md: 'reachview/status.mdx'
+  common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-m.mdx'
+  common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-m.mdx'
