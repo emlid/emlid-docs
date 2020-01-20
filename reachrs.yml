@@ -67,8 +67,8 @@ nav:
 - LED status: led-status.md
 - Specification: specs.md
 - Quickstart:
-  - First setup: quickstart/first-setup.md
-  - Base and Rover setup: quickstart/base-rover-setup.md
+  - First setup: common/quickstart/first-setup.md
+  - Base and Rover setup: common/quickstart/base-rover-setup.md
   - Connecting Reach to the Internet: common/quickstart/connecting-to-the-internet.md
   - Working with NTRIP service: common/quickstart/ntrip-workflow.md
   - How to download files from Reach: common/quickstart/downloading-files.md 
@@ -91,6 +91,7 @@ nav:
 model: 'RS/RS+'
 model_path: reachrs
 usb: 'Micro-USB'
+power_port: 'RS-232'
 kit:
     - '* 1 x Reach receiver'
     - '* 1 x Carry case'
@@ -101,3 +102,5 @@ templates:
     index.md: 'index.mdx'
     power-supply.md: 'power-supply-rs.mdx'
     common/reachview/status.md: 'reachview/status.mdx'
+    common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
+    common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'
