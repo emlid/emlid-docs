@@ -9,7 +9,7 @@ This guide overviews how to download system report, export survey project or sav
 
 Press Reach power button and wait until it boots. 
 
-??? note "Reach M+ workflow"
+??? note "Reach M+/M2 workflow"
 
 	When the red LED and green LED stay solid, check the blue LED status.
 
