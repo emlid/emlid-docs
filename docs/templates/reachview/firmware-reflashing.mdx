@@ -49,7 +49,7 @@ We recommend using the terminal to install the Flash Tool on your Linux PC. Foll
 
 * Reboot your PC
 
-## Firmware Flash Guide for Reach {{model}}
+## Firmware Flash Guide
 
 Get the latest ReachView image version and unzip it:
 
@@ -79,9 +79,10 @@ Get the latest ReachView image version and unzip it:
 
 <center>
 
-| For Reach M+ |
-|:-----------:|
-| [**Reach M+ Image v2.22.0 [ZIP, 376 MB]**](http://files.emlid.com/images/reach-plus-v2.22.0.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)     |
+|For Reach M+|For Reach M2|
+|:-------------:|:----------:|
+|[**Reach M+ Image v2.22.0 [ZIP, 376 MB]**](http://files.emlid.com/images/reach-plus-v2.22.0.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|[**Reach M2 Image v2.22.0 [ZIP, 191.8 MB]**](http://files.emlid.com/images/reach-m2-v2.22.0.zip), [(md5)](http://files.emlid.com/images/reach-m2-MD5SUMS)|
+
 
 </center>
 
@@ -108,8 +109,6 @@ Get the latest ReachView image version and unzip it:
 {%if model == 'RS2' or model == 'M+'%}
 * Connect Reach in Firmware Update mode:
 
-??? note "Steps for Reach {{model}}"
-
     * Make sure that **Reach {{model}}** is turned off
 			
     * Press and hold the power button
@@ -123,6 +122,8 @@ Get the latest ReachView image version and unzip it:
 
 {%endif%}
 {%if model == 'RS/RS+'%}
+
+* Connect Reach RS/RS+
 
 ??? note "Connect Reach RS+ in Firmware Update mode"
 			
@@ -142,7 +143,7 @@ Get the latest ReachView image version and unzip it:
 	* Connect Reach RS
 
 	* Follow the instructions
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/app-step2-connect-rs.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step2-connect.png" style="width: 300px;" /></p>
 
 	??? danger " "Not suitable USB port" error"
 		If you face "USB port not suitable for flashing" error, disconnect Reach, turn it off and try another USB port.
@@ -154,7 +155,7 @@ Get the latest ReachView image version and unzip it:
 
 * Connect Reach {{model}}. Follow the instructions to your device
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/app-step2-connect-rs.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step2-connect.png" style="width: 300px;" /></p>
 
 ??? danger ""Not suitable USB port" error" 
 	If you face "USB port not suitable for flashing" error, disconnect Reach, turn it off and try another USB port.
@@ -163,25 +164,30 @@ Get the latest ReachView image version and unzip it:
 
 * Select ReachView firmware .img file and click on _Flash_
 	
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs2/app-step3-select-firmware-rs2.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step3-select-firmware.png" style="width: 300px;" /></p>
 
 * Wait until the end of the flashing process
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs2/app-step4-flashing-rs2.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step4-flashing.png" style="width: 300px;" /></p>
+
+{%if model == 'RTK'%}
+
+{%else%}
 
 * After reflashing, Reach will reboot
 
 !!! danger ""
     Do not unplug the Reach on this step.
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs2/app-step5-rebooting-rs2.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step5-rebooting.png" style="width: 300px;" /></p>
+
+{%endif%}
 
 * When Reach successfully reboots, you'll see "Reach is flashed and ready to use" message
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs2/app-step5-flashed-rs2.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step5-flashed.png" style="width: 300px;" /></p>
 
 ## After flashing
 
-Proceed to Quickstart section to set up your Reach device:
+Proceed to [the First setup guide](../../quickstart/first-setup) to set up your Reach {{model}} device.
 
-* [First Setup for Reach {{model}}](../../quickstart/first-setup/)
