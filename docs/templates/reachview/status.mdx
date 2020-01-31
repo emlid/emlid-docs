@@ -2,11 +2,15 @@ This is the main dashboard with all information about position and satellite rec
 
 ## Satellite SNR chart
 
-<p style="text-align:center" ><img src="../img/reachview/status/{{ model_path }}/status.png" style="width: 800px;" /></p>
+{% if model == "RS2" or model == "M2" %}
+<p style="text-align:center" ><img src="../img/reachview/status/reach2/status.png" style="width: 800px;" /></p>
+{% else %}
+<p style="text-align:center" ><img src="../img/reachview/status/reach/status.png" style="width: 800px;" /></p>
+{% endif %}
 
 RTK positioning requires excellent reception of signals from satellites. SNR (Signal to Noise Ratio) is the primary indicator of how good the reception is. The graph lists all satellites that fit in your screen size and corresponding SNR. Data is updated in real-time.
 
-{% if model == "RS2" %}
+{% if model == "RS2" or model == "M2" %}
 | Legend |                   |
 |--------|-------------------|
 |   R    | Glonass satellite |
@@ -29,23 +33,27 @@ When SNR of a satellite is over 45, it will be marked green. Grey bars indicate 
 
 ## RTK parameters
 
-<p style="text-align:center" ><img src="../img/reachview/status/{{ model_path }}/rtk_parameters.png" style="width: 550px;" /></p>
+{% if model == "RS2" or model == "M2" %}
+<p style="text-align:center" ><img src="../img/reachview/status/reach2/rtk_parameters.png" style="width: 550px;" /></p>
+{% else %}
+<p style="text-align:center" ><img src="../img/reachview/status/reach/rtk_parameters.png" style="width: 800px;" /></p>
+{% endif %}
 
 ### Age of differential
 In the case of a steady correction stream, age of differential will indicate link latency. It is calculated by subtracting the time when the correction message has been generated from the current receiver time. It is an invaluable tool to debug connectivity issues.
 
-{% if model != "RS2" %} 
+{% if model == "RS/RS+" or model == "M+" or model == "RTK" %} 
 ### AR validation ratio  
 This is result of ratio test performed on the potential “Fix” solution, it shows how many times is the best solution better than the next one. If this number is more than 3 Reach will consider RTK solution Fixed. 
 {% endif %}
 
 ### Baseline
-Baseline is the distance from rover to the base. It should be kept within 10km (6 miles), if it is increased further you might experience slower fix time and lower accuracy. Accuracy is decreased by 1mm each km of baseline. 
+Baseline is the distance from rover to the base. It should be kept within {{ rtk_baseline }}, if it is increased further you might experience slower fix time and lower accuracy. Accuracy is decreased by 1mm each km of baseline. 
  
 ## Map
 Integrated map is used to show your current position. Map layer is provided by OpenStreetMap.
 
-<p style="text-align:center" ><img src="../img/reachview/status/{{ model_path }}/map.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/status/map.png" style="width: 800px;" /></p>
 
 Available map features:
 
@@ -68,7 +76,7 @@ Available map features:
 ### Position
 WGS84 Latitude and Longitude as well as ellipsoidal height are displayed on the status tab. Position display format can be changed to XYZ ECEF.
 
-<p style="text-align:center" ><img src="../img/reachview/status/{{ model_path }}/position.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reachview/status/position.png" style="width: 800px;" /></p>
 
 ### Solution status
 **"-"** means there is no information for the software to process. Either not enough time has passed or the antenna is not placed correctly.  
