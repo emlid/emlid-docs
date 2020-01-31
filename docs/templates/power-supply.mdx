@@ -10,19 +10,11 @@ Emlid Reach {{ model }} module can be powered using **Micro-USB** port or **{{ p
 !!! danger "Attention"
     Do not plug two power supplies at the same time as it may damage the device.
 
-{% if model == "RTK" %}
-<div style="text-align: center;"><img src="../img/reach/power-supply/wrong-power-supply.png" style="width: 550px;"></div><br>
-{% else %}
-<div style="text-align: center;"><img src="../img/reachm-plus/power-supply/wrong-power-supply.png" style="width: 550px;"></div><br>
-{% endif %}
+<div style="text-align: center;"><img src="../img/{{model_path}}/power-supply/wrong-power-supply.png" style="width: 550px;"></div><br>
 
 ### Power supply over USB
 
-{% if model == "RTK" %}
-<div style="text-align: center;"><img src="../img/reach/power-supply/usb-power-supply.png" style="width: 550px;"></div><br>
-{% else %}
-<div style="text-align: center;"><img src="../img/reachm-plus/power-supply/usb-power-supply.png" style="width: 550px;"></div><br>
-{% endif %}
+<div style="text-align: center;"><img src="../img/{{model_path}}/power-supply/usb-power-supply.png" style="width: 550px;"></div><br>
 
 You can power Reach over Micro-USB cable using power supplies like:
 
@@ -30,11 +22,7 @@ You can power Reach over Micro-USB cable using power supplies like:
 * USB wall adapter
 * Computer USB ports
 
-{% if model == "RTK" %}
-<div style="text-align: center;"><img src="../img/reach/power-supply/power-supply-options.png" style="width: 550px;"></div><br>
-{% else %}
-<div style="text-align: center;"><img src="../img/reachm-plus/power-supply/power-supply-options.png" style="width: 550px;"></div><br>
-{% endif %}
+<div style="text-align: center;"><img src="../img/{{model_path}}/power-supply/power-supply-options.png" style="width: 550px;"></div><br>
 
 ### Powering using {{ power_port }} ports
 
@@ -43,7 +31,7 @@ Reach can be powered by providing 5 Volts to corresponding pins on any of the tw
 {% if model == "RTK" %}
 <div style="text-align: center;"><img src="../img/reach/power-supply/df13-power-supply.png" style="width: 550px;"></div><br>
 {% else %}
-<div style="text-align: center;"><img src="../img/reachm-plus/power-supply/jst-gh-power-supply.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/{{model_path}}/power-supply/jst-gh-power-supply.png" style="width: 550px;"></div><br>
 {% endif %}
 
 When Reach is powered over {{ power_port }} port it will pass power to devices connected to Micro-USB OTG port such as flash drives, 3G\4G modems, USB radios etc.
