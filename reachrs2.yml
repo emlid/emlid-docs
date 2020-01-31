@@ -51,10 +51,10 @@ nav:
 - Placement: placement.md
 - ReachView:
   - Introduction: common/reachview/index.md
-  - Settings: reachview/settings.md
+  - Settings: common/reachview/settings.md
   - Status: common/reachview/status.md
   - Survey: common/reachview/survey.md
-  - RTK settings: reachview/rtk-settings.md
+  - RTK settings: common/reachview/rtk-settings.md
   - Correction input: common/reachview/correction-input.md
   - Position output: common/reachview/position-output.md
   - Base mode: reachview/base-mode.md
@@ -93,6 +93,8 @@ model: RS2
 model_path: reachrs2
 usb: 'USB-C'
 power_port: 'RS-232'
+rtk_baseline: 60 km (37 miles)
+ppk_baseline: 100 km (62 miles)
 kit:
     - '* 1 x Reach RS2 receiver'
     - '* 1 x Carry case'
@@ -102,6 +104,8 @@ templates:
     index.md: 'index.mdx'
     power-supply.md: 'power-supply-rs.mdx'
     common/reachview/status.md: 'reachview/status.mdx'
+    common/reachview/settings.md: 'reachview/settings.mdx'
+    common/reachview/rtk-settings.md: 'reachview/rtk-settings.mdx'
     common/reachview/firmware-reflashing.md: 'reachview/firmware-reflashing.mdx'
     common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
     common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'

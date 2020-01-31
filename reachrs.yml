@@ -92,6 +92,8 @@ model: 'RS/RS+'
 model_path: reachrs
 usb: 'Micro-USB'
 power_port: 'RS-232'
+rtk_baseline: 10 km (6 miles)
+ppk_baseline: 30 km (18 miles)
 kit:
     - '* 1 x Reach receiver'
     - '* 1 x Carry case'
@@ -102,6 +104,8 @@ templates:
     index.md: 'index.mdx'
     power-supply.md: 'power-supply-rs.mdx'
     common/reachview/status.md: 'reachview/status.mdx'
+    common/reachview/settings.md: 'reachview/settings.mdx'
+    common/reachview/rtk-settings.md: 'reachview/rtk-settings.mdx'
     common/reachview/firmware-reflashing.md: 'reachview/firmware-reflashing.mdx'
     common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
     common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'
