@@ -26,11 +26,15 @@ Do the same with the second Reach {{model}}. However, use **reach-rover** name i
 
 ## Setting up base station
 
-Now we’ll configure RTK settings and communication between base and rover. Let’s start with the base.
+Now we will configure RTK settings and communication between base and rover. Let’s start with the base.
 
 * Connect to Reach you want to use as a base
 
+{% if model == 'M2' %}
+* Open **RTK Settings** tab and pick each of the satellite systems
+{% else %}
 * Open **RTK Settings** tab and check that GPS, GALILEO and either GLONASS or BeiDou are enabled. Remember the selection of the satellites on your base, you will need to enable the same systems on the rover unit
+{% endif %}
 
 !!! note ""
     Choose which one to use depending on your location. While GLONASS covers most of the world, BeiDou might be more efficient in the Asia-Pacific region.
@@ -39,7 +43,7 @@ Now we’ll configure RTK settings and communication between base and rover. Let
 
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtk-settings-base.png" style="width: 800px;"></div>
 
-Now we’ll set up broadcasting RTK corrections via the TCP.
+Now we will set up broadcasting RTK corrections via the TCP.
 
 * Navigate to the **Base mode** tab and turn on Correction output box toggle
 
@@ -48,9 +52,13 @@ Now we’ll set up broadcasting RTK corrections via the TCP.
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/base-mode-tab.png" style="width: 1200px;"></div>
 
 !!! tip ""
-    By default, the base will be configured as a localhost on a TCP port 9000
+    By default, the base will be configured as a localhost on a TCP port 9000.
 
-* In the list of RTCM3 messages select to output GPS L1 observations at 1 Hz, ARP station coordinates at 0.1 Hz, GLONASS L1 observation at 1 Hz and GALILEO or BeiDou at 1 Hz
+{% if model == 'M2' %}
+* In the list of RTCM3 messages select to output ARP station coordinates at 0.1 Hz and others at 1 Hz
+{% else %}
+* In the list of RTCM3 messages, select to output GPS L1 observations at 1 Hz, ARP station coordinates at 0.1 Hz, GLONASS L1 observation at 1 Hz and GALILEO or BeiDou at 1 Hz
+{% endif %}
 
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtcm3-configuration.png" style="width: 800px;"></div>
 
@@ -61,6 +69,16 @@ Now we’ll set up broadcasting RTK corrections via the TCP.
 
 * Go to **RTK settings** tab
 
+{% if model == 'M2' %}
+
+* Set the positioning mode to **Kinematic**
+
+* Select the same GNSS systems as for the base, set 5 Hz update rate and press *Apply*
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtk-settings-rover.png" style="width: 800px;"></div>
+
+{% else %}
+
 * Set the positioning mode to **Kinematic**, GPS Ambiguity resolution mode to **Fix-and-hold** and GLONASS Ambiguity resolution mode to **ON**
 
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtk-settings-rover.png" style="width: 800px;"></div>
@@ -69,7 +87,9 @@ Now we’ll set up broadcasting RTK corrections via the TCP.
 
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rtk-settings-rover2.png" style="width: 800px;"></div>
 
-Now we’ll configure the rover unit to receive the corrections via TCP.
+{% endif %}
+
+Now we will configure the rover unit to receive the corrections via TCP.
 
 * Navigate to the **Correction input** tab
 
@@ -85,9 +105,9 @@ Now we’ll configure the rover unit to receive the corrections via TCP.
 
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/correction-input-tcp.png" style="width: 800px;"></div>
 
-* Save settings by pushing **Apply** button
+* Save settings by pushing *Apply* button
 
-Connect to the rover and check the status tab. If everything is configured correctly, you’ll see a lot of green satellites accompanied by grey bars.
+Connect to the rover and check the status tab. If everything is configured correctly, you will see a lot of green satellites accompanied by grey bars.
 
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/rover-receiving.png" style="width: 800px;"></div>
 
@@ -96,7 +116,7 @@ Connect to the rover and check the status tab. If everything is configured corre
 
 Go to the **Status** tab of the app on the rover device.
 
-Below the SNR chart, you’ll see the current solution status.
+Below the SNR chart, you will see the current solution status.
 
 * **Single** means that rover has found a solution relying on its own receiver and base corrections are not applied. Precision in standalone mode is usually meter-level
 

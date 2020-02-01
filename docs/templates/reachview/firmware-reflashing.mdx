@@ -79,9 +79,22 @@ Get the latest ReachView image version and unzip it:
 
 <center>
 
-|For Reach M+|For Reach M2|
-|:-------------:|:----------:|
-|[**Reach M+ Image v2.22.0 [ZIP, 376 MB]**](http://files.emlid.com/images/reach-plus-v2.22.0.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|[**Reach M2 Image v2.22.0 [ZIP, 191.8 MB]**](http://files.emlid.com/images/reach-m2-v2.22.0.zip), [(md5)](http://files.emlid.com/images/reach-m2-MD5SUMS)|
+|For Reach M+|
+|:-------------:|
+|[**Reach M+ Image v2.22.0 [ZIP, 376 MB]**](http://files.emlid.com/images/reach-plus-v2.22.0.zip), [(md5)](http://files.emlid.com/images/reach-plus-MD5SUMS)|
+
+
+</center>
+
+{%endif%}
+
+{%if model == 'M2'%}
+
+<center>
+
+|For Reach M2|
+|:-------------:|
+|[**Reach M2 Image v2.22.0 [ZIP, 191.8 MB]**](http://files.emlid.com/images/reach-m2-v2.22.0.zip), [(md5)](http://files.emlid.com/images/reach-m2-MD5SUMS)|
 
 
 </center>
@@ -106,7 +119,7 @@ Get the latest ReachView image version and unzip it:
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/common/app-step1-device-select.png" style="width: 300px;" /></p>
 
-{%if model == 'RS2' or model == 'M+'%}
+{%if model == 'RS2' %}
 * Connect Reach in Firmware Update mode:
 
     * Make sure that **Reach {{model}}** is turned off
@@ -121,6 +134,20 @@ Get the latest ReachView image version and unzip it:
     <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/connect_fel.webp" style="width: 400px;" /></p>
 
 {%endif%}
+
+{%if model == 'M+' or model == 'M2' %}
+* Connect Reach in Firmware Update mode:
+
+    * Make sure that **Reach {{model}}** is disconnected from the PC
+			
+    * Use a pin to press and hold the button located in the deepening under the power LED
+			
+	* Plug the USB into PC. No LEDs should blink
+
+    <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/connect_fel.webp" style="width: 400px;" /></p>
+
+{%endif%}
+
 {%if model == 'RS/RS+'%}
 
 * Connect Reach RS/RS+
@@ -174,16 +201,16 @@ Get the latest ReachView image version and unzip it:
 
 {%else%}
 
-* After reflashing, Reach will reboot
+* After reflashing, Reach {{model}} will reboot
 
 !!! danger ""
-    Do not unplug the Reach on this step.
+    Do not unplug the Reach {{model}} on this step.
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step5-rebooting.png" style="width: 300px;" /></p>
 
 {%endif%}
 
-* When Reach successfully reboots, you'll see "Reach is flashed and ready to use" message
+* When Reach {{model}} successfully reboots, you will see "Reach is flashed and ready to use" message
 
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step5-flashed.png" style="width: 300px;" /></p>
 

@@ -23,15 +23,17 @@ For managing Reach {{model}}, we recommend using the ReachView app. Get it from 
 </center>
 
 !!! note ""
-    If you encounter any issues performing these steps, we will be happy to help at our [**community forum**](http://community.emlid.com/).
+    If you encounter any issues performing these steps, we will be happy to help at our [**community forum.**](http://community.emlid.com/)
 
 ## Antenna connection
 
 * Plug antenna cable into MCX socket on Reach
 
+{% if model == "M+" %} 
 * Place antenna on a ground plane. It could be a cut piece of metal > 100mm in diameter, roof of a car or metal roof of a building
+{% endif %}
 
-<div style="text-align: center;"><img src="../img/quickstart/first-setup/{{model_path}}/antenna-ground-plane.png" style="width: 500px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/first-setup/{{model_path}}/antenna.png" style="width: 500px;"></div>
 
 !!! danger ""
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above the horizon.
@@ -44,16 +46,16 @@ A guide on how to properly place the antennas is available in [Antenna placement
 
 * Take Micro-USB <--> USB cable that is coming with the package
 
-* Plug Micro-USB end of the cable into Micro-USB port on Reach and plug another end into 5V power source such as USB power bank, USB wall adapter or USB port of a computer
+* Plug Micro-USB end of the cable into Micro-USB port on Reach {{ model }} and plug another end into 5V power source such as USB power bank, USB wall adapter or USB port of a computer
 
 <div style="text-align: center;"><img src="../img/quickstart/first-setup/{{model_path}}/power-supply-options.png" style="width: 500px;"></div>
 
 !!! danger "Attention"
     **Do not** plug two power supplies at the same time as it may damage the device.
 
-You can read more about the power supply by following [this link.](../../../power-supply)
+You can read more about the power supply [by following this link.](../../../power-supply)
 
-{%if model == 'M+' %}
+{%if model == 'M+' or model == 'M2' %}
 
 After the device is powered up, the blue LED will be blinking for about 30 seconds and then becomes solid. Reach {{model}} is now broadcasting Wi-Fi.
 
@@ -95,7 +97,7 @@ Reach {{model}} is now broadcasting Wi-Fi.
 
 Reach {{model}} will stop broadcasting Wi-Fi and connect to your network. 
 
-{% if model == 'M+' %}
+{% if model == 'M+' or model == 'M2' %}
 
 The blue LED will blink rapidly while scanning for networks. Once Reach {{model }} connects to Wi-Fi, the LED will start blinking slowly.
 
