@@ -1,5 +1,68 @@
 ## ReachView changelog
 
+### v2.22.1
+([release](https://community.emlid.com/t/reachview-v2-22-is-out-for-all-reach-devices/17834))
+
+##### Features
+
+* Recovering data stream after an Internet connection drops
+* "Raw data debug" to facilitate debugging
+* Mobile data usage statistics
+* ZDA NMEA message
+* Disable the power button blinking on stakeout
+* Faster NTRIP tab loading
+* Subtract antenna height during point averaging
+* RMS values for Reach RS2
+* Accuracy is added to the Status tab for Reach RS2
+* "Loading" state when initializing the SIM-card for Reach RS2
+
+##### Bug fixes
+
+* Hotspot Wi-Fi connection drop
+* Fix VRS for some NTRIPs
+* Manual base position is now applied correctly
+* Full System Report can now be downloaded with SIM card inserted on Reach RS2
+* LEDs charge estimation works as expected
+* Stop transmitting data when Base Mode is disabled
+* 0% hangs in processing of RINEX
+* The Cancel button in the Survey tab now works correctly on iOS
+* Fix missing epochs in raw data logs and bug with some L2 carrier dropped during conversion to RINEX
+* NTRIP URL is now case-independent
+* Incorrect RINEX log size representation
+* NMEA GGA messages now show correct heights
+* Disability to switch from GLONASS to BeiDou in the original Reach, Reach RS and Reach M+/RS+
+* Fix processing corrections when all RTCM3 messages are selected in the Base mode tab, but the satellite system isn’t selected in the RTK settings
+* Fix the version badge
+* Fix a bug with the 1000 AR ratio value
+* Entering the fractional antenna height in the Base mode tab in manual mode now works correctly
+* LoRa frequency constraints for Australia are updated
+* Correction input/position output stream status is now correct
+* Miscellaneous UI improvements
+* Fix RTK status freezes after USB-to-PC setup
+* Fix issue causing sudden shutdowns on some Reach RS+ and Reach RS2 units
+
+### v2.20.8 Reach RS2 update
+([release](https://community.emlid.com/t/rs2-reachview-v2-20-8/15641))
+
+##### Features
+
+* Auto-shutdown on bottom connector unplugging 
+* Mobile data usage statistics
+* Loading performance of ReachView is improved
+* GST NMEA message
+
+##### Bug fixes
+
+* DOP formatting in point collector
+* The Import button on the Survey’s map now works as expected
+* Fix a bug with clicking on the Bluetooth tab
+* Fix Bluetooth tab accessibility in portrait mode
+* RINEX file recorded on board of Reach now contains all observations
+* Baseline length is no longer displayed after NTRIP connection drops
+* Fix stakeout misbehaviour
+* Disclaimer about further upgrades for original Reach and Reach RS is added
+* GGA message in NMEA output now shows the correct number of satellites
+
 ### v2.18.0
 ([release](https://community.emlid.com/t/reachview-v2-18-1/14591))
 
