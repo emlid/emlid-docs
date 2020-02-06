@@ -61,7 +61,6 @@ The table below demonstrates possible flash patterns describing various states o
 | Reach State  |  Demo |
 |--------------|-------|
 |<br><br><br><br> <div style="text-align: center;">    OFF   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm2/led-status/off.png" style="height: 150px;"></div> |
-|<br><br><br><br> <div style="text-align: center;">    Loading   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm2/led-status/loading.gif" style="height: 150px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">    Time sync   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm2/led-status/time-sync.gif" style="height: 150px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">    Network scan   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm2/led-status/network-scan.gif" style="height: 150px;"></div> |
 |<br><br><br><br> <div style="text-align: center;">     App running, client Wi-Fi mode   </div>   | <br>  <div style="text-align: center;"><img src="../img/reachm2/led-status/running-client.gif" style="height: 150px;"></div>
