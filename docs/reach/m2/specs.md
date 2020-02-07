@@ -52,4 +52,4 @@ Reach can both receive power from USB, acting as a device and source power to th
 
 CE Compliance documents can be found here:
 
-* [Reach M2 CE Declaration of conformity](https://files.emlid.com/compliance/CE-Declaration-of-Conformity-Reach-M2.pdf)
+[Reach M2 CE Declaration of conformity](http://files.emlid.com/compliance/CE-Declaration-of-Conformity-Reach-M2.pdf)

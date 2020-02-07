@@ -27,3 +27,9 @@
 Scan QR code under the SIM card slot cover to see serial number of your Reach RS2.
 
 <p style="text-align:center" ><img src="../img/reachrs2/specs/RS2_QR_code.jpg" style="width: 800px;" /></p>
+
+## Compliance
+
+CE Compliance documents can be found here:
+
+[Reach RS2 CE Declaration of conformity](http://files.emlid.com/compliance/CE-Declaration-of-Conformity-Reach-RS2.pdf)
