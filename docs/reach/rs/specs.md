@@ -30,5 +30,5 @@
 |-------------------------|---------------|
 | Reach RS CE Declaration of conformity | [RRS_CE_declaration [PDF, 322 KB]](https://files.emlid.com/compliance/RRS_CE_declaration.pdf)
 | Reach RS test report main page | [RRS_CE_test_report [PDF, 766 KB]](https://files.emlid.com/compliance/RRS_CE_test_report.pdf)
-| Reach RS+ CE Declaration of conformity | [RRSP_CE_declaration [PDF, 925 KB]](https://files.emlid.com/compliance/RRSP_CE_declaration.pdf)
+| Reach RS+ CE Declaration of conformity | [RRSP_CE_declaration [PDF, 925 KB]](http://files.emlid.com/compliance/CE-Declaration-of-Conformity-Reach-RSPlus.pdf)
 | Reach RS+ test report main page | [RRSP_CE_test_report [PDF, 1.1 MB]](https://files.emlid.com/compliance/RRSP_CE_test_report.pdf)
