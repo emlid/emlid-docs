@@ -16,7 +16,7 @@ The lights above the power button indicate the level of the battery charge.
 | <br><br><br><br><div style="width:400px;text-align: center;">    Loading   </div> |  <br>  <div style="text-align: center;"><img src="../img/reachrs2/led-status/loading.gif" style="height: 150px;"></div>  |
 | <br><br><br><br> <div style="text-align: center;">    Full charge   </div> |  <br>  <div style="text-align: center;"><img src="../img/reachrs2/led-status/full_battery.png" style="height: 150px;"></div>  |
 | <br><br><br><br> <div style="text-align: center;">    Charging   </div> |  <br>  <div style="text-align: center;"><img src="../img/reachrs2/led-status/charging.gif" style="height: 150px;"></div>  |
-| <br><br><br><br> <div style="text-align: center;">    Low battery   </div> |  <br>  <div style="text-align: center;"><img src="../img/reachrs2/led-status/low_battery.png" style="height: 150px;"></div>  |
+| <br><br><br><br> <div style="text-align: center;">    Low battery   </div> |  <br>  <div style="text-align: center;"><img src="../img/reachrs2/led-status/low_battery.gif" style="height: 150px;"></div>  |
 | <br><br><br><br> <div style="text-align: center;">    Turning OFF   </div> |  <br>  <div style="text-align: center;"><img src="../img/reachrs2/led-status/turning-off.gif" style="height: 150px;"></div>  |
 
 
