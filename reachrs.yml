@@ -103,6 +103,7 @@ kit:
 templates:
     index.md: 'index.mdx'
     power-supply.md: 'power-supply-rs.mdx'
+    common/reachview/index.md: 'reachview/rv-index.mdx'
     common/reachview/status.md: 'reachview/status.mdx'
     common/reachview/settings.md: 'reachview/settings.mdx'
     common/reachview/rtk-settings.md: 'reachview/rtk-settings.mdx'
