@@ -114,6 +114,8 @@ Reach and Android device are now paired:
 
 ## Android mock location
 
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/aC3ti1qynk4" frameborder="0" allowfullscreen></iframe></div>
+
 We provide a guide on how to use Reach with [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient).
 
 Besides being an NTRIP Client, this app also allows NMEA data input via Bluetooth and supports Android feature called **mock location**. This feature allows substituting your device's built-in GPS receiver with an external location provider.
