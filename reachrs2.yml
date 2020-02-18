@@ -106,6 +106,7 @@ templates:
     common/reachview/status.md: 'reachview/status.mdx'
     common/reachview/settings.md: 'reachview/settings.mdx'
     common/reachview/rtk-settings.md: 'reachview/rtk-settings.mdx'
+    common/reachview/position-output.md: 'reachview/position-output.mdx'
     common/reachview/firmware-reflashing.md: 'reachview/firmware-reflashing.mdx'
     common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
     common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'
