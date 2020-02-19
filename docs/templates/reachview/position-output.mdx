@@ -3,33 +3,33 @@
 
 <p style="text-align:center" ><img src="../img/reachview/position_output/format.png" style="width: 800px;" /></p>
 
-Reach supports following position output formats: 
+Reach {{model}} supports the following position output formats: 
 
 #### LLH
-Simple text protocol for Latitude Longitude and Height as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+Simple text protocol for Latitude Longitude and Height as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### XYZ
-Simple text protocol for X, Y, Z ECEF coordinates as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+Simple text protocol for X, Y, Z ECEF coordinates as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### ENU
-Simple text protocol for East, North and UP components of the baseline as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+Simple text protocol for East, North and UP components of the baseline as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### NMEA 0183
 The most popular standard in the industry. Supported messages: GNRMC, GNGGA, GPGSA, GLGSA, GAGSA, GPGSV, GLGSV, GAGSV, GNGST, GNVTG, GNZDA.
 
-Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
+Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
 
 #### ERB
-Used for communication to Ardupilot, [protocol description can be found by following this link [PDF, 202 KB]](https://files.emlid.com/ERB.pdf).
+Used for communication to Ardupilot, [protocol description can be found by following this link](https://files.emlid.com/ERB.pdf).
 
 
 **Data in any of these formats can be sent via Serial, TCP or Bluetooth.**
 
 ### Serial
-Serial port connection is available through several hardware connection options. All of them support the following baud rates: 9600, 19200, 38400, 57600, 115200. Reach RS2 also supports 230400 baud rate.
+Serial port connection is available through several hardware connection options. Reach {{model}} supports the following baud rates: 9600, 19200, 38400, 57600, 115200{{', 230400.' if model == 'RS2' or model == 'M2' else '.'}}
 
 #### UART
-Corresponds to TTL UART on Reach and Reach M+ modules or to RS232 port on Reach RS/RS+ and Reach RS2 extension connector. Common way to connect to autopilot or another consumer of position data.
+Corresponds to {{'TTL UART on Reach ' if model == 'M2' or model == 'M+' else 'RS232 port on Reach '}}{{model}}. Common way to connect to autopilot or another consumer of position data. 
 
 #### USB-to-PC
 When connected over USB to a PC Reach will show up as several devices, one of them will be a serial port. You can use this serial port to send position data to the PC.
@@ -52,6 +52,8 @@ If ReachView does not allow to set a certain port number it means that it is res
 
 ### Bluetooth
 Bluetooth output is used to stream position data to smartphones, tablets or data collectors. Please make sure to pair your device in Bluetooth settings.
+
+[Getting Reach {{mode}} coordinates on Android via Bluetooth](https://docs.emlid.com/reachrs2/common/tutorials/mock-location/).
 
 !!! note ""
 	iOS devices don't support getting a location over Bluetooth from third-party hardware.
