@@ -40,6 +40,10 @@ Antenna connector is MCX, to connect to SMA or TNC antenna cable you can use one
 | Current limit on USB OTG                  | 1000 mA              |
 | Temperature range                         | -20…+65ºC		   |
 
+### Antenna Phase Centers
+
+[Reach M2 GNSS antenna](https://store.emlid.com/product/multi-band-gnss-antenna/ "Emlid Store | Multi-band GNSS antenna") phase centers' offsets for L1 and L2 are 0.032 m and 0.037 m respectively.
+
 
 ### Connectors pinout
 <div style="text-align: center;"><img src="../img/reachm2/specs/reachm2-connectors.png" style="width: 700px;"></div><br>
