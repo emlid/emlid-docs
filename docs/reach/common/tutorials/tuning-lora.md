@@ -46,7 +46,7 @@ Go through this simple check-list to make sure your setup is optimal:
 ??? "Rover configuration"
     <div style="text-align: center;"><img src="../img/reach/tuning-lora/correction-input.png" style="width: 800px;"></div>
 
-* Check the surroundings. In the line of sight, the baseline may reach up to 8 kilometers ([or sometimes even 19km](https://emlid.com/reach-rs-integrated-radio-hits-19-2-km-baseline/)) while in a densely vegetated area the range may reduce down to several hundred meters. Make sure there are no obstacles that can reduce the range
+* Check the surroundings. In the line of sight, the baseline may reach up to 8 kilometers ([or sometimes even 19km](https://emlid.com/lora-radio-hits-19-km-baseline/)) while in a densely vegetated area the range may reduce down to several hundred meters. Make sure there are no obstacles that can reduce the range
 
 ## Advanced tuning
 
