@@ -1,9 +1,9 @@
 @font-face {
   font-family: "GothamProMedium";
-  src: url("https://emlid.com/wp-content/themes/emlid/fonts/GothamPro/GothamProMedium/GothamProMedium.eot");
-  src: url("https://emlid.com/wp-content/themes/emlid/fonts/GothamPro/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
-    url("https://emlid.com/wp-content/themes/emlid/fonts/GothamPro/GothamProMedium/GothamProMedium.woff") format("woff"),
-    url("https://emlid.com/wp-content/themes/emlid/fonts/GothamPro/GothamProMedium/GothamProMedium.ttf") format("truetype");
+  src: url("theme/assets/fonts/GothamPro/GothamProMedium/GothamProMedium.eot");
+  src: url("theme/assets/fonts/GothamPro/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+    url("theme/assets/fonts/GothamPro/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("theme/assets/fonts/GothamPro/GothamProMedium/GothamProMedium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
