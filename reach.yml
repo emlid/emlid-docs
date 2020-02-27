@@ -86,7 +86,7 @@ nav:
   - Integration with external software:
     - ArduPilot integration: ardupilot-integration.md
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
-model: RTK
+model: Module
 model_path: reach
 power_port: 'DF13'
 usb: 'Micro-USB'
