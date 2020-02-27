@@ -114,6 +114,8 @@ Reach and Android device are now paired:
 
 ## Android mock location
 
+The video below covers the process of connecting Reach to an Android device for data collection.
+
 <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/aC3ti1qynk4" frameborder="0" allowfullscreen></iframe></div>
 
 We provide a guide on how to use Reach with [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient).
