@@ -110,3 +110,4 @@ templates:
     common/reachview/firmware-reflashing.md: 'reachview/firmware-reflashing.mdx'
     common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
     common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'
+    common/tutorials/gps-post-processing.md: 'tutorials/gps-post-processing.mdx'
