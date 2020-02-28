@@ -1,5 +1,9 @@
 site_name: Reach RS2 docs
+<<<<<<< HEAD
 site_url: https://emlid.com/docs
+=======
+site_url: https://emlid.com/
+>>>>>>> parent of 153e174... Revert "Update reachrs2.yml"
 docs_dir: docs/reach/rs2
 copyright: 'Emlid.com'
 edit_uri: ''
