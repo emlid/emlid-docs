@@ -2,7 +2,7 @@
 
 ## RTK options
 
-{% if model == "RS2" or model == "M2" %} 
+{% if model == "RS2" or model == "M2" %}
 <p style="text-align:center" ><img src="../img/reachview/rtk_settings/rtk-settings-2.png" style="width: 800px;" /></p>
 {% else %}
 <p style="text-align:center" ><img src="../img/reachview/rtk_settings/rtk_set.png" style="width: 800px;" /></p>
@@ -13,19 +13,19 @@
 + **Kinematic** - most used positioning mode, assumes that the receiver is moving
 + **Static** - an assumption is made that Reach {{ model }} is static. Constraining the system helps to resolve ambiguities faster as well as produce measurements with higher precision
 
-{% if model == "RS/RS+" or model == "M+" or model == "RTK" %} 
+{% if model == "RS/RS+" or model == "M+" or model == "Module" %}
 
 ### GPS AR mode
 
 There are two main strategies for resolving ambiguities:
- 
+
 + **Fix-and-hold**: after first ambiguity fix hold them constrained. Fix is more stable, but in case first initialization was not correct it will take longer to recover and initialize correctly. You can think of it as if Fix had inertia.
 + **Continuous**: ambiguities are resolved epoch by epoch. Less stable, but no risk of holding a false fix.
 
 In real-life conditions on a moving platform, Fix-and-hold provides better overall performance.
 
-### GLONASS AR mode 
-Contrary to GPS, all GLONASS satellites transmit on different frequencies, which results in Inter Channel Biases (ICB) that are unique for each receiver model. 
+### GLONASS AR mode
+Contrary to GPS, all GLONASS satellites transmit on different frequencies, which results in Inter Channel Biases (ICB) that are unique for each receiver model.
 
 Reach {{ model }} can correct GLONASS ICBs, allowing for GLONASS AR with non-Reach bases, such as NTRIP casters. The general recommendation is to always have GLONASS AR set to on.
 
@@ -39,7 +39,7 @@ Satellites with low SNR will be excluded from the computation. The default setti
 
 ## GNSS selection
 
-{% if model == "RS2" or model == "M2" %} 
+{% if model == "RS2" or model == "M2" %}
 
 Reach {{ model }} tracks GPS, GLONASS, GALILEO, QZSS, and BEIDOU satellite systems. The data can be logged with 1 Hz, 5 Hz, or 10 Hz update rate.
 
@@ -49,7 +49,7 @@ All GNSS enabled at 5 Hz is our default recommendation.
 
 <p style="text-align:center" ><img src="../img/reachview/rtk_settings/gnss_sel.png" style="width: 800px;" /></p>
 
-Depending on your location, it might be beneficial to choose certain set of GNSS systems: 
+Depending on your location, it might be beneficial to choose certain set of GNSS systems:
 
 + GPS + GLONASS + SBAS + QZSS at 5 Hz is our default recommendation
 + GPS + BEIDOU + SBAS + QZSS at 5 Hz recommended for APAC, where QZSS and BEIDOU is visible
@@ -57,10 +57,10 @@ Depending on your location, it might be beneficial to choose certain set of GNSS
 
 {% endif %}
 
-{% if model == "M+" or model == "RTK" %} 
+{% if model == "M+" or model == "Module" %}
 
-### GNSS selection for time marks logging 
-We recommend using the following configurations for PPK flights with Reach M+: 
+### GNSS selection for time marks logging
+We recommend using the following configurations for PPK flights with Reach M+:
 
 | System                                | Frequency |
 |---------------------------------------|-----------|

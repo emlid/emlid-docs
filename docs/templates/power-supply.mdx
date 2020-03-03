@@ -1,4 +1,4 @@
-{% if model == "RTK" %}
+{% if model == "Module" %}
 !!! tip ""
 	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
 {% endif %}
@@ -28,7 +28,7 @@ You can power Reach over Micro-USB cable using power supplies like:
 
 Reach can be powered by providing 5 Volts to corresponding pins on any of the two {{ power_port }} ports.
 
-{% if model == "RTK" %}
+{% if model == "Module" %}
 <div style="text-align: center;"><img src="../img/reach/power-supply/df13-power-supply.png" style="width: 550px;"></div><br>
 {% else %}
 <div style="text-align: center;"><img src="../img/{{model_path}}/power-supply/jst-gh-power-supply.png" style="width: 550px;"></div><br>
@@ -36,6 +36,6 @@ Reach can be powered by providing 5 Volts to corresponding pins on any of the tw
 
 When Reach is powered over {{ power_port }} port it will pass power to devices connected to Micro-USB OTG port such as flash drives, 3G\4G modems, USB radios etc.
 
-{% if model == "RTK" %}
+{% if model == "Module" %}
 <div style="text-align: center;"><img src="../img/reach/power-supply/accessory-power-supply.png" style="width: 550px;"></div><br>
 {% endif %}

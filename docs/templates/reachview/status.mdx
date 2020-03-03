@@ -42,14 +42,14 @@ When SNR of a satellite is over 45, it will be marked green. Grey bars indicate 
 ### Age of differential
 In the case of a steady correction stream, age of differential will indicate link latency. It is calculated by subtracting the time when the correction message has been generated from the current receiver time. It is an invaluable tool to debug connectivity issues.
 
-{% if model == "RS/RS+" or model == "M+" or model == "RTK" %} 
-### AR validation ratio  
-This is result of ratio test performed on the potential “Fix” solution, it shows how many times is the best solution better than the next one. If this number is more than 3 Reach will consider RTK solution Fixed. 
+{% if model == "RS/RS+" or model == "M+" or model == "Module" %}
+### AR validation ratio
+This is result of ratio test performed on the potential “Fix” solution, it shows how many times is the best solution better than the next one. If this number is more than 3 Reach will consider RTK solution Fixed.
 {% endif %}
 
 ### Baseline
-Baseline is the distance from rover to the base. It should be kept within {{ rtk_baseline }}, if it is increased further you might experience slower fix time and lower accuracy. Accuracy is decreased by 1mm each km of baseline. 
- 
+Baseline is the distance from rover to the base. It should be kept within {{ rtk_baseline }}, if it is increased further you might experience slower fix time and lower accuracy. Accuracy is decreased by 1mm each km of baseline.
+
 ## Map
 Integrated map is used to show your current position. Map layer is provided by OpenStreetMap.
 
@@ -79,12 +79,10 @@ WGS84 Latitude and Longitude as well as ellipsoidal height are displayed on the 
 <p style="text-align:center" ><img src="../img/reachview/status/position.png" style="width: 800px;" /></p>
 
 ### Solution status
-**"-"** means there is no information for the software to process. Either not enough time has passed or the antenna is not placed correctly.  
+**"-"** means there is no information for the software to process. Either not enough time has passed or the antenna is not placed correctly.
 
 **Single** means that rover has found a solution relying on it's own receiver and base corrections are not applied. Configuring positioning mode to Single will also result in this status. Precision in standalone mode is on meters-level.
 
-**Float** means that base corrections are now taken into consideration and positioning is relative to base coordinates, but the integer ambiguity is not resolved. Precision in float mode is submeter-level.  
+**Float** means that base corrections are now taken into consideration and positioning is relative to base coordinates, but the integer ambiguity is not resolved. Precision in float mode is submeter-level.
 
 **Fix** means that positioning is relative to the base and the integer ambiguity is resolved. Precision in standalone mode is centimeter-level.
-
-

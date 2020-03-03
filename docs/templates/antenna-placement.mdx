@@ -1,4 +1,4 @@
-{% if model == "RTK" %}
+{% if model == "Module" %}
 !!! tip ""
 	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
 {% endif %}
@@ -40,7 +40,7 @@ Electronic devices may produce RF noise that could affect the reception of the G
 
 {% if model == "M2" %}
 
-Helical antennas do not require ground planes. They are robust and demonstrate good performance. 
+Helical antennas do not require ground planes. They are robust and demonstrate good performance.
 
 Still, a ground plane can improve observation quality significantly. In some cases, it might be reasonable to mount a helical antenna on a ground plane for safety redundancy.
 
@@ -56,4 +56,3 @@ Tallysman TW4721 requires ground plane no less than 70x70mm.
 {% endif %}
 
 <div style="text-align: center;"><img src="../img/{{model_path}}/antenna-placement/antenna-ground-plane.png" style="width: 550px;"></div><br>
-
