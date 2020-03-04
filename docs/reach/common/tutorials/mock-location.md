@@ -13,13 +13,13 @@ This guide demonstrates how to get precise coordinates from Reach on an Android 
 	* Autocad360
 
 
-## Video Demonstration
+## Video guide
 
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/yy8EVSMq9Bk" frameborder="0" allowfullscreen></iframe></div>
+The video below covers the process of connecting Reach to an Android device for data collection.
 
-<div style="text-align: center;">Video by <a href="https://community.emlid.com/users/tb_rtk/activity">TB_RTK</a></div>
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/aC3ti1qynk4" frameborder="0" allowfullscreen></iframe></div>
 
-## Before you start
+## Text guide
 
 Make sure your Android device provides Bluetooth connectivity.
 
@@ -40,7 +40,7 @@ Configure Reach unit to act as a rover in RTK.
 	* [Reach RS2 rover](https://docs.emlid.com/reachrs2/ntrip-workflow/)
 	* [Reach M+ or Reach RS/RS+ rover](../quickstart/ntrip-workflow.md)
 
-##Pairing Reach with an Android device
+###Pairing Reach with an Android device
 
 **Access Reach rover using ReachView**
 
@@ -101,7 +101,7 @@ Reach and Android device are now paired:
 
 <p style="text-align:center"><img src="../img/reach/mock-location/reachview-paired.png" style="width: 800px;"/></p>
 
-## Position output from Reach to Android
+### Position output from Reach to Android
 
 * In ReachView app, navigate to the **Position output** screen
 
@@ -112,15 +112,7 @@ Reach and Android device are now paired:
 !!! note ""
 	You might see an error message **Send error (111)**  in some cases. This is fine as long as there is no client connected to the NMEA stream yet.
 
-## Android mock location
-
-###Video guide
-
-The video below covers the process of connecting Reach to an Android device for data collection.
-
-<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/aC3ti1qynk4" frameborder="0" allowfullscreen></iframe></div>
-
-###Text guide
+### Android mock location
 
 We provide a guide on how to use Reach with [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient).
 
@@ -167,3 +159,9 @@ From this moment on, all apps in the Android device that use location services w
 
 !!! note ""
 	Tapping the *Disconnect* button in the Lefebure NTRIP Client will revert back to the Android built-in GNSS.	
+
+##Collecting Data with Reach and ArcGIS
+
+We provide a video tutorial explaining how to use Reach with ArcGIS.
+
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_D2Y45JwCgs" frameborder="0" allowfullscreen></iframe></div>
