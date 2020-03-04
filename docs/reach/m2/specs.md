@@ -30,13 +30,13 @@ Antenna connector is MCX, to connect to SMA or TNC antenna cable you can use one
 
 |Name                                       | Value                |
 |-------------------------------------------|----------------------|
-| Input voltage on USB and JST-GH connectors  | 4.75 - 5.5 V         |
+| Input voltage on USB and JST-GH connectors  | 5 - 5.5 V         |
 | Logic levels on all pins                  | 3.3 V                |
 | Max input voltage on all pins             | 3.3 V                |
 | Antenna DC bias                           | 3.3 V                |
 | Antenna output current                    | 100 mA               |
-| Max current consumption @5V               | 500 mA               |
-| Normal current consumption @5V            | 200 mA               |
+| Max current consumption @5V               | 3 A               |
+| Normal current consumption @5V            | 600 mA               |
 | Current limit on USB OTG                  | 1000 mA              |
 | Temperature range                         | -20…+65ºC		   |
 
