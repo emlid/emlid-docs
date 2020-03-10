@@ -6,7 +6,7 @@
 | Reach M2 3D model in IGES format | [reachm2 [IGES, 3.6 MB]](https://github.com/emlid/hardware/blob/master/reach-mplus.iges)|
 | Reach M2 LoRa radio 3D model in STEP format | [LoRa-radio [STEP, 344 KB]](https://github.com/emlid/hardware/blob/master/LoRa-radio.step) |
 | Reach M2 LoRa radio 3D model in IGES format | [LoRa-radio [IGES, 661 KB]](https://github.com/emlid/hardware/blob/master/LoRa-radio.iges) |
-| Reach M2 GNSS antenna 3D model in IGES format | [GNSS antenna [STEP, 2.8 MB]](https://github.com/emlid/hardware/blob/master/reachm2-gnss-antenna.STEP) |
+| Reach M2 GNSS antenna 3D model in STEP format | [GNSS antenna [STEP, 2.8 MB]](https://github.com/emlid/hardware/blob/master/reachm2-gnss-antenna.STEP) |
 
 ### Dimensions
 
