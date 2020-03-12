@@ -13,7 +13,7 @@
 + **Kinematic** - most used positioning mode, assumes that the receiver is moving
 + **Static** - an assumption is made that Reach {{ model }} is static. Constraining the system helps to resolve ambiguities faster as well as produce measurements with higher precision
 
-{% if model == "RS/RS+" or model == "M+" or model == "RTK" %} 
+{% if model == "RS/RS+" or model == "M+" or model == "Module" %} 
 
 ### GPS AR mode
 
@@ -57,7 +57,7 @@ Depending on your location, it might be beneficial to choose certain set of GNSS
 
 {% endif %}
 
-{% if model == "M+" or model == "RTK" %} 
+{% if model == "M+" or model == "Module" %} 
 
 ### GNSS selection for time marks logging 
 We recommend using the following configurations for PPK flights with Reach M+: 

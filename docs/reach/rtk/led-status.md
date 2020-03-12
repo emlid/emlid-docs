@@ -1,18 +1,18 @@
 !!! tip ""
-	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
+	Reach Module has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
 
 
 !!! note ""
     LED functionality is available with ReachView version 2.7.0 and newer 
 
 
-## Reach boot LED sequence
+## Reach Module boot LED sequence
 
-Reach LED is an RGB LED that cycles through a simple pattern:
+Reach Module LED is an RGB LED that cycles through a simple pattern:
 
 Network state -> App state
 
-During boot Reach will go through 3 steps:
+During boot Reach Module will go through 3 steps:
 
 * Network scan
 * Time sync
@@ -20,7 +20,7 @@ During boot Reach will go through 3 steps:
 
 ### Network scan
 
-During boot, Reach enters a network scan state in which it will try to connect to any known Wi-Fi networks it can find. This might result in connecting to a previously added network or creating its own hotspot.
+During boot, Reach Module enters a network scan state in which it will try to connect to any known Wi-Fi networks it can find. This might result in connecting to a previously added network or creating its own hotspot.
 
 | Network state | Demo |
 |-----------|------|
@@ -34,7 +34,7 @@ During boot, Reach enters a network scan state in which it will try to connect t
 After network configuration is done, **<font color="magenta">magenta</font> blinks** will be added to the LED. They are shown during time sync.
 
 !!! danger ""
-    The app will not launch until the time sync is complete. Internet connection allows this to happen automatically, but in hotspot mode Reach requires a connected antenna with some satellite visibility.
+    The app will not launch until the time sync is complete. Internet connection allows this to happen automatically, but in hotspot mode Reach Module requires a connected antenna with some satellite visibility.
 
 ### ReachView launch and operation
 
@@ -52,7 +52,7 @@ After the time sync is done, the **magenta blinks** stop and ReachView is launch
 The table below demonstrates possible flash patterns describing various states of the receiver.  
 
 
-| Reach State | Time Sync   -> | Network   -> | App Status | Sequence Demo |
+| Reach Module State | Time Sync   | Network   | App Status | Sequence Demo |
 |--------------|-----------|---------------------|---------|-----------|
 |<br> <div style="text-align: center;">    OFF   </div>                   | <br>  </div>    |  <br> </div> | <br> </div>|<br>  <div style="text-align: center;"><img src="../img/reach/led-status/off.png" style="width: 150px;"></div>   |
 |<br> <div style="text-align: center;">    Lack of power   </div>                   | <br>  <div style="text-align: center;"><img src="../img/reach/led-status/magenta.png" style="height: 30px;"><br>Blinks each 10-15 sec</div>    |  <br> </div> | <br> </div>|<br>  <div style="text-align: center;"><img src="../img/reach/led-status/low-power.gif" style="width: 150px;"></div>   |

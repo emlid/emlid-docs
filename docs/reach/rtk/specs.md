@@ -1,19 +1,19 @@
 !!! tip ""
-	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
+	Reach Module has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
 
 ## Mechanical specs
 
 ### Dimensions
 
-Reach RTK module is a tiny device, it is only a few millimeters larger than Intel Edison that it houses.
+Reach Module is a tiny device, it is only a few millimeters larger than Intel Edison that it houses.
 
 <div style="text-align: center;"><img src="../img/reach/specs/reach-dimensions.png" style="width: 350px;"></div><br>
 
 ### Connectors mating parts
 
-Reach has dual DF13 connectors and comes with all required cables to connect to other devices. In case you would like to make you own cable assembly here are the appropriate connector part numbers:
+Reach Module has dual DF13 connectors and comes with all required cables to connect to other devices. In case you would like to make you own cable assembly here are the appropriate connector part numbers:
 
-* On Reach: Hirose DF13-6P-1.25H(50) ([Digikey](http://www.digikey.com/product-detail/en/DF13-6P-1.25H%2850%29/H3354-ND/530653), [Mouser](http://eu.mouser.com/ProductDetail/Hirose-Electric/DF13-6P-125H50/?qs=%2fha2pyFaduilOJdMONLaLBwaFNH0V7VnzXasUV9hMRidfNFMCnSnIA%3d%3d)).
+* On Reach Module: Hirose DF13-6P-1.25H(50) ([Digikey](http://www.digikey.com/product-detail/en/DF13-6P-1.25H%2850%29/H3354-ND/530653), [Mouser](http://eu.mouser.com/ProductDetail/Hirose-Electric/DF13-6P-125H50/?qs=%2fha2pyFaduilOJdMONLaLBwaFNH0V7VnzXasUV9hMRidfNFMCnSnIA%3d%3d)).
 
 * Receptacle: Hirose DF13-6S-1.25C ([Digikey](http://www.digikey.com/product-search/en?keywords=DF13-6S-1.25C), [Mouser](http://eu.mouser.com/ProductDetail/Hirose-Electric/DF13-6S-125C/?qs=%2fha2pyFaduhJ5h7X7LLPzEL0u%2f%252b1ZTztM8mMa9tEuYmcKFXQSgLZyQ%3d%3d))
 
@@ -23,7 +23,7 @@ Antenna connector is MCX, to connect to SMA or TNC antenna cable you can use one
 
 ### 3D model
 
-This 3D model can be used as a reference for case design. Please note that Reach comes in protective heatshrink that increases its outer dimensions slightly.
+This 3D model can be used as a reference for case design. Please note that Reach Module comes in protective heatshrink that increases its outer dimensions slightly.
 
 <script src="https://embed.github.com/view/3d/emlid/hardware/master/Reach.STL"></script>
 
@@ -34,21 +34,21 @@ During case design keep in mind that you should not place anything close to the 
 <div style="text-align: center;"><img src="../img/reach/specs/reach_in_case.jpg" style="width: 550px;"></div><br>
 
 
-The following printable 3D cases are available for Reach users:
+The following printable 3D cases are available for Reach Module users:
 
-**Reach case model C:**
+**Reach Module case model C:**
 
 <script src="https://embed.github.com/view/3d/emlid/hardware/master/Reach_cases/Reach_case_assembly_Rev_C.STL"></script>
 
 Download [top and bottom halves](https://github.com/emlid/hardware/tree/master/Reach_cases/Rev_C_parts) of the case to print it.
 
-**Reach case model D:**
+**Reach Module case model D:**
 
 <script src="https://embed.github.com/view/3d/emlid/hardware/master/Reach_cases/Reach_case_assembly_Rev_D.STL"></script>
 
 Download [top and bottom halves](https://github.com/emlid/hardware/tree/master/Reach_cases/Rev_D_parts) of the case to print it.
 
-**Reach case model E:**
+**Reach Module case model E:**
 
 <script src="https://embed.github.com/view/3d/emlid/hardware/master/Reach_cases/Reach_case_assembly_Rev_E.STL"></script>
 
@@ -87,4 +87,4 @@ Officially Intel Edison is rated 0C to 40C, but Intel also claims they are perfo
 
 <div style="text-align: center;"><img src="../img/reach/specs/otg-connection.png" style="width: 550px;"></div><br>
 
-Reach can both receive power from USB, acting as a device and source power to the port acting as a host. To use Reach in OTG mode you will need to connect 5V power source to DF13 connector pins (5 V, GND) and use OTG USB cable.
+Reach Module can both receive power from USB, acting as a device and source power to the port acting as a host. To use Reach Module in OTG mode you will need to connect 5V power source to DF13 connector pins (5 V, GND) and use OTG USB cable.

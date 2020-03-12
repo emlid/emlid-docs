@@ -1,13 +1,13 @@
 !!! tip ""
-	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
+	Reach Module has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
 
 <div style="text-align: center;"><img src="img/reach/Reach_400x400-400x380.png" style="width: 350px;"></div><br>
 
-### Reach RTK kit
+### Reach Module kit
 
-Reach RTK kit includes the following:
+Reach Module kit includes the following:
 
-* 2x Reach RTK module
+* 2x Reach Module module
 
 * 2x Tallysman TW4721 antenna with adhesive mount
 
@@ -19,11 +19,11 @@ Reach RTK kit includes the following:
 
 * 2x Micro-USB <-> USB-F OTG cable
 
-### Standalone Reach unit
+### Standalone Reach Module unit
 
-Standalone Reach units come with the following:
+Standalone Reach Module units come with the following:
 
-* Reach RTK module
+* Reach Module
 
 * DF13 <-> DF13 straight cable
 
