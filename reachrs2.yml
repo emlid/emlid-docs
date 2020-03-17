@@ -84,11 +84,14 @@ nav:
     - How PPK works: common/tutorials/ppk-introduction.md
     - GPS post-processing: common/tutorials/gps-post-processing.md
     - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
-  - Integration with external software:
+  - Integration with external software and devices:
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
     - Using QGIS as survey tool: common/tutorials/qgis-survey.md
     - MicroSurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
     - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
+    - senseFly eMotion setup:
+      - senseFly RTK guide: sensefly-rtk.md
+      - senseFly PPK guide: sensefly-ppk.md
 model: RS2
 model_path: reachrs2
 usb: 'USB-C'
