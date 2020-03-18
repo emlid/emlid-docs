@@ -3,7 +3,7 @@
 In this tutorial, you will find the information on how to perform PPK with senseFly drones and Reach RS2 in eMotion software. 
 
 !!! note ""
-    Step-by-step guide can be also found on [senseFly Knowledge Base.](https://sensefly.zendesk.com/hc/en-us/articles/360010693419-Emlid-Reach-RS2-PPK-Workflow)  
+    Step-by-step guide can be also found on [senseFly Knowledge Base](https://sensefly.zendesk.com/hc/en-us/articles/360010693419-Emlid-Reach-RS2-PPK-Workflow).  
 
 ##Preparing Reach RS2 data 
 
@@ -15,7 +15,7 @@ The video below demonstrates how to place the Reach RS2 base over a known point.
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/FilRoPVDjCs" allowfullscreen></iframe></div>
 
-To find out other ways of placing the local base station, [consult this guide.](../common/tutorials/placing-the-base/)
+To find out other ways of placing the local base station, [consult this guide](../common/tutorials/placing-the-base/).
 
 The general steps for placing the base receiver are described below.
 
@@ -70,7 +70,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
     * Go to 192.168.42.1
 
 
-* Configure constellation choice in the [RTK Settings tab.](../common/reachview/rtk-settings) Our default recommendation is all GNSS enabled at 1 Hz
+* Configure constellation choice in the [RTK Settings tab](../common/reachview/rtk-settings). Our default recommendation is all GNSS enabled at 1 Hz
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/rtk-settings.png" style="width: 600px;"/></p>
 
@@ -84,7 +84,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 ###Converting raw data log 
 
-* Download [RTKLIB](http://rtkexplorer.com/download/demo5-b31-binaries/)
+* Download [RTKLIB QT apps](https://files.emlid.com/RTKLIB/rtklib-qt-win-b33.zip)
 
 * [Download raw files from Reach to your PC](https://docs.emlid.com/reachrs2/common/quickstart/downloading-files/#logs)
 
