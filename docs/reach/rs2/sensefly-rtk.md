@@ -3,7 +3,7 @@
 In this tutorial, you will find the information on how to survey in RTK with senseFly drones and Reach RS2 via Bluetooth. 
 
 !!! note ""
-    Step-by-step guide can be also found on [senseFly Knowledge Base.](https://sensefly.zendesk.com/hc/en-us/articles/360011254199-Emlid-Reach-RS2-RTK-Workflow) 
+    Step-by-step guide can be also found on [senseFly Knowledge Base](https://sensefly.zendesk.com/hc/en-us/articles/360011254199-Emlid-Reach-RS2-RTK-Workflow). 
 
 ##Setting up Reach RS2
 
@@ -15,7 +15,7 @@ The video below demonstrates how to place the Reach RS2 base over a known point.
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/FilRoPVDjCs" allowfullscreen></iframe></div>
 
-To find out other ways of placing the local base station, [consult this guide.](../common/tutorials/placing-the-base/)
+To find out other ways of placing the local base station, [consult this guide](../common/tutorials/placing-the-base/).
 
 The general steps for placing the base receiver are described below.
 
@@ -139,7 +139,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 * Turn on the correction output via Bluetooth
 
-* Choose the base position mode and averaging time. In the example below, it is Average Single. You can find out more about different base position modes in [this guide.]()
+* Choose the base position mode and averaging time. In the example below, it is Average Single. You can find out more about different base position modes in [this guide.](../common/tutorials/placing-the-base/)
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/correction-output-bt.png" style="width: 600px;"/></p>
 
@@ -185,7 +185,7 @@ You will need to find out what COM port on your PC is used by Reach RS2. For tha
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/putty-open.png" style="width: 400px;"/></p>
 
-You can so the same in the Serial tab:
+You can do the same in the Serial tab:
 
 * Go to the Serial tab
 
@@ -260,7 +260,7 @@ Now you can see the RTK tab enabled on your Mission panel on your left.
 * Press *Open base-drone datastream*
 
 !!! note ""
-    If you are testing the set-up inside, the GPS and GLONASS fields will show *Not sufficient* message
+    If you are testing the setup inside, the GPS and GLONASS fields will show *Not sufficient* message
 
 * Check the base position the drone receives 
 
