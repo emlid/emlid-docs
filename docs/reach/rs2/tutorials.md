@@ -15,6 +15,7 @@ Explore these step-by-step guides to get a better understanding of your Reach po
 * [How PPK works](common/tutorials/ppk-introduction.md)
 * [GPS post-processing](common/tutorials/gps-post-processing.md)
 * [Analyzing PPK solution and logs](common/tutorials/analyzing-logs.md)
+* [Precise Point Positioning](common/tutorials/ppp-introduction.md) 
 
 ###Integration with external software
 
