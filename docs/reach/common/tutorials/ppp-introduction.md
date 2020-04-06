@@ -1,4 +1,4 @@
-# Precise Point Positioning
+# Precise Point Positioning (PPP)
 
 With the Precise Point Positioning (PPP) technique, you may accurately determine the coordinates of a static point anywhere in the world without real-time corrections or base station nearby.
 
@@ -33,16 +33,16 @@ The PPP technique is commonly used for determining the absolute base position fo
 
 Post-Processed PPP has both advantages and disadvantages in comparison with [PPK technology:](../../common/tutorials/ppk-introduction.md)
 
-  <center>
+<center>
 
-  | Advantages | Disadvantages |
-  | ---------- | ------------- |
-  | Only one receiver is needed| The time required to move from Float to a fixed solution |
-  | The position can be highly accurate determined at any place on the Earth | Most PPP services only allow using Static processing currently | 
-  | The position is determined with absolute accuracy | Most PPP services only allow GPS processing currently |
-  |  | Most PPP services only allow multi-frequency processing |
+| Advantages | Disadvantages |
+| :----------: | :-------------: |
+| Only one receiver is needed| The time required to move from Float to a fixed solution |
+| The position can be highly accurate determined at any place on the Earth | Most PPP services only allow using Static processing currently | 
+| The position is determined with absolute accuracy | Most PPP services only allow GPS processing currently |
+|  | Most PPP services only allow multi-frequency processing |
 
-  </center>
+</center>
 
 ## PPP services overview
 
@@ -106,7 +106,7 @@ Place a Reach device precisely above the marked point on the tripod and level it
 
 !!! tip ""
 
-    While OPUS handles only GPS data, NRCAN is able to work with both GPS and GLONASS
+    While OPUS handles only GPS data, NRCAN is able to work with both GPS and GLONASS.
 
 <div style="text-align: center;"><img src="../img/reach/ppp-introduction/rtk-settings.png" style="width: 600px;"></div>
 
@@ -115,13 +115,13 @@ Place a Reach device precisely above the marked point on the tripod and level it
 
 !!! tip ""
 
-    OPUS only works with RINEX 2.XX format of raw data recorded on Reach. As for NRCAN, it accepts RINEX 3.XX files as well 
+    OPUS only works with RINEX 2.XX format of raw data recorded on Reach. As for NRCAN, it accepts RINEX 3.XX files as well.
 
-- Enable raw data logging and record the data for 2,5 hours at least
+- Enable raw data logging and record the data for 2.5 hours at least
 
 !!! tip ""
 
-    You may log the data from 2 hours to 24 hours depending on the accuracy required
+    You may log the data from 2 hours to 24 hours depending on the accuracy required.
 
 <div style="text-align: center;"><img src="../img/reach/ppp-introduction/logging.png" style="width: 600px;"></div>
 
@@ -130,7 +130,7 @@ Place a Reach device precisely above the marked point on the tripod and level it
 
 !!! danger ""
 
-    Do not turn Reach off until the RINEX logs will be processed.
+    Do not turn Reach off until the RINEX logs are processed.
 
 ## Exporting raw data from ReachView
 
@@ -207,7 +207,7 @@ After you get the solution report, it might be useful to check how accurate the 
 
 ### NOAA's OPUS PPP
 
-In the solution report, you will get the name of the used reference frame, the XYZ and LLH coordinates of the point and accuracy estimation in meters. Additionally, you would better check these fields: OBS USED, FIXED AMB, OVERALL RMS.
+In the solution report, you will get the name of the used reference frame, the XYZ and LLH coordinates of the point and accuracy estimation in meters. Additionally, you can check these fields: OBS USED, FIXED AMB, OVERALL RMS. 
 
 The most accurate OPUS solutions have the following characteristics:
 
