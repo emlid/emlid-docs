@@ -83,7 +83,7 @@ nav:
     - How PPK works: common/tutorials/ppk-introduction.md
     - GPS post-processing: common/tutorials/gps-post-processing.md
     - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
-    - Precise Point Positioning: common/tutorials/ppp-introduction.md 
+    - Precise Point Positioning (PPP): common/tutorials/ppp-introduction.md 
   - Integration with external software:
     - ArduPilot integration: ardupilot-integration.md
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
@@ -117,6 +117,5 @@ templates:
   common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-m.mdx'
   common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-m.mdx'
   common/tutorials/gps-post-processing.md: 'tutorials/gps-post-processing.mdx' 
-  common/tutorials/ppp-introduction.md: 'tutorials/ppp-introduction.mdx'
   ardupilot-integration.md: 'ardupilot-integration.mdx'
 
