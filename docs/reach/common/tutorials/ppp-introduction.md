@@ -1,4 +1,4 @@
-# Precise Point Positioning
+# Precise Point Positioning (PPP)
 
 With the Precise Point Positioning (PPP) technique, you may accurately determine the coordinates of a static point anywhere in the world without real-time corrections or base station nearby.
 
