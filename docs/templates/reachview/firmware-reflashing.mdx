@@ -16,7 +16,7 @@ Note that you **do not** need to do this unless you want to bring Reach to its i
 	
 |Windows|Linux|
 |:-------------:|:----------:|
-|[Download [EXE, 85.9 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.2.1_setup.exe)|[Download [DEB, 109.8 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.2.1_amd64.deb)|
+|[Download [EXE, 81.8 MB]](http://files.emlid.com/flash-tools/win/reach-firmware-flash-tool_1.3.0_setup.exe)|[Download [DEB, 105 MB]](http://files.emlid.com/flash-tools/linux/reach-firmware-flash-tool_1.3.0_amd64.deb)|
 
 </center>
 
@@ -42,16 +42,16 @@ We recommend using the terminal to install the Flash Tool on your Linux PC. Foll
 
 * Press `Ctrl+Alt+T` to open the terminal
 * Navigate to the directory with the downloaded file with `cd ~/Downloads` command
-* Run `sudo dpkg -i reach-firmware-flash-tool_1.2.0_amd64.deb` to start installation
+* Run `sudo dpkg -i reach-firmware-flash-tool_1.3.0_amd64.deb` to start installation
 
 !!! danger ""
-	Please confirm adding the current user to `plugdev`, `dialout` and `lpadmin` groups during the installation process. In case of a negative answer, the application might not work as expected.
+	Please confirm adding the current user to `plugdev` and `dialout` groups during the installation process. In case of a negative answer, the application might not work as expected.
 
 * Reboot your PC
 
 ## Firmware Flash Guide
 
-Get the latest ReachView image version and unzip it:
+Reach Firmware Flash Tool will ask you to download the latest ReachView image version. You can also get it here:
 
 {%if model == 'RS2'%}
 
@@ -187,9 +187,23 @@ Get the latest ReachView image version and unzip it:
 	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/common/app-step2-choose-usb-rs.png" style="width: 300px;" /></p>
 {%endif%}
 
-* Select ReachView firmware .img file and click on _Flash_
+* Download the proposed ReachView firmware .zip file. You can also select image file from your disk. If the image version is outdated, the Flasher tool will show you a warning message. Click on _Flash_
+
+!!! note ""
+	You can either unpack the image yourself and select a .img file or just select a .zip file. In the latter case, the Flasher will unzip it.
 	
 <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step3-select-firmware.png" style="width: 300px;" /></p>
+
+!!! note ""
+	Reach Firmware Flash Tool creates 2 folders: one to download the image and another one to unpack it. Once you close the Flasher tool, the folder with the unpacked image will be deleted.
+
+	??? note "Folder Paths for Windows"
+		Downloads folder: `C:\Users\<username>\Downloads\Reach Firmware Flash Tool`  
+		Unpacking folder: `C:\Users\<username>\AppData\Local\Temp\Reach Firmware Flash Tool`
+
+	??? note "Folder Paths for Linux"
+		Downloads folder: `/home/<username>/Downloads/Reach Firmware Flash Tool`  
+		Unpacking folder: `/tmp/Reach Firmware Flash Tool`
 
 * Wait until the end of the flashing process
 
