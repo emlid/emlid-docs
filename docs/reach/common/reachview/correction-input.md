@@ -46,6 +46,9 @@ Check out the guide to learn more about working with NTRIP service:
 
 Typical scenario for using TCP correction input is when both base and rover are on the same network. Note that when devices are on different networks you can not send data directly unless public IP addresses are known and routers are setup for port forwarding. TCP can also be used to send data to or receive from a remote server with public IP.
 
+!!! note ""
+	Ports below 3000 are reserved for internal use only.  
+
 TCP supports two roles:
 
 #### Server  
