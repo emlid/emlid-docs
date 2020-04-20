@@ -1,17 +1,17 @@
 ##Overview
 
-In this tutorial, you will find the information on how to survey in RTK with senseFly drones and Reach RS2 via Bluetooth. 
+In this tutorial, you will find the information on how to survey in RTK with senseFly drones and Reach RS2 via Bluetooth.
 
 !!! note ""
-    Step-by-step guide can be also found on [senseFly Knowledge Base](https://sensefly.zendesk.com/hc/en-us/articles/360011254199-Emlid-Reach-RS2-RTK-Workflow). 
+    Step-by-step guide can be also found on [senseFly Knowledge Base](https://sensefly.zendesk.com/hc/en-us/articles/360011254199-Emlid-Reach-RS2-RTK-Workflow).
 
 ##Setting up Reach RS2
 
-In this part, we will concentrate on how to configure Reach RS2 to trasmit corrections to the PC via Bluetooth.
+In this part, we will concentrate on how to configure Reach RS2 to transmit corrections to the PC via Bluetooth.
 
 ###Placing the Reach RS2 receiver
 
-The video below demonstrates how to place the Reach RS2 base over a known point. 
+The video below demonstrates how to place the Reach RS2 base over a known point.
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/FilRoPVDjCs" allowfullscreen></iframe></div>
 
@@ -27,7 +27,7 @@ The general steps for placing the base receiver are described below.
 
 * If you are setting up base coordinates manually, measure the antenna height offset
 
-!!! note "" 
+!!! note ""
     Antenna height is measured as the distance between the mark and the antenna reference point (ARP).
 
 For Reach RS2, consider the antenna height as the distance between the mark and the bottom of Reach RS2 (h on the figure below) plus 134 mm.
@@ -37,7 +37,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 !!! note ""
     If you require absolute centimeter-level accuracy, you need to calculate an absolute base coordinate.
 
-    If you require relative centimeter-level accuracy, you can average base position. 
+    If you require relative centimeter-level accuracy, you can average base position.
 
 ###Pairing with PC
 
@@ -50,9 +50,9 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
     * Connect to a network named **reach:xx:xx**
 
     * Type network password: **emlidreach**
-    
+
     **For smartphone:**
-    
+
     * Choose Reach RS2 from the list of available devices in the ReachView App
 
     **For PC:**
@@ -91,7 +91,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
     * Put Reach IP in the address bar and go
 
-* Configure constellation select in the [RTK Settings tab.](../common/reachview/rtk-settings) For working with eBee drones, enable GPS and GLONASS at 1 Hz 
+* Configure constellation select in the [RTK Settings tab.](../common/reachview/rtk-settings) For working with eBee drones, enable GPS and GLONASS at 1 Hz
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/rtk-settings.png" style="width: 600px;"/></p>
 
@@ -143,14 +143,14 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/correction-output-bt.png" style="width: 600px;"/></p>
 
-* Choose transmitted RTCM3 messages 
+* Choose transmitted RTCM3 messages
 
 <center>
 
 |RTCM3 messages|Message type|
 |:---:|:---:|
 ||**Minimal required messages**|
-|1006|ARP station coordinate   | 
+|1006|ARP station coordinate   |
 |1074|GPS MSM4      |
 ||**Optional messages for other GNSS **|
 |1084|GLONASS MSM4|
@@ -222,7 +222,7 @@ Now we will show you how to establish an RTK link with Reach RS2 base on your eB
 * Activate your RTK/PPK license in the *eBee plus upgrade* tab of the Drone's panel. To activate a license for simulation, tick an *Activate update for simulator* box
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-license.png" style="width: 400px;"/></p>
- 
+
 Now you can see the RTK tab enabled on your Mission panel on your left.
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-mission-rtk.png" style="width: 300px;"/></p>
@@ -231,7 +231,7 @@ Now you can see the RTK tab enabled on your Mission panel on your left.
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-setup-rtk.png" style="width: 300px;"/></p>
 
-* Press *Set-up RTK/PPK* to configure your base 
+* Press *Set-up RTK/PPK* to configure your base
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-local-base.PNG" style="width: 300px;"/></p>
 
@@ -262,17 +262,14 @@ Now you can see the RTK tab enabled on your Mission panel on your left.
 !!! note ""
     If you are testing the setup inside, the GPS and GLONASS fields will show *Not sufficient* message
 
-* Check the base position the drone receives 
+* Check the base position the drone receives
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/connect-base.png" style="width: 400px;"/></p>
 
-* Go to the Drone's panel 
+* Go to the Drone's panel
 
-* In the Instruments tab, you can see that the drone provides centimeter-level accuracy and the mode is *RTK-fixed* 
+* In the Instruments tab, you can see that the drone provides centimeter-level accuracy and the mode is *RTK-fixed*
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-rtk-fixed.png" style="width: 400px;"/></p>
 
 Now you have successfully configured RTK corrections on your drone from Reach RS2!
-
-
-
