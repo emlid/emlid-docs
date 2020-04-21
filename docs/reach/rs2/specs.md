@@ -1,7 +1,14 @@
 ## Performance specs
 
 [Datasheet for Reach RS2 [PDF, 627 KB]](http://files.emlid.com/docs/Datasheet%20RS2%20ENG%20web.pdf)
+## Ports description
+Reach RS2 has USB-C and RS-232 ports for communication and powering. Antenna for LoRa radio can be connected to special port. 
 
+The SIM card should be inserted to the slot hidden under the SIM card slot cover. 
+
+Reach RS2 can be mounted on the tripod and survey pole via 5/8" thread.
+
+<p style="text-align:center" ><img src="../img/reachrs2/specs/rs2-ports.jpg" style="width: 800px;" /></p>
 ## Mechanical specs
 
 | File name | Download link |
