@@ -1,13 +1,13 @@
 ##Overview
 
-In this tutorial, you will find the information on how to survey in RTK with senseFly drones and Reach RS2 via Bluetooth.
+In this tutorial, you will find the information on how to survey in RTK with senseFly drones and Reach RS2.
 
 !!! note ""
     Step-by-step guide can be also found on [senseFly Knowledge Base](https://sensefly.zendesk.com/hc/en-us/articles/360011254199-Emlid-Reach-RS2-RTK-Workflow).
 
 ##Setting up Reach RS2
 
-In this part, we will concentrate on how to configure Reach RS2 to transmit corrections to the PC via Bluetooth.
+In this part, we will explain how to configure Reach RS2 to transmit corrections to the PC via Bluetooth.
 
 ###Placing the Reach RS2 receiver
 
@@ -159,7 +159,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 </center>
 
-<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/correction-output-bt.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/base-rtcm3.png" style="width: 600px;"/></p>
 
 ### Checking the connection
 
