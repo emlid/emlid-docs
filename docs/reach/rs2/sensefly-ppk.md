@@ -7,7 +7,7 @@ In this tutorial, you will find the information on how to perform PPK with sense
 
 ##Preparing Reach RS2 data 
 
-In this part, we will concentrate on how to place Reach RS2 to record logs for PPK.
+In this part, we will explain how to place Reach RS2 to record logs for PPK.
 
 ###Placing the Reach RS2 receiver
 
