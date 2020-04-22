@@ -17,10 +17,13 @@ Explore these step-by-step guides to get a better understanding of your Reach po
 * [Analyzing PPK solution and logs](common/tutorials/analyzing-logs.md)
 * [Precise Point Positioning (PPP)](common/tutorials/ppp-introduction.md) 
 
-###Integration with external software
+###Integration with external software and devices
 
 * [Bluetooth output and Android mock location](common/tutorials/mock-location.md)
 * [Using QGIS as survey tool](common/tutorials/qgis-survey.md)
 * [Microsurvey FieldGenius setup guide](common/tutorials/fieldgenius.md)
 * [Carlson SurvCE/SurvPC setup guide](common/tutorials/survce.md)
+* senseFly eMotion setup:
+    * [senseFly RTK guide](../sensefly-rtk/)
+    * [senseFly PPK guide](../sensefly-ppk/)
 
