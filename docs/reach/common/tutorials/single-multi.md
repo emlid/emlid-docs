@@ -56,7 +56,7 @@ Single-band receivers need the open sky to work their best. Otherwise, it might 
 Both single-band and multi-band receivers obtain the same level of accuracy in their perfect conditions – so, first of all, you need to analyze your case.
 
 Single-band receivers are perfect for working in the field with shorter baselines and a clear sky view. Say, you’re working in agriculture and you need to divide your field into equal sectors or determine the position for trees in an orchard-to-be, a single-band receiver is enough. They also make a great base for PPK or drone mapping.
-Multi-band receivers make a perfect fit for [PPP, such as OPUS or NRCan](/common/tutorials/ppp-introduction/), and high-accuracy surveying in tougher conditions. If you’re working in the city and you have a longer baseline, or the base station is too far, plus you want the job to be done fast, a multi-band receiver is your choice. It gets the fix solution faster despite the possible obstacles and distance from the base.
+Multi-band receivers make a perfect fit for [PPP, such as OPUS or NRCan](ppp-introduction.md), and high-accuracy surveying in tougher conditions. If you’re working in the city and you have a longer baseline, or the base station is too far, plus you want the job to be done fast, a multi-band receiver is your choice. It gets the fix solution faster despite the possible obstacles and distance from the base.
 
 ## Conclusion
 
@@ -66,6 +66,6 @@ If you have any questions or still have doubts about whether you need a single-b
 
 ## Further reading
 
-- [How RTK works](/common/tutorials/rtk-introduction/)
-- [Precise Point Positioning (PPP)](/common/tutorials/ppp-introduction/)
-- [Placing the base](/common/tutorials/placing-the-base/)
+- [How RTK works](rtk-introduction.md)
+- [Precise Point Positioning (PPP)](ppp-introduction.md)
+- [Placing the base](placing-the-base.md)
