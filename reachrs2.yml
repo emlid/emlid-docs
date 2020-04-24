@@ -85,7 +85,7 @@ nav:
     - How PPK works: common/tutorials/ppk-introduction.md
     - GPS post-processing: common/tutorials/gps-post-processing.md
     - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
-    - Precise Point Positioning (PPP): common/tutorials/ppp-introduction.md 
+    - Precise Point Positioning (PPP): common/tutorials/ppp-introduction.md
   - Integration with external software and devices:
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
     - Using QGIS as survey tool: common/tutorials/qgis-survey.md
@@ -116,5 +116,7 @@ templates:
     common/reachview/position-output.md: 'reachview/position-output.mdx'
     common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
     common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'
+    common/quickstart/downloading-files.md: 'quickstart/downloading-files.mdx'
     common/tutorials/gps-post-processing.md: 'tutorials/gps-post-processing.mdx'
-
+    common/tutorials/placing-gcps.md: 'tutorials/placing-gcps.mdx'
+    common/tutorials/tuning-lora.md: 'tutorials/tuning-lora.mdx'
