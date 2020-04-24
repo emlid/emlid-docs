@@ -57,7 +57,7 @@ nav:
   - RTK settings: common/reachview/rtk-settings.md
   - Correction input: common/reachview/correction-input.md
   - Position output: common/reachview/position-output.md
-  - Base mode: reachview/base-mode.md
+  - Base mode: common/reachview/base-mode.md
   - Logging: reachview/logging.md
   - Mobile data: reachview/mobile-data.md
   - Wi-Fi: reachview/wifi.md
@@ -113,6 +113,7 @@ templates:
     common/reachview/rtk-settings.md: 'reachview/rtk-settings.mdx'
     common/reachview/firmware-reflashing.md: 'reachview/firmware-reflashing.mdx'
     common/reachview/position-output.md: 'reachview/position-output.mdx'
+    common/reachview/base-mode.md: 'reachview/base-mode.mdx'
     common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
     common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'
     common/tutorials/gps-post-processing.md: 'tutorials/gps-post-processing.mdx'
