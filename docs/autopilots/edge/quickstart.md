@@ -138,7 +138,7 @@ That’s why you need to build it by yourself for now. In the future this step w
 
 * Download the source code
 
-    `git clone https://github.com/emlid/8812au.git`
+    `git clone https://github.com/aircrack-ng/rtl8812au.git`
 
     `cd 8812au`
 
@@ -171,7 +171,7 @@ When you do this, NetworkManager understands that you do not want to roam and wi
 
 * Firstly, you need to determine Edge's MAC address. You can obtain it from ifconfig or use arp command as follows:
 
-    `$ arp -a` 
+    `$ arp -a`
 
  * Then open your WiFi settings from top bar, click 'Edit connections' and find Edge's connection profile. Modify the BSSID field with the MAC address of your Edge and save.
 
@@ -291,4 +291,3 @@ After this step click `Start streaming` and you will get the video stream from y
 That’s it, folks! If you have any questions, feel free to ask them on our [community forum](https://community.emlid.com).
 
 Now you can continue to [installation](hardware/pinout.md) on a frame.
-
