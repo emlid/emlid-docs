@@ -10,79 +10,172 @@
 }
 
 .md-header {
-  background-color: #181818 !important;
-  box-shadow: none;
+    background-color: #181818 !important;
+    box-shadow: none;
 }
 
 .md-header[data-md-state=shadow] {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 .md-typeset h1 {
-  font-size: 40px;
-  color: #181818;
-  font-family: GothamProMedium;
-  letter-spacing: -0.04em;
+    font-size: 40px;
+    color: #181818;
+    font-family: GothamProMedium;
+    letter-spacing: -0.04em;
 }
 
 .md-typeset h2 {
-  font-size: 28px;
-  color: #181818;
-  font-family: GothamProMedium;
-  letter-spacing: -0.04em;
+    font-size: 28px;
+    color: #181818;
+    font-family: GothamProMedium;
+    letter-spacing: -0.04em;
 }
 
 .md-typeset h3 {
-  font-size: 19px;
-  color: #181818;
-  font-family: GothamProMedium;
-  letter-spacing: -0.04em;
+    font-size: 19px;
+    color: #181818;
+    font-family: GothamProMedium;
+    letter-spacing: -0.04em;
 }
 
 [data-md-color-primary=light-blue] .md-typeset a {
-  color: #008BEE;
+    color: #008BEE;
 }
 
-.md-content__icon, .md-footer-nav__button, .md-header-nav__button, .md-nav__button, .md-nav__title:before, .md-search-result__article--document:before {
-  padding-top: .5rem;
+.md-content__icon,
+.md-footer-nav__button,
+.md-header-nav__button,
+.md-nav__button,
+.md-nav__title:before,
+.md-search-result__article--document:before {
+    padding-top: .5rem;
 }
 
-@media only screen and (max-width: 59.9375em){
-  [data-md-color-primary=light-blue] .md-nav__source {
-    background-color: #242424;
-  }
+@media only screen and (max-width: 59.9375em) {
+    [data-md-color-primary=light-blue] .md-nav__source {
+        background-color: #242424;
+    }
 }
-  
+
 @media only screen and (max-width: 76.1875em) {
-  html [data-md-color-primary=light-blue] .md-nav--primary .md-nav__title--site {
-    background-color: #181818;
-  }
+    html [data-md-color-primary=light-blue] .md-nav--primary .md-nav__title--site {
+        background-color: #181818;
+    }
 }
 
 .md-typeset a {
-  color: #008BEE;
+    color: #008BEE;
 }
 
-[data-md-color-primary=light-blue] .md-nav__link--active, [data-md-color-primary=light-blue] .md-nav__link:active {
-  color: #008BEE;
+[data-md-color-primary=light-blue] .md-nav__link--active,
+[data-md-color-primary=light-blue] .md-nav__link:active {
+    color: #008BEE;
 }
 
-.headerlink:hover, .md-typeset h3[id]:target .headerlink {
-  color: #008BEE;
+.headerlink:hover,
+.md-typeset h3[id]:target .headerlink {
+    color: #008BEE;
 }
 
-.headerlink:hover, .md-typeset h3[id]:target .headerlink {
-  color: #008BEE;
+.headerlink:hover,
+.md-typeset h3[id]:target .headerlink {
+    color: #008BEE;
 }
 
-.md-nav__link--active, .md-nav__link:active {
-  color: #008BEE;
+.md-nav__link--active,
+.md-nav__link:active {
+    color: #008BEE;
 }
 
-.md-nav__link:focus, .md-nav__link:hover {
-  color: #008BEE;
+.md-nav__link:focus,
+.md-nav__link:hover {
+    color: #008BEE;
 }
 
 .md-search__input {
     background-color: #2F3030;
+}
+/*Start table Led-statuses*/
+@media (min-width: 320px) and (max-width: 768px)
+{
+    .reciever-container
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    .reciever-status
+    {
+        padding-top:0!important;
+        padding-bottom: 12.5px!important;
+    }
+    .reciever-description, .reciever-status
+    {
+        width:100%!important;
+    }
+    .reciever-description
+    {
+        border-right: 0!important;
+        padding-bottom: 7.5px!important;
+    }
+}
+.wrapper-text>.op-45
+{
+    color: #212121;
+    opacity: 0.45;
+}
+.reciever-wrapper
+{
+    border: 1px solid #E8E8E8;
+    border-radius:4px;
+}
+.reciever-container
+{
+    display:flex;
+    border-bottom: 1px solid #E8E8E8;
+}
+.reciever-description
+{
+    border-right: 1px solid #E8E8E8;
+    padding:0 20px;
+}
+.reciever-description, .reciever-status
+{
+    width:50%;
+    padding-top:7.5px;
+    padding-bottom:7.5px;
+}
+.reciever-description h4
+{
+    margin:7.5px 0;
+    height:18px;
+}
+ .reciever-description p
+{
+    color: #7A7A7A;
+    margin:0;
+    padding-bottom:7.5px;
+}
+.status-wrapper
+{
+    display: flex;
+    align-items: center;
+    padding-left:5px;
+    color: #212121;
+}
+.status-wrapper img
+{
+    height:40px;
+    border-radius: 4px;
+    margin:7.5px 15px;
+}
+.wrapper-text
+{
+    display: flex;
+    flex-direction: column;
+}
+/*End Led-status*/
+.reciever
+{
+    border-radius:4px;
 }
