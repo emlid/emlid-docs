@@ -21,11 +21,11 @@ We'll guide you through what's going on under the hood in the sections below.
 
 ## Systemd
 
-For launching ArduPilot we are using `systemd` init system which provides manager for all services and processes. 
+For launching ArduPilot we are using `systemd` init system which provides manager for all services and processes.
 The main command used to control systemd is `systemctl`. Some of its uses are:
 
-* examining the system state 
-* managing the system and services. 
+* examining the system state
+* managing the system and services.
 
 See `man systemctl` for more details.
 
@@ -50,7 +50,7 @@ Once the command is running, it will produce the output like this:
 
 At this point you should enter the right choices in the left menu corresponding to your vehicle and frame.
 Also, you need to decide whether you want to get ardupilot enabled on boot or not and start/stop it now.
-  
+
 Let's assume that we have arducopter, and we've decided to enable it on boot and start.
 
 After clicking the 'Apply' button ArduPilot will be configured and you'll see the changes in the ArdupilotInfo widget:
@@ -58,11 +58,11 @@ After clicking the 'Apply' button ArduPilot will be configured and you'll see th
 ![emlidtool-ui](img/emlidtool-after-configure.png)
 
 ## Specifying launching options
- 
+
 Open the file:
 
 ```bash
-pi@navio: ~ $ sudo nano /etc/default/arducopter 
+pi@navio: ~ $ sudo nano /etc/default/arducopter
 ```
 
 Here you can specify IP of your ground station.
@@ -83,7 +83,7 @@ ARDUPILOT_OPTS="$TELEM1 $TELEM2"
 # -B or -E is used to specify non default GPS
 ```
 
-All lines marked '#' are comments and have no effect. 
+All lines marked '#' are comments and have no effect.
 
 For example, you'll need to modify TELEM1 to point to your IP like this:
 
@@ -101,7 +101,7 @@ Mapping between switches and serial ports (TCP or UDP can be used instead of ser
 <sub>3DR Radios are configured for 57600 by default, so the simplest way to connect over them is to run with -C option.</sub>
 * -D - serial 2 (normally telemetry 2; default baud rate 57600)  
 * -B - serial 3 (normally 1st GPS; default baud rate 38400)  
-* -E - serial 4 (normally 2st GPS; default baud rate 38400)  
+* -E - serial 4 (normally 2nd GPS; default baud rate 38400)  
 * -F - serial 5  
 
 Additionally take a look at [list of serial parameters](http://ardupilot.org/copter/docs/parameters.html?highlight=serial#serial-parameters) for Mission Planner.
@@ -169,7 +169,7 @@ APM Planner is a ground station software for ArduPilot. It can be downloaded fro
 
 APM Planner listens on UDP port 14550, so it should catch telemetry from the drone automatically.
 Also, if you are using Linux, you have to add your user to dialout group:
- 
+
 ```bash
 sudo adduser $USER dialout
 ```
@@ -237,7 +237,7 @@ Restart=on-failure
 WantedBy=multi-user.target
 ```
 
-The comments speak for themselves. The only thing you need to adjust is 
+The comments speak for themselves. The only thing you need to adjust is
 ```bash
 #ExecStart=/bin/sh -c "/home/pi/<path>/<to>/<your>/<binary> ${ARDUPILOT_OPTS}"
 ```

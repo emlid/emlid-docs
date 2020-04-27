@@ -46,6 +46,9 @@ Check out the guide to learn more about working with NTRIP service:
 
 Typical scenario for using TCP correction input is when both base and rover are on the same network. Note that when devices are on different networks you can not send data directly unless public IP addresses are known and routers are setup for port forwarding. TCP can also be used to send data to or receive from a remote server with public IP.
 
+!!! note ""
+	Ports below 3000 are reserved for internal use only.  
+
 TCP supports two roles:
 
 #### Server  
@@ -60,7 +63,7 @@ If ReachView does not allow to set a certain port number it means that it is res
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/Lora.png" style="width: 800px;" /></p>
 
-**Reach RS/RS+ and Reach RS2** have internal LoRa radio which is used for receiving or sending corrections. For **Reach M+** external LoRa radio is available, it can be connected via USB or S1/S2 port. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km (11.8 miles) in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base. 
+**Reach RS/RS+ and Reach RS2** have internal LoRa radio which is used for receiving or sending corrections. For **Reach M+** and **Reach M2** external LoRa radio is available, it can be connected via S2 port. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km (11.8 miles) in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base. 
 
 Frequency and air rate settings must match what was configured on the base.
 

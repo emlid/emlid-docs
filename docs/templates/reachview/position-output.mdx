@@ -3,7 +3,7 @@
 
 <p style="text-align:center" ><img src="../img/reachview/position_output/format.png" style="width: 800px;" /></p>
 
-Reach supports following position output formats: 
+Reach {{model}} supports the following position output formats: 
 
 #### LLH
 Simple text protocol for Latitude Longitude and Height as well as solution status. Protocol definition can be found in [RTKLIB ver. 2.4.2 Manual [PDF, 6.1 MB]](http://www.rtklib.com/prog/manual_2.4.2.pdf) on page 102.
@@ -26,19 +26,22 @@ Used for communication to Ardupilot, [protocol description can be found by follo
 **Data in any of these formats can be sent via Serial, TCP or Bluetooth.**
 
 ### Serial
-Serial port connection is available through several hardware connection options. All of them support the following baud rates: 9600, 19200, 38400, 57600, 115200. Reach RS2 also supports 230400 baud rate.
+Serial port connection is available through several hardware connection options. All of them support the following baud rates: 9600, 19200, 38400, 57600, 115200{% if model == "RS2"%}, 230400.{% else %}.{%endif%}
 
 #### UART
-Corresponds to TTL UART on Reach and Reach M+ modules or to RS232 port on Reach RS/RS+ and Reach RS2 extension connector. Common way to connect to autopilot or another consumer of position data.
+{%if model == 'Module' or model == 'M+' or model == 'M2' %}Corresponds to TTL UART on Reach {{model}}.{%else%}Corresponds to RS232 port on Reach {{model}} extension connector.{%endif%} Common way to connect to autopilot or another consumer of position data.
 
 #### USB-to-PC
-When connected over USB to a PC Reach will show up as several devices, one of them will be a serial port. You can use this serial port to send position data to the PC.
+When connected over USB to a PC Reach {{model}} will show up as several devices, one of them will be a serial port. You can use this serial port to send position data to the PC.
 
 #### USB OTG
-Use a micro-USB OTG cable to connect USB accessories. In this mode only USB devices that emulate a serial port could be used. Example of popular chips that are supported: FT232, CP2102. There are numerous devices built on these chips that will provide you a TTL UART or RS232 port. 
+Use a micro-USB OTG cable to connect USB accessories. In this mode only USB devices that emulate a serial port could be used. Example of popular chips that are supported: FT232, CP2102. There are numerous devices built on these chips that will provide you a {%if model == 'Module' or model == 'M+' or model == 'M2' %}TTL UART port.{% else %}RS232 port.{% endif %} 
 
 ### TCP
 Typical scenario for using TCP is sending position data to an application on the same network or to a server with public IP. 
+
+!!! note ""
+	Ports below 3000 are reserved for internal use only.  
 
 TCP supports two roles:
 
@@ -55,4 +58,6 @@ Bluetooth output is used to stream position data to smartphones, tablets or data
 
 !!! note ""
 	iOS devices don't support getting a location over Bluetooth from third-party hardware.
+
+You can learn more about getting Reach {{model}} coordinates on Android via Bluetooth in [this](../../common/tutorials/mock-location.md)  guide.
 

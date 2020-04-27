@@ -67,7 +67,7 @@ Some of the receivers with PPM output:
 * FrSKY V8R7-SP ACCST 7 Channel RX with composite PPM
 * FrSKY D8R-XP
 
-### For FASST (Futaba & some FrSky trasmitters)
+### For FASST (Futaba & some FrSky transmitters)
 
 FrSky TFR4 4ch 2.4Ghz Surface/Air Receiver FASST Compatible
 
