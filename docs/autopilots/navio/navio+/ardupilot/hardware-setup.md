@@ -2,7 +2,7 @@
 
 APM autopilot port for Navio+ is developed and tested on **Raspberry Pi 2 Model B**.
 
-Previous models such as Raspberry Pi Model A+ and Raspberry Pi Model B+ are electrically compatible, but lack performance to run APM:Copter on 400Hz. These models are sufficient to run developer examples and APM:Rover. 
+Previous models such as Raspberry Pi Model A+ and Raspberry Pi Model B+ are electrically compatible, but lack performance to run APM:Copter on 400Hz. These models are sufficient to run developer examples and APM:Rover.
 
 Raspberry Pi Zero is electrically compatible, but has not been tested yet.
 
@@ -53,7 +53,7 @@ Receivers with PPM output:
 * FrSKY V8R7-SP ACCST 7 Channel RX with composite PPM
 * FrSKY D8R-XP
 
-**For FASST (Futaba & some FrSky trasmitters):**
+**For FASST (Futaba & some FrSky transmitters):**
 
 FrSky TFR4 4ch 2.4Ghz Surface/Air Receiver FASST Compatible
 

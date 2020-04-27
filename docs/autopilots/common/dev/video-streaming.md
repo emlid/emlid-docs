@@ -47,7 +47,7 @@ Here's the app in action
 The simplest way is to use brew. To install it run the following in your Mac terminal:
 
 ```bash
-user@mac: ~ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+user@mac: ~ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 user@mac: ~ $ brew update
 user@mac: ~ $ brew install gstreamer gst-libav gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-plugins-good
 ```

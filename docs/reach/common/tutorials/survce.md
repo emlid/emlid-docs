@@ -55,7 +55,7 @@ After successful Bluetooth pairing you should configure BT position output and c
 <br>
 
 * Specify the antenna offset in both L1 and L2 tabs. Antenna offset for Reach RS/RS+ is 0.065m and for Reach RS2 is 0.134m.
-<p style="text-align:center"><img src="../img/reach/survce/antenna-offset.png" style="width: 600px;"/></p> 
+<p style="text-align:center"><img src="../img/reach/survce/antenna-offset.PNG" style="width: 600px;"/></p> 
 <br>
 
 ### Configuring the communication between SurvCE and Reach

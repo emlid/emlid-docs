@@ -28,4 +28,3 @@ Reach RS2 has several LEDs which are used as status indicators for different par
     </div>
 <div></div>
 </div>
-

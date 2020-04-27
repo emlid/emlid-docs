@@ -5,7 +5,7 @@
 Reach outputs correction in industry standard RTCM3 format. Correction data can be sent via Serial, TCP, NTRIP or LoRa for Reach RS/RS+.
 
 ### Serial
-Serial port connection is available through several hardware connection options. All of them support the following baud rates: 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200, 128000, 153600, 230400, 256000, 460800.
+Serial port connection is available through several hardware connection options. All of them support the following baud rates: 9600, 19200, 38400, 57600, 115200. Reach RS2 also supports 230400 baud rate.
 
 #### UART
 Corresponds to TTL UART on Reach module or to RS232 port on Reach RS/RS+ extension connector. Common way to connect to radio to send correction data.
@@ -31,6 +31,9 @@ When connecting via NTRIP in base mode Reach acts as a NTRIP server.
 
 ### TCP
 Typical scenario for using TCP is sending correction data to an application on the same network or to a server with public IP. 
+
+!!! note ""
+    Ports below 3000 are reserved for internal use only.  
 
 TCP supports two roles:
 
@@ -79,13 +82,13 @@ Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#
 
 - **Messages 1097 (GALILEO), 1107 (SBAS), 1117 (QZSS), 1127 (BeiDou)** are MSM7 (Multiple Signal Messages). MSM7 are high precision messages which contains a complete set of RINEX observations with extended resolution. That means that you should turn on only one message of choosen system to get all data about it.
 
-	!!! tip ""
-		Remember, that you can not use GLONASS and BeiDou systems together.
+!!! tip ""
+	Remember, that you can not use GLONASS and BeiDou systems together.
 
-	!!! tip ""
-		* Use 1117 QZSS message if you are located in East-Southeast Asia and Australia.
-		* Use 1107 SBAS message if you are located in Noth America, Europe, North Africa, Near East, South Asia and East Asia, Russia
-		* Use 1127 BeiDou message if you are located in Asian region and Australia.
+!!! tip ""
+	* Use 1117 QZSS message if you are located in East-Southeast Asia and Australia.
+	* Use 1107 SBAS message if you are located in Noth America, Europe, North Africa, Near East, South Asia and East Asia, Russia
+	* Use 1127 BeiDou message if you are located in Asian region and Australia.
 
 
 ## Base position

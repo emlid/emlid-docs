@@ -6,7 +6,7 @@ If you haven't already done that, download drivers and examples code [here](navi
 
 Move to the folder with the source code, compile and run the example
 ```bash
-cd C++/Examples/LED2
+cd C++/Examples/LED
 make
 sudo ./LED
 ```

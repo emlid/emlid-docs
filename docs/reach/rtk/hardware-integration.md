@@ -1,21 +1,21 @@
 !!! tip ""
-	Reach has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
+	Reach Module has been replaced with [Reach M+](https://emlid.com/reach). Documentation for Reach M+ can be found [here](https://docs.emlid.com/reachm-plus/).
 
 Reach supports various accessories via it's built-in USB OTG port and UART interface on the DF13 connector
 
 ### Radio
 
-It is possible to connect radio modules to Reach in order to obtain corrections or send calculated coordinates.
+It is possible to connect radio modules to Reach Module in order to obtain corrections or send calculated coordinates.
 
 Most radios nowadays use UART or USB as a connection.
 
 #### Connecting UART radio
 
-Logic level on UART in Reach is 3.3V but pins are 5V tolerant, so you can use both 3.3V and 5V logic level radios.
+Logic level on UART in Reach Module is 3.3V but pins are 5V tolerant, so you can use both 3.3V and 5V logic level radios.
 
-UART radio is accessible on Reach as a serial device with the name **ttyMFD2**.
+UART radio is accessible on Reach Module as a serial device with the name **ttyMFD2**.
 
-To connect UART radio to Reach use upper DF13 port (the one near the USB).
+To connect UART radio to Reach Module use upper DF13 port (the one near the USB).
 
 | Reach pins | Radio pins |
 |:----------:|:----------:|
@@ -34,7 +34,7 @@ Connection diagram for 3DR Radio v2:
 
 3DR Radio can also be connected over USB.
 
-Please note that a bug in the **Reach image before v1.2** prevents the Rover module from booting while it`s receiving UART correction signals from the base module. Current fix is powering up base module after the rover module has booted (LED are blinking red/blue/white).
+Please note that a bug in the **Reach Module image before v1.2** prevents the Rover Module from booting while it`s receiving UART correction signals from the base module. Current fix is powering up base module after the rover module has booted (LED are blinking red/blue/white).
 
 #### RFD900 Radio
 
@@ -51,6 +51,6 @@ Connection diagram for RFD900 radio:
 
 <div style="text-align: center;"><img src="../img/reach/hardware-integration/reach-usb-radio.png" style="width: 550px;"></div><br>
 
-To connect USB radio to Reach use USB-OTG cable provided with the package.
-Plug radio into USB-F port and plug Micro-USB end of the cable in Reach.
-**When using USB port in OTG mode Reach has to be [powered](power-supply.md) over one of the DF13 ports**.
+To connect USB radio to Reach Module use USB-OTG cable provided with the package.
+Plug radio into USB-F port and plug Micro-USB end of the cable in Reach Module.
+**When using USB port in OTG mode Reach Module has to be [powered](power-supply.md) over one of the DF13 ports**.

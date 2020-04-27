@@ -74,6 +74,7 @@ nav:
   - How to download files from Reach: common/quickstart/downloading-files.md 
 - Tutorials:
   - Basics:
+    - Single-band VS Multi-band: common/tutorials/single-multi.md
     - How RTK works: common/tutorials/rtk-introduction.md
     - How PPK works: common/tutorials/ppk-introduction.md
     - Tuning LoRa for RTK: common/tutorials/tuning-lora.md
@@ -83,6 +84,7 @@ nav:
     - How PPK works: common/tutorials/ppk-introduction.md
     - GPS post-processing: common/tutorials/gps-post-processing.md
     - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
+    - Precise Point Positioning (PPP): common/tutorials/ppp-introduction.md 
   - Integration with external software:
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
     - Using QGIS as survey tool: common/tutorials/qgis-survey.md
@@ -108,6 +110,8 @@ templates:
     common/reachview/settings.md: 'reachview/settings.mdx'
     common/reachview/rtk-settings.md: 'reachview/rtk-settings.mdx'
     common/reachview/firmware-reflashing.md: 'reachview/firmware-reflashing.mdx'
+    common/reachview/position-output.md: 'reachview/position-output.mdx'
     common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
     common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'
     common/tutorials/gps-post-processing.md: 'tutorials/gps-post-processing.mdx'
+
