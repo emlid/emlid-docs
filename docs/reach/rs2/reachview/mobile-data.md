@@ -11,7 +11,10 @@ Enable Mobile data on Reach to [get corrections from NTRIP over the Internet](ht
 	</center>
 
 !!! note ""
-    You may need to enter the APN details of your mobile operator to connect to mobile data. Reach out to your mobile network operator to get APN.
+    You may need to enter the APN details of your mobile operator to connect to mobile data. Reach out to your mobile network operator to get APN. 
+
+[Learn more about connecting Reach RS2 to the Internet in this docs entry.](https://docs.emlid.com/reachrs2/connecting-to-the-internet/#video-guide)
+
 
 ### Share mobile data from Reach in hotspot mode
 
