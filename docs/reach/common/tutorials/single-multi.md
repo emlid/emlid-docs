@@ -39,7 +39,7 @@ Single-band receivers require more time since they can only process one kind of 
 
 For different projects, you might need a different distance from the rover to the base. Working near a city, you are more likely to have a base nearby. However, if you mostly work in rural areas, base stations are likely to be further away.
 
-Multi-band receivers can work at a longer baseline. Reach RS2, as a multi-band receiver, can operate with the baseline up to 60 km for RTK, while Reach RS+ single-band receiver’s baseline is limited to 10 km in RTK mode.
+Multi-band receivers can work at a longer baseline. Reach RS2, as a multi-band receiver, can operate with the baseline up to 60 km (36 miles) for RTK, while Reach RS+ single-band receiver’s baseline is limited to 10 km (6 miles) in RTK mode.
 
 ### Accuracy
 
