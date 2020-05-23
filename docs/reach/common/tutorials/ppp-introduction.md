@@ -83,13 +83,13 @@ NRCAN CSRS-PPP service uses single or dual-frequency GPS and GLONASS data for so
 Depending on the accuracy level and time that is required to get the solution, NRCAN CSRS-PPP service can calculate the data in the following modes <sup>[2](#myfootnote2)</sup>
 :
 
-- **FINAL:** the accuracy is about 2 cm, available 13 -15 days after the end of the week
-- **RAPID:** the accuracy is about 5 cm, available the next day
-- **ULTRA RAPID:** the accuracy is about 15 cm, available every 90 minutes
+- **FINAL:** the accuracy is about 2 cm (0.8 inches), available 13 -15 days after the end of the week
+- **RAPID:** the accuracy is about 5 cm (2 inches), available the next day
+- **ULTRA RAPID:** the accuracy is about 15 cm (16 inches), available every 90 minutes
 
 !!! note ""
 
-    In this guide, we will show you how to process raw data from Reach RS2 recorded in the Static mode. However, with the NRCAN CSRS tool, it is also possible to process the data from a single-band Reach RS/RS+ receiver. With Reach RS/RS+, you will get an accuracy of about 30 cm.
+    In this guide, we will show you how to process raw data from Reach RS2 recorded in the Static mode. However, with the NRCAN CSRS tool, it is also possible to process the data from a single-band Reach RS/RS+ receiver. With Reach RS/RS+, you will get an accuracy of about 30 cm (12 inches).
 
 You can learn more about NRCAN CSRS-PPP service on their [official site.](https://www.nrcan.gc.ca/maps-tools-publications/tools/geodetic-reference-systems-tools/tools-applications/10925#ppp)
 
@@ -213,7 +213,7 @@ The most accurate OPUS solutions have the following characteristics:
 
 - Over 90% of observations are used
 - Over 50% of ambiguities are fixed
-- Overall RMS is less than 3 cm
+- Overall RMS is less than 3 cm (1.2 inches)
 
 ### NRCAN CSRS-PPP
 
