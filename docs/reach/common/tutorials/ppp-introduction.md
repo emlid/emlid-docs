@@ -83,9 +83,9 @@ NRCAN CSRS-PPP service uses single or dual-frequency GPS and GLONASS data for so
 Depending on the accuracy level and time that is required to get the solution, NRCAN CSRS-PPP service can calculate the data in the following modes <sup>[2](#myfootnote2)</sup>
 :
 
-- **FINAL:** the accuracy is about 2 cm, available 13 -15 days after the end of the week
-- **RAPID:** the accuracy is about 5 cm, available the next day
-- **ULTRA RAPID:** the accuracy is about 15 cm, available every 90 minutes
+- **FINAL:** the accuracy is about 2 cm (0.8 inches), available 13 -15 days after the end of the week
+- **RAPID:** the accuracy is about 5 cm (2 inches), available the next day
+- **ULTRA RAPID:** the accuracy is about 15 cm (6 inches), available every 90 minutes
 
 !!! note ""
 
