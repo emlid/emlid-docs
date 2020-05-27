@@ -1,4 +1,4 @@
-RTK is a technique used to improve the accuracy of a standalone GNSS receiver. Traditional GNSS receivers, like the one in a smartphone, could only determine the position with 2-4 meters accuracy. RTK can give you centimeter accuracy.
+RTK is a technique used to improve the accuracy of a standalone GNSS receiver. Traditional GNSS receivers, like the one in a smartphone, could only determine the position with 2-4 meters (7-13 feet) accuracy. RTK can give you centimeter accuracy.
 
 GNSS receivers measure how long it takes for a signal to travel from a satellite to the receiver. Transmitted signals travel through the ionosphere and atmosphere and are slowed down and perturbed on the way. For example, travel time on a cloudy day and in clear sky conditions would be different. That is why it is difficult for a standalone receiver to precisely determine its position. RTK is a technology that solves this issue.
 
