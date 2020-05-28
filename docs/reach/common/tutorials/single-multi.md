@@ -18,8 +18,8 @@ The main difference between single-band and multi-band receivers is the number o
 | Time to first fix | ~5 sec | 1-2 min |
 | Positioning accuracy in RTK | H: 7 mm + 1 ppm | H: 7mm + 1 ppm |
 | | V: 14 mm + 1 ppm | V: 14 mm + 1 ppm |
-| Baseline in RTK mode | Up to 60 km | Up to 10 km |
-| Baseline in PPK mode | Up to 100 km | Up to 20 km |
+| Baseline in RTK mode | Up to 60 km (36 miles) | Up to 10 km (6 miles) |
+| Baseline in PPK mode | Up to 100 km (60 miles) | Up to 30 km (18 miles) |
 | 3.5G modem| Reach RS2 has embedded cellular modem | No |
 | LoRa radio | Yes | Yes |
 
