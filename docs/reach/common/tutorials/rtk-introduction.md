@@ -33,8 +33,8 @@ For example, it helps to increase the maximum distance between base and rover, w
 
 |     | Single-band maximum baseline | Multi-band maximum baseline |
 |:---:|:------------:|:------------:|
-| RTK | 10 km | 60 km |
-| PPK | 30 km | 100 km |
+| RTK | 10 km (6 miles) | 60 km (36 miles) |
+| PPK | 30 km (18 miles) | 100 km (60 miles) |
 
 </center>
 
