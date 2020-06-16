@@ -5,6 +5,7 @@
 This guide demonstrates how to get precise coordinates from Reach on an Android device over Bluetooth.
 
 !!! tip "Some of the GIS apps for Android used with Reach:"
+        * [QField](https://qfield.org/)
 	* Mobile Topographer Pro
 	* PointMan
 	* ESRI ArcGIS Collector
