@@ -1,4 +1,8 @@
+{% if model == "M+" or model == "M2" %} 
 ## Intro
+{%else%}
+### Intro
+{%endif%}
 
 In this tutorial, we will walk you through the following steps:
 
@@ -10,7 +14,13 @@ In this tutorial, we will walk you through the following steps:
 
 To do that, you will need Reach {{model}} itself, an external GNSS antenna, a Wi-Fi network with Internet access and a smartphone or PC.
 
-## Installing the ReachView App
+{% if model == "M+" or model == "M2" %}
+
+## Video guide
+
+The video below covers the process of the first update.
+
+<div style ="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/gK8g6fc7WdU"  allowfullscreen></iframe></div>
 
 For managing Reach {{model}}, we recommend using the ReachView app. Get it from the App Store or Google Play before updating.
 
@@ -25,7 +35,30 @@ For managing Reach {{model}}, we recommend using the ReachView app. Get it from 
 !!! note ""
     If you encounter any issues performing these steps, we will be happy to help at our [**community forum.**](http://community.emlid.com/)
 
-## Antenna connection
+{%else%}
+
+### Installing the ReachView App
+
+For managing Reach {{model}}, we recommend using the ReachView app. Get it from the App Store or Google Play before updating.
+
+<center>
+
+|Google Play|App Store|
+|:-------------:|:----------:|
+|[Android ReachView app [7.7 MB]](https://play.google.com/store/apps/details?id=com.reachview)|[iOS ReachView app [7.7 MB]](https://apps.apple.com/us/app/reachview/id1295196887)|
+
+</center>
+
+!!! note ""
+    If you encounter any issues performing these steps, we will be happy to help at our [**community forum.**](http://community.emlid.com/)
+
+{%endif%}    
+
+{% if model == "M+" or model == "M2" %} 
+## Text guide
+{%endif%}
+
+### Antenna connection
 
 * Plug antenna cable into MCX socket on Reach {{model}}
 
@@ -42,7 +75,7 @@ For managing Reach {{model}}, we recommend using the ReachView app. Get it from 
 
 A guide on how to properly place the antennas is available in [Antenna placement](../../../antenna-placement) section.
 
-## Powering up
+### Powering up
 
 * Take Micro-USB <--> USB cable that is coming with the package
 
@@ -69,7 +102,7 @@ Reach {{model}} is now broadcasting Wi-Fi.
 <div style="text-align: center;"><img src="../img/quickstart/first-setup/{{model_path}}/running-hotspot.gif" style="width: 350px;"></div>
 
 
-## Connecting to Reach {{model}}
+### Connecting to Reach {{model}}
 
 * Open a list of Wi-Fi networks on your smartphone, tablet or laptop
 
@@ -77,7 +110,7 @@ Reach {{model}} is now broadcasting Wi-Fi.
 
 * Type network password: **emlidreach**
 
-## Setting up Wi-Fi
+### Setting up Wi-Fi
 
 ??? note "Using Reach with iOS/Android device"
 
@@ -112,7 +145,7 @@ The blue LED will blink rapidly while scanning for networks. Once Reach {{ model
     If your device did not connect to a Wi-Fi network, it will switch back to a hotspot mode.
     In that case, repeat the steps and double check your network name and password. 
   
-## Accessing Reach {{model}} device in a network
+### Accessing Reach {{model}} device in a network
 
 !!! danger ""
     Make sure that your smartphone/PC has connected to the same Wi-Fi network as Reach.
@@ -147,7 +180,7 @@ The blue LED will blink rapidly while scanning for networks. Once Reach {{ model
     As 192.168.2.x subnet is reserved inside Reach for Ethernet connections, you will need to perform initial setup in a different Wi-Fi or change router settings. Routers usually have a setting to change the subnet address, so you can set it to 192.168.1.xx.
 
 
-## Updating ReachView
+### Updating ReachView
 
 After connecting to Reach {{model}}, you will see ReachView Updater again. Wait until it checks for the latest updates.
 
