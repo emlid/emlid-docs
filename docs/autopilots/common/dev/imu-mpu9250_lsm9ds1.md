@@ -44,4 +44,4 @@ For further information see source code. Function ```create_inertial_sensor()```
 The next thing we should pay attention to is the line ```sensor->initialize()```, as it does an important job of setting internal device parameter. Note that this function also sets scales for both Accelerometer and Gyroscope (and for Magnitometer in case of LSM9DS1).  
 The main function loop is pretty straightforward: read the data, print the data.
 
-You can find additional information about the chips in [MPU-9250 datasheet](http://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf) and [LSM9DS1 datasheet](http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00103319.pdf).
+You can find additional information about the chips in [MPU-9250 datasheet](https://www.cdiweb.com/datasheets/notwired/ds-nw-mot-mpu9250.pdf) and [LSM9DS1 datasheet](http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00103319.pdf).
