@@ -1,3 +1,7 @@
+Choosing a suitable receiver for your project can be quite challenging. The video and the article below contain tips and tricks that will help you to make the right decision.
+
+<div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/qUL16b-SUAc" allowfullscreen></iframe></div>
+
 ## Getting started
 
 The main idea behind the GNSS receiver work is receiving signals from satellites. Each satellite transmits radio signals in one or more frequency bands. Satellites in different constellations use different frequencies.
