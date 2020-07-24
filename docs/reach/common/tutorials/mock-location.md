@@ -11,6 +11,7 @@ This guide demonstrates how to get precise coordinates from Reach on an Android 
 	* Mapit GIS
 	* LandStar
 	* Autocad360
+	* QField
 
 
 ## Video guide
