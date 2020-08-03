@@ -41,7 +41,7 @@ Reach RS2 has several LEDs which are used as status indicators for different par
         <span class="op-45">Fast blinking:</span><span>Float</span></div></div>
         <div class="status-wrapper"><img src="../img/reachrs2/led-status/fix.png"><div class="wrapper-text">
         <span class="op-45">Solid:</span><span>Fix</span></div></div>
-        <div class="status-wrapper"><img src="../img/reachrs2/led-status/both.gif"><div class="wrapper-text">
+        <div class="status-wrapper"><img src="../img/reachrs2/led-status/correction_output_is_turned_on.png"><div class="wrapper-text">
         <span class="op-45">Solid:</span><span>Corrections output is turned on</span></div></div>
         <div class="status-wrapper"><img src="../img/reachrs2/led-status/rtk-status-led.png"><div class="wrapper-text">
         <span>No solution status</span></div></div>
