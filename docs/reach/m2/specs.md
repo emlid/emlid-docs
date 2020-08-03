@@ -38,7 +38,7 @@ Antenna connector is MCX, to connect to SMA or TNC antenna cable you can use one
 | Max current consumption @5V               | 3 A               |
 | Normal current consumption @5V            | 600 mA               |
 | Current limit on USB OTG                  | 1000 mA              |
-| Temperature range                         | -20…+65ºC		   |
+| Temperature range                         | -20…+65ºC	(-5…+150ºF)|
 
 ### Antenna Phase Centers
 

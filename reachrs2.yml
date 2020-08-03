@@ -86,6 +86,7 @@ nav:
     - GPS post-processing: common/tutorials/gps-post-processing.md
     - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
     - Precise Point Positioning (PPP): common/tutorials/ppp-introduction.md 
+    - OPUS Workflow: common/tutorials/opus-workflow.md 
   - Integration with external software and devices:
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
     - Using QGIS as survey tool: common/tutorials/qgis-survey.md

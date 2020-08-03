@@ -4,7 +4,7 @@ This tutorial requires:
 
 * Raw logs from the rover
 * Raw logs from the base
-* (Optional) For absolute positioning: RINEX observations log from a reference station in range of 100 km
+* (Optional) For absolute positioning: RINEX observations log from a reference station in range of 100 km (60 miles) for RS2 and 30 km (18 miles) for RS+
 * (Optional) For processing improvement: precise ephemeris and clock files from the IGS
 * RTKLIB
 
@@ -19,7 +19,7 @@ Download the latest version of Emlid RTKLIB QT apps for your system:
 
 </center>
 
-Rover track is calculated relatively to the base station so in order to get rover track with correct absolute coordinates the exact position of the base station should be known. You either need to place base station on a point with known coordinate or determine it by post-processing base against a reference station in static mode. It is better if the station is within 100 km range, but longer range might work as well.
+Rover track is calculated relatively to the base station so in order to get rover track with correct absolute coordinates the exact position of the base station should be known. You either need to place base station on a point with known coordinate or determine it by post-processing base against a reference station in static mode. It is better if the station is in the range of 100 km (60 miles) for RS2 and 30 km (18 miles) for RS+, but longer range might work as well.
 
 
 ## Converting raw logs to RINEX (if needed)
@@ -110,7 +110,7 @@ Now proceed to the options by pushing "Options" button.
 <div style="text-align: center;"><img src="../img/reach/post-processing/rtkpost_setting2_ambiguity.png" style="width: 600px;"></div>
 
 
-* Set "Max Pos Var for AR" and turn on "AR Filter" on the right.
+* Turn on "AR Filter".
 
 <div style="text-align: center;"><img src="../img/reach/post-processing/rtkpost_setting2_ar.png" style="width: 600px;"></div>
 

@@ -1,3 +1,7 @@
+Choosing a suitable receiver for your project can be quite challenging. The video and the article below contain tips and tricks that will help you to make the right decision.
+
+<div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/qUL16b-SUAc" allowfullscreen></iframe></div>
+
 ## Getting started
 
 The main idea behind the GNSS receiver work is receiving signals from satellites. Each satellite transmits radio signals in one or more frequency bands. Satellites in different constellations use different frequencies.
@@ -18,8 +22,8 @@ The main difference between single-band and multi-band receivers is the number o
 | Time to first fix | ~5 sec | 1-2 min |
 | Positioning accuracy in RTK | H: 7 mm + 1 ppm | H: 7mm + 1 ppm |
 | | V: 14 mm + 1 ppm | V: 14 mm + 1 ppm |
-| Baseline in RTK mode | Up to 60 km | Up to 10 km |
-| Baseline in PPK mode | Up to 100 km | Up to 20 km |
+| Baseline in RTK mode | Up to 60 km (36 miles) | Up to 10 km (6 miles) |
+| Baseline in PPK mode | Up to 100 km (60 miles) | Up to 30 km (18 miles) |
 | 3.5G modem| Reach RS2 has embedded cellular modem | No |
 | LoRa radio | Yes | Yes |
 
@@ -39,7 +43,7 @@ Single-band receivers require more time since they can only process one kind of 
 
 For different projects, you might need a different distance from the rover to the base. Working near a city, you are more likely to have a base nearby. However, if you mostly work in rural areas, base stations are likely to be further away.
 
-Multi-band receivers can work at a longer baseline. Reach RS2, as a multi-band receiver, can operate with the baseline up to 60 km for RTK, while Reach RS+ single-band receiver’s baseline is limited to 10 km in RTK mode.
+Multi-band receivers can work at a longer baseline. Reach RS2, as a multi-band receiver, can operate with the baseline up to 60 km (36 miles) for RTK, while Reach RS+ single-band receiver’s baseline is limited to 10 km (6 miles) in RTK mode.
 
 ### Accuracy
 

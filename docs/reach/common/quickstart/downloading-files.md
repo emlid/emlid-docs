@@ -86,7 +86,7 @@ Press Reach power button and wait until it boots.
 ??? note "Connecting via web-browser (any device)"
 
 	1. Connect your device to the same Wi-Fi network as Reach
-	2. Use one of the [Network Scan utility](https://docs.emlid.com/reachrs/quickstart/first-setup/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address
+	2. Use one of the [Network Scan utility](https://docs.emlid.com/reachrs/common/quickstart/first-setup/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address
 	3. Launch a web browser (we recommend using Chrome or Mozilla)
 	4. Go to determined Reach IP
 
