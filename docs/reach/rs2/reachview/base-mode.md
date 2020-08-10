@@ -23,7 +23,6 @@ In order to send correction to NTRIP caster you need to know:
 
 - IP address or domain name of the caster
 - Port
-- Username
 - Password
 - Mount point
 
