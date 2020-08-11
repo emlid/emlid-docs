@@ -141,7 +141,7 @@ Check out the figure below and choose an appropriate location to place Reach RS+
 	2. Scan for available Reach devices
 	3. Choose Reach from the list
 	
-	<div style="text-align: center;"><img src="../img/reach/configuring-reach-for-mapping/Reach-list.png" style="width: 800px;"></div>
+	<div style="text-align: center;"><img src="../img/reach/configuring-reach-for-mapping/Reach-list.PNG" style="width: 800px;"></div>
 
 
 ??? note "Connecting via web-browser (any device)"
