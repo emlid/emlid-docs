@@ -1,5 +1,5 @@
 !!! tip ""
-    This is the second part of a guide describing the PPK mapping workflow with Reach. It implies you already have raw logs from both base and rover, set of images, and Ground Control Points. If you don't, [please check the previous part first](geosetter-tutorial.md).
+    This is the third part of a guide describing the PPK mapping workflow with Reach. It implies you already have raw logs from both base and rover, set of images, and Ground Control Points. If you don't, [please check the previous part first](geosetter-tutorial.md).
 
 At previous steps, we got centimeter-accurate geotags from Reach and georeferenced a set of images using this data. Now, we'll turn it into a map.
 
