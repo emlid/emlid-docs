@@ -16,6 +16,10 @@ Explore these step-by-step guides to get a better understanding of your Reach po
 * [How PPK works](common/tutorials/ppk-introduction.md)
 * [GPS post-processing](common/tutorials/gps-post-processing.md)
 * [Analyzing PPK solution and logs](common/tutorials/analyzing-logs.md)
+* PPK mapping with Reach:
+    * [Сonfiguring Reach UAV kit for PPK mapping](common/tutorials/configuring-reach-for-mapping.md)
+    * [Geotagging photos with GeoSetter](common/tutorials/geosetter-tutorial.md)
+    * [Creating the map in Pix4DMapper](common/tutorials/pix4d-tutorial.md)
 * [Precise Point Positioning (PPP)](common/tutorials/ppp-introduction.md) 
 
 ###Integration with external software
