@@ -23,7 +23,7 @@ To create a new project in Pix4Dmapper:
 
 * Click *Add images*. Browse to the image folder and select the images. They will display in the window. Click *Next*
 
-<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-3.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-3.PNG" style="width: 800px;"></div>
 
 * In *Image Geolocation Editor* - *Coordinate System*, click *Edit*… and select *WGS 84* and *Geoid Height Above WGS 84 Ellipsoid [m] = 0* in *Advanced Coordinate Options*
 * In *Image Properties Editor* - *Images Table* adjust the *Accuracy Horz* and *Accuracy Vert* values to reflect the estimated accuracy of image geolocation
@@ -33,7 +33,7 @@ To create a new project in Pix4Dmapper:
 
 * Select the Output Coordinate System that will be assigned to the generated results, for example, DSM and orthomosaic. If the images are georeferenced, a corresponding UTM zone will be auto-detected by default
 
-<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-4.png" style="width: 400px;"></div>
+<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-4.PNG" style="width: 400px;"></div>
 
 * Choose *Processing Options Template*. The template defines parameters for each processing step and generated outputs
 
@@ -43,7 +43,7 @@ The quality of the reconstruction and the processing time depend on the chosen p
     Digital Surface Model (DSM) is a raster data format with an elevation value for each pixel. Orthomosaic is a 2D map generated based on multiple images using orthorectification.  This method removes the perspective distortions from the images using the DSM.
 
 
-<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-5.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-5.PNG" style="width: 800px;"></div>
 
 ### Importing GCPs
 
@@ -80,12 +80,12 @@ To mark the GCPs on images:
 !!! tip ""
     GCPs can also be marked in the *rayCloud* after *Initial Processing* has been completed. Learn more about this method on [Pix4D documentation](https://support.pix4d.com/hc/en-us/articles/202560769-How-to-mark-GCPs-in-the-rayCloud).
 
-<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-6.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-6.PNG" style="width: 800px;"></div>
 
 * Choose *Sort Images by Distance to GCP* in *Images* section. The images are displayed in order from the closest to the selected GCP to the farthest
 * Find and mark every point on 3 images at least. Marking instruments are in the Preview window
 
-<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-7.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-7.PNG" style="width: 800px;"></div>
 
 * Once all the points are marked, press OK
 
@@ -106,7 +106,7 @@ To start processing the project:
 !!! tip ""
     If necessary, processing steps’ parameters can be changed in *Processing Options* menu. For example, the density of point cloud or DSM/orthomosaic resolution. In this guide, we use the standard settings of the 3D Maps template.
 
-<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-9.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-9.PNG" style="width: 800px;"></div>
 
 At the end of each step, a Quality report is generated and can be used to verify the success of processing
 
@@ -124,8 +124,8 @@ To open the folder with ****results, on the Menu bar, click *Process* > *Open Re
 
 To visualize the orthomosaic or DSM in Pix4Dmapper, click the *Mosaic Editor* tab:
 
-<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-11.png" style="width: 800px;"></div>
-<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-12.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-11.PNG" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reach/pix4d-tutorial/pix4d-12.PNG" style="width: 800px;"></div>
 
 The processing is finished! Now you can export this orthomosaic to any GIS software to create a vector map based on it.
 
