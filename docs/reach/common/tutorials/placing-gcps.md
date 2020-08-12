@@ -1,6 +1,12 @@
 # Placing GCPs in RTK mode
 
-To place GCPs with Reach units follow the steps from this guide.
+## Video guide
+
+This tutorial will show how to place GCPs with Reach units.
+
+<div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/uWDz1NpWGtA" allowfullscreen></iframe></div>
+
+## Text guide
 
 ### Configure RTK
 
