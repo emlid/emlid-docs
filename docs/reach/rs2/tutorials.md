@@ -24,6 +24,7 @@ Explore these step-by-step guides to get a better understanding of your Reach po
 * [Using QGIS as survey tool](common/tutorials/qgis-survey.md)
 * [Microsurvey FieldGenius setup guide](common/tutorials/fieldgenius.md)
 * [Carlson SurvCE/SurvPC setup guide](common/tutorials/survce.md)
+* [Integration with DJI Phantom 4 RTK](p4p-rtk.md)
 * senseFly eMotion setup:
     * [senseFly RTK guide](../sensefly-rtk/)
     * [senseFly PPK guide](../sensefly-ppk/)

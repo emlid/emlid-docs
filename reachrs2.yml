@@ -92,6 +92,7 @@ nav:
     - Using QGIS as survey tool: common/tutorials/qgis-survey.md
     - MicroSurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
     - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
+    - Integration with DJI Phantom 4 RTK: p4p-rtk.md
     - senseFly eMotion setup:
       - senseFly RTK guide: sensefly-rtk.md
       - senseFly PPK guide: sensefly-ppk.md
