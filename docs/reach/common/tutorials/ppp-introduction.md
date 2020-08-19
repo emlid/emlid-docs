@@ -45,7 +45,7 @@ There are several PPP services available:
 
 * **[Brazilian IBGE-PPP service](https://www.ibge.gov.br/en/geosciences/geodetic-positioning/services-for-geodetic-positioning/20104-online-service-for-post-processing-gnss-data.html?=&t=processar-os-dados)**, mainly used in South America region, is capable of working with  both single-band and multi-band Reach receivers
     
-* **[AUSPOS 3.0](https://www.gaauspos.org/)**, a PPP service widely used in the Asia-Pacific region, can now process data from Reach RS2 receiver
+* **[AUSPOS 3.0](https://gnss.ga.gov.au/auspos)**, a PPP service widely used in the Asia-Pacific region, can now process data from Reach RS2 receiver
 
 * **[Canadian NRCAN CSRS-PPP service](https://webapp.geod.nrcan.gc.ca/geod/tools-outils/ppp.php)** can process both single-frequency and multi-frequency logs
 
