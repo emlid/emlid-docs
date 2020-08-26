@@ -194,7 +194,7 @@ Where 192.168.1.2 is the IP address of the GCS, not RPi.
 Navio is supported in ArduPilot upstream and if you'd like to build the binary yourself please proceed to the [Building from sources](building-from-sources.md). Also you can download the latest stable binary files from ArduPilot buildserver. To download arducopter binary:
 
 ```bash
-pi@navio: ~ $ wget http://firmware.eu.ardupilot.org/Copter/stable/navio2/arducopter
+pi@navio: ~ $ wget https://firmware.ardupilot.org/Copter/stable/navio2/arducopter
 pi@navio: ~ $ chmod +x arducopter
 ```
 In case of use helicopter, change tail of the link. For example `/navio2-heli/arducopter-heli`. Supported vehicle types are listed below:
