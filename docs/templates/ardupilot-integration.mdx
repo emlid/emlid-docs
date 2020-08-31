@@ -27,7 +27,17 @@ ERB support is included to ArduPilot starting with the following versions:
 The setup we recommend goes as follows:
 
 * Navio2, Edge, or Pixhawk with the ArduPilot firmware. It's preferable to use the last stable version
-* Base stations is a Reach RS/RS+ unit in Wi-Fi AP mode, configured as a TCP server
+
+{% if model == "M+" %}
+
+* Base station is a Reach RS/RS+ unit in Wi-Fi AP mode, configured as a TCP server
+
+{% else %}
+
+* Base station is a Reach RS2 unit in Wi-Fi AP mode, configured as a TCP server
+
+{% endif %}
+
 * GCS is a laptop with Mission Planner (version 1.3.35 and higher), connected to the base Reach Wi-Fi hosted network
 * Telemetry connection via a serial radio
 * Rover Reach {{ model }} unit is mounted on a drone and connected to Navio2, Edge, or Pixhawk via the 6P-to-6P wire. This connection type will solve three problems at once: power Reach {{ model }}, allow ArduPilot board to pass base corrections and allow Reach {{ model }} to pass RTK solution back.
