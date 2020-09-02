@@ -14,6 +14,8 @@
 
 ## Electrical specs
 
+Antenna reference point (ARP) of Reach RS/RS+ is situated on the bottom of the receiver. For Reach RS/RS+, the distance between the ARP and GNSS antenna is 65 mm.
+
 [Reach RS/RS+ extension connector pinout [PDF, 117 KB]](files/RS232_port.pdf)
 
 ## Extension cables specs
