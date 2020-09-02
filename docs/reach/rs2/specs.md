@@ -12,6 +12,8 @@
 
 ## Electrical specs
 
+Antenna reference point (ARP) of Reach RS2 is situated on the bottom of the receiver. For Reach RS2, the distance between the ARP and GNSS antenna is 134 mm.
+
 [Reach RS2 extension connector pinout [PDF, 1 MB]](files/RS232-port.pdf)
 
 ## Extension cables specs
