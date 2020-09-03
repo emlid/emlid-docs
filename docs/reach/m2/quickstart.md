@@ -1,6 +1,6 @@
 # Quickstart
 
-If this is your first time using Reach M+, following these guides will help you to learn the basics. 
+If this is your first time using Reach M2, following these guides will help you to learn the basics. 
 
 * [First setup](common/quickstart/first-setup.md)
 * [Base and rover setup](common/quickstart/base-rover-setup.md)
