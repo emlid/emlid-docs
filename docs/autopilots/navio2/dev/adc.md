@@ -40,4 +40,6 @@ Mapping between A0 - A5 and ADC:
 
 Numbers of A0 - A5 channels correspond to ArduPilot's ADC channels.
 
+The real values of power module voltage and current could be calculated by multiplying to the respective coefficients. The multiplier for voltage (A2) is 11.3. Coefficient for current (A3) is 17.0.
+
 For further information see source code. Pay attention to ```adc.init()``` and ```adc.read()``` functions. ```adc.init()``` function initialize 6 ADC channels. After that it's possible to read value of channels 0-5 with ```adc.read()``` function. It takes channel number as an argument. 
