@@ -38,12 +38,10 @@ If you would like to add the compiler to the PATH permanently edit /etc/environm
 
 These steps are the same both for compiling ArduPilot directly on Raspberry Pi and cross-compiling.
 
-Download the ArduPilot code and update submodules:
+Download the ArduPilot code:
 
 ```bash
 git clone https://github.com/ArduPilot/ardupilot.git
-cd ardupilot
-git submodule update --init --recursive
 ```  
 
 Checkout to a specific tag in order not to fly off master.
@@ -54,6 +52,11 @@ For example, to build a copter binary:
 git checkout ArduCopter-stable
 or
 git checkout ArduCopter-beta
+```
+
+Update the submodules:
+```bash
+git submodule update --init --recursive
 ```
 
 Note that Waf should always be called from the ardupilot's root directory.
