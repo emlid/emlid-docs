@@ -30,7 +30,6 @@ In order to receive correction from NTRIP caster you need to know:
 + Username
 + Password
 + Mount point
-+ Format (usually RTCM3)
 
 When connecting to a mount point that has VRS or Nearest feature, that automatically provides you with a connection to closest base station it is required to send your position back to the caster. Tick the “Send NMEA GGA messages to the corrections provider” and after Reach obtains single solution it will start sending it to the caster.
 
