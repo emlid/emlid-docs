@@ -1,5 +1,18 @@
 ## Navio Raspbian changelog
 
+*2020-09-22*
+
+- ArduPilot updated:
+    - ArduCopter: 4.0.3
+    - ArduPlane: 4.0.5
+    - ArduSub: 4.0.1
+
+- Kernel updated to v4.19.127
+- Preinstalled ROS Noetic (Buster only)
+- Raspberry Pi 4 8GB support
+- Fixed Dronekit connection issues
+- Fixed Navio model defining behaviour after running ```systemctl start ardu<vehicle>```
+
 *2019-11-28*
 
 - ArduPilot updated:
