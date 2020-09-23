@@ -13,7 +13,7 @@
 <div style="text-align: center;"><img src="../img/reachm2/specs/dimensions.png" style="width: 650px;"></div><br>
 <div style="text-align: center;"><img src="../img/reachm2/specs/height.png" style="width: 650px;"></div><br>
 
-Reach M2 module weights 30g.
+Reach M2 module weights 35g.
 
 ### Connectors mating parts
 
@@ -30,7 +30,7 @@ Antenna connector is MCX, to connect to SMA or TNC antenna cable you can use one
 
 |Name                                       | Value                |
 |-------------------------------------------|----------------------|
-| Input voltage on USB and JST-GH connectors  | 5 - 5.5 V         |
+| Input voltage on USB and JST-GH connectors  | 4.75 - 5.5 V         |
 | Logic levels on all pins                  | 3.3 V                |
 | Max input voltage on all pins             | 3.3 V                |
 | Antenna DC bias                           | 3.3 V                |
