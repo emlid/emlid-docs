@@ -9,21 +9,27 @@ DJI RTK drones are using the NTRIP to receive the corrections, that is why Reach
 - Internet access on both devices
 - NTRIP credentials for RS2 base and DJI drone
 
-You can make your own NTRIP caster by using the open-source caster providers like RTK2Go. We are using the RTK2Go service in this guide as it is available for every potential user of this setup.
+You can get the NTRIP credentials from the Emlid NTRIP Caster.
 
-## Registration in RTK2Go
+## Accessing Emlid Caster
 
-RTK2Go is a free-to-use NTRIP caster provider which enables you to make your own Mount Point under its domain. The service requires a free registration procedure:
+Emlid Caster is our free-to-use NTRIP caster. It allows transmitting corrections from your base to the rover. To get a personal mount point, you need to go through a login procedure:
 
-- Navigate to the RTK2Go site and choose *"Please register before use"* button:
+- Go to the [caster.emlid.com](http://caster.emlid.com/). You will see a simple login screen:
 
-<p style="text-align:center"><img src="../img/reachrs2/p4p/rtk2go-start.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/p4p/welcome_page.png" style="width: 600px;"/></p>
 
-- Fill in your registration details:
+- Click the login link, and you will be prompted to log in or sign up. You can reuse your account from our community forum or create a new one:
 
-<p style="text-align:center"><img src="../img/reachrs2/p4p/rtk2go-registration.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/p4p/caster_login.png" style="width: 250px;"/></p>
 
-You will receive a confirmation email with the name of your Mount Point and passwords for base and rovers. RTK2Go allows multiple rovers to be connected to one base station, that is why you can make use of it for many devices. For instance, you can send correction data to other Reach rovers to collect accurate data in the field including placing GCPs.
+- Once you log in, you will be issued a personal mount point. The interface will provide you with all the necessary credentials to enter in ReachView for both base and rover.
+
+!!! note ""
+
+	The mount point supports one simultaneous rover connection.
+
+<p style="text-align:center"><img src="../img/reachrs2/p4p/mount_point.png" style="width: 600px;"/></p>
 
 ## Configuring Reach RS2
 
