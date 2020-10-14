@@ -51,6 +51,9 @@ NMEA 0183 is the most popular standard in the industry. It is usually supported 
 
 * **ERB**
 
+!!! note ""
+    ERB format is deprecated.
+
 ERB format is used for communication with Ardupilot.
 
 ###Base corrections
