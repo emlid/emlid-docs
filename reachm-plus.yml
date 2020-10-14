@@ -94,6 +94,7 @@ nav:
   - Integration with external software:
     - ArduPilot integration: ardupilot-integration.md
     - Bluetooth output and Android mock location: common/tutorials/mock-location.md
+- Glossary: common/glossary.md
 model: M+
 model_path: reachm-plus
 usb: 'Micro-USB'

@@ -96,6 +96,7 @@ nav:
     - senseFly eMotion setup:
       - senseFly RTK guide: sensefly-rtk.md
       - senseFly PPK guide: sensefly-ppk.md
+- Glossary: common/glossary.md
 model: RS2
 model_path: reachrs2
 usb: 'USB-C'
