@@ -110,6 +110,15 @@ Connect Reach to the Internet to update ReachView to the latest version or to ge
 	2. Use [one of the Network Scan utility](https://docs.emlid.com/reachrs/quickstart/first-setup/#accessing-reach-rsrs-device-in-a-network) or ReachView app to determine the Reach IP address 
 	3. Go to IP address in a web browser
 
+## Connecting to iOS hotspot
+
+The video below explains how you can connect Reach to hotspot of the iOS device.
+
+<center>
+
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/3HzC0hKL5f8" allowfullscreen></iframe></div>
+
+</center>
 
 Once Reach is connected to a Wi-Fi, you can:
 
