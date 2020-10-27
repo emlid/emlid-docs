@@ -1,6 +1,35 @@
 ## ReachView changelog
 
-### v2.22.1
+### v2.24.0
+([release](https://community.emlid.com/t/reachview-v2-24-0-with-reachview-3-beta-support-is-out/22050))
+
+##### Features
+
+* Allow using special characters like “/” in the NTRIP credentials
+* Recovery for surveying projects
+* Shutdown on the bottom connector on RS+
+* Access the receiver from public IP for RS2
+* Shutdown indication when in night mode
+* Restart RTK engine if the correction input was updated (available on all L1 devices)
+
+##### Bug fixes
+
+* Fix the issue when the position might get lost when the mobile data is lost
+* Now it is allowed setting up the output rate to 0.1 Hz only for 1006 RTCM3 message
+* Eliminated some rare hotspot drops when a SIM card is inserted
+* Get sound notifications on volume change back
+* Fix ‘Send NMEA’ checkbox glitch
+* Fix some Bluetooth related issues on device loading
+* Fix hiding manual mode when the base coordinates are received
+* Fix selected logs removal when leaving the Logging tab
+* Fix incorrectly processed antenna height from some NTRIP providers
+* Fix status tab units formatting
+* Fix LoRa constraints for Thailand and Indonesia
+* Fix misbehavior with the toggle on the Bluetooth tab
+* Fix caching survey projects and logs with the same name
+* Fix the “unsaved” label on the RTK Settings tab
+
+### v2.22.7
 ([release](https://community.emlid.com/t/reachview-v2-22-is-out-for-all-reach-devices/17834))
 
 ##### Features
@@ -37,9 +66,25 @@
 * Entering the fractional antenna height in the Base mode tab in manual mode now works correctly
 * LoRa frequency constraints for Australia are updated
 * Correction input/position output stream status is now correct
-* Miscellaneous UI improvements
 * Fix RTK status freezes after USB-to-PC setup
 * Fix issue causing sudden shutdowns on some Reach RS+ and Reach RS2 units
+* Fix potential missing timemarks on Reach M+
+* Fix possible errors in the RINEX L2 conversions on Reach M2
+* Fix incorrect checksum for NMEA GPGSV, GLGSV, GAGSV, and GBGSV messages
+* Fix vague toggle behavior on the Logging tab
+* Fix SNR status view for base satellites
+* Sort satellites in RINEX log
+* Fix RTCM3 to RINEX conversions for L2 frequency (GPS, GLONASS)
+* Fix some issues with extra time marks on Reach M2
+* Fix sudden shutdowns appearing on some of RS2
+* Enable shutdown indication in night mode on RS2
+* Fix some cases of Test 2 failures on Reach RS2 and Reach Module 
+* Blink LEDs for two seconds in night mode after a short button tap on Reach RS2
+* Fix the situation when RS2 can’t turn on after storage in the cold until plugged into the charger
+* Fix the issue when the position might get lost when the mobile data is lost
+* Fix a rare situation when RS+ can get stuck on loading and blinks green LED longer than anticipated
+* Address an issue that led to an erroneous green LED blinking pattern on RS+
+* Miscellaneous UI improvements
 
 ### v2.20.8 Reach RS2 update
 ([release](https://community.emlid.com/t/rs2-reachview-v2-20-8/15641))
