@@ -178,13 +178,13 @@ sudo adduser $USER dialout
 
 MAVProxy is a console-oriented ground station software written in Python. It’s well suited for advanced users and developers.
 
-To install MAVProxy use [Download and Installation](http://ardupilot.github.io/MAVProxy/html/getting_started/download_and_installation.html) instructions.
+To install MAVProxy use [Download and Installation](https://ardupilot.org/mavproxy/docs/getting_started/download_and_installation.html) instructions.
 
 
 To run it specify the --master port, which can be serial, TCP or UDP. It also can perform data passthrough using --out option.
 
 ```bash
-pi@navio: ~ $ mavproxy.py --master 192.168.1.2:14550 --console
+pi@navio: ~ $ mavproxy.py --master 127.0.0.1:14550 --out 192.168.1.2:14500
 ```
 
 Where 192.168.1.2 is the IP address of the GCS, not RPi.
