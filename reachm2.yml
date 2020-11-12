@@ -58,7 +58,7 @@ nav:
   - RTK settings: common/reachview/rtk-settings.md
   - Correction input: common/reachview/correction-input.md
   - Position output: common/reachview/position-output.md
-  - Base mode: common/reachview/base-mode.md
+  - Base mode: reachview/base-mode.md
   - Logging: common/reachview/logging.md
   - Camera control: camera-control.md
   - Wi-Fi: common/reachview/wifi.md
