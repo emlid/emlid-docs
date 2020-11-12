@@ -5,7 +5,7 @@
 Reach outputs correction in industry standard RTCM3 format. Correction data can be sent via Serial, TCP, NTRIP or LoRa.
 
 ### Serial
-Serial port connection is available through several hardware connection options. All of them support the following baud rates: 4800, 9600, 14400, 19200, 28800, 38400, 56000, 57600, 115200, 128000, 153600, 230400, 256000, 460800.
+Serial port connection is available through several hardware connection options. All of them support the following baud rates: 9600, 19200, 38400, 57600, 115200, 230400.
 
 #### UART
 Corresponds to RS232 port on Reach RS2 extension connector. Common way to connect to radio to send correction data.
@@ -52,27 +52,27 @@ You can use Bluetooth for correction output. Note that you can’t set both posi
 
 ## RTCM3 messages
 
-<p style="text-align:center"><img src="../img/reachview/base-mode/messages.png" style="width: 800px;"/></p>
 The minimal subset that is required for RTK to function is 1074 message for 1Hz with GPS observations and 1006 message for 0.1Hz with base station antenna position. Enabling more messages or higher rates requires higher connection bandwidth.
 
-In the Data rate row you can find an estimation of bytes/sec for 1 satellite when messages are configured at 1 Hz.
+<center>
 
-|RTCM3 messages|Message type|Data rate, bytes/sec (1 satellite, 1Hz)|
-|:---:|:---:|:---:|
-||**Minimal required messages**||
-|1006|ARP station coordinate   | 27|
-|1074|GPS MSM4      |19.38|
-||**Optional messages for other GNSS **||
-|1084|GLONASS MSM4|19.38|
-|1094|Galileo MSM4|9.58|
-|1124|BeiDou MSM4|18.9|
+| RTCM3 messages                       | Message type           |
+|:------------------------------------:|:----------------------:|
+| **Minimal required messages**                                ||
+| 1006                                 | ARP station coordinate |
+| 1074                                 | GPS MSM4               |
+| **Optional messages for other GNSS**                         ||
+| 1084                                 | GLONASS MSM4           |
+| 1094                                 | Galileo MSM4           |
+| 1124                                 | BeiDou MSM4            |
 
+</center>
 
 Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#myfootnote1)</sup>:
 
 - **Message Type 1006** provides the earth-centered, earth-fixed (ECEF) coordinates of the antenna reference point (ARP) for a stationary reference station and the height of the ARP above a survey monument. It is the mandatory message to turn on.
 
-- **Messages 1074 (GPS), 1084(GLONASS), 1094 (Galileo), 1124 (BeiDou)** are MSM4 (Multiple Signal Messages). MSM4 are high precision messages which contain a complete set of RINEX observations with extended resolution. That means that you should turn on only one message of the choosen system to get all data about it. It is recommended to keep enabled at least GPS 1074 message.
+- **Messages 1074 (GPS), 1084(GLONASS), 1094 (Galileo), 1124 (BeiDou)** are MSM4 (Multiple Signal Messages). MSM4 messages provide the same information for each GNSS system: pseudorange, phase-range, SNR. That means that you should turn on only one message of the choosen system to get all data about it. It is recommended to keep enabled at least GPS 1074 message.
 
 ## Base position
 
