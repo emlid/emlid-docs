@@ -5,7 +5,7 @@
 Reach outputs correction in industry standard RTCM3 format. Correction data can be sent via Serial, TCP, NTRIP or LoRa for Reach RS/RS+.
 
 ### Serial
-Serial port connection is available through several hardware connection options. All of them support the following baud rates: 9600, 19200, 38400, 57600, 115200. Reach RS2 also supports 230400 baud rate.
+Serial port connection is available through several hardware connection options. All of them support the following baud rates: 9600, 19200, 38400, 57600, 115200. 
 
 #### UART
 Corresponds to TTL UART on Reach module or to RS232 port on Reach RS/RS+ extension connector. Common way to connect to radio to send correction data.
@@ -55,23 +55,23 @@ You can use Bluetooth for correction output. Note that you can’t set both posi
 
 ## RTCM3 messages
 
-<p style="text-align:center"><img src="../img/reachview/base_mode/messages.png" style="width: 800px;"/></p>
 The minimal subset that is required for RTK to function is 1002 message for 1Hz with GPS observations and 1006 message for 0.1Hz with base station antenna position. Enabling more messages or higher rates requires higher connection bandwidth.
 
-In the Data rate row you can find an estimation of bytes/sec for 1 satellite when messages are configured at 1 Hz.
+<center>
 
-|RTCM3 messages|Message type|Data rate, bytes/sec (1 satellite, 1Hz)|
-|:---:|:---:|:---:|
-||**Minimal required messages**||
-|1002|GPS L1 observations      |10.39|
-|1006|ARP station coordinate   | 27|
-||**Optional messages for other GNSS **||
-|1010|GLONASS L1 observation|11.3|
-|1097|GALILEO MSM|21.5|
-|1107|SBAS MSM|37.5|
-|1117|QZSS MSM|42|
-|1127|BeiDou MSM|17.78|
+| RTCM3 messages                        | Message type           |
+|:-------------------------------------:|:----------------------:|
+| **Minimal required messages**         |                        |
+| 1002                                  | GPS L1 observations    |
+| 1006                                  | ARP station coordinate |
+| **Optional messages for other GNSS**  |                        |
+| 1010                                  | GLONASS L1 observation |
+| 1097                                  | Galileo MSM7           |
+| 1107                                  | SBAS MSM7              |
+| 1117                                  | QZSS MSM7              |
+| 1127                                  | BeiDou MSM7            |
 
+</center>
 
 Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#myfootnote1)</sup>:
 
@@ -79,16 +79,10 @@ Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#
 
 - **Message Type 1006** provides the earth-centered, earth-fixed (ECEF) coordinates of the antenna reference point (ARP) for a stationary reference station and the height of the ARP above a survey monument. It is the second mandatory message to turn on after GPS 1002.
 
-- **Messages 1097 (GALILEO), 1107 (SBAS), 1117 (QZSS), 1127 (BeiDou)** are MSM7 (Multiple Signal Messages). MSM7 are high precision messages which contains a complete set of RINEX observations with extended resolution. That means that you should turn on only one message of choosen system to get all data about it.
+- **Messages 1097 (GALILEO), 1107 (SBAS), 1117 (QZSS), 1127 (BeiDou)** are MSM7 (Multiple Signal Messages). MSM7 are high resolution messages that provide the same information for each GNSS system: pseudorange, phase-range, doppler, SNR. That means that you should turn on only one message of choosen system to get all data about it.
 
 !!! tip ""
 	Remember, that you can not use GLONASS and BeiDou systems together.
-
-!!! tip ""
-	* Use 1117 QZSS message if you are located in East-Southeast Asia and Australia.
-	* Use 1107 SBAS message if you are located in Noth America, Europe, North Africa, Near East, South Asia and East Asia, Russia
-	* Use 1127 BeiDou message if you are located in Asian region and Australia.
-
 
 ## Base position
 
