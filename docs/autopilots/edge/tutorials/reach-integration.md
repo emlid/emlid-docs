@@ -1,6 +1,6 @@
 Reach supports RTK-enhanced coordinates output to Edge flight controller using **ERB** (Emlid Reach Binary protocol).
 
-Protocol description is available [here](https://files.emlid.com/ERB.pdf).
+Protocol description is available [here](https://files.emlid.com/erb/ERB-0.1.0-v7.pdf).
 
 ## Requirements
 
