@@ -49,7 +49,7 @@ nav:
 - Introduction: index.md
 - Power supply: power-supply.md
 - Placement: placement.md
-- ReachView:
+- ReachView 2:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
   - Status: common/reachview/status.md
@@ -64,6 +64,8 @@ nav:
   - Firmware reflashing: common/reachview/firmware-reflashing.md
   - Updater: common/reachview/updater.md
   - Changelogs: common/reachview/changelogs.md
+- ReachView 3:
+  - Working with Coordinate Systems: common/reachview3/crs-setup.md
 - LED status: led-status.md
 - Specification: specs.md
 - Quickstart:
