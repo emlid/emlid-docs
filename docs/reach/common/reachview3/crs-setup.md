@@ -1,6 +1,6 @@
 # Working with Coordinate Systems
 
-This guide walks you through the process of setting up a coordinate system for your project in ReachView 3. 
+This guide walks you through the process of setting up a coordinate system for your project in ReachView 3.
 
 !!! tip ""
     You can only configure the coordinate system while creating a new project.
