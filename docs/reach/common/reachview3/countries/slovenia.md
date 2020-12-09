@@ -16,7 +16,10 @@ Choose one of the available vertical datums:
 The following geoids are used to perform the transformation:
 
 * `SLOAMG2000`
-* `SVS2010`
+* `SLOVRP2016`
+
+!!! note ""
+	The `SVS2000 height` vertical datum uses the `SLOAMG2000` geoid. The `SVS2010 height` vertical datum uses the `SLOVRP2016` geoid.
 
 ## Base Setup
 
