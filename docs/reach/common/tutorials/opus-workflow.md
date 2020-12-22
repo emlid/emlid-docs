@@ -102,12 +102,8 @@ In the result, you will get the *.obs and *.nav files.
 
 - Go to the [NOAA's OPUS site](https://www.ngs.noaa.gov/OPUS/)
 - Click on the **Choose file** button and browse for raw*.obs file you would like to process
-- Choose the NONE option in the Antenna field
-
-!!! note ""
-    We are currently in process of getting antenna details for OPUS and PPP services.
-
-- Type in the Antenna Height value. Consider this value as a pole height plus 134 mm
+- If you work with Reach RS2, choose the `EML_REACH_RS2 NONE` in the Antenna field
+- Type a pole height in the Antenna Height box
 - Enter your email address to get the results
 - Click on **Upload to Static** button to submit the data
 

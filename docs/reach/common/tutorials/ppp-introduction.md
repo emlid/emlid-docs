@@ -121,7 +121,13 @@ In case you log raw data in UBX format, you can convert them manually in RTKLIB.
 - Turn on GPS and GLONASS satellite systems
 - Enable L1 and L2 frequencies in the Frequencies tab
 
-<div style="text-align: center;"><img src="../img/reach/ppp-introduction/RTKCONV-Options-NRCAN.png" style="width: 600px;"></div>
+!!! note ""
+    If you work with Reach RS2, you can also specify the receiver and antenna name before conversion:
+    
+    * the receiver name is `EMLID REACH RS2`
+    * the antenna name is `EML_REACH_RS2`
+    
+    <div style="text-align: center;"><img src="../img/reach/ppp-introduction/RTKCONV-Options-NRCAN.png" style="width: 600px;"></div>
 
 - Click on the **OK** button to save changes
 - Push on the **Convert** button to start conversion process
