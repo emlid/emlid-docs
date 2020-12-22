@@ -26,7 +26,7 @@ The following geoids are used to perform the transformation:
 * `GEOID18`
 
 !!! note ""
-	* Projects based on the `NAD83(2011)` datum are compatible with `NAVD88 height`, `PRVD02 height`, and `VIVD09 height` vertical datums that use the `GEOID18` geoid, and with NAVD88(GEOID12B) height`, `PRVD02(GEOID12B) height`, and `VIVD09(GEOID12B) height` vertical datums that use the `GEOID12B` geoid
+	* Projects based on the `NAD83(2011)` datum are compatible with `NAVD88 height`, `PRVD02 height`, and `VIVD09 height` vertical datums that use the `GEOID18` geoid, and with `NAVD88(GEOID12B) height`, `PRVD02(GEOID12B) height`, and `VIVD09(GEOID12B) height` vertical datums that use the `GEOID12B` geoid
 	* Projects based on the `NAD83(MA11)` datum are compatible with `GUVD04 height` and `NMVD03 height` vertical datums that use the `GEOID12B` geoid
 	* Projects based on the `NAD83(PA11)` datum are compatible with the `ASVD02 height` vertical datum that also uses the `GEOID12B` geoid
 
