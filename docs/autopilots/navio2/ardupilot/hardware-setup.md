@@ -23,7 +23,7 @@ ArduPilot on Navio2 is working on:
 ## Powering Navio2
 
 !!! danger "Attention"
-    ALL POWER SOURCES SHOULD PROVIDE VOLTAGE IN 4.8-5.3V RANGE, OTHERWISE YOU CAN DAMAGE YOUR NAVIO2 AND RASPBERRY PI.**
+    All power sources should provide voltage in 4.8-5.3V range, otherwise you can damage your Navio2 and Raspberry Pi.
 
 Navio2 has three power sources, all of them can be used simultaneously as they are protected by ideal diodes.
 
