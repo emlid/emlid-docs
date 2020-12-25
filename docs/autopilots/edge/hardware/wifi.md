@@ -1,16 +1,16 @@
-### WiFi module connection
+### Wi-Fi module connection
 
 
-Use Micro-USB to JSH-GH-4P cable for Wi-Fi module connection. Plug WiFi module in USB2 port.
+Use Micro-USB to JSH-GH-4P cable for Wi-Fi module connection. Plug Wi-Fi module in USB2 port.
 
 
 <div style="text-align: center;"><img src="../../img/hardware/alpha_to_edge.png" style="width: 500px;"></div><br>
 
-Connect second WiFi module in USB port of computer.
+Connect second Wi-Fi module in USB port of computer.
 
 <div style="text-align: center;"><img src="../../img/hardware/alpha_to_computer.png" style="width: 500px;"></div><br>
 
-## WiFi (antenna placement)
+## Wi-Fi (antenna placement)
 
 We recommend to place ground Wi-Fi module on a tripod or on a lid of your laptop.
 Antennas work best when they're higher up and have a clear line-of-sight to the drone. Also it’s a good practice to set V-position for antennas.
