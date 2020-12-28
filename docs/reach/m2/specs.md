@@ -36,7 +36,7 @@ Antenna connector is MCX, to connect to SMA or TNC antenna cable you can use one
 | Antenna DC bias                           | 3.3 V                |
 | Antenna output current                    | 100 mA               |
 | Peak current consumption @5V              | 3 A               |
-| Average current consumption @5V           | 400 mA               |
+| Average current consumption @5V           | 200 mA               |
 | Current limit on USB OTG                  | 1000 mA              |
 | Temperature range                         | -20…+65ºC	(-5…+150ºF)|
 
