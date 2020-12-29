@@ -6,7 +6,7 @@ Post-Processed Kinematic (PPK) is an alternative technique to Real-Time Kinemati
 
 <p style="text-align:center" ><img src="../img/reach/ppk-introduction/PPK.png" style="width: 800px;" /></p>
 
-While PPK is mainly used in UAV mapping, it can also be used as a back up for RTK for any surveying job. PPK offers more flexible workflow, allowing to run the processing multiple times using different settings. It also doesn't require a correction link between base and rover, making equipment setup simpler.
+While PPK is mainly used in UAV mapping, it can also be used as a backup for RTK for any surveying job. PPK offers more flexible workflow, allowing to run the processing multiple times using different settings. It also doesn't require a correction link between base and rover, making equipment setup simpler.
 
 ### PPK for UAV Mapping
 
