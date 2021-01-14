@@ -69,7 +69,7 @@ nav:
   - 'Logging': 'qgc/logging.md'
   - 'RC Input and Output': 'qgc/rcinput-and-output.md'
   - 'Video streaming': 'qgc/video.md'
-  - 'WiFi setup': 'qgc/wifi-setup.md'
+  - 'Wi-Fi setup': 'qgc/wifi-setup.md'
   - 'Additional parameters': 'qgc/parameters.md'
   - 'Sensors temperature': 'qgc/sensor-temperature.md'
 - LED status: 'led-status.md'
