@@ -31,13 +31,13 @@ The setup we recommend goes as follows:
 
 * Navio2, Edge, or Pixhawk with the ArduPilot firmware. It's preferable to use the last stable version
 
-{% if model == "M+" %}
+{% if model == "M2" %}
 
-* Base station is a Reach RS/RS+ unit in Wi-Fi AP mode, configured as a TCP server
+* Base station is a Reach RS2 unit in Wi-Fi AP mode, configured as a TCP server
 
 {% else %}
 
-* Base station is a Reach RS2 unit in Wi-Fi AP mode, configured as a TCP server
+* Base station is a Reach RS/RS+ unit in Wi-Fi AP mode, configured as a TCP server
 
 {% endif %}
 
@@ -69,8 +69,12 @@ To provide RTK solution to Pixhawk, Reach {{ model }} needs to be connected via 
 
 Connect Reach's **{{ power_port }}** port with Navio's **UART** port.
 
+{% if model == "M2"}
+
 !!! note ""
-    Navio2 may not provide enough power for Reach {{ model }} over UART in some cases.
+    Navio2 may not provide enough power for Reach M2 over UART in some cases.
+
+{% endif %}
 
 ## Connecting Reach {{ model }} to Navio2 over USB
 
