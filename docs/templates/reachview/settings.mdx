@@ -53,6 +53,19 @@ Reach {{ model }} name can be changed in order to distinguish between multiple d
 ### Raw data debug
 The raw data log can be supplemented by additional data for debugging purposes. This option turns off after rebooting the device. 
 
+{% if model == "RS2" %}
+
+### Public access
+
+<p style="text-align:center" ><img src="../img/reachview/settings/public-access.png" style="width: 800px;" /></p>
+
+ReachView offers Public access feature. This feature is available only if you use a SIM card with a static IP assigned by your cellular network operator. It allows access from outside local network.
+
+!!! note ""
+    It is recommended to use Public access only when it is necessary. This setting disables the firewall and makes ReachView available to anyone. 
+
+{% endif %}
+
 ### Logging settings
 Specify how ReachView will handle full memory behavior here, it can either stop logging or override old logs in favour of new ones. In most cases “rolling logs” is recommended.
 
