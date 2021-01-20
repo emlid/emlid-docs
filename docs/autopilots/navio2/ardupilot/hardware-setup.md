@@ -50,7 +50,26 @@ Power module does not power servos. To provide power to the servo rail plug your
 
 GNSS antenna is plugged into the MCX port on top of Navio2.
 
-![antenna](img/navio2-gnss-antenna.png)
+![antenna](img/navio2-gnss-antenna-ground-plane.png)
+
+To achieve good positioning results, place the antenna observing the following conditions.
+
+### Ground plane
+
+Use ground plane no less than 70x70mm (3x3 inches) to reduce multipath, provide shielding and improve signal reception. 
+
+!!! note ""
+    A ground plane is a conductive plate. It may be a piece of metal, a roof of a car, a metal roof of a building, etc. 
+
+### Clear sky view without obstacles
+
+Provide a clear sky view 30 degrees above the horizon. There should be no obstacles like buildings, trees, cars, humans, laptops, etc.
+
+![antenna](img/navio2-gnss-antenna-mount.png)
+
+### No electronics nearby
+
+Keep all electronics as far as possible from the antenna to prevent RF noise. Electronic devices, especially ESCs, could affect the reception of the GNSS signal. 
 
 ## RC input
 
