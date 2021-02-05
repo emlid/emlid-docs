@@ -43,6 +43,10 @@ Before configuration emlidtool checks your [RCIO](https://docs.emlid.com/navio2/
 
 ![emlidtool-ui](img/emlidtool-rcio-update-dialog.png)
 
+This dialog can be triggered inadvertantly by low voltage. 
+Many typical Raspberry Pi power bricks are not sufficient enough to power both the Pi and the Navio2 HAT.
+If you encounter this issue, try powering the Navio2 from a LiPo battery through the Power Module.
+
 In the example below we'll use arducopter but it could've been just as well arduplane or ardurover.
 Once the command is running, it will produce the output like this:
 
