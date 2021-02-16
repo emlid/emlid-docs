@@ -25,6 +25,7 @@ Find your country or region in the list and follow the steps to specify an appro
 * [Brazil](../countries/brazil)
 * [Canada](../countries/canada)
 * [Canary Islands](../countries/canary-islands)
+* [Croatia](../countries/croatia)
 * [Denmark](../countries/denmark)
 * [Estonia](../countries/estonia)
 * [Finland](../countries/finland)
