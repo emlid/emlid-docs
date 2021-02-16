@@ -19,7 +19,7 @@ The following geoids are used to perform the transformation:
 * `GV_Hoehengrid_plus_Geoid_V`
 
 !!! note ""
-	The `EVRF2000 Austria height` vertical datum uses the`GEOID_GRS80_Oesterreich` geoid. The `GHA height` vertical datum uses the `GV_Hoehengrid_plus_Geoid_V2` geoid.
+	The `EVRF2000 Austria height` vertical datum uses the `GEOID_GRS80_Oesterreich` geoid. The `GHA height` vertical datum uses the `GV_Hoehengrid_plus_Geoid_V2` geoid.
 
 ## Base Setup
 
