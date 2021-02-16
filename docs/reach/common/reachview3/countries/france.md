@@ -8,9 +8,18 @@ Choose a coordinate system based on the `RGF93` datum (such as `RGF93 / CC42`).
 
 ### Vertical Datum
 
-Choose the `NGF-IGN69 height` vertical datum.
+Choose one of the available vertical datums:
 
-The `RAF18` geoid is used to perform the transformation.
+* `NGF-IGN69 height`
+* `NGF-IGN69(RAF09) height`
+
+The following geoids are used to perform the transformation:
+
+* `RAF09`
+* `RAF18`
+
+!!! note ""
+	The `NGF-IGN69 height` vertical datum uses the `RAF18` geoid. The `NGF-IGN69(RAF09) height` vertical datum uses the `RAF09` geoid.
 
 ## Base Setup
 
