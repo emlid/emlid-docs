@@ -5,7 +5,7 @@
 This guide explains how to configure Reach to get correction messages from NTRIP service.
 
 !!! tip ""
-	NTRIP correction input setup can be done at home before the survey. In that case, you just need to connect Reach to the Internet in a field.
+	NTRIP correction input setup can be done at home before the survey. In that case, you just need to connect Reach to the Internet in the field.
 
 ##Update Reach
 
@@ -25,30 +25,30 @@ Reach requires the Internet connection to work with NTRIP. You don’t need any 
 
 Turn on mobile data on your smartphone and share it over Wi-Fi hotspot. Reach will connect to your network and get access to the Internet.
 
-[Check the tutorial for more information about how to connect Reach to other networks.](../connecting-to-the-internet/)
+Check the [tutorial](../../../quickstart/connecting-to-the-internet/) for more information about how to connect Reach to other networks.
 
 ##Configure Reach for RTK mode with NTRIP
 
-Open ReachView and go to **RTK settings**. Set everything to the same options as on the screenshot below.
+Open the ReachView 3 app and go to the *GNSS settings* tab. Set everything to the same options as on the screenshot below.
 
 !!! note ""
-	In the **GNSS select** section pick either Galileo or Beidou depending on your location. While Glonass covers most of the world, Beidou might be more efficient in the Asia-Pacific region. In this example we use Glonass.
+	In the *GNSS select* section pick either Galileo or Beidou depending on your location. While Glonass covers most of the world, Beidou might be more efficient in the Asia-Pacific region. In this example we use Glonass.
 
 Apply changes.
 
-<div style="text-align: center;"><img src="../img/quickstart/ntrip-workflow/rtk-settings.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/ntrip-workflow/rtk-settings.png" style="height: 550px;"></div>
 
-Now go to **Correction input** tab, select **NTRIP** and fill in the information from your provider. Choose the nearest reference station to receive the corrections from.
+Now go to the *Correction input* tab, select *NTRIP* and fill in the information from your provider. Choose the nearest reference station to receive the corrections from.
 
 !!! tip ""
 	Check the website of your NTRIP provider to find out which mount point suits you better. 
 
-<div style="text-align: center;"><img src="../img/quickstart/ntrip-workflow/ntrip-correction-input.png" style="width: 600px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/ntrip-workflow/ntrip-correction-input.png" style="height: 550px;"></div>
 
 !!! note ""
-	If you are using VRS service, you might need to enable GGA messages. 
+	If you are using VRS service, you need to enable *Send receiver's position to the provider*. 
 
-Press **Apply**.
+Press *Apply*.
 
 ##Provide Reach with a clear sky view
 
@@ -56,7 +56,7 @@ Reach RS needs to have a clear view of the sky approximately 30 degrees above th
 
 <div style="text-align: center;"><img src="../img/quickstart/ntrip-workflow/skyview-obstacles.png" style="width: 800px;"></div>
 
-[Learn more about Reach setup in the Placement section of Reach RS+ docs](https://docs.emlid.com/reachrs/placement/)
+Learn more about Reach setup in the [Placement](https://docs.emlid.com/reachrs/placement/) section of Reach RS+ docs
 
 ##Collect and export data
 
