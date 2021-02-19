@@ -1,8 +1,8 @@
 ## Video guide
 
-This tutorial will show how to set up two Reach {{model}} units as rover and base and how to make them work over LoRa radio in RTK mode.
+This tutorial will show how to set up two Reach {{model}} units as a rover and a base and how to make them work over LoRa radio in RTK mode.
 
-For setting NTRIP base corrections, [follow the steps from "Working with NTRIP service" guide](../ntrip-workflow).
+For setting NTRIP base corrections, follow the steps from [Working with NTRIP service](../ntrip-workflow) guide.
 
 {%if model == "RS2"%}
 
@@ -17,74 +17,84 @@ For setting NTRIP base corrections, [follow the steps from "Working with NTRIP s
 
 ### Renaming Reach devices
 
-By default, every Reach {{model}}has the same name, and the first thing we will do is renaming them so it is easier to distinguish base and rover in the field.
+By default, every Reach {{model}} has the same name, and the first thing we will do is renaming them so it is easier to distinguish the base and the rover in the field.
 
 !!! note "How to define Reach {{model}}?"
     There is an easy way to understand which unit you are connected to. Just open the menu and tap the lamp-shaped button. {{ 'Power Button LED' if model == "RS2" else "All LEDs" }} will start to blink.
 
 * Connect to Reach {{ model }} you want to use as a base
 
-* Go to settings and change the name to **reach-base**. This name will also be used as a Wi-Fi network label when Reach is in hotspot mode
+* Go to *Settings*, click on the *General* tab, and change the name to **reach-base**. This name will also be used as a Wi-Fi network label when Reach is in hotspot mode
 
 * Press *Save*
 
 !!! tip ""
-    Use a special sticker from a package to mark the unit.
+    Use a special sticker from the package to mark the unit.
 
 Do the same with the second Reach {{model}}. However, use **reach-rover** name instead of **reach-base**.
 
 
-### Setting up base station
+### Setting up the base station
 
-Now we will configure RTK settings and communication between base and rover. Let’s start with the base.
+Now we will configure RTK settings and communication between the base and the rover. Let’s start with the base.
 
 * Connect to the base unit
 
-* Open **RTK Settings** tab and pick each of the satellite systems
+{%if model == "RS2"%}
+
+* Open the *GNSS Settings* tab and pick each of the satellite systems
+
+{%else%}
+
+* Open the *GNSS Settings* tab and pick each of the satellite systems
 
 !!! note ""
     Choose which one to use depending on your location. While GLONASS covers most of the world, BeiDou might be more efficient in the Asia-Pacific region.
 
+{%endif%}
+
 * Set the update rate at 1 Hz
 
 {%if model == "RS2"%}
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-base-rtk-settings.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-base-rtk-settings.png" style="height: 550px;"></div>
 {%else%}
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-base-rtk-settings.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-base-rtk-settings.png" style="height: 550px;"></div>
 {%endif%}
 
 Now we will set up LoRa radio on Reach {{model}} base to broadcast RTK corrections.
 
-* Go to **Base mode** tab and in the **Corrections output** section select **LoRa**
+* Go to the *Correction output* section and select *LoRa*
 
-* Set the output power to **20 dBm** and air rate at **9.11 kb/s**
+* Set the output power at **20 dBm** and air rate at **9.11 kb/s**
 
 !!! danger ""
     Make sure to select appropriate output power and frequency according to your local regulations. In case there are restrictions, frequency band limitations will be applied automatically. 
 
+* Go to the *Base mode* tab    
+
 {%if model == "RS2"%}
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-base-lora.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-base-lora.png" style="height: 550px;"></div>
 
-* In the list of RTCM3 messages select to output **ARP station coordinates** at **0.1 Hz** and others at **1 Hz**
+* In the list of RTCM3 messages select to output *ARP station coordinates* at **0.1 Hz** and others at **1 Hz**
 
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-base-rtcm3.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-base-rtcm3.png" style="height: 550px;"></div>
 
 {%else%}
 
-* In the list of RTCM3 messages select to output GPS L1 observations at 1 Hz, ARP station coordinates at 0.1 Hz, GLONASS L1 observation at 0.5 Hz and GALILEO or BeiDou at 0.5 Hz
+* In the list of RTCM3 messages, select to output GPS L1 observations at 1 Hz, GLONASS L1 observations at 0.5 Hz, Galileo MSM7 observations at 0.5 Hz, SBAS MSM7 observations at 0,5 Hz, QZSS MSM7 observations at 0.5 Hz, Beidou MSM7 observations at 0.5 Hz, and ARP station coordinates at 0.1 Hz
 
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-base-rtcm3.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-base-rtcm3.png" style="height: 550px;"></div>
 
 {%endif%}
 
-* Apply settings and wait until base averages its position in Base coordinates box
+* Apply settings and wait until base averages its position in the *Base coordinates* box
 
 
 ### Setting up rover
 
 * Connect to the rover unit
 
-* Go to **RTK settings** tab
+* Go to the *GNSS settings* tab
 
 {%if model == "RS2"%}
 
@@ -92,42 +102,40 @@ Now we will set up LoRa radio on Reach {{model}} base to broadcast RTK correctio
 
 * Select the same GNSS systems as for the base, set 5 Hz update rate and press *Apply*
 
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-rover-rtk-settings.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-rover-rtk-settings.png" style="height: 550px;"></div>
 
 {%else%}
 
 * Set the positioning mode to **Kinematic**, GPS Ambiguity resolution mode to **Fix-and-hold** and GLONASS Ambiguity resolution mode to **ON**
 
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-rover-rtk-settings.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-rover-rtk-settings.png" style="height: 550px;"></div>
 
 * Select the same GNSS systems as for the base, set 5 Hz update rate and press *Apply*
 
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-rover-rtk-settings2.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-rover-rtk-settings2.png" style="height: 550px;"></div>
 {%endif%}
 
 Now we will configure LoRa radio on the rover unit to receive the corrections. 
 
-* Go to **Correction input** tab
-
-* In the **Base correction** pick **LoRa**
+* Go to the *Correction input* tab and pick *LoRa*
 
 * Frequency and air rate settings must match what was configured on the base
 
 * Apply changes and you will see rover is connected to the base
 
 {% if model == "RS2"%}
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-rover-lora.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-rover-lora.png" style="height: 550px;"></div>
 {%else%}
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-rover-lora.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-rover-lora.png" style="height: 550px;"></div>
 {%endif%}
 
 !!! tip ""
-    To make sure that corrections are passing from base to rover, you can put both receivers by the window for a few minutes to provide the sky visibility. Go to the status tab on the rover unit. Colorful bars are standing for available satellites. If LoRa is configured correctly, they will be accompanied by grey bars. These are standing for the corrections received from the base station.
+    To make sure that corrections are passing from base to rover, you can put both receivers by the window for a few minutes to provide the sky visibility. Go to the *Status* tab on the rover unit and scroll down to the *Corrections* section. Make sure that it is receiving corrections.
 
 
-### Placing Reach {{model}} module
+### Placing Reach {{model}} unit
 
-Once the units are configured, we can move to the field. For the field works, you will need a tripod and survey pole.
+Once the units are configured, we can move to the field. For the field works, you will need a tripod and a survey pole.
 
 Mount Reach {{model}} base and accurately level the tripod. Put the rover on the pole and attach the LoRa antennas. Turn on the devices.
 
@@ -135,35 +143,33 @@ Mount Reach {{model}} base and accurately level the tripod. Put the rover on the
     There **should be no** obstacles near the antenna that could block the sky view higher than 30 degrees above the horizon.
     **Do not** test the device indoors or near buildings, do not cover the sky view for the antennas with laptops, cars or yourself. RTK requires good satellite visibility and reception.
 
-A guide on how to properly place the antennas is available in [Reach {{model}} placement](../../../placement) section.
+A guide on how to properly place the antennas is available in the [Reach {{model}} placement](../../../placement) section.
 
 Let’s set up the base station.
 
 * Connect to the base
 
-* Go to **Base mode** tab
+* Go to the *Base mode* tab
 
-* In the **Base coordinates** section select **Average single** and set averaging time. The longer you choose to accumulate data, the more accurate base position you get. Don’t move the base while Reach is accumulating data
+* In the *Base coordinates* section select **Average single** and set averaging time. Don’t move the base while Reach is accumulating data
 
 * Once the position is calculated, press *Apply*
 
-* Go to the **Status** tab on the base station to assure ReachView shows plenty of green satellites
+* Go to the *Status* tab on the base station to assure ReachView 3 shows plenty of available satellites
 
-Connect to the rover and check the status tab. If everything is configured correctly, you will see a lot of green satellites accompanied by grey bars.
+Connect to the rover and check the *Status* tab. If everything is configured correctly, you will see the *Receiving corrections* notification.
 
-<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/common/reachrs2-status-correction.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/common/reachrs2-status-correction.png" style="height: 550px;"></div>
 
 ## Viewing results
 
-Go to the **Status** tab of the app on the rover device.
-
-Below the SNR chart, you’ll see the current solution status.
+You can see the current solution status in the top right corner of the ReachView 3 app.
 
 * **Single** means that rover has found a solution relying on its own receiver and base corrections are not applied. Precision in standalone mode is usually meter-level
 
-* **Float** means that the base corrections are now taken into consideration
+* **Float** means that base corrections are now taken into consideration
 
-* **Fix** status means all ambiguities are resolved and RTK solution is centimeter-level accurate
+* **Fix** means all ambiguities are resolved and RTK solution is centimeter-level accurate
 
 {%if model == "RS2"%}
 
@@ -174,4 +180,4 @@ After a short period of time, the rover gets a fixed solution. In good environme
 After a short period of time, the rover gets a fixed solution. In good environments, it will take a few minutes to get a fixed solution. In tough conditions, it may take a little longer. Once rover gets fix status, we are all set for work.
 {%endif%}
 
-Scroll the status tab down to see your location in the real-time.
+Scroll the *Status* tab down to see your location in the real-time.
