@@ -3,14 +3,14 @@
 Online Positioning User Service (OPUS) is provided by the National Oceanic and Atmospheric Administration (NOAA). With OPUS you may accurately determine the coordinates of a static point anywhere on the territory of the United States without real-time corrections or base station nearby.
 
 !!! tip "" 
-    You can use OPUS with Reach RS2 and Reach M2 only. To process data from Reach RS+, use the NRCAN CSRS-PPP service. [More details are in the PPP guide.](ppp-introduction.md)
+    You can use OPUS with Reach RS2 and Reach M2 only. To process data from Reach RS+, use the NRCAN CSRS-PPP service. You can learn more in the [PPP guide](ppp-introduction.md).
 
 In this guide, we will walk you through the following steps:
 
 - Recording RINEX data on Reach
-- Exporting raw data from ReachView to your mobile device or PC
+- Exporting raw data from ReachView 3 to your mobile device or PC
 - Uploading the collected file to OPUS
-- Entering the obtained base coordinates into ReachView
+- Entering the obtained base coordinates into ReachView 3
 
 The equipment you need to accomplish the survey:
 
@@ -41,17 +41,17 @@ The Static and Rapid-Static methods use different processing software and provid
 !!! note ""
     In this guide, we will show you how to process raw data from Reach RS2 using the Static method.
 
-You can learn more about NOAA's OPUS service on their [official site.](https://www.ngs.noaa.gov/OPUS/about.jsp)
+You can learn more about NOAA's OPUS service on their [official site](https://www.ngs.noaa.gov/OPUS/about.jsp).
 
 ## Placing the Reach
 
-Place a Reach device precisely above the marked point on the tripod and level it. [Learn more about placing Reach receiver in this docs entry.](placing-the-base.md)
+Place a Reach device precisely above the marked point on the tripod and level it. Learn more about placing Reach receiver in this [guide](placing-the-base.md).
 
 <div style="text-align: center;"><img src="../img/reach/ppp-introduction/placing-reach-rs2.png" style="width: 600px;"></div>
 
 ## Recording RINEX data on Reach
 
-- Go to the *RTK Settings* tab
+- Go to the the *GNSS settings* tab
 - Choose **Static** Positioning mode, enable **GPS** only and set up the update rate to **1 Hz**
 - Navigate to the *Logging* tab
 - Select RINEX 2.XX **Raw data** format
@@ -60,52 +60,50 @@ Place a Reach device precisely above the marked point on the tripod and level it
 !!! tip ""
     You may log the data from 2 hours to 24 hours depending on the accuracy required.
 
-<div style="text-align: center;"><img src="../img/reach/ppp-introduction/logging.png" style="width: 600px;"></div>
+<div style="text-align: center;"><img src="../img/reach/ppp-introduction/opus-logging.png" style="height: 550px;"></div>
 
 - Once you finish the survey, don't forget to toggle off raw data recording in the *Logging* tab
 
 !!! danger ""
     Do not turn Reach off until the RINEX logs are processed.
 
-## Exporting raw data from ReachView
+## Exporting raw data from ReachView 3
 
 After you finish raw data logging, you may download RINEX data from Reach to your mobile device or PC.
 
-- In ReachView, go to the *Logging* tab
+- In ReachView 3, go to the *Logging* tab
 - Tap on the **Download** button to export the file
-
-[Learn more about downloading files from Reach in this docs entry.](../reachview/logging.md#downloading)
 
 ## Converting UBX logs to RINEX
 
 In case you log raw data in UBX format, you can convert them manually in RTKLIB.
 
-- Start **RTKLIB RTKCONV**
+- Start *RTKLIB RTKCONV*
 - Add your rover raw log in the first field and choose output directory
 - Choose format of your log in pop-down menu. Set format to u-blox
 
 <div style="text-align: center;"><img src="../img/reach/ppp-introduction/RTKCONV.png" style="width: 600px;"></div>
 
-- Push the **Options** button
+- Push the *Options* button
 - Choose RINEX Version 2.XX
 - Turn on GPS satellite system only
-- Enable L1 and L2 frequencies in the Frequencies tab
+- Enable L1 and L2 frequencies in the *Frequencies* tab
 
 <div style="text-align: center;"><img src="../img/reach/ppp-introduction/RTKCONV-Options-OPUS.png" style="width: 600px;"></div>
 
-- Click on the **OK** button to save changes
-- Push on the **Convert** button to start conversion process
+- Click on the *OK* button to save changes
+- Push on the *Convert* button to start conversion process
 
 In the result, you will get the *.obs and *.nav files.
 
 ## Submitting data to NOAA's OPUS service
 
 - Go to the [NOAA's OPUS site](https://www.ngs.noaa.gov/OPUS/)
-- Click on the **Choose file** button and browse for raw*.obs file you would like to process
+- Click on the *Choose file* button and browse for raw*.obs file you would like to process
 - If you work with Reach RS2, choose the `EML_REACH_RS2 NONE` in the Antenna field
-- Type a pole height in the Antenna Height box
+- Type a pole height in the *Antenna Height* box
 - Enter your email address to get the results
-- Click on **Upload to Static** button to submit the data
+- Click on *Upload to Static* button to submit the data
 
 <div style="text-align: center;"><img src="../img/reach/ppp-introduction/OPUS.png" style="width: 600px;"></div>
 
@@ -123,21 +121,21 @@ The most accurate OPUS solutions have the following characteristics:
 - Over 50% of ambiguities are fixed
 - Overall RMS is less than 3 cm
 
-## Setting up obtained base coordinates in ReachView
+## Setting up obtained base coordinates in ReachView 3
 
-If you need the acquired coordinates to use them as the base position for RTK/PPK, you can now enter the base coordinated into ReachView.
+If you need the acquired coordinates to use them as the base position for RTK/PPK, you can now enter the base coordinated into the ReachView 3 app.
 
-- In ReachView, go to *Base mode* tab
-- In the Base coordinates input mode, choose Manual
+- In ReachView 3, go to the *Base mode* tab
+- In the *Base coordinates input* mode, choose Manual
 - Set up the required data format (LLH or XYZ)
 - Enter the coordinates and specify the antenna height
 
 !!! note ""
     You may need to convert the solution you get to WGS84.
 
-<div style="text-align: center;"><img src="../img/reach/ppp-introduction/Bluetooth.png" style="width: 600px;"></div>
+<div style="text-align: center;"><img src="../img/reach/ppp-introduction/Bluetooth.png" style="height: 550px;"></div>
 
-If you experience any difficulties during the processing or want to discuss the workflow, start a thread at the [Emlid community forum.](https://community.emlid.com/)
+If you experience any difficulties during the processing or want to discuss the workflow, start a thread at the [Emlid community forum](https://community.emlid.com/).
 
 Further reading:
 
