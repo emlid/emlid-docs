@@ -5,7 +5,7 @@
 This guide explains how to configure Reach to get correction messages from NTRIP service.
 
 !!! tip ""
-	NTRIP correction input setup can be done at home before the survey. In that case, you just need to provide Reach with the Internet in a field.
+	NTRIP correction input setup can be done at home before the survey. In that case, you just need to provide Reach with the Internet in the field.
 
 ## Update Reach
 
@@ -40,25 +40,25 @@ There are 2 ways on how you can connect Reach RS2 to the Internet:
 1. Insert a SIM card and enable Mobile data on Reach
 2. Turn on mobile data on your smartphone and share it over Wi-Fi hotspot. Reach will connect to your network and get access to the Internet
 
-[Check the tutorial for more information about how to provide Reach RS2 with Internet access.](connecting-to-the-internet.md)
+Check the [tutorial](connecting-to-the-internet.md) for more information about how to provide Reach RS2 with Internet access.
 
 ### Configure Reach for RTK mode with NTRIP
 
-Open ReachView and go to **RTK settings**. Set everything to the same options as on the screenshot below and apply changes.
+Open ReachView 3 and go to *GNSS settings*. Set everything to the same options as on the screenshot below and apply changes.
 
-<div style="text-align: center;"><img src="../img/reachrs2/ntrip-workflow/rtk-settings.png" style="width: 800px;"></div>
+<div style="text-align: center;"><img src="../img/reachrs2/ntrip-workflow/rtk-settings.png" style="height: 550px;"></div>
 
-Now go to **Correction input** tab, select **NTRIP** and fill in the information from your provider. Choose the nearest reference station to receive the corrections from.
+Now go to the *Correction input* tab, select *NTRIP* and fill in the information from your provider. Choose the nearest reference station to receive the corrections from.
 
 !!! tip ""
 	Check the website of your NTRIP provider to find out which mount point suits you better. 
 
-<div style="text-align: center;"><img src="../img/reachrs2/ntrip-workflow/ntrip-correction-input.png" style="width: 600px;"></div>
+<div style="text-align: center;"><img src="../img/reachrs2/ntrip-workflow/ntrip-correction-input.png" style="height: 550px;"></div>
 
 !!! note ""
-	If you are using VRS service, you might need to enable GGA messages. 
+	If you are using VRS service, you need to enable *Send receiver's position to the provider*. 
 
-Press **Apply**.
+Press *Apply*.
 
 ### Provide Reach with a clear sky view
 
@@ -66,7 +66,7 @@ Reach RS2 needs to have a clear view of the sky approximately 30 degrees above t
 
 <div style="text-align: center;"><img src="../img/reachrs2/ntrip-workflow/Reach-placement-correct-wrong.png" style="width: 800px;"></div>
 
-[Learn more about Reach setup in the Placement section of Reach RS2 docs](placement.md)
+Learn more about Reach setup in the [Placement](placement.md) section of Reach RS2 docs
 
 ### Collect and export data
 
