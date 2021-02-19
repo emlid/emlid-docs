@@ -4,7 +4,7 @@ This article outlines the basic principles of analyzing raw logs before and afte
 
 ##Data acquisition and export to PC
 
-Download your base and rover raw data from ReachView. [Record and download logs](../../reachview/logging/) guide helps you with that. You'll need raw data log in UBX, RINEX or RTCM format for this tutorial.
+Download your base and rover raw data from ReachView 3.
 
 ##Introduction to RTKLib tools
 
@@ -35,19 +35,19 @@ RTKPLOT allows viewing and plotting the position solutions from RTKPOST as well 
 
 If you recorded raw data with Reach receivers in UBX format or got corrections from NTRIP service in RTCM3 format, you need to convert it to RINEX first. Use RTKCONV tool for it.
 
-To learn more about the process check the [Converting raw logs to RINEX part of our post-processing guide.](../../tutorials/gps-post-processing/#converting-raw-logs-to-rinex-if-needed)
+To learn more about the process check the [Converting raw logs to RINEX](../../tutorials/gps-post-processing/#converting-raw-logs-to-rinex-if-needed) part of our post-processing guide.
 
 !!! note ""
-	Make sure you chose the correct start time for an RTCM3 file. [You can check rover log start time in RTKPLOT.](#signal-quality-overview)
+	Make sure you chose the correct start time for an RTCM3 file. You can check rover log start time in [RTKPLOT](#signal-quality-overview).
 	<div style="text-align: center;"><img src="../img/reach/analyzing-logs/start-time.PNG" style="width: 249px;"></div>
 
 ##Data assessment
 
-Don’t close RTKCONV window after converting. Hit the **Plot** button in the bottom left corner of the window. It will open converted OBS file in RTKPLOT.
+Don’t close RTKCONV window after converting. Hit the *Plot* button in the bottom left corner of the window. It will open converted OBS file in RTKPLOT.
 
 ###Signal quality overview
 
-You can see the satellite visibility graph. Change **All** option to **L1** in the middle drop-down list to see the satellite signals’ SNR values.
+You can see the satellite visibility graph. Change *All* option to *L1* in the middle drop-down list to see the satellite signals’ SNR values.
 
 **SNR** is a Signal to Noise ratio that indicates how good the reception is.
 
@@ -88,7 +88,7 @@ Check if you have more than 4 satellites without cycle slips. This is the minimu
 
 ##Data Post-Processing
 
-After assessing the logs quality, post-process them and analyze the result. [Follow this guide to post-process Reach raw logs.](../../tutorials/gps-post-processing/)
+After assessing the logs quality, post-process them and analyze the result. Follow this [guide](../../tutorials/gps-post-processing/) to post-process Reach raw logs.
 
 As the result of post-processing, you get POS file. This file contains the position solution.
 
@@ -138,15 +138,15 @@ In the top right corner of the window, you can see ORI, AVE, STD and RMS values.
 
 ###Number of Satellites
 
-**NSat** field contains three graphs.
+*NSat* field contains three graphs.
 
 <div style="text-align: center;"><img src="../img/reach/analyzing-logs/NSat.PNG" style="width: 800px;"></div>
 
-* The top graph shows **the Number of Valid Satellites**
+* The top graph shows *Number of Valid Satellites*
 
-* The middle graph shows **the Age of Differential**. Age of differential indicates a time gap between corrections. It is always 0 for post-processing
+* The middle graph shows *Age of Differential*. Age of differential indicates a time gap between corrections. It is always 0 for post-processing
 
-* The bottom graph shows **the Ratio Factor for AR Validation**. AR ratio is a statistical value, showing how many times is the best solution better than the next one. When AR ratio rises above the value of 3, the solution is considered fixed
+* The bottom graph shows *Ratio Factor for AR Validation*. AR ratio is a statistical value, showing how many times is the best solution better than the next one. When AR ratio rises above the value of 3, the solution is considered fixed
 
 The graph displays that we had fixed solution during almost the entire surveying time. You can see how long it takes to gain first fix. You also can see periods of time when the receiver loses fix and return to float, and how changed the AR ratio during the surveying time.
 
@@ -166,7 +166,7 @@ Go through this simple checklist and make sure that the following requirements a
 
 * **For Reach M+ rover mounted on UAV only**: make sure that you isolated Reach M+ unit with aluminum foil to eliminate the interference from UAV hardware components
 
-* **For Reach M+ rover mounted on UAV only**: make sure that antenna ground plane is conductive and at least 70 x 70 mm. [You can read more about antenna placement here](https://docs.emlid.com/reachm-plus/antenna-placement/)
+* **For Reach M+ rover mounted on UAV only**: make sure that antenna ground plane is conductive and at least 70 x 70 mm. You can read more about antenna placement in this [guide](https://docs.emlid.com/reachm-plus/antenna-placement/)
 
 ### Improving the Solution
 
