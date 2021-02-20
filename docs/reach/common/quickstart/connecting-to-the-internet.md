@@ -122,5 +122,5 @@ The video below explains how you can connect Reach to hotspot of the iOS device.
 
 Once Reach is connected to a Wi-Fi, you can:
 
-* [Update the receiver](../../reachview/settings/#check-app-version)
+* Update the receiver
 * [Connect to NTRIP](../../reachview/correction-input/#ntrip)
