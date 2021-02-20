@@ -15,7 +15,7 @@ The video below demonstrates how to place the Reach RS2 base over a known point.
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/FilRoPVDjCs" allowfullscreen></iframe></div>
 
-To find out other ways of placing the local base station, [consult this guide](../common/tutorials/placing-the-base/).
+To find out other ways of placing the local base station, consult this [guide](../common/tutorials/placing-the-base/).
 
 The general steps for placing the base receiver are described below.
 
@@ -41,25 +41,25 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 ###Raw data logging
 
-* Connect to your Reach RS2 using the ReachView App
+* Connect to your Reach RS2 using the ReachView 3 app
 
 ??? note "Connecting to Reach with iOS/Android device"
 
     * Get the app from [Google Play](https://play.google.com/store/apps/details?id=com.reachview) or [Apple Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)
     
-    * Go to Wi-Fi settings on your device
+    * Go to *Wi-Fi settings* on your device
     
     * Connect to Reach hotspot. It appears as **reach:XX:XX**
     
     * Enter password **emlidreach**
     
-    * Launch ReachView app
+    * Launch the ReachView 3 app
     
     * Choose Reach from the list
 
 ??? note "Connecting via a web browser from any device"
 
-	* Go to Wi-Fi settings on your device
+	* Go to *Wi-Fi settings* on your device
 
 	* Connect to Reach hotspot. It appears as **reach:XX:XX**
 
@@ -70,33 +70,33 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
     * Go to 192.168.42.1
 
 
-* Configure constellation choice in the [RTK Settings tab](../common/reachview/rtk-settings). Our default recommendation is all GNSS enabled at 1 Hz
+* Configure constellation choice in the *RTK Settings* tab. Our default recommendation is all GNSS enabled at 1 Hz
 
-<p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/rtk-settings.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/rtk-settings.png" style="height: 550px;"/></p>
 
-* Go to the Logging tab
+* Go to the *Logging* tab
 
 * Enable the raw data log in UBX format
 
-<p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/logging-tab.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/logging-tab.png" style="height: 550px;"/></p>
 
 * Once Reach RS2 base starts data logging, you can fly your eBee in a standalone mode
 
 ###Converting raw data log 
 
-* Download [RTKLIB QT apps](https://files.emlid.com/RTKLIB/rtklib-qt-win-b33.zip)
+* Download [RTKLIB QT](https://files.emlid.com/RTKLIB/rtklib-qt-win-b33.zip) apps
 
-* [Download raw files from Reach to your PC](https://docs.emlid.com/reachrs2/common/quickstart/downloading-files/#logs)
+* Download raw files from Reach to your PC
 
 * Start RTKLIB RTKConv 
 
-* Push _Options_ button
+* Push *Options_button*
 
-* Choose _RINEX Version_ 2.11
+* Choose *RINEX Version* 2.11
 
-* Turn on _Satellites Systems_ you need
+* Turn on *Satellites Systems* you need
 
-* Press _OK_ 
+* Press *OK*
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/rtkconv_options.png" style="width: 400px;"/></p>
 
@@ -106,7 +106,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/rtkconv_first_step.png" style="width: 400px;"/></p>
 
-* Press _Convert_ 
+* Press *Convert* 
 
 * Now you can proceed to post-processing your logs in eMotion3
 
@@ -116,25 +116,25 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/logs-import.png" style="width: 400px;"/></p>
 
-* Create a project and import the flight logs. Procceed to the RTK/PPK workflow tab
+* Create a project and import the flight logs. Procceed to the *RTK/PPK workflow* tab
 
-* Set Input file format to RINEX 
+* Set *Input file format* to RINEX 
 
 * Select newly converted RINEX O, N and G files from the Reach RS2 base
 
-* Set Antenna model to UNKNOWN 
+* Set *Antenna model* to UNKNOWN 
 
 * Fill the base position field with the the known coordinates of the markered ground point (ground marker)
 
-* Set the Height Reference to the Ground marker
+* Set *Height Reference* to the Ground marker
 
 * Enter the Antenna height calculated according to explanation in this step for the receiver
 
-* Press Next to calculate solution
+* Press *Next* to calculate solution
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/fdm_process.png" style="width: 400px;"/></p>
 
-* Once Calculated solution is finished, the Geotags are post-processed based on the RINEX file with corrected base position
+* Once *Calculated solution* is finished, the Geotags are post-processed based on the RINEX file with corrected base position
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-ppk/fdm_result.JPG" style="width: 400px;"/></p>
 
