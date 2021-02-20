@@ -30,48 +30,48 @@ Make sure your Android device provides Bluetooth connectivity.
 Configure Reach unit to act as a rover in RTK.
 
 ??? note "Getting corrections from Reach RS2 base on Reach RS2 rover"
-	Set up RTK communication between 2 Reach RS2 units over LoRa radio [following this video guide](https://youtu.be/-K32ayVmH6U).
+	Set up RTK communication between 2 Reach RS2 units over LoRa radio following this [video guide](https://youtu.be/-K32ayVmH6U).
 
 ??? note "Getting corrections from Reach RS+ base on Reach RS+ rover"
-	Set up RTK communication between 2 Reach RS+ units over LoRa radio [following this video guide](https://youtu.be/4GfUDoDwEAE). 
+	Set up RTK communication between 2 Reach RS+ units over LoRa radio following this [video guide](https://youtu.be/4GfUDoDwEAE). 
 
 ??? note "Getting corrections from NTRIP/CORS"
 	Configure NTRIP/CORS network as a source of positioning corrections for:
 
 	* [Reach RS2 rover](https://docs.emlid.com/reachrs2/ntrip-workflow/)
-	* [Reach M+ or Reach RS/RS+ rover](../quickstart/ntrip-workflow.md)
+	* [Reach M+](../quickstart/ntrip-workflow.md) or [Reach RS/RS+](../quickstart/ntrip-workflow.md) rover 
 
 ###Pairing Reach with an Android device
 
-**Access Reach rover using ReachView**
+**Access Reach rover using ReachView 3**
 
 ??? note "Connecting to Reach with iOS/Android device"
 
-	1. Get the app from [Google Play](https://play.google.com/store/apps/details?id=com.reachview) or [Apple Store](https://itunes.apple.com/us/app/reachview/id1295196887?mt=8)
-	2. Go to Wi-Fi settings on your device
+	1. Get the app from [Google Play](https://play.google.com/store/apps/details?id=com.emlid.reachview3) or [Apple Store](https://apps.apple.com/us/app/reachview-3/id1463967138)
+	2. Go to *Wi-Fi settings* on your device
 	3. Connect to Reach hotspot. It appears as **reach:XX:XX**
 	4. Enter password **emlidreach**
-	5. Launch ReachView app
+	5. Launch the ReachView 3 app
 	6. Choose Reach from the list
 
 ??? note "Connecting via a web browser from any device"
 
-	1. Go to Wi-Fi settings on your device
+	1. Go to *Wi-Fi settings* on your device
 	2. Connect to Reach hotspot. It appears as **reach:XX:XX**
 	3. Enter password **emlidreach**
 	4. Launch a web browser (we recommend using Chrome or Mozilla)
 	5. Go to 192.168.42.1
 
-* Open **Bluetooth** configuration screen, enable Bluetooth connection and set on the *Always discoverable*
+* Open the *Bluetooth* configuration screen, enable Bluetooth connection and set on *Always discoverable*
 
-<p style="text-align:center"><img src="../img/reach/mock-location/enable-bt.png" style="width: 800px;"/></p>
+<p style="text-align:center"><img src="../img/reach/mock-location/enable-bt.png" style="height: 550px;"/></p>
 
 !!! note ""
 	Reach name is displayed just above its MAC. In this guide, we used the unit named as **Reach**.
 
 **Access an Android device**
 
-* Navigate to the Bluetooth configuration screen. Activate the Bluetooth connection
+* Navigate to the *Bluetooth* configuration screen. Activate the Bluetooth connection
 
 * Wait for Reach to be listed as an available device
 
@@ -80,17 +80,11 @@ Configure Reach unit to act as a rover in RTK.
 
 <p style="text-align:center"><img src="../img/reach/mock-location/bt-scanning.jpg" style="width: 800px;"/></p>
 
-**Back to the ReachView app**
+* Tap the name of your Reach in the list of available devives on the Android device
 
-* You should now be able to see your Android device listed as an available device. In this guide, we used a device named as **Galaxy Tab A (2017)**
+* You should receive a pairing request from Reach
 
-<p style="text-align:center"><img src="../img/reach/mock-location/discoverable-devices.png" style="width: 800px;"/></p>
-
-* Tap the name of the Android device in ReachView
-
-**Back to the Android device**
-
-* You should receive a pairing request from Reach. Confirm it
+* Enter the PIN code of your Reach unit and confirm it
 
 <p style="text-align:center"><img src="../img/reach/mock-location/pairing-request.jpg" style="width: 800px;"/></p>
 
@@ -100,18 +94,18 @@ Reach and Android device are now paired:
 
 <p style="text-align:center"><img src="../img/reach/mock-location/android-paired.jpg" style="width: 800px;"/></p>
 
-<p style="text-align:center"><img src="../img/reach/mock-location/reachview-paired.png" style="width: 800px;"/></p>
+<p style="text-align:center"><img src="../img/reach/mock-location/reachview-paired.png" style="height: 550px;"/></p>
 
 ### Position output from Reach to Android
 
-* In ReachView app, navigate to the **Position output** screen
+* In the ReachView 3 app, navigate to the *Position output* screen
 
 * Activate *Output 1*, set it to BT and select solution output format to NMEA. After that, click the *Apply* button
 
-<p style="text-align:center"><img src="../img/reach/mock-location/position-output.png" style="width: 800px;"/></p>
+<p style="text-align:center"><img src="../img/reach/mock-location/position-output.png" style="height: 550px;"/></p>
 
 !!! note ""
-	You might see an error message **Send error (111)**  in some cases. This is fine as long as there is no client connected to the NMEA stream yet.
+	You might see an error message **Send error (111)** in some cases. This is fine as long as there is no client connected to the NMEA stream yet.
 
 ### Android mock location
 
@@ -124,7 +118,7 @@ Besides being an NTRIP Client, this app also allows NMEA data input via Bluetoot
 
 * Install the app [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient) in your Android device
 
-* Open *Developer Options* on your Android device and choose *Lefebure NTRIP Client* in *Select mock location app* field
+* Open *Developer Options* on your Android device and choose *Lefebure NTRIP Client* in the *Select mock location app* field
 
 <p style="text-align:center"><img src="../img/reach/mock-location/developer-options.jpg" style="width: 800px;"/></p>
 
