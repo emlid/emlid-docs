@@ -9,14 +9,14 @@ QGIS (previously known as Quantum GIS) is the cross-platform free and open-sourc
 First of all, we need to connect survey equipment to QGIS. There are two simple ways. One, over local network, or second by USB. 
 
 !!! tip ""
-    To configure the connection in QGIS, you might need to enable the **GPS Information Panel** first. Go to the **View** list in the Menu bar and tick this option in the **Panels** field to accomplish this.
+    To configure the connection in QGIS, you might need to enable the *GPS Information Panel* first. Go to the *View* list in the Menu bar and tick this option in the *Panels* field to accomplish this.
 
 ### TCP
 
 In order to connect over local network, the computer running QGIS needs to be on the same network as the rover. This can be via the rover's hotspot. This screenshot shows the reach Rover config and the QGIS config. The port number is the same as we'll enter in QGIS to find position string.
 
 
-<div style="text-align: center;"><img src="../img/reach/qgis-survey/reach-rs-tcp-set.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/reach/qgis-survey/reach-rs-tcp-set.png" style="height: 550px;"></div><br>
 
 
 In QGIS, the color panel turns green to indicate connection when we enter in the IP address of the rover and the port number.
@@ -36,16 +36,15 @@ Then, plug the other end into the computer usb port.
 
 For this, the settings on your rover should be as on the screenshot below.
 
-<div style="text-align: center;"><img src="../img/reach/qgis-survey/reachview-qgis-usb.jpg" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/reach/qgis-survey/reachview-qgis-usb.png" style="height: 550px;"></div><br>
 
 In QGIS, choose to connect by serial device and use the same COM port as is shown in connected devices.
 
 <div style="text-align: center;"><img src="../img/reach/qgis-survey/qgis-usb.png" style="width: 350px;"></div><br>
 
-Now that we're connected we should see our position in QGIS similar to on our Reachview app.
+Now that we are connected, we should see Reach position in QGIS.
 
-<div style="text-align: center;"><img src="../img/reach/qgis-survey/reachview-qgis-connected.png" style="width: 750px;"></div><br>
-<div style="text-align: center;"><img src="../img/reach/qgis-survey/reachview-qgis-connected1.png" style="width: 750px;"></div><br>
+<div style="text-align: center;"><img src="../img/reach/qgis-survey/reachview-qgis-connected.png" style="width: 850px;"></div><br>
 
 ## QGIS basics
 
@@ -74,7 +73,7 @@ Also check out plugin CadTools.
 <div style="text-align: center;"><img src="../img/reach/qgis-survey/qgis-cad-tools.png" style="width: 650px;"></div><br>
 
 !!! tip ""
-    [Check out](https://www.youtube.com/watch?v=QsjmLa16obs1) the tutorial for QGIS CAD tool by Klas Karlsson.
+    Check out the [tutorial](https://www.youtube.com/watch?v=QsjmLa16obs1) for QGIS CAD tool by Klas Karlsson.
 
 
 ## Credits
