@@ -165,7 +165,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 You will need to find out what COM port on your PC is used by Reach RS2. For that, we recommend using the PuTTY client for Windows.
 
-* [Download and install PuTTY](https://www.putty.org/)
+* Download and install [PuTTY](https://www.putty.org/)
 
 * Open Device Manager on your computer
 

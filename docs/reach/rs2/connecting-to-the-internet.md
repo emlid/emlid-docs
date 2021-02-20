@@ -69,7 +69,7 @@ Connect Reach to the Internet to update ReachView 3 to the latest version or to 
 
 	You will see the network bars indicating a connected SIM сard. 
 
-	* Go to the [*Mobile data* tab](reachview/mobile-data.md) and enable cellular network
+	* Go to the *Mobile data* tab and enable cellular network
 
 	<div style="text-align: center;"><img src="../img/reachrs2/connecting-to-the-internet/mobile-data.png" style="height: 550px;"></div>
 
@@ -195,5 +195,5 @@ Connect Reach to the Internet to update ReachView 3 to the latest version or to 
 
 Once Reach connects to the Internet, you can:
 
-* [Update the receiver](../reachview/settings/#check-app-version)
+* Update the receiver
 * [Connect to NTRIP](../ntrip-workflow/)

@@ -11,7 +11,7 @@ This guide explains how to configure Reach to get correction messages from NTRIP
 
 If you just received your Reach, you need to update it to make sure you have all the latest features. The instruction is in a carry case Reach comes with. 
 
-You can also find the tutorial in [documentation](../../../quickstart/first-setup/) or follow the video guide:
+You can also follow the video guide:
 
 <center>
 
@@ -70,11 +70,9 @@ Learn more about Reach setup in the [Placement](placement.md) section of Reach R
 
 ### Collect and export data
 
-Check tutorials on how to create new projects, collect and stake out points, import and export projects:
+Check tutorials on how to create new projects, collect points, and export projects:
 
-* [New project](../common/reachview/survey/#creating-new-project)
-* [Survey tool overview](../common/reachview/survey/#survey-tool-interface)
-* [Point collection](../common/reachview/survey/#collecting-the-point)
-* [Stakeout](../common/reachview/survey/#point-stakeout)
-* [Project import](../common/reachview/survey/#points-import) and [export](../common/reachview/survey/#exporting-data)
+* [New project](https://www.youtube.com/watch?v=tfSb_1yrYgY&list=UULPIvk_Oj2Cs0m_APA4FUyQ&index=4)
+* [Point collection](https://www.youtube.com/watch?v=4tm3bJcf_wk&list=UULPIvk_Oj2Cs0m_APA4FUyQ&index=5)
+* [Project export](https://www.youtube.com/watch?v=-X31SxMTd-o&list=UULPIvk_Oj2Cs0m_APA4FUyQ&index=1)
 

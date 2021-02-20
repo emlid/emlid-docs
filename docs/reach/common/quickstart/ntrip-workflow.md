@@ -11,7 +11,7 @@ This guide explains how to configure Reach to get correction messages from NTRIP
 
 If you just received your Reach, you need to update it to make sure you have all the latest features. The instruction is in a carry case Reach comes with. 
 
-You can also find the tutorial in [documentation](../../../quickstart/first-setup/) or follow the video guide:
+You can also follow the video guide:
 
 <center>
 
@@ -25,7 +25,7 @@ Reach requires the Internet connection to work with NTRIP. You don’t need any 
 
 Turn on mobile data on your smartphone and share it over Wi-Fi hotspot. Reach will connect to your network and get access to the Internet.
 
-Check the [tutorial](../../../quickstart/connecting-to-the-internet/) for more information about how to connect Reach to other networks.
+Check the [tutorial](../../quickstart/connecting-to-the-internet/) for more information about how to connect Reach to other networks.
 
 ##Configure Reach for RTK mode with NTRIP
 
@@ -60,11 +60,9 @@ Learn more about Reach setup in the [Placement](https://docs.emlid.com/reachrs/p
 
 ##Collect and export data
 
-Check tutorials on how to create new projects, collect and stake out points, import and export projects:
+Check tutorials on how to create new projects, collect points, and export projects:
 
-* [New project](../../reachview/survey/#creating-new-project)
-* [Survey tool overview](../../reachview/survey/#survey-tool-interface)
-* [Point collection](../../reachview/survey/#collecting-the-point)
-* [Stakeout](../../reachview/survey/#point-stakeout)
-* [Project import](../../reachview/survey/#points-import) and [export](../../reachview/survey/#exporting-data)
+* [New project](https://www.youtube.com/watch?v=tfSb_1yrYgY&t=6s)
+* [Point collection](https://www.youtube.com/watch?v=4tm3bJcf_wk&list=UULPIvk_Oj2Cs0m_APA4FUyQ&index=5)
+* [Project export](https://www.youtube.com/watch?v=-X31SxMTd-o&list=UULPIvk_Oj2Cs0m_APA4FUyQ&index=1)
 
