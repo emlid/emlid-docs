@@ -105,7 +105,7 @@ System reports carry important for issue resolving information about Reach setti
 !!! attention ""
 	We do not recommend to post Full report publicly as it contains **sensitive information** such as Wi-Fi and NTRIP credentials and location.
 
-To download the system report you just need to open the *Settings* tab in ReachView 3 and follow these [instructions](../../reachview/settings/#system-report).
+To download the system report you just need to open the *Settings* tab in ReachView 3 and go to *General settings*.
 
 ### Logs
 
