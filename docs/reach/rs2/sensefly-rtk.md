@@ -15,7 +15,7 @@ The video below demonstrates how to place the Reach RS2 base over a known point.
 
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/FilRoPVDjCs" allowfullscreen></iframe></div>
 
-To find out other ways of placing the local base station, [consult this guide](../common/tutorials/placing-the-base/).
+To find out other ways of placing the local base station, consult this [guide](../common/tutorials/placing-the-base/).
 
 The general steps for placing the base receiver are described below.
 
@@ -41,7 +41,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 ###Pairing with PC
 
-* Connect to your Reach RS2 using the ReachView App
+* Connect to your Reach RS2 using the ReachView 3 app
 
 ??? note "Steps for connecting via hotspot"
 
@@ -53,7 +53,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
     **For smartphone:**
 
-    * Choose Reach RS2 from the list of available devices in the ReachView App
+    * Choose Reach RS2 from the list of available devices in the ReachView 3 app
 
     **For PC:**
 
@@ -67,11 +67,11 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
     **For smartphone:**
 
-    * Open ReachView app
+    * Open the ReachView 3 app
 
     * Refresh the list of devices
 
-    * Tap **reach**
+    * Tap *reach*
 
     **For PC:**
 
@@ -91,25 +91,25 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
     * Put Reach IP in the address bar and go
 
-* Configure constellation select in the [RTK Settings tab.](../common/reachview/rtk-settings) For working with eBee drones, enable GPS and GLONASS at 1 Hz
+* Configure constellation choice in the *GNSS settings* tab. For working with eBee drones, enable GPS and GLONASS at 1 Hz
 
-<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/rtk-settings.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/rtk-settings.png" style="height: 550px;"/></p>
 
-* Go to the Logging tab
+* Go to the *Logging* tab
 
 * Enable the raw data log in UBX format
 
-<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/logging-tab.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/logging-tab.png" style="height: 550px;"/></p>
 
-* Go to the Bluetooth tab
+* Go to the *Bluetooth* tab
 
-* Enable Bluetooth and enable *Always discoverable* option
+* Enable Bluetooth and enable the *Always discoverable* option
 
-<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/bluetooth-open.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/bluetooth-open.png" style="height: 550px;"/></p>
 
 * Enable Bluetooth on your PC
 
-* Open Bluetooth settings
+* Open *Bluetooth settings*
 
 * Click on *Add Bluetooth or other device*
 
@@ -135,13 +135,13 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 ###Configuring correction output
 
-* Go to Base mode tab
+* Go to the *Correction output* tab
 
 * Turn on the correction output via Bluetooth
 
-* Choose the base position mode and averaging time. In the example below, it is Average Single. You can find out more about different base position modes in [this guide.](../common/tutorials/placing-the-base/)
+* Choose the base position mode and averaging time. In the example below, it is Average Single. You can find out more about different base position modes in this [guide.](../common/tutorials/placing-the-base/)
 
-<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/correction-output-bt.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/correction-output-bt.png" style="height: 550px;"/></p>
 
 * Choose transmitted RTCM3 messages
 
@@ -159,7 +159,7 @@ For Reach RS2, consider the antenna height as the distance between the mark and 
 
 </center>
 
-<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/base-rtcm3.png" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/base-rtcm3.png" style="height: 550px;"/></p>
 
 ### Checking the connection
 
@@ -175,7 +175,7 @@ You will need to find out what COM port on your PC is used by Reach RS2. For tha
 
 * Open PuTTY
 
-* Go to the Session tab
+* Go to the *Session* tab
 
 * Specify the COM port in the *Serial line*
 
@@ -185,9 +185,9 @@ You will need to find out what COM port on your PC is used by Reach RS2. For tha
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/pc-connection/putty-open.png" style="width: 400px;"/></p>
 
-You can do the same in the Serial tab:
+You can do the same in the *Serial* tab:
 
-* Go to the Serial tab
+* Go to the *Serial* tab
 
 * Specify the COM port in the *Serial line to connect to*
 
@@ -211,7 +211,7 @@ Now we will show you how to establish an RTK link with Reach RS2 base on your eB
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-open.png" style="width: 800px;"/></p>
 
-* Create mission and go to the Mission tab
+* Create mission and go to the *Mission* tab
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-mission.png" style="width: 800px;"/></p>
 
@@ -219,15 +219,15 @@ Now we will show you how to establish an RTK link with Reach RS2 base on your eB
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-connect.png" style="width: 800px;"/></p>
 
-* Activate your RTK/PPK license in the *eBee plus upgrade* tab of the Drone's panel. To activate a license for simulation, tick an *Activate update for simulator* box
+* Activate your RTK/PPK license in the *eBee plus upgrade* tab of the Drone's panel. To activate a license for simulation, tick the *Activate update for simulator* box
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-license.png" style="width: 400px;"/></p>
 
-Now you can see the RTK tab enabled on your Mission panel on your left.
+Now you can see the *RTK* tab enabled on your Mission panel on your left.
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-mission-rtk.png" style="width: 300px;"/></p>
 
-* Go to the RTK tab in the Mission panel
+* Go to the *RTK* tab in the Mission panel
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-setup-rtk.png" style="width: 300px;"/></p>
 
@@ -235,7 +235,7 @@ Now you can see the RTK tab enabled on your Mission panel on your left.
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-local-base.PNG" style="width: 300px;"/></p>
 
-* In the opened window, you can specify either a base station, reference points or a VRS. To configure the base station, press *Add base +* in the Base tab
+* In the opened window, you can specify either a base station, reference points or a VRS. To configure the base station, press *Add base +* in the *Base* tab
 
 * Set Reach RS2 to a Base name
 
@@ -251,7 +251,7 @@ Now you can see the RTK tab enabled on your Mission panel on your left.
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/configure-base.png" style="width: 500px;"/></p>
 
-* Once you configured the connection, you can choose the base station in the RTK tab
+* Once you configured the connection, you can choose the base station in the *RTK* tab
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/connect-to-reach.png" style="width: 300px;"/></p>
 
@@ -260,7 +260,7 @@ Now you can see the RTK tab enabled on your Mission panel on your left.
 * Press *Open base-drone datastream*
 
 !!! note ""
-    If you are testing the setup inside, the GPS and GLONASS fields will show *Not sufficient* message
+    If you are testing the setup inside, the GPS and GLONASS fields will show “Not sufficient” message
 
 * Check the base position the drone receives
 
@@ -268,7 +268,7 @@ Now you can see the RTK tab enabled on your Mission panel on your left.
 
 * Go to the Drone's panel
 
-* In the Instruments tab, you can see that the drone provides centimeter-level accuracy and the mode is *RTK-fixed*
+* In the *Instruments* tab, you can see that the drone provides centimeter-level accuracy and the mode is *RTK-fixed*
 
 <p style="text-align:center"><img src="../img/reachrs2/sensefly-rtk/emotion-connection/emotion-rtk-fixed.png" style="width: 400px;"/></p>
 
