@@ -35,7 +35,7 @@ This tutorial will show how to place GCPs with Reach units.
 
 ### Create a project
 
-Create a project in ReachView Survey tool by [following "Creating New Project" guide.](../../reachview/survey/#creating-new-project)
+Create a project in the ReachView 3 app using the Survey tool.
 
 ### Fix target
 
@@ -47,14 +47,14 @@ Put your pole in the center of the target.
 	Level your pole using a bubble level.
 
 
-### Collect point
+### Collect points
 
-In ReachView Survey tool press the *Collect* button and save your GCP. Repeat the procedure for as many GCPs as you need.
+The video below covers the process of collecting points using the ReachView 3 app.
 
-!!! tip ""
-	[More info about Survey tool functionality you can find here](../../reachview/survey/)
+<div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/4tm3bJcf_wk" allowfullscreen></iframe></div>
 
 ### Export
 
-* Specify the GCPs data format which your GIS or photogrammetry software can handle 
-* [Export your project file in one of the suitable formats](../../reachview/survey/#exporting-data)
+The video below covers the process of exporting data using the ReachView 3 app.
+
+<div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/-X31SxMTd-o" allowfullscreen></iframe></div>
