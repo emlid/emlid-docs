@@ -23,7 +23,7 @@ Emlid Caster is our free-to-use NTRIP caster. It allows transmitting corrections
 
 <p style="text-align:center"><img src="../img/reachrs2/p4p/caster_login.png" style="width: 250px;"/></p>
 
-- Once you log in, you will be issued a personal mount point. The interface will provide you with all the necessary credentials to enter in ReachView for both base and rover.
+- Once you log in, you will be issued a personal mount point. The interface will provide you with all the necessary credentials to enter in ReachView 3 for both base and rover.
 
 !!! note ""
 
@@ -36,22 +36,22 @@ Emlid Caster is our free-to-use NTRIP caster. It allows transmitting corrections
 Reach RS2 acts as a base, sending the corrections via NTRIP service. 
 
 - Place the Reach RS2 onto the tripod and provide it with the clear sky view
-- Provide the receiver with an Internet access according to [this guide](../connecting-to-the-internet/)
-- Navigate to the Base Mode tab and insert the NTRIP credentials for the base station
+- Provide the receiver with an Internet access according to this [guide](../connecting-to-the-internet/)
+- Navigate to the *Correction output* tab and insert the NTRIP credentials for the base station
 
-<p style="text-align:center"><img src="../img/reachrs2/p4p/rv-base-mode.png" style="width: 800px;"/></p>
+<p style="text-align:center"><img src="../img/reachrs2/p4p/rv-base-mode.png" style="height: 550px;"/></p>
 
 ## Configuring DJI Phantom 4 RTK
 
-- Open GS RTK
-- Select Plan or Fly menu. If you choose Plan, select a planning method
-- Open Settings by tapping on 3 dots button at the top right corner
-- Go to RTK Settings tab
-- In RTK Service Type, choose Custom network RTK and fill in NTRIP credentials form
+- Open *GS RTK*
+- Select the *Plan* or *Fly* menu. If you choose *Plan*, select a planning method
+- Open *Settings* by tapping on 3 dots button at the top right corner
+- Go to the *RTK Settings* tab
+- In *RTK Service Type*, choose *Custom network RTK* and fill in NTRIP credentials form
 
 <p style="text-align:center"><img src="../img/reachrs2/p4p/dji-correction-input.png" style="width: 600px;"/></p>
 
-- Tap Connect button. The "Network RTK server connection successful" will appear:
+- Tap the *Connect* button. The "Network RTK server connection successful" will appear:
 
 <p style="text-align:center"><img src="../img/reachrs2/p4p/dji-correction-success.png" style="width: 600px;"/></p>
 
