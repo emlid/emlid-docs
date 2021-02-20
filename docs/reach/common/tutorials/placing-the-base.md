@@ -10,7 +10,7 @@ This tutorial will show you how to set up a Reach RS2 base over a known point.
 <div style="text-align: center;"><iframe title="Emlid manuals" width="560" height="315" src="https://www.youtube.com/embed/FilRoPVDjCs" allowfullscreen></iframe></div>
 
 ## Absolute and relative position
-ReachView has several ways to determine or set the base station position providing various levels of accuracy. Let's take a look at the illustration below (figure 1). RTK algorithm precisely calculates the distance between base and rover. This distance is called the Baseline. The Rover position is  precisely determined relative to the Base position. At the same time, the rover coordinates offset from the real location depends on the position accuracy of the base. If the position that has been set in the base station is different from the actual True position  on earth the offset equal to this difference will be in the rover position as well.  
+ReachView 3 has several ways to determine or set the base station position providing various levels of accuracy. Let's take a look at the illustration below (figure 1). RTK algorithm precisely calculates the distance between base and rover. This distance is called the Baseline. The Rover position is  precisely determined relative to the Base position. At the same time, the rover coordinates offset from the real location depends on the position accuracy of the base. If the position that has been set in the base station is different from the actual True position  on earth the offset equal to this difference will be in the rover position as well.  
 
 <p style="text-align:center"><img src="../img/reach/placing-the-base/position.png" style="width: 800px;"/></p> 
 _Figure 1_  
@@ -50,9 +50,6 @@ _Numbers in the table are approximate and only for reference purposes. Your expe
 <br>
 
 No matter which method you use, the relative position of the rover will always be cm-precise, the actual accuracy will be set by the accuracy of the base position.
-
-!!! tip ""
-    Refer to [Base mode tab of ReachView tutorial](../../reachview/base-mode/#base-position) to learn how to configure various ways of setting up the base with ReachView.
  
 #####Manual
 Manual input of the position is rather straightforward and is used when you have access to a known point. The most popular scenarios include finding a trig point or hiring a surveyor who will set the benchmark point. In this case, absolute accuracy depends on how accurately the point's coordinates were determined.
@@ -75,13 +72,13 @@ _Figure 3_
 <br>
 
 !!! tip "Perfect for repeatable precise relative positioning (GPS tractor guidance, autonomous flights and landing)"
-    If you only need accurate relative positioning the easiest way is to average the position using single solution. Just physically mark the point on the ground and save coordinates to manual in ReachView. Day-to-day result would look almost identical to those obtained using NTRIP corrections.
+    If you only need accurate relative positioning the easiest way is to average the position using single solution. Just physically mark the point on the ground and save coordinates to manual in ReachView 3. Day-to-day result would look almost identical to those obtained using NTRIP corrections.
  
 #### Averaged float and fix
 
 Averaging RTK fix solution is much more accurate than single averaging and is made possible when the receiver used as the base is configured to obtain NTRIP corrections over the Internet. This might be useful if the reference station is located far away. Reducing the baseline by installing the local base improves the positioning performance of rover.  
 
-<p style="text-align:center"><img src="../img/reach/placing-the-base/averaged-float.gif" style="width: 600px;"/></p>
+<p style="text-align:center"><img src="../img/reach/placing-the-base/averaged-float.gif" style="height: 550px;"/></p>
  
 On the left of the next illustration (see figure 4) the rover passes the marked rectangular contour several times. This rover receives the corrections from the base configured using averaged fix position.
 
@@ -98,12 +95,12 @@ If the baseline is too long to obtain fix, averaging float solution will still i
  
  
 #### Post-Processed Kinematics
-With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. The process will take you about 15 minutes to calculate the position of your base station using [PPK tutorial from the docs.](../../tutorials/gps-post-processing)
+With post processed kinematics technique you may determine base coordinates without real-time corrections with centimeter accuracy. You will need RINEX logs from the reference station in the area of 100km and the raw data log from the receiver. The process will take you about 15 minutes to calculate the position of your base station using [PPK tutorial](../../tutorials/gps-post-processing) from the docs.
 
 General steps: 
 
-* Enable [logging of raw data](../../reachview/logging/) and record log for about an hour
-* Export log with the collected data from ReachView to your PC
+* Enable logging of raw data and record log for about an hour
+* Export log with the collected data from ReachView 3 to your PC
 * Refer to [PPK tutorial](../../tutorials/gps-post-processing)
 * After you get the coordinates you may enter them manually in Base coordinates section. **Comparing PPK position to the averaged position and applying corrections to the collected data is the way to compensate the shift shown in the example on figure 2**.
 
@@ -114,8 +111,8 @@ With precise point positioning technique, you may accurately determine base coor
 
 General steps:
 
-* Enable [logging of raw data](../../reachview/logging/) and record log for a few hours 
-* Export log with the collected data from ReachView to your mobile device or PC
+* Enable logging of raw data and record log for a few hours 
+* Export log with the collected data from ReachView 3 to your mobile device or PC
 * Upload the collected file to PPP service (for example [NRCAN](https://webapp.geod.nrcan.gc.ca/geod/tools-outils/ppp.php))
 * After you get the coordinates you may enter them manually in Base coordinates section.
 
@@ -162,8 +159,8 @@ _Figure 6_
 If you want to reuse the determined base location:
 
 * Carefully mark physical position on the ground
-* Save coordinates to manual using the button in Base Coordinates section of Base mode tab
+* Save coordinates to manual using the button in the *Base Coordinates* section of the *Base mode* tab
 * When using this position next time, accurately place the base station over the mark
-* Enter the recorded coordinates manually in ReachView
+* Enter the recorded coordinates manually in ReachView 3
  
 
