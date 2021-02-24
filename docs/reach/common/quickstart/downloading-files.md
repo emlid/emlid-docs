@@ -80,7 +80,7 @@ Press Reach power button and wait until it boots.
 	2. Scan for available Reach devices
 	3. Choose Reach from the list
 	
-	<div style="text-align: center;"><img src="../img/quickstart/downloading-files/reach-list.png" style="height: 550px;"></div>
+	<div style="text-align: center;"><img src="../img/quickstart/downloading-files/Reach-list.PNG" style="height: 550px;"></div>
 
 
 ??? note "Connecting via web-browser (any device)"
@@ -95,7 +95,7 @@ Press Reach power button and wait until it boots.
 
 ### System Reports
 
-<div style="text-align: center;"><img src="../img/quickstart/downloading-files/system-report.png" style="height: 550px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/downloading-files/system-report.PNG" style="height: 550px;"></div>
 
 System reports carry important for issue resolving information about Reach settings and state. There are two types of system reports:
 
@@ -109,13 +109,13 @@ To download the system report you just need to open the *Settings* tab in ReachV
 
 ### Logs
 
-<div style="text-align: center;"><img src="../img/quickstart/downloading-files/logging.png" style="height: 550px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/downloading-files/logging.PNG" style="height: 550px;"></div>
 
 You can download logs as well as start or stop logs recording in the *Logging* tab in ReachView 3.
 
 ### Survey projects
 
-<div style="text-align: center;"><img src="../img/quickstart/downloading-files/survey.png" style="height: 550px;"></div>
+<div style="text-align: center;"><img src="../img/quickstart/downloading-files/survey.PNG" style="height: 550px;"></div>
 
 Survey projects contain points you saved during the RTK survey. You can find them in the *Survey* tab in ReachView 3.
 
