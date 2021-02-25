@@ -70,16 +70,20 @@ Now we will set up LoRa radio on Reach {{model}} base to broadcast RTK correctio
 !!! danger ""
     Make sure to select appropriate output power and frequency according to your local regulations. In case there are restrictions, frequency band limitations will be applied automatically. 
 
-* Go to the *Base mode* tab    
-
 {%if model == "RS2"%}
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-base-lora.png" style="height: 550px;"></div>
+
+* Go to the *Base mode* tab    
 
 * In the list of RTCM3 messages select to output *ARP station coordinates* at **0.1 Hz** and others at **1 Hz**
 
 <div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs2-base-rtcm3.png" style="height: 550px;"></div>
 
 {%else%}
+
+<div style="text-align: center;"><img src="../img/quickstart/base-rover-setup/{{model_path}}/reachrs-base-lora.png" style="height: 550px;"></div>
+
+* Go to the *Base mode* tab 
 
 * In the list of RTCM3 messages, select to output GPS L1 observations at 1 Hz, GLONASS L1 observations at 0.5 Hz, Galileo MSM7 observations at 0.5 Hz, SBAS MSM7 observations at 0,5 Hz, QZSS MSM7 observations at 0.5 Hz, Beidou MSM7 observations at 0.5 Hz, and ARP station coordinates at 0.1 Hz
 
