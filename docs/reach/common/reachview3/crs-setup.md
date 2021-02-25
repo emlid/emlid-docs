@@ -16,7 +16,7 @@ Go to the *Survey* tab of ReachView 3 app. To create a new project, press on the
 Find your country or region in the list and follow the steps to specify an appropriate coordinate system and a vertical datum.
 
 !!! note ""
-    Coordinate system support for Czech Republic, Greece, Hungary, Bolivia, Bulgaria, and Italy is coming soon. If you can't find your country or region in the list below, fill in [this form](https://emlid.typeform.com/to/efWVaB3h).
+    Coordinate system support for Czech Republic, Greece, Bolivia, Bulgaria, and Italy is coming soon. If you can't find your country or region in the list below, fill in [this form](https://emlid.typeform.com/to/efWVaB3h).
 
 * [Argentina](../countries/argentina)
 * [Australia](../countries/australia)
@@ -31,6 +31,7 @@ Find your country or region in the list and follow the steps to specify an appro
 * [Finland](../countries/finland)
 * [France](../countries/france)
 * [Germany](../countries/germany)
+* [Hungary](../countries/hungary)
 * [Iceland](../countries/iceland)
 * [Latvia](../countries/latvia)
 * [Lithuania](../countries/lithuania)
