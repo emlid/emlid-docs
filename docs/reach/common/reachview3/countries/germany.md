@@ -8,8 +8,9 @@ Choose a coordinate system based on the `ETRS89` datum (such as `ETRS89 / UTM z
 
 ### Vertical Datum
 
-!!! note ""
-	At the moment, ReachView 3 doesn't support vertical datums for this country.
+Choose the `DHHN2016 height` vertical datum.
+
+The `GCG2016` geoid is used to perform the transformation.
 
 ## Base Setup
 
