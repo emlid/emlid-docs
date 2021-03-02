@@ -27,7 +27,7 @@ After successful Bluetooth pairing you should configure BT position output and c
 
 ### Correction input
 
-* If you want to send the corrections from your controller via Bluetooth, go to the *Correction input* tab and select the *Bluetooth* tab. Set RTCM3 format and apply settings
+* If you want to send the corrections from your controller via Bluetooth, go to the *Correction input* tab and select the *Bluetooth* tab
 <p style="text-align:center"><img src="../img/reach/fieldgenius/correction-input.png" style="height: 550px;"/></p> 
 
 ## Configuring FieldGenius
