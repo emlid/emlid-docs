@@ -1,5 +1,8 @@
 # Hungary
 
+!!! note "Important"
+	Transformations are performed using open source grids from a BME (Budapest Technical University) project. These grids are not official VITEL grids and are not suitable for official land surveying work.
+
 ## Rover Setup
 
 ### Coordinate System
@@ -8,15 +11,9 @@ Choose a coordinate system based on the `HD72` datum (such as `HD72 / EOV`).
 
 ### Vertical Datum
 
-Choose one of the available vertical datums:
+Choose the `Hungary EHT2014 height` vertical datum.
 
-* `Hungary EHT2014 height`
-* `Hungary VITEL2014 height`
-
-The following geoids are used to perform the transformation:
-
-* `EHT2014`
-* `VITEL2014`
+The `EHT2014` geoid is used to perform the transformation.
 
 ## Base Setup
 
