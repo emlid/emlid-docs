@@ -164,6 +164,9 @@ This will enable to use Reach {{ model }} as external GPS.
 
 ArduPilot configuration will require setting some parameters via Mission Planner. After connecting, go to **CONFIG/TUNING** menu, then click **Full parameters list** on the left. To find the desired parameter more quickly, use a search box on the right (highlighted in red).
 
+!!! note ""
+    If you are working with Pixhawk, reboot it each time you set a parameter for a change to take effect. Unplug it and plug in back to the USB port again.
+
 <div style="text-align: center;"><img src="../img/{{ model_path }}/ardupilot-integration/mp-full-parameter-list.png" style="width: 800px;"></div>
 
 Start with settings **GPS_TYPE2** parameter to **"5"** - NMEA. This will enable the second GPS input.
@@ -172,7 +175,7 @@ Start with settings **GPS_TYPE2** parameter to **"5"** - NMEA. This will enable 
 
 Next, set **SERIAL4_BAUD** parameter to the same baud rate as chosen in ReachView solution output. Note the options corresponding to the different baud rates.
 
-Then set **SERIAL4_PROTOCOL** parameter to **"20"** - NMEA Output. This will enable Serial4 port to be used as NMEA output.
+Then set **SERIAL4_PROTOCOL** parameter to **"5"** (GPS). 
 
 <div style="text-align: center;"><img src="../img/{{ model_path }}/ardupilot-integration/mp-serial4-protocol-and-baud-parameter.png" style="width: 800px;"></div>
 
