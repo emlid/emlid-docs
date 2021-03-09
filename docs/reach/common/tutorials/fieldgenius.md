@@ -1,6 +1,8 @@
 
-In this tutorial you'll find the information on how to setup data collector running FieldGenius with Reach via Bluetooth. Step-by-step guide can be also found on [MicroSurvey knowledgebase](http://helpdesk.microsurvey.com/index.php?/Knowledgebase/Article/View/1436).
+In this tutorial, you will find the information on how to set up the data collector running FieldGenius with Reach via Bluetooth. Step-by-step guide can be also found on [MicroSurvey knowledgebase](http://helpdesk.microsurvey.com/index.php?/Knowledgebase/Article/View/1436).
 
+!!! note ""
+    If you use FieldGenius for Android, please refer to the [Bluetooth output and Android mock location](https://docs.emlid.com/reachrs/common/tutorials/mock-location/) guide.
 
 ## Configuring Bluetooth connection
 
