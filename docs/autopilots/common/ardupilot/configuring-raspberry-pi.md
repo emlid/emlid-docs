@@ -2,7 +2,7 @@
 
 Navio requires a preconfigured Raspbian to run. We provide a unified SD card image for Raspberry Pi 2, 3 and 4. The OS is headless, i.e. it comes without GUI as it is not required for drone applications.
 
-[Download SD card image with the latest Raspbian release (Buster)](http://files.emlid.com/images/emlid-raspbian-20200922.img.xz), [(md5)](https://files.emlid.com/images/MD5SUMS)
+[Download SD card image with the latest Raspbian release (Buster)](https://files.emlid.com/images/emlid-raspbian-20200922.img.xz), [(md5)](https://files.emlid.com/images/MD5SUMS)
 
 ## Writing image to SD card
 
