@@ -8,8 +8,15 @@ Choose a coordinate system based on `CH1903` (such as `CH1903 / LV03`) or `CH190
 
 ### Vertical Datum
 
-!!! note ""
-	At the moment, ReachView 3 doesn't support vertical datums for this country.
+Choose one of the available vertical datums:
+
+* `LHN95 height`
+* `LN02 height`
+
+The following geoids are used to perform the transformation:
+
+* `CHGEO04_ETRF`
+* `CHGEO04_HT_ETRF`
 
 ## Base Setup
 
