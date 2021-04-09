@@ -52,21 +52,22 @@ You can use Bluetooth for correction output. Note that you can’t set both posi
 
 ## RTCM3 messages
 
-The minimal subset that is required for RTK to function is 1074 message for 1Hz with GPS observations and 1006 message for 0.1Hz with base station antenna position. Enabling more messages or higher rates requires higher connection bandwidth.
+The minimal subset that is required for RTK to function is 1002 message for 1Hz with GPS observations and 1006 message for 0.1Hz with base station antenna position. Enabling more messages or higher rates requires higher connection bandwidth.
 
-<center>
-
-| RTCM3 messages                       | Message type           |
-|:------------------------------------:|:----------------------:|
-| **Minimal required messages**                                ||
-| 1006                                 | ARP station coordinate |
-| 1074                                 | GPS MSM4               |
-| **Optional messages for other GNSS**                         ||
-| 1084                                 | GLONASS MSM4           |
-| 1094                                 | Galileo MSM4           |
-| 1124                                 | BeiDou MSM4            |
-
-</center>
+| RTCM3 messages                       | Message type                         |
+|:------------------------------------:|:------------------------------------:|
+| **Minimal required messages**                                              ||
+| 1006                                 | ARP station coordinate               |
+| 1074                                 | GPS MSM4                             |
+| **Optional messages for other GNSS**                                       ||
+| 1084                                 | GLONASS MSM4                         |
+| 1094                                 | Galileo MSM4                         |
+| 1124                                 | BeiDou MSM4                          |
+| **Messages for legacy third-party rovers**                              ||
+| 1004                                 | GPS                                  |
+| 1008                                 | Antenna descriptor and Serial Number |
+| 1012                                 | GLONASS                              |
+| 1033                                 | Receiver and antenna descriptors     |
 
 Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#myfootnote1)</sup>:
 
@@ -74,8 +75,39 @@ Here is some information about each message from RTCM STANDARD 10403.3<sup>[1](#
 
 - **Messages 1074 (GPS), 1084(GLONASS), 1094 (Galileo), 1124 (BeiDou)** are MSM4 (Multiple Signal Messages). MSM4 messages provide the same information for each GNSS system: pseudorange, phase-range, SNR. That means that you should turn on only one message of the choosen system to get all data about it. It is recommended to keep enabled at least GPS 1074 message.
 
-## Base position
+- **Messages** **1004 (GPS)** and **1012 (GLONASS)** provide the same information for both GNSS systems: pseudorange, phase-range, SNR for L1 and L2 signals.
 
+- **Messages 1008** and **1033** provide antenna data.
+
+### Messages for Reach rovers
+
+When using another Reach as a rover, pick the following messages:
+
+* 1006 ARP Station Coordinates, 0.1 Hz
+* 1074 GPS MSM4, 1 Hz
+* 1084 GLONASS MSM4, 1 Hz
+* 1094 Galileo MSM4, 1 Hz
+* 1124 BeiDou MSM4, 1 Hz
+
+!!! note
+    Minimal required messages are 1006 and 1074.
+
+### Messages for legacy third-party rovers
+
+When using Reach RS2 as a base for legacy third-party receivers, pick the following messages:
+
+* 1006 ARP Station Coordinates, 0.1 Hz
+* 1008 Antenna descriptor and Serial Number, 0.1 Hz
+* 1004 GPS, 1 Hz
+* 1012 GLONASS, 1 Hz
+
+!!! note
+    Minimal required messages are 1006, 1008, and 1004.
+
+!!! danger
+    Always set the base update rate in the *RTK* settings at 1 Hz before turning any of the messages on.
+
+## Base position
 
 !!! tip ""
     [Check the Placing the base guide](https://docs.emlid.com/reachrs2/common/tutorials/placing-the-base/) to learn about different ways to set up your base.  
