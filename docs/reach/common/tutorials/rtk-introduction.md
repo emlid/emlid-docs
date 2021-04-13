@@ -38,7 +38,7 @@ For example, it helps to increase the maximum distance between base and rover, w
 
 </center>
 
-Multi-band receiver is also way more robust when it comes to sky view. It can maintain centimeter precision even if you survey in challenging conditions: forest, city, mining sights, quarries, etc.
+Multi-band receiver is also way more robust when it comes to sky view. It can maintain centimeter precision even if you survey in challenging conditions: forest, city, mining sites, quarries, etc.
 
 <br>
 
