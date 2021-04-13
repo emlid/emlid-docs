@@ -36,6 +36,5 @@ As a result of UAV PPK mapping with Reach, you'll have a set of images and a tex
 
 Further reading:
 
-* [Camera control](../../reachview/camera-control)
 * [Logging](../../reachview/logging)
 * [Post-Processing Guide](gps-post-processing.md)

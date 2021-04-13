@@ -51,7 +51,7 @@ Typical scenario for using TCP correction input is when both base and rover are 
 TCP supports two roles:
 
 #### Server  
-You need to specify port and after that clients will be able to connect to this device on it’s IP address. Many clients can be connected to the same server.
+You need to specify port and after that clients will be able to connect to this device on its IP address. Many clients can be connected to the same server.
 
 #### Client
 You need to specify IP address of the server and port number.
