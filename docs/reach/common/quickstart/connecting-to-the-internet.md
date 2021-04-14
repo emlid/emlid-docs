@@ -112,6 +112,9 @@ Connect Reach to the Internet to update ReachView 3 to the latest version or to 
 
 ## Connecting to iOS hotspot
 
+!!! note
+	Starting with the iPhone 12 series, enable the *Maximize compatibility* option on its *Personal hotspot page*. This will switch its hotspot to 2.4 GHz and ensure connection to Reach.
+
 The video below explains how you can connect Reach to hotspot of the iOS device.
 
 <center>
