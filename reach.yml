@@ -49,7 +49,7 @@ nav:
 - Power supply: power-supply.md
 - Antenna placement: antenna-placement.md
 - Hardware integration: hardware-integration.md
-- ReachView 2:
+- Reach Panel:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
   - Status: common/reachview/status.md

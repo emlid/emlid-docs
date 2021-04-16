@@ -17,7 +17,7 @@ When connected over USB to a PC Reach will show up as several devices, one of th
 Use a micro-USB OTG cable to connect USB accessories. In this mode only USB devices that emulate a serial port could be used. Example of popular chips that are supported: FT232, CP2102. There are numerous devices built on these chips that will provide you a TTL UART or RS232 port. 
 
 ### NTRIP
-NTRIP is industry standard way of transferring GNSS corrections over Internet, with ReachView you can use any public service or your own private caster. NTRIP does not support point-to-point communication e.g. you can not use it to transfer corrections from one Reach to another directly. In NTRIP terminology there are servers, clients and caster. Server sends correction to a caster and clients can receive them by connecting to that caster.
+NTRIP is industry standard way of transferring GNSS corrections over Internet, with Reach Panel you can use any public service or your own private caster. NTRIP does not support point-to-point communication e.g. you can not use it to transfer corrections from one Reach to another directly. In NTRIP terminology there are servers, clients and caster. Server sends correction to a caster and clients can receive them by connecting to that caster.
 
 In order to send correction to NTRIP caster you need to know: 
 
@@ -41,12 +41,12 @@ You need to specify port and after that clients will be able to connect to this 
 #### Client
 You need to specify IP address of the server and port number.
 
-If ReachView does not allow to set a certain port number it means that it is reserved for internal use.
+If Reach Panel does not allow to set a certain port number it means that it is reserved for internal use.
 
 ### LoRa Radio
 **Reach RS/RS+** has internal LoRa radio which is used for receiving or sending corrections. For **Reach M+** external LoRa radio is available, it can be connected via USB or S1/S2 port. The radio works only in one way, it could either be configured to send corrections (on base) or to receive them (on rover). Using LoRa modulation it is possible to hit up to 19km (11.8 miles) in line of sight or a few km in urban areas with just 20 dBm power output. As long as frequency and air rate settings match an unlimited number of rovers can listen for correction from the same base.
 
-The lower the air rate, the longer the working distance will be. Depending on your RTCM3 messages selection ReachView will automatically block insufficient air rates. Disable correction messages or reduce rate in order to unlock lower air rates. Air rate on transmitting Reach and on receiving must match.
+The lower the air rate, the longer the working distance will be. Depending on your RTCM3 messages selection Reach Panel will automatically block insufficient air rates. Disable correction messages or reduce rate in order to unlock lower air rates. Air rate on transmitting Reach and on receiving must match.
 
 Make sure to select appropriate output power and frequency according to your local regulations.
 
@@ -103,7 +103,7 @@ You can change position format in the top right corner of Base coordinates frame
 ### Average 
 By default Reach will average base position every time it starts. This feature significantly simplifies initial setup in a new location, however it will not provide an accurate absolute coordinate.
 
-ReachView has a unique feature that allows it to determine base station position while working as a rover from another base. This is done by obtaining RTK Fixed solution, averaging it over a period of time and this way obtaining an accurate position for the base. A typical scenario would involve setting up a local base station by determining its coordinate from NTRIP and then broadcasting correction locally, thus reducing the baseline for rovers and improving positioning performance.
+Reach Panel has a unique feature that allows it to determine base station position while working as a rover from another base. This is done by obtaining RTK Fixed solution, averaging it over a period of time and this way obtaining an accurate position for the base. A typical scenario would involve setting up a local base station by determining its coordinate from NTRIP and then broadcasting correction locally, thus reducing the baseline for rovers and improving positioning performance.
 
 If the reference station is too far away it is possible to average float and still improve the accuracy of the position.
 

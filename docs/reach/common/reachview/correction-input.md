@@ -21,7 +21,7 @@ Use a micro-USB OTG cable to connect USB accessories. In this mode only USB devi
 
 <p style="text-align:center" ><img src="../img/reachview/correction_input/ntrip.png" style="width: 800px;" /></p>
 
-NTRIP is industry standard way of transferring GNSS corrections over Internet, with ReachView you can use any public service or your own private caster. NTRIP does not support point-to-point communication e.g. you can not use it to transfer corrections from one Reach to another directly. In NTRIP terminology there are servers, clients and caster. Server sends correction to a caster and clients can receive them by connecting to that caster.
+NTRIP is industry standard way of transferring GNSS corrections over Internet, with Reach Panel you can use any public service or your own private caster. NTRIP does not support point-to-point communication e.g. you can not use it to transfer corrections from one Reach to another directly. In NTRIP terminology there are servers, clients and caster. Server sends correction to a caster and clients can receive them by connecting to that caster.
 
 In order to receive correction from NTRIP caster you need to know:
 
@@ -56,7 +56,7 @@ You need to specify port and after that clients will be able to connect to this 
 #### Client
 You need to specify IP address of the server and port number.
 
-If ReachView does not allow to set a certain port number it means that it is reserved for internal use.
+If Reach Panel does not allow to set a certain port number it means that it is reserved for internal use.
 
 ### LoRa Radio
 

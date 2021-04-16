@@ -1,4 +1,4 @@
-## ReachView changelog
+## Reach Panel changelog
 
 ### v2.24.0
 ([release](https://community.emlid.com/t/reachview-v2-24-0-with-reachview-3-beta-support-is-out/22050))
