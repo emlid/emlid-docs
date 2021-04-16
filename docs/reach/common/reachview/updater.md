@@ -1,21 +1,21 @@
-ReachView app constantly improves ([changelogs](../../reachview/changelogs)). That's why it is recommended to always keep ReachView up to date.  
+Reach Panel app constantly improves ([changelogs](../../reachview/changelogs)). That's why it is recommended to always keep Reach Panel up to date.  
 
-## Updating ReachView
+## Updating Reach Panel
 
 * [Connect your Reach device to the network with the Internet access](../../tutorials/connecting-to-the-internet/)
 
-* When connected to the Internet ReachView will automatically check if a new version is available and show you a notification
+* When connected to the Internet Reach Panel will automatically check if a new version is available and show you a notification
 
-* Go to *Settings* to check the current version of ReachView and see update options
+* Go to *Settings* to check the current version of Reach Panel and see update options
 
 !!! tip ""
-	You can subscribe dev channel by clicking on **Enable dev updates**.
+	You can subscribe Beta channel by clicking on **Enable Beta updates**.
 
-* Click *Update ReachView* to go to Update Center
+* Click *Update Reach Panel* to go to Update Center
 
 <p style="text-align:center" ><img src="../img/reachview/updater/notification.PNG" style="width: 370px;" /></p>
 
-* Hit *Update ReachView* to update the firmware
+* Hit *Update Reach Panel* to update the firmware
 
 <p style="text-align:center" ><img src="../img/reachview/updater/update.png" style="width: 370px;" /></p>
 

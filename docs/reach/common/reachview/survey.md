@@ -1,11 +1,11 @@
-You can collect points with the ReachView app using Point Collection tool. The feature allows to make project-based point collection with auto-save rules or manually and then export the data into different formats. 
+You can collect points with the Reach Panel app using Point Collection tool. The feature allows to make project-based point collection with auto-save rules or manually and then export the data into different formats. 
 
 !!! tip ""
     The tool is perfect for surveying and ground control points collection. 
 
 ###Creating New Project
 
-* Go to Reach rover with a browser or ReachView mobile app
+* Go to Reach rover with a browser or Reach Panel mobile app
 * Choose the Survey tab in the menu
 * To create a new project press *New project* or click on the project name to open it
 
@@ -117,7 +117,7 @@ When you finish collecting points, you can export your project in CSV, DXF, GeoJ
 To do it, press •••, click *Export* and choose the right format. The downloading will start automatically. Large projects might take some time to process. After that, you can find your archive in the default Downloads folder.
 
 !!! note ""
-	If you use ReachView app on Android, exporting will be made in a Downloads folder. As for iOS, you will need to choose the way you want to save your project.
+	If you use Reach Panel app on Android, exporting will be made in a Downloads folder. As for iOS, you will need to choose the way you want to save your project.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/export-button.gif" style="width: 800px;" /></p>
 
@@ -129,7 +129,7 @@ Point stakeout is a feature that allows finding points with known coordinates.
 
 ### Preparing data
 
-Open the Survey tab in ReachView.
+Open the Survey tab in Reach Panel.
 
 <p style="text-align:center" ><img src="../img/reachview/survey/survey.png" style="width: 800px;" /></p>
 

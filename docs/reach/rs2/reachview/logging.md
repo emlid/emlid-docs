@@ -7,11 +7,11 @@ This tutorial shows how to record logs for Data Analysis and Post-Processing Kin
 
 ##Log split period
 
-Before starting log recording, you can specify the log split period in ReachView [settings](settings.md). For instance, if we set to save the log every 4 hours, the new log file will be created every 4 hours, while preserving the previous log as well. This setting allows you to control the size of the files that you work with.
+Before starting log recording, you can specify the log split period in Reach Panel [settings](settings.md). For instance, if we set to save the log every 4 hours, the new log file will be created every 4 hours, while preserving the previous log as well. This setting allows you to control the size of the files that you work with.
 
 ##Logging
 
-To enable logs recording, go to "Logging" tab in ReachView. Here you can see several logging options. Reach can record raw data, position log, and base corrections.
+To enable logs recording, go to "Logging" tab in Reach Panel. Here you can see several logging options. Reach can record raw data, position log, and base corrections.
 
 <p style="text-align:center" ><img src="../img/reachview/logging/enable-logging.png" style="width: 800px;" /></p>
 
@@ -62,9 +62,9 @@ The last logging option is base corrections. This log format is defined by corre
 
 ##Downloading
 
-After completing the survey, you can save logs to your Mac, Windows, Linux or mobile device. You can do it in the same "Logging" tab in ReachView.
+After completing the survey, you can save logs to your Mac, Windows, Linux or mobile device. You can do it in the same "Logging" tab in Reach Panel.
 
-Turn off toggles <img src="../img/reachview/logging/toggle.svg" align="middle" /> to stop record the logs. Find your logs below in the "Logging" tab in ReachView.
+Turn off toggles <img src="../img/reachview/logging/toggle.svg" align="middle" /> to stop record the logs. Find your logs below in the "Logging" tab in Reach Panel.
 
 <p style="text-align:center" ><img src="../img/reachview/logging/download-logs.gif" style="width: 800px;" /></p>
 

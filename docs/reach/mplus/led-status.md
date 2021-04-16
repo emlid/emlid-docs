@@ -30,7 +30,7 @@ Reach M+ has three LEDs which are used as status indicators for three different 
 </div>
 <div class="reciever-container">
     <div class="reciever-description"><h4>Stat</h4>
-    <p>Stat LED is used to display ReachView status.</p>
+    <p>Stat LED is used to display Reach Panel status.</p>
     </div>
     <div class="reciever-status">
         <div class="status-wrapper"><img src="../img/reachm-plus/led-status/time sync.gif"><div class="wrapper-text">

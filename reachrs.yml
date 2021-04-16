@@ -49,7 +49,7 @@ nav:
 - Introduction: index.md
 - Power supply: power-supply.md
 - Placement: placement.md
-- ReachView 2:
+- Reach Panel:
   - Introduction: common/reachview/index.md
   - Settings: common/reachview/settings.md
   - Status: common/reachview/status.md

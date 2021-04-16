@@ -15,4 +15,4 @@ To connect Reach Module to a camera with hot shoe adapter (HSA) use 5-pin JST-GH
 <p style="text-align:center" ><img src="../img/reach/camera-control/emlid-hotshoe.jpg" style="width: 500px;" /></p>
 
 !!! danger "Attention"
-    Check the [RTK Settings](../../reachview/rtk-settings/#gnss-selection-for-time-marks-logging) section of ReachView docs for the recommended GNSS selection when recording time marks with Reach.
+    Check the [RTK Settings](../../reachview/rtk-settings/#gnss-selection-for-time-marks-logging) section of Reach Panel docs for the recommended GNSS selection when recording time marks with Reach.
