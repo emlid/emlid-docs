@@ -1,4 +1,4 @@
-<p style="text-align:center" ><img src="../img/reachview/settings/settings.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/settings/settings.png" style="width: 800px;" /></p>
 
 ## Reach Panel updates
 
@@ -29,7 +29,7 @@ The tool is used to facilitate issues reports. There are two kinds of system rep
 The former is for the forum and makes it easy to share settings, network state, and app version. The latter is for harder cases and contains system logs and technical details of your device.
 
 !!! note "Getting system report"
-	<p style="text-align:center"><img src="../img/reachview/settings/system-report.gif" style="width: 800px;" /></p>
+	<p style="text-align:center"><img src="../img/reach-panel/settings/system-report.gif" style="width: 800px;" /></p>
 
 
 

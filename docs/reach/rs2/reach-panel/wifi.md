@@ -1,4 +1,4 @@
-<p style="text-align:center" ><img src="../img/reachview/wifi/wifi.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/wifi/wifi.png" style="width: 800px;" /></p>
 
 To connect Reach to new Wi-Fi network, find it in the list of **Available Networks**, click on the name and fill in the password. If this network is not visible, you can add it by tapping on the *Connect to a hidden network* button.
 

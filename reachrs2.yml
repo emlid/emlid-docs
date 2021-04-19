@@ -50,21 +50,21 @@ nav:
 - Power supply: power-supply.md
 - Placement: placement.md
 - Reach Panel:
-  - Introduction: common/reachview/index.md
-  - Settings: common/reachview/settings.md
-  - Status: common/reachview/status.md
-  - Survey: common/reachview/survey.md
-  - RTK settings: common/reachview/rtk-settings.md
-  - Correction input: common/reachview/correction-input.md
-  - Position output: common/reachview/position-output.md
-  - Base mode: reachview/base-mode.md
-  - Logging: reachview/logging.md
-  - Mobile data: reachview/mobile-data.md
-  - Wi-Fi: reachview/wifi.md
-  - Bluetooth: common/reachview/bluetooth.md
-  - Firmware reflashing: common/reachview/firmware-reflashing.md
-  - Updater: common/reachview/updater.md
-  - Changelogs: common/reachview/changelogs.md
+  - Introduction: common/reach-panel/index.md
+  - Settings: common/reach-panel/settings.md
+  - Status: common/reach-panel/status.md
+  - Survey: common/reach-panel/survey.md
+  - RTK settings: common/reach-panel/rtk-settings.md
+  - Correction input: common/reach-panel/correction-input.md
+  - Position output: common/reach-panel/position-output.md
+  - Base mode: reach-panel/base-mode.md
+  - Logging: reach-panel/logging.md
+  - Mobile data: reach-panel/mobile-data.md
+  - Wi-Fi: reach-panel/wifi.md
+  - Bluetooth: common/reach-panel/bluetooth.md
+  - Firmware reflashing: common/reach-panel/firmware-reflashing.md
+  - Updater: common/reach-panel/updater.md
+  - Changelogs: common/reach-panel/changelogs.md
 - ReachView 3:
   - Working with Coordinate Systems: common/reachview3/crs-setup.md
 - LED status: led-status.md
@@ -112,12 +112,12 @@ kit:
 templates:
     index.md: 'index.mdx'
     power-supply.md: 'power-supply-rs.mdx'
-    common/reachview/index.md: 'reachview/rv-index.mdx'
-    common/reachview/status.md: 'reachview/status.mdx'
-    common/reachview/settings.md: 'reachview/settings.mdx'
-    common/reachview/rtk-settings.md: 'reachview/rtk-settings.mdx'
-    common/reachview/firmware-reflashing.md: 'reachview/firmware-reflashing.mdx'
-    common/reachview/position-output.md: 'reachview/position-output.mdx'
+    common/reach-panel/index.md: 'reach-panel/rv-index.mdx'
+    common/reach-panel/status.md: 'reach-panel/status.mdx'
+    common/reach-panel/settings.md: 'reach-panel/settings.mdx'
+    common/reach-panel/rtk-settings.md: 'reach-panel/rtk-settings.mdx'
+    common/reach-panel/firmware-reflashing.md: 'reach-panel/firmware-reflashing.mdx'
+    common/reach-panel/position-output.md: 'reach-panel/position-output.mdx'
     common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-rs.mdx'
     common/quickstart/base-rover-setup.md: 'quickstart/base-rover-setup/base-rover-setup-rs.mdx'
     common/tutorials/gps-post-processing.md: 'tutorials/gps-post-processing.mdx'

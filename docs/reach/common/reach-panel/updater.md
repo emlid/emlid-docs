@@ -13,16 +13,16 @@ Reach Panel app constantly improves ([changelogs](../../reachview/changelogs)). 
 
 * Click *Update Reach Panel* to go to Update Center
 
-<p style="text-align:center" ><img src="../img/reachview/updater/notification.PNG" style="width: 370px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/updater/notification.PNG" style="width: 370px;" /></p>
 
 * Hit *Update Reach Panel* to update the firmware
 
-<p style="text-align:center" ><img src="../img/reachview/updater/update.png" style="width: 370px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/updater/update.png" style="width: 370px;" /></p>
 
 * After the installation is complete click *Reboot and go to the app!*
 
-<p style="text-align:center" ><img src="../img/reachview/updater/reboot.png" style="width: 370px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/updater/reboot.png" style="width: 370px;" /></p>
 
 * Go to settings and make sure you are up to date! 
 
-<p style="text-align:center" ><img src="../img/reachview/updater/uptodate.png" style="width: 370px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/updater/uptodate.png" style="width: 370px;" /></p>

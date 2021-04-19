@@ -1,4 +1,4 @@
-<p style="text-align:center" ><img src="../img/reachview/mobile-data/mobile-data.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/mobile-data/mobile-data.png" style="width: 800px;" /></p>
 
 Enable Mobile data on Reach to [get corrections from NTRIP over the Internet](https://docs.emlid.com/reachrs2/ntrip-workflow/) if a SIM card is inserted.
 

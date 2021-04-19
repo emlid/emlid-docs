@@ -71,7 +71,7 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 
 * Open Reach Firmware Flash Tool and choose Reach RS/RS+
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/common/app-step1-device-select.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/common/app-step1-device-select.png" style="width: 300px;" /></p>
 
 
 
@@ -92,18 +92,18 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 	* Release the power button
 
 	* All LEDs should blink several times simultaneously, and then start blinking one after another 
-	<br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/connect_fel.webp" style="width: 400px;" /></p>
+	<br> <p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/reachrs/connect_fel.webp" style="width: 400px;" /></p>
 
 ??? note "Connect Reach RS"
 
 	* Connect Reach RS
 
 	* Follow the instructions
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/app-step2-connect.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/reachrs/app-step2-connect.png" style="width: 300px;" /></p>
 
 	??? danger " "Not suitable USB port" error"
 		If you face "USB port not suitable for flashing" error, disconnect Reach, turn it off and try another USB port.
-		<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/common/app-step2-choose-usb-rs.png" style="width: 300px;" /></p>
+		<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/common/app-step2-choose-usb-rs.png" style="width: 300px;" /></p>
 
 
 
@@ -114,7 +114,7 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 !!! note ""
 	You can either unpack the image yourself and select a .img file or just select a .zip file. In the latter case, the Flasher will unzip it.
 	
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/app-step3-select-firmware.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/reachrs/app-step3-select-firmware.png" style="width: 300px;" /></p>
 
 !!! note ""
 	Reach Firmware Flash Tool creates 2 folders: one to download the image and another one to unpack it. Once you close the Flasher tool, the folder with the unpacked image will be deleted.
@@ -129,7 +129,7 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 
 * Wait until the end of the flashing process
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/app-step4-flashing.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/reachrs/app-step4-flashing.png" style="width: 300px;" /></p>
 
 
 
@@ -138,13 +138,13 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 !!! danger ""
     Do not unplug the Reach RS/RS+ on this step.
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/app-step5-rebooting.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/reachrs/app-step5-rebooting.png" style="width: 300px;" /></p>
 
 
 
 * When Reach RS/RS+ successfully reboots, you will see "Reach is flashed and ready to use" message
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/app-step5-flashed.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/reachrs/app-step5-flashed.png" style="width: 300px;" /></p>
 
 ## After flashing
 
