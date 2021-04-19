@@ -3,7 +3,7 @@ This is the main dashboard with all information about position and satellite rec
 ## Satellite SNR chart
 
 
-<p style="text-align:center" ><img src="../img/reachview/status/reach/status.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/status/reach/status.png" style="width: 800px;" /></p>
 
 
 RTK positioning requires excellent reception of signals from satellites. SNR (Signal to Noise Ratio) is the primary indicator of how good the reception is. The graph lists all satellites that fit in your screen size and corresponding SNR. Data is updated in real-time.
@@ -24,7 +24,7 @@ When SNR of a satellite is over 45, it will be marked green. Grey bars indicate 
 ## RTK parameters
 
 
-<p style="text-align:center" ><img src="../img/reachview/status/reach/rtk_parameters.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/status/reach/rtk_parameters.png" style="width: 800px;" /></p>
 
 
 ### Age of differential
@@ -41,7 +41,7 @@ Baseline is the distance from rover to the base. It should be kept within 10 km 
 ## Map
 Integrated map is used to show your current position. Map layer is provided by OpenStreetMap.
 
-<p style="text-align:center" ><img src="../img/reachview/status/map.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/status/map.png" style="width: 800px;" /></p>
 
 Available map features:
 
@@ -64,7 +64,7 @@ Available map features:
 ### Position
 WGS84 Latitude and Longitude as well as ellipsoidal height are displayed on the status tab. Position display format can be changed to XYZ ECEF.
 
-<p style="text-align:center" ><img src="../img/reachview/status/position.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/status/position.png" style="width: 800px;" /></p>
 
 ### Solution status
 **"-"** means there is no information for the software to process. Either not enough time has passed or the antenna is not placed correctly.  

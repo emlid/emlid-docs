@@ -1,6 +1,6 @@
 ## Correction output
 
-<p style="text-align:center"><img src="../img/reachview/base-mode/output.png" style="width: 800px;"/></p>
+<p style="text-align:center"><img src="../img/reach-panel/base-mode/output.png" style="width: 800px;"/></p>
 
 Reach outputs correction in industry standard RTCM3 format. Correction data can be sent via Serial, TCP, NTRIP or LoRa.
 
@@ -115,7 +115,7 @@ Always set the base update rate in the *RTK* settings at 1 Hz before turning any
 !!! tip ""
     [Check the Placing the base guide](https://docs.emlid.com/reachrs2/common/tutorials/placing-the-base/) to learn about different ways to set up your base.  
 
-<p style="text-align:center"><img src="../img/reachview/base-mode/position.jpg" style="width: 800px;"/></p>
+<p style="text-align:center"><img src="../img/reach-panel/base-mode/position.jpg" style="width: 800px;"/></p>
 
 There are two main options how to specify base station position. Note that RTK positioning is relative to the base station, so any inaccuracy in it’s position will result in a constant shift of rover coordinates. For many applications it is not critical and averaged single coordinate of the base could be used. If your application requires absolute accuracy for rover position an accurate  base coordinate must be entered.
 
@@ -124,7 +124,7 @@ In this mode you supply an a priori known coordinate by locating the unit above 
 
 You can change position format in the top right corner of Base coordinates frame.
 
-<p style="text-align:center"><img src="../img/reachview/base-mode/manual.jpg" style="width: 800px;"/></p>
+<p style="text-align:center"><img src="../img/reach-panel/base-mode/manual.jpg" style="width: 800px;"/></p>
 
 ### Average 
 By default Reach will average base position every time it starts. This feature significantly simplifies initial setup in a new location, however it will not provide an accurate absolute coordinate.

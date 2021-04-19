@@ -9,7 +9,7 @@ You can collect points with the Reach Panel app using Point Collection tool. The
 * Choose the Survey tab in the menu
 * To create a new project press *New project* or click on the project name to open it
 
-<p style="text-align:center" ><img src="../img/reachview/survey/create-new-project.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/create-new-project.gif" style="width: 800px;" /></p>
 
 
 ###Project settings 
@@ -18,7 +18,7 @@ You can collect points with the Reach Panel app using Point Collection tool. The
 
 On the first step, you can fill in Project name, Author and add Comment if you want. However, you can use default settings and press *Next* button.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/step1-fill-in.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/step1-fill-in.gif" style="width: 800px;" /></p>
 
 ####Auto-save rules
 
@@ -45,7 +45,7 @@ To configure auto-save rules:
 
 * If you don’t need auto-saving, you can click *Done* to go further. In that case, you will need to start and stop point collection manually
 
-<p style="text-align:center" ><img src="../img/reachview/survey/step2-auto-save-rules.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/step2-auto-save-rules.gif" style="width: 800px;" /></p>
 
 
 ####Survey tool interface
@@ -55,11 +55,11 @@ Survey tool interface shows the map with base and rover on it.
 * **B** stands for the base station
 * **R** stands for the rover
 
-<p style="text-align:center" ><img src="../img/reachview/survey/map-rover-icon.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/map-rover-icon.gif" style="width: 800px;" /></p>
 
 ####Antenna height setup
 
-* Press <img src="../img/reachview/survey/antenna-height-icon.svg" align="center" /> to open the Pole height menu
+* Press <img src="../img/reach-panel/survey/antenna-height-icon.svg" align="center" /> to open the Pole height menu
 * If you use thread adapter, check the box
 
 !!! note ""
@@ -68,11 +68,11 @@ Survey tool interface shows the map with base and rover on it.
 * Change pole height in the next form if it differs from the standard 2m value
 * Press the *Save* button
 
-<p style="text-align:center" ><img src="../img/reachview/survey/antenna-height.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/antenna-height.gif" style="width: 800px;" /></p>
 
 ####Collecting the point
 
-* Press <img src="../img/reachview/survey/new-point-icon.svg" align="center" /> to go to the next window
+* Press <img src="../img/reach-panel/survey/new-point-icon.svg" align="center" /> to go to the next window
 	
 	You can set the point’s name or use the default value. If you leave the name field blank the default point name will be “Point 1”, “Point 2”, etc.
 
@@ -81,7 +81,7 @@ Survey tool interface shows the map with base and rover on it.
 
 * Press *Collect* to start point collecting process
 
-<p style="text-align:center" ><img src="../img/reachview/survey/start-point-collecting.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/start-point-collecting.gif" style="width: 800px;" /></p>
 
 If you set Auto-save rules, you will see the status bar indicating the time until the end of point collection. Otherwise, you need to stop collecting point by pressing the *Accept* button.
 
@@ -93,22 +93,22 @@ You can stop the process by pressing the *Cancel* button. In that case, the poin
 * If you want to end surveying or look at the result, press the *Back* button.
 You will see the map with all the points you have collected
 
-<p style="text-align:center" ><img src="../img/reachview/survey/back-button.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/back-button.gif" style="width: 800px;" /></p>
 
 ####Point options
 
-To open the list of all points, press <img src="../img/reachview/survey/points-list-icon.svg" align="center" />. You can open point details, edit the point info, find it on the map or stake out the point.
+To open the list of all points, press <img src="../img/reach-panel/survey/points-list-icon.svg" align="center" />. You can open point details, edit the point info, find it on the map or stake out the point.
 [Read more about Stake out function in our guide](#point-stakeout).
 
-<p style="text-align:center" ><img src="../img/reachview/survey/list-all-points.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/list-all-points.gif" style="width: 800px;" /></p>
 
 Also, you can work with each point separately by choosing it on the map. 
 
-<p style="text-align:center" ><img src="../img/reachview/survey/point-options.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/point-options.gif" style="width: 800px;" /></p>
 
-When the surveying is done, press <img src="../img/reachview/survey/back-button-icon.svg" align="center" /> to close and save the project. It will be available in Survey tab menu.
+When the surveying is done, press <img src="../img/reach-panel/survey/back-button-icon.svg" align="center" /> to close and save the project. It will be available in Survey tab menu.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/close-project.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/close-project.gif" style="width: 800px;" /></p>
 
 ####Exporting Data
 
@@ -119,7 +119,7 @@ To do it, press •••, click *Export* and choose the right format. The downl
 !!! note ""
 	If you use Reach Panel app on Android, exporting will be made in a Downloads folder. As for iOS, you will need to choose the way you want to save your project.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/export-button.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/export-button.gif" style="width: 800px;" /></p>
 
 It is also possible to export your project in Survey tab without opening it. Click the *Export* button in the project window and choose the format as in a previous way.
 
@@ -131,7 +131,7 @@ Point stakeout is a feature that allows finding points with known coordinates.
 
 Open the Survey tab in Reach Panel.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/survey.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/survey.png" style="width: 800px;" /></p>
 
 * If there is a ready project, click to the project name to open it
 
@@ -143,7 +143,7 @@ You can use coordinates collected earlier or just upload a list with required po
 
 Hit ••• button on the right side of the project name and choose *Import* in the drop-down list.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/import-points-1.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/import-points-1.gif" style="width: 800px;" /></p>
 
 You can upload files in CSV, GeoJSON or DXF formats or just enter coordinates manually. 
 
@@ -190,7 +190,7 @@ You can upload files in CSV, GeoJSON or DXF formats or just enter coordinates ma
 
 After you finish adding coordinates, hit the *Import* button.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/import-points-2.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/import-points-2.gif" style="width: 800px;" /></p>
 
 ### Interface
 
@@ -198,11 +198,11 @@ Tap the point you want to stake out. It will be highlighted in blue. At the bott
 
 Hit the *Stake out* button to start.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/start-stakeout.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/start-stakeout.gif" style="width: 800px;" /></p>
 
 Let’s get in touch with the stake out interface before proceeding.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/stakeout-interface.PNG" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/stakeout-interface.PNG" style="width: 800px;" /></p>
 
 * You can see [solution status](../../reachview/status/#solution-status), [AR ratio](../../reachview/status/#ar-validation-ratio), [age of differential](../../reachview/status/#age-of-differential), satellite number and [Reach name](../../reachview/settings/#change-reach-name) in the status bar placed in the top of the page. Make sure you have Fix
 * The antenna height value can be found under the status bar
@@ -222,11 +222,11 @@ When the distance to the point is less than 50 centimeters (1.64 feet), stakeout
 
 You need to put a blue rover circle into the white ring by moving the pole. Ensure the pole isn’t tilted. Does rover circle become green? Good job! We have almost finished.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/stakeout-process.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/stakeout-process.gif" style="width: 800px;" /></p>
 
 Here you also can choose the **2D** or **3D** option. **2D** stands for latitude and longitude coordinates only. With **3D** you can also find the height of the point.
 
-<p style="text-align:center" ><img src="../img/reachview/survey/2D-3D.gif" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/survey/2D-3D.gif" style="width: 800px;" /></p>
 
 Congratulations! You’ve just staked out your first point! Now you can switch to another point to continue or hit *Done* button to finish.
 

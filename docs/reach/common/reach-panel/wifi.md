@@ -1,4 +1,4 @@
-<p style="text-align:center" ><img src="../img/reachview/wifi/wifi.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/wifi/wifi.png" style="width: 800px;" /></p>
 
 To add a Wi-Fi network click on the blue plus sign, enter your Wi-Fi credentials and click create. 
 

@@ -1,4 +1,4 @@
-<p style="text-align:center" ><img src="img/reachview/introduction/reachview.gif" style="width: 550px;" /></p>
+<p style="text-align:center" ><img src="img/reach-panel/introduction/reachview.gif" style="width: 550px;" /></p>
 
 ## About
 

@@ -110,7 +110,7 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 
 * Open Reach Firmware Flash Tool and choose Reach {{model}}
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/common/app-step1-device-select.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/common/app-step1-device-select.png" style="width: 300px;" /></p>
 
 {%if model == 'RS2' %}
 * Connect Reach in Firmware Update mode:
@@ -124,7 +124,7 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 	* Release the power button
 
 	* All LEDs should blink several times simultaneously, and then start blinking one after another
-    <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/connect_fel.webp" style="width: 400px;" /></p>
+    <br> <p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/{{model_path}}/connect_fel.webp" style="width: 400px;" /></p>
 
 {%endif%}
 
@@ -137,7 +137,7 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 			
 	* Plug the USB into PC. No LEDs should blink
 
-    <br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/connect_fel.webp" style="width: 400px;" /></p>
+    <br> <p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/{{model_path}}/connect_fel.webp" style="width: 400px;" /></p>
 
 {%endif%}
 
@@ -156,18 +156,18 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 	* Release the power button
 
 	* All LEDs should blink several times simultaneously, and then start blinking one after another 
-	<br> <p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/reachrs/connect_fel.webp" style="width: 400px;" /></p>
+	<br> <p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/reachrs/connect_fel.webp" style="width: 400px;" /></p>
 
 ??? note "Connect Reach RS"
 
 	* Connect Reach RS
 
 	* Follow the instructions
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step2-connect.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/{{model_path}}/app-step2-connect.png" style="width: 300px;" /></p>
 
 	??? danger " "Not suitable USB port" error"
 		If you face "USB port not suitable for flashing" error, disconnect Reach, turn it off and try another USB port.
-		<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/common/app-step2-choose-usb-rs.png" style="width: 300px;" /></p>
+		<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/common/app-step2-choose-usb-rs.png" style="width: 300px;" /></p>
 
 {%endif%}
 
@@ -175,11 +175,11 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 
 * Connect Reach {{model}}. Follow the instructions to your device
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step2-connect.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/{{model_path}}/app-step2-connect.png" style="width: 300px;" /></p>
 
 ??? danger ""Not suitable USB port" error" 
 	If you face "USB port not suitable for flashing" error, disconnect Reach, turn it off and try another USB port.
-	<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/common/app-step2-choose-usb-rs.png" style="width: 300px;" /></p>
+	<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/common/app-step2-choose-usb-rs.png" style="width: 300px;" /></p>
 {%endif%}
 
 * Download the proposed Reach Panel firmware .zip file. You can also select image file from your disk. If the image version is outdated, the Flasher tool will show you a warning message. Click on _Flash_
@@ -187,7 +187,7 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 !!! note ""
 	You can either unpack the image yourself and select a .img file or just select a .zip file. In the latter case, the Flasher will unzip it.
 	
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step3-select-firmware.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/{{model_path}}/app-step3-select-firmware.png" style="width: 300px;" /></p>
 
 !!! note ""
 	Reach Firmware Flash Tool creates 2 folders: one to download the image and another one to unpack it. Once you close the Flasher tool, the folder with the unpacked image will be deleted.
@@ -202,7 +202,7 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 
 * Wait until the end of the flashing process
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step4-flashing.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/{{model_path}}/app-step4-flashing.png" style="width: 300px;" /></p>
 
 {%if model == 'Module'%}
 
@@ -213,13 +213,13 @@ Reach Firmware Flash Tool will ask you to download the latest Reach Panel image 
 !!! danger ""
     Do not unplug the Reach {{model}} on this step.
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step5-rebooting.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/{{model_path}}/app-step5-rebooting.png" style="width: 300px;" /></p>
 
 {%endif%}
 
 * When Reach {{model}} successfully reboots, you will see "Reach is flashed and ready to use" message
 
-<p style="text-align:center" ><img src="../img/reachview/firmware-reflashing/{{model_path}}/app-step5-flashed.png" style="width: 300px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/firmware-reflashing/{{model_path}}/app-step5-flashed.png" style="width: 300px;" /></p>
 
 ## After flashing
 

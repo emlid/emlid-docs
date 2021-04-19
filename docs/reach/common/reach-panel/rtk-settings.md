@@ -3,7 +3,7 @@
 ## RTK options
 
 
-<p style="text-align:center" ><img src="../img/reachview/rtk_settings/rtk-settings-rs-m-plus.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/rtk_settings/rtk-settings-rs-m-plus.png" style="width: 800px;" /></p>
 
 
 ### Positioning mode
@@ -39,7 +39,7 @@ Satellites with low SNR will be excluded from the computation. The default setti
 
 
 
-<p style="text-align:center" ><img src="../img/reachview/rtk_settings/gnss-selection-rs-m-plus.png" style="width: 800px;" /></p>
+<p style="text-align:center" ><img src="../img/reach-panel/rtk_settings/gnss-selection-rs-m-plus.png" style="width: 800px;" /></p>
 
 Depending on your location, it might be beneficial to choose certain set of GNSS systems: 
 
