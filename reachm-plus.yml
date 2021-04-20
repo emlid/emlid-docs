@@ -118,7 +118,7 @@ templates:
   common/reach-panel/index.md: 'reach-panel/rv-index.mdx'
   common/reach-panel/status.md: 'reach-panel/status.mdx'
   common/reach-panel/settings.md: 'reach-panel/settings.mdx'
-  common/reach-panelrtk-settings.md: 'reach-panel/rtk-settings.mdx'
+  common/reach-panel/rtk-settings.md: 'reach-panel/rtk-settings.mdx'
   common/reach-panel/firmware-reflashing.md: 'reach-panel/firmware-reflashing.mdx'
   common/reach-panel/position-output.md: 'reach-panel/position-output.mdx'
   common/quickstart/first-setup.md: 'quickstart/first-setup/first-setup-m.mdx'
